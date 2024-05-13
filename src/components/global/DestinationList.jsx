@@ -25,9 +25,11 @@ const DestinationList = () => {
       {collections.length > 0 ? (
         <ul>
           {collections.map((collection, index) => (
-            <Link key={index} href={`/products/${collection}`}>
-              <li key={index}>{collection}</li>
-            </Link>
+            <li key={index}>
+              <Link href={`/products/${collection}`}>
+                <li key={index}>{collection}</li>
+              </Link>
+            </li>
           ))}
         </ul>
       ) : (
