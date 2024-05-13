@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import DestinationList from "./DestinationList";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +24,7 @@ const Navbar = () => {
               href="/"
             >
               <Image src={"/logo.png"} width={160} height={70} alt="Logo" />
+              <DestinationList />
             </a>
             <div className="sm:hidden">
               <button

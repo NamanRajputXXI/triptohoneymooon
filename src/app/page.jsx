@@ -16,7 +16,7 @@ export default function Home() {
       <BrandingSidebar />
       <AdsCarousel />
       <Footer />
-      <FetchData />
+      {/* <FetchData /> */}
     </>
   );
 }
