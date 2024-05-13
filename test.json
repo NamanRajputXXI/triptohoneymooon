@@ -1,0 +1,96 @@
+
+
+  {
+    "_id": {
+      "$oid": "660532ff7360cf486a67653c"
+    },
+    "heading": "Dubai Family Trip | FREE Dubai Marina Yacht Experience",
+    "subHeading": "Trip in Dubai",
+    "duration": "4 Night / 5 Days",
+    "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.68281887844!2d54.89782418606137!3d25.076280448702796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1710582133598!5m2!1sen!2sin",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "day1Overview": "Arrival at Dubai International Airport. Transfer to your hotel and check-in. Rest and freshen up after your journey. Evening: Enjoy a leisurely walk along JBR (Jumeirah Beach Residence) or explore the nearby area. Dinner at a local restaurant. Overnight stay at the hotel.",
+        "day1Heading": "Arrival in Dubai"
+      },
+      {
+        "day": "Day 2",
+        "day2Heading": "Dubai City Tour and Burj Khalifa",
+        "day2Overview": "Breakfast at the hotel. Morning: Guided city tour of Dubai covering major landmarks such as Burj Al Arab (photo stop), Jumeirah Mosque, Dubai Museum in Al Fahidi Fort, and Spice and Gold Souks. Lunch at a local restaurant. Afternoon: Visit the observation deck of the Burj Khalifa for stunning panoramic views of the city. Explore Dubai Mall and indulge in shopping. Evening: Return to the hotel. Dinner at a restaurant of your choice. Overnight stay at the hotel."
+      },
+      {
+        "day": "Day 3",
+        "day3Heading": "Desert Safari and Dinner",
+        "day3Overview": "Breakfast at the hotel. Morning: Free time for leisure or optional activities. Afternoon: Embark on an exciting desert safari adventure including dune bashing, camel riding, and sandboarding. Enjoy a traditional BBQ dinner at a desert camp accompanied by cultural performances like belly dancing and Tanoura dance. Return to the hotel. Overnight stay at the hotel."
+      },
+      {
+        "day": "Day 4",
+        "day4Heading": "Miracle Garden and Global Village",
+        "day4Overview": "Breakfast at the hotel. Morning: Visit Dubai Miracle Garden featuring stunning floral displays and themed gardens. Lunch at a local restaurant. Afternoon: Explore Global Village, a cultural and entertainment destination with pavilions representing various countries, live shows, and shopping. Return to the hotel. Dinner at a restaurant of your choice. Overnight stay at the hotel."
+      },
+      {
+        "day": "Day 5",
+        "day5Heading": "Abu Dhabi City Tour",
+        "day5Overview": "Breakfast at the hotel. Full-day excursion to Abu Dhabi, the capital city of the UAE. Visit the magnificent Sheikh Zayed Grand Mosque. Explore the opulent Emirates Palace hotel. Drive along the Corniche and capture picturesque views of the city skyline. Visit Heritage Village to learn about traditional Emirati culture. Lunch at a local restaurant. Optional visit to Louvre Abu Dhabi. Return to Dubai in the evening. Dinner at a restaurant of your choice. Overnight stay at the hotel."
+      },
+      {
+        "day": "Day 6",
+        "day6Heading": "Leisure Day and Optional Excursions",
+        "day6Overview": "Breakfast at the hotel. Option 1: Relax at the hotel, unwind by the pool, or explore Dubai at your own pace. Option 2: Choose from a range of optional excursions such as Ski Dubai at the Mall of the Emirates, Dubai Marina Dhow Cruise, Dubai Aquarium & Underwater Zoo, or IMG Worlds of Adventure. Dinner at a restaurant of your choice. Overnight stay at the hotel."
+      },
+      {
+        "day": "Day 7",
+        "day7Heading": "Departure",
+        "day7Overview": "Breakfast at the hotel. Check-out from the hotel. Depending on your flight timing, you may have some free time for last-minute shopping or sightseeing. Transfer to Dubai International Airport for departure."
+      }
+    ],
+    "overView": [
+      {
+        "heading": "Discovering Dubai: A Fusion of Tradition and Luxury",
+        "text": "Embark on an enchanting journey to Dubai, where tradition intertwines seamlessly with luxury. Explore the cultural heritage, extravagant landmarks, and opulent lifestyle, creating a captivating blend of past and present."
+      },
+      {
+        "heading": "Iconic Wonders of Old Dubai",
+        "text": "Unravel the historical marvels of Old Dubai. Wander through ancient souks, marvel at majestic mosques, and absorb the rich heritage of this vibrant district, echoing tales of Bedouin tribes and pearl divers."
+      },
+      {
+        "heading": "Modern Marvels in New Dubai",
+        "text": "Experience the futuristic skyline of New Dubai. Marvel at towering skyscrapers, indulge in luxury shopping, and immerse yourself in the cosmopolitan allure of the city, where innovation meets extravagance."
+      },
+      {
+        "heading": "Nature's Oasis: Dubai Miracle Garden",
+        "text": "Escape into nature's beauty at Dubai Miracle Garden. Admire the colorful floral displays, stroll through themed gardens, and bask in the tranquility of this botanical paradise, offering a serene respite amidst the urban landscape."
+      },
+      {
+        "heading": "Culinary Delights of Dubai",
+        "text": "Embark on a gastronomic adventure in Dubai. Indulge in diverse cuisines from around the world, from traditional Emirati dishes to international delights. Explore bustling food markets, savor exquisite flavors, and treat your taste buds to a culinary journey like no other."
+      },
+      {
+        "heading": "Preserving Cultural Legacy",
+        "text": "Dubai is committed to preserving its cultural heritage. From heritage villages to art galleries, the city honors its roots while embracing modernity, offering a dynamic cultural experience for both residents and visitors alike."
+      },
+      {
+        "heading": "Plan Your Dubai Exploration",
+        "text": "Whether drawn to history, luxury, or gastronomy, Dubai promises an unforgettable adventure. Plan your exploration of this dynamic city, where every corner reveals a story, and every moment is a celebration of Dubai's boundless charm."
+      }
+    ],
+    "visaPolicy": [
+      "Visa Application Takes Minimum 4-5 Working Days for Issuance (Friday- Saturday immigration is closed - Subject To Immigration Approval)",
+      "Transit visa is valid for 14-days stay on and the Tourist visa is valid for 30-days stay. If passenger will stay more, penalty will be charged accordingly.",
+      "Client must travel within 7-10 days once visa is issued.",
+      "Cancellation for visa applications will be charged at an additional cost of USD 45/- per visa. We are not responsiat all in case of delayed and rejection of visa."
+    ],
+    "carouselImageUrl": [
+      "/productImages/dubai/dubaiCarousel1.jpg",
+      "/productImages/dubai/dubaiCarousel2.jpg",
+      "/productImages/dubai/dubaiCarousel3.jpg",
+      "/productImages/dubai/dubaiCarousel4.jpg"
+    ],
+    "imageUrl": "/productImages/dubai/dubaiThumbnail.jpg"
+  }
+
+
+
+
+  

@@ -6,7 +6,7 @@ const FetchData = () => {
   useEffect(() => {
     const fetchDataa = async () => {
       try {
-        const res = await fetch("/api/getData");
+        const res = await fetch("/api/dubai");
         const data = await res.json();
         setPackages(data.data);
       } catch (error) {
@@ -24,6 +24,7 @@ const FetchData = () => {
         {packages.map((pkg) => (
           <li key={pkg._id}>
             <h2>{pkg.destination}</h2>
+            <h2>{pkg.heading}</h2>
             <p>{pkg.about}</p>
             <p>{pkg.details}</p>
           </li>
