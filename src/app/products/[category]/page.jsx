@@ -17,6 +17,7 @@ export const getProductsData = async ({ params }) => {
   }
 
   const productsData = await response.json();
+  console.log(productsData.data);
   return productsData.data;
 };
 
@@ -33,7 +34,7 @@ const Page = async ({ params }) => {
           {data.map((destination, index) => (
             <div key={index}>
               <Link href={`/products/${params.category}/${destination._id}`}>
-                {params.category}
+                {destination.heading}
               </Link>
             </div>
           ))}

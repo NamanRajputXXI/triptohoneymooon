@@ -37,6 +37,9 @@ const Page = async ({ params }) => {
           <h1 className="text-4xl font-bold">
             {singleProductData.document.heading}
           </h1>
+          {singleProductData.document.carouselImageUrl.map((img, i) => (
+            <img src={img} alt="" key={i} />
+          ))}
         </div>
       )}
     </div>

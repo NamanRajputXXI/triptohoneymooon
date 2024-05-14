@@ -1,96 +1,63 @@
-
-
-  {
-    "_id": {
-      "$oid": "660532ff7360cf486a67653c"
+{
+  "_id": {
+    "$oid": "66221e481cc443930eddbf37"
+  },
+  "heading": "Goa Tour Package For Friends",
+  "subHeading": "Trip in Goa",
+  "duration": "2 Night / 3 Days",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55235.59733869634!2d78.22940892227403!3d30.087746592272936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39093e67cf93f111%3A0xcc78804a6f941bfe!2sRishikesh%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1713509006481!5m2!1sen!2sin",
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "day1Heading": "Arrival in Goa | Let the Fun Times Begin!",
+      "day1Overview": "Meet and greet our official who will ensure a smooth transfer to your pre-booked hotel in Goa. Complete the check-in formalities and take some rest. Spend the day leisurely exploring the surroundings or nearby beaches with your loved ones. Return to your hotel for an overnight stay in Goa."
     },
-    "heading": "Dubai Family Trip | FREE Dubai Marina Yacht Experience",
-    "subHeading": "Trip in Dubai",
-    "duration": "4 Night / 5 Days",
-    "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.68281887844!2d54.89782418606137!3d25.076280448702796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1710582133598!5m2!1sen!2sin",
-    "itinerary": [
-      {
-        "day": "Day 1",
-        "day1Overview": "Arrival at Dubai International Airport. Transfer to your hotel and check-in. Rest and freshen up after your journey. Evening: Enjoy a leisurely walk along JBR (Jumeirah Beach Residence) or explore the nearby area. Dinner at a local restaurant. Overnight stay at the hotel.",
-        "day1Heading": "Arrival in Dubai"
-      },
-      {
-        "day": "Day 2",
-        "day2Heading": "Dubai City Tour and Burj Khalifa",
-        "day2Overview": "Breakfast at the hotel. Morning: Guided city tour of Dubai covering major landmarks such as Burj Al Arab (photo stop), Jumeirah Mosque, Dubai Museum in Al Fahidi Fort, and Spice and Gold Souks. Lunch at a local restaurant. Afternoon: Visit the observation deck of the Burj Khalifa for stunning panoramic views of the city. Explore Dubai Mall and indulge in shopping. Evening: Return to the hotel. Dinner at a restaurant of your choice. Overnight stay at the hotel."
-      },
-      {
-        "day": "Day 3",
-        "day3Heading": "Desert Safari and Dinner",
-        "day3Overview": "Breakfast at the hotel. Morning: Free time for leisure or optional activities. Afternoon: Embark on an exciting desert safari adventure including dune bashing, camel riding, and sandboarding. Enjoy a traditional BBQ dinner at a desert camp accompanied by cultural performances like belly dancing and Tanoura dance. Return to the hotel. Overnight stay at the hotel."
-      },
-      {
-        "day": "Day 4",
-        "day4Heading": "Miracle Garden and Global Village",
-        "day4Overview": "Breakfast at the hotel. Morning: Visit Dubai Miracle Garden featuring stunning floral displays and themed gardens. Lunch at a local restaurant. Afternoon: Explore Global Village, a cultural and entertainment destination with pavilions representing various countries, live shows, and shopping. Return to the hotel. Dinner at a restaurant of your choice. Overnight stay at the hotel."
-      },
-      {
-        "day": "Day 5",
-        "day5Heading": "Abu Dhabi City Tour",
-        "day5Overview": "Breakfast at the hotel. Full-day excursion to Abu Dhabi, the capital city of the UAE. Visit the magnificent Sheikh Zayed Grand Mosque. Explore the opulent Emirates Palace hotel. Drive along the Corniche and capture picturesque views of the city skyline. Visit Heritage Village to learn about traditional Emirati culture. Lunch at a local restaurant. Optional visit to Louvre Abu Dhabi. Return to Dubai in the evening. Dinner at a restaurant of your choice. Overnight stay at the hotel."
-      },
-      {
-        "day": "Day 6",
-        "day6Heading": "Leisure Day and Optional Excursions",
-        "day6Overview": "Breakfast at the hotel. Option 1: Relax at the hotel, unwind by the pool, or explore Dubai at your own pace. Option 2: Choose from a range of optional excursions such as Ski Dubai at the Mall of the Emirates, Dubai Marina Dhow Cruise, Dubai Aquarium & Underwater Zoo, or IMG Worlds of Adventure. Dinner at a restaurant of your choice. Overnight stay at the hotel."
-      },
-      {
-        "day": "Day 7",
-        "day7Heading": "Departure",
-        "day7Overview": "Breakfast at the hotel. Check-out from the hotel. Depending on your flight timing, you may have some free time for last-minute shopping or sightseeing. Transfer to Dubai International Airport for departure."
-      }
-    ],
-    "overView": [
-      {
-        "heading": "Discovering Dubai: A Fusion of Tradition and Luxury",
-        "text": "Embark on an enchanting journey to Dubai, where tradition intertwines seamlessly with luxury. Explore the cultural heritage, extravagant landmarks, and opulent lifestyle, creating a captivating blend of past and present."
-      },
-      {
-        "heading": "Iconic Wonders of Old Dubai",
-        "text": "Unravel the historical marvels of Old Dubai. Wander through ancient souks, marvel at majestic mosques, and absorb the rich heritage of this vibrant district, echoing tales of Bedouin tribes and pearl divers."
-      },
-      {
-        "heading": "Modern Marvels in New Dubai",
-        "text": "Experience the futuristic skyline of New Dubai. Marvel at towering skyscrapers, indulge in luxury shopping, and immerse yourself in the cosmopolitan allure of the city, where innovation meets extravagance."
-      },
-      {
-        "heading": "Nature's Oasis: Dubai Miracle Garden",
-        "text": "Escape into nature's beauty at Dubai Miracle Garden. Admire the colorful floral displays, stroll through themed gardens, and bask in the tranquility of this botanical paradise, offering a serene respite amidst the urban landscape."
-      },
-      {
-        "heading": "Culinary Delights of Dubai",
-        "text": "Embark on a gastronomic adventure in Dubai. Indulge in diverse cuisines from around the world, from traditional Emirati dishes to international delights. Explore bustling food markets, savor exquisite flavors, and treat your taste buds to a culinary journey like no other."
-      },
-      {
-        "heading": "Preserving Cultural Legacy",
-        "text": "Dubai is committed to preserving its cultural heritage. From heritage villages to art galleries, the city honors its roots while embracing modernity, offering a dynamic cultural experience for both residents and visitors alike."
-      },
-      {
-        "heading": "Plan Your Dubai Exploration",
-        "text": "Whether drawn to history, luxury, or gastronomy, Dubai promises an unforgettable adventure. Plan your exploration of this dynamic city, where every corner reveals a story, and every moment is a celebration of Dubai's boundless charm."
-      }
-    ],
-    "visaPolicy": [
-      "Visa Application Takes Minimum 4-5 Working Days for Issuance (Friday- Saturday immigration is closed - Subject To Immigration Approval)",
-      "Transit visa is valid for 14-days stay on and the Tourist visa is valid for 30-days stay. If passenger will stay more, penalty will be charged accordingly.",
-      "Client must travel within 7-10 days once visa is issued.",
-      "Cancellation for visa applications will be charged at an additional cost of USD 45/- per visa. We are not responsiat all in case of delayed and rejection of visa."
-    ],
-    "carouselImageUrl": [
-      "/productImages/dubai/dubaiCarousel1.jpg",
-      "/productImages/dubai/dubaiCarousel2.jpg",
-      "/productImages/dubai/dubaiCarousel3.jpg",
-      "/productImages/dubai/dubaiCarousel4.jpg"
-    ],
-    "imageUrl": "/productImages/dubai/dubaiThumbnail.jpg"
-  }
-
-
-
-
-  
+    {
+      "day": "Day 2",
+      "day2Heading": "Water Sports at Calangute Beach | Experience the Adventurous Side of Goa",
+      "day2Overview": "Start your day with a delicious breakfast and gear up for an adventurous day at Calangute Beach. Enjoy thrilling water sports like Jet Ski, Paragliding, Bumper rides, Banana boat rides, and Speedboat rides. After the adrenaline rush, unwind at beachside restaurants or shacks. Witness a beautiful sunset over the Arabian Sea before returning to your hotel for an overnight stay."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "Bid Farewell to Goa | Cherish the Beach Memories",
+      "day3Overview": "Wake up, have breakfast, pack your bags, and complete the check-out formalities. Depart with joyful memories of Goa to your desired destination, cherishing the moments spent by the beaches."
+    }
+  ],
+  "overView": [
+    {
+      "heading": "Beach Bliss in Goa",
+      "text": "Immerse yourself in the coastal vibes of Goa. Enjoy sun-kissed beaches, water sports, and vibrant beach shacks, offering a perfect blend of relaxation and excitement."
+    },
+    {
+      "heading": "Exploring Goa's Historic Charm",
+      "text": "Discover Goa's rich history. Visit ancient forts, churches, and Portuguese architecture, reflecting the colonial past and cultural diversity of this coastal paradise."
+    },
+    {
+      "heading": "Adventure and Leisure Activities",
+      "text": "Embark on thrilling adventures in Goa. Engage in water sports like jet skiing, parasailing, and banana boat rides. Explore spice plantations or indulge in yoga on the beach."
+    },
+    {
+      "heading": "Tranquil Beach Retreats",
+      "text": "Relax by the tranquil beaches of Goa. Unwind with beachside yoga, sunset walks, and Ayurvedic massages, soaking in the serenity of the Arabian Sea."
+    },
+    {
+      "heading": "Goan Cuisine and Coastal Flavors",
+      "text": "Delight in Goan cuisine. Savour seafood delicacies, Goan curries, and tropical fruits. Explore vibrant markets for local spices and handicrafts, immersing yourself in Goan culture."
+    },
+    {
+      "heading": "Goa's Cultural Diversity",
+      "text": "Experience Goa's cultural diversity. From festivals to music scenes, Goa celebrates its blend of Indian and Portuguese influences, creating a unique cultural mosaic."
+    },
+    {
+      "heading": "Plan Your Goa Getaway",
+      "text": "Craft your perfect Goa itinerary. Whether it's beach activities, cultural exploration, or culinary delights, Goa promises a memorable escape by the Arabian Sea."
+    }
+  ],
+  "carouselImageUrl": [
+    "https://images.unsplash.com/photo-1587922546307-776227941871?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z29hfGVufDB8fDB8fHww",
+    "https://images.unsplash.com/photo-1625505826533-5c80aca7d157?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvYXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1625505826977-66d796089d73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGdvYXxlbnwwfHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1575747687077-b7a4bb468f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGdvYXxlbnwwfHwwfHx8MA%3D%3D"
+  ],
+  "imageUrl": "https://images.unsplash.com/photo-1619648507952-597d09df659e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGdvYXxlbnwwfHwwfHx8MA%3D%3D"
+}
