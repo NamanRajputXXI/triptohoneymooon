@@ -24,11 +24,12 @@ const DestinationList = () => {
       <h2>Collections</h2>
       {collections.length > 0 ? (
         <ul>
-          {collections.map((collection, index) => (
+          {collections.map((category, index) => (
             <li key={index}>
-              <Link href={`/products/${collection}`}>
-                <li key={index}>{collection}</li>
-              </Link>
+              {console.log("collection:", category)}
+              {category && (
+                <Link href={`/products/${category}`}>{category}</Link>
+              )}
             </li>
           ))}
         </ul>

@@ -3,9 +3,12 @@ import Navbar from "@/components/global/Navbar";
 import React from "react";
 
 export const getProductData = async ({ params }) => {
-  const response = await fetch(`api/${params.category}/${params.id}`, {
-    cache: "no-store",
-  });
+  const response = await fetch(
+    `http://localhost:3000/api/${params.category}/${params.id}`,
+    {
+      cache: "no-store",
+    }
+  );
 
   if (!response.ok) {
     console.error(`Error fetching data. Status: ${response.status}`);
@@ -19,21 +22,22 @@ export const getProductData = async ({ params }) => {
   }
 
   const productsData = await response.json();
-  return productsData.data;
+  return productsData;
 };
 
 const Page = async ({ params }) => {
   const singleProductData = await getProductData({ params });
+  console.log("singleproduct", singleProductData);
 
   return (
     <div>
+      <Navbar />
       {singleProductData && (
-        <>
-          <Navbar />
-          <h1>{singleProductData.heading}</h1>
-
-          <Footer />
-        </>
+        <div>
+          <h1 className="text-4xl font-bold">
+            {singleProductData.document.heading}
+          </h1>
+        </div>
       )}
     </div>
   );

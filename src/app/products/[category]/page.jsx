@@ -1,6 +1,7 @@
 import Link from "next/link";
 export const getProductsData = async ({ params }) => {
-  const response = await fetch(`/api/${params.category}`, {
+  const response = await fetch(`http://localhost:3000/api/${params.category}`, {
+    method: "GET",
     cache: "no-store",
   });
 
@@ -31,7 +32,9 @@ const Page = async ({ params }) => {
         <div className="grid lg:grid-cols-4 justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
           {data.map((destination, index) => (
             <div key={index}>
-              <Link>{destination.duration}</Link>
+              <Link href={`/products/${params.category}/${destination._id}`}>
+                {params.category}
+              </Link>
             </div>
           ))}
         </div>

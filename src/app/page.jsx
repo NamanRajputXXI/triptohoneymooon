@@ -1,4 +1,5 @@
 "use client";
+import DestinationList from "@/components/global/DestinationList";
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
 import AdsCarousel from "@/components/home/AdsCarousel";
@@ -16,6 +17,7 @@ export default function Home() {
       <BrandingSidebar />
       <AdsCarousel />
       <Footer />
+      <DestinationList />
       {/* <FetchData /> */}
     </>
   );
