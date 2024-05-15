@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import Button from "./Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
 
   return (
     <>
-      <section className="flex font-Briem flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4">
+      <section className="flex font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white  py-4">
         <nav
           className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
           aria-label="Global"
@@ -24,7 +25,7 @@ const Navbar = () => {
             >
               <Image src={"/logo.png"} width={160} height={70} alt="Logo" />
             </a>
-            <div className="sm:hidden">
+            <div className="md:hidden">
               <button
                 type="button"
                 className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
@@ -76,23 +77,45 @@ const Navbar = () => {
               isOpen ? "block" : "hidden"
             } overflow-hidden transition-all duration-300 basis-full grow sm:block`}
           >
-            <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+            <div className="flex font-medium flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
               <Link
-                className=" hover:text-gray-600"
+                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300  duration-300"
                 href="/"
                 aria-current="page"
               >
                 Home
               </Link>
-              <Link className=" hover:text-gray-600" href="/about">
-                About
+              <Link
+                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300 "
+                href="/about"
+              >
+                About Us
               </Link>
-              <Link className=" hover:text-gray-600" href="/contact">
-                Contact
+              <Link
+                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300"
+                href="/contact"
+              >
+                Domestic
               </Link>
-              <Link className=" hover:text-gray-600" href="/blog">
-                Blog
+              <Link
+                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300"
+                href="/blog"
+              >
+                International
               </Link>
+              <Link
+                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300  duration-300"
+                href="/blog"
+              >
+                Blogs
+              </Link>
+              <Link
+                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300"
+                href="/blog"
+              >
+                Gift an experience
+              </Link>
+              <Button />
             </div>
           </div>
         </nav>
