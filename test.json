@@ -1,63 +1,264 @@
 {
   "_id": {
-    "$oid": "66221e481cc443930eddbf37"
+    "$oid": "65dc44d810e484c73da1ea70"
   },
-  "heading": "Goa Tour Package For Friends",
-  "subHeading": "Trip in Goa",
-  "duration": "2 Night / 3 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55235.59733869634!2d78.22940892227403!3d30.087746592272936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39093e67cf93f111%3A0xcc78804a6f941bfe!2sRishikesh%2C%20Uttarakhand!5e0!3m2!1sen!2sin!4v1713509006481!5m2!1sen!2sin",
+  "heading": "Island Splendors: 5 Nights in Port Blair & Havelock",
+  "subHeading": "6 Days Tour in Port Blair and Havelock",
+  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125058.26971091633!2d92.64006163956387!3d11.61829356535844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3088946c176b5971%3A0x5bfa43a5e9a5ed30!2sPort%20Blair%2C%20Andaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1708934053933!5m2!1sen!2sin",
+  "packageOptions": [
+    {
+      "package": "Standard",
+      "price": "₹13000",
+      "previousPrice": "₹17,000",
+      "hotelDestination": "Port Blair",
+      "hotelDetails": [
+        {
+          "destination": "Port Blair",
+          "hotels": [
+            "Sea Guli,",
+            "Hotel King Safire"
+          ]
+        }
+      ]
+    },
+    {
+      "package": "3 Star Deluxe",
+      "price": "₹15,200",
+      "previousPrice": "20,4000",
+      "hotelDetails": [
+        {
+          "destination": "Port Blair",
+          "hotels": [
+            "Bay Leaf Inn,",
+            "Hotel Blue Horizon,",
+            "Sea Port,",
+            "Baywalk"
+          ]
+        }
+      ],
+      "hotelDestination": "Port Blair"
+    },
+    {
+      "package": "4 Star Deluxe",
+      "price": "₹20,500",
+      "previousPrice": "₹23,500",
+      "hotelDetails": [
+        {
+          "destination": "Port Blair",
+          "hotels": [
+            "Mansha Regency"
+          ]
+        }
+      ],
+      "hotelDestination": "Port Blair"
+    }
+  ],
+  "carouselImageUrl": [
+    "/productKasauli1.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli3.jpg",
+    "/productKasauli4.jpg",
+    "/productKasauli2.jpg",
+    "/productKasauli1.jpg"
+  ],
+  "exclusions": [
+    "Airfare / Ship's fare",
+    "Travel insurance ",
+    "All kinds of personal expenses such as tips, laundry, telephone bills and beverages",
+    "It does not include any meals unless and otherwise specifically mentioned.    ",
+    "Guide, Jolly ride & snorkelling charges.    ",
+    "Optional, suggested or unspecified activities",
+    "Guide at Cellular jail will cost extra.    ",
+    "Camera fee (still or movie)",
+    "Additional usage of vehicles.    ",
+    "Any dispute regarding the child age to be settled directly with the hotels.  "
+  ],
+  "inclusions": [
+    "Accommodation on double/triple sharing basis at above-mentioned hotels / similar in base category rooms.",
+    "Daily breakfast & Dinner ",
+    "Airport pick up and drop by a/c vehicle.    ",
+    "Makruzz / Green Ocean Cruise / Sea Link / Nautika / ITT Majestic (base category) for Neil & Havelock as per the availability.",
+    "All Toll, Parking, Driver Bata & Fuel Cost",
+    "Assistance at all arrival and departure points. ",
+    "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable "
+  ],
   "itinerary": [
     {
       "day": "Day 1",
-      "day1Heading": "Arrival in Goa | Let the Fun Times Begin!",
-      "day1Overview": "Meet and greet our official who will ensure a smooth transfer to your pre-booked hotel in Goa. Complete the check-in formalities and take some rest. Spend the day leisurely exploring the surroundings or nearby beaches with your loved ones. Return to your hotel for an overnight stay in Goa."
+      "day1Heading": ": Arrival – Port Blair",
+      "day1Overview": "Arrival to port Blair airport, hotel drop by a/c vehicle then check in hotel & freshman. After   lunch, visit to local sightseeing visit cellular jail see light and sound show. After completion  drop to the hotel. Dinner and overnight stay at port Blair. "
     },
     {
       "day": "Day 2",
-      "day2Heading": "Water Sports at Calangute Beach | Experience the Adventurous Side of Goa",
-      "day2Overview": "Start your day with a delicious breakfast and gear up for an adventurous day at Calangute Beach. Enjoy thrilling water sports like Jet Ski, Paragliding, Bumper rides, Banana boat rides, and Speedboat rides. After the adrenaline rush, unwind at beachside restaurants or shacks. Witness a beautiful sunset over the Arabian Sea before returning to your hotel for an overnight stay."
+      "day2Heading": " Port Blair - Swaraj Dweep (Havelock)",
+      "day2Overview": "Have a relaxed breakfast. then check out the hotel and transfer from Port Blair to swaraj   dweep (havelock). Arrival in Swaraj Dweep check-in hotel, after lunch going to Radhanagar   beach, Kalapather beach. After completion, hotel drop by a/c vehicle. Dinner and over night  stay at swaraj Dweep (Havelock). "
     },
     {
       "day": "Day 3",
-      "day3Heading": "Bid Farewell to Goa | Cherish the Beach Memories",
-      "day3Overview": "Wake up, have breakfast, pack your bags, and complete the check-out formalities. Depart with joyful memories of Goa to your desired destination, cherishing the moments spent by the beaches."
+      "day3Heading": ": Swaraj Dweep (Havelock) ",
+      "day3Overview": "In the morning, Breafast Hotel and this entire day is free for optional activities. Optional  activities include Elephanta Beach Trip by boat, Trekking to Elephanta Beach, Kayaking, Scuba Diving and Rejuvenating Massage. The charges for the above mentioned  activities are not included in this package Dinner and over night stay at Swaraj Dweep"
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": " Swaraj Dweep (Havelock) – Port Blair (Shopping)",
+      "day4Overview": "Have a breakfast, check out the hotel drop to swaraj dweep jetty transfer from swaraj      dweep to port Blair. Check in hotel fresh-up and going shopping. Dinner and overnight stay   at port Blair"
+    },
+    {
+      "day": "Day 5",
+      "day5Heading": " Port Blair – ross island ",
+      "day5Overview": "Have a great breakfast. Check -out hotel. Transfer from swaraj Dweep to port Blair. Arrival    in Port Blair drop to hotel and check in. Rest rooms. At Evening, drop to shopping centre.   After shopping check in hotel. Freshen-up and night dinner and over night stay at port Blair."
+    },
+    {
+      "day": "Day 6",
+      "day6Heading": " Port Blair-Airport Departure",
+      "day6Overview": "Have a breakfast, morning check out hotel & Transfer to Port Blair Airport."
     }
   ],
   "overView": [
     {
-      "heading": "Beach Bliss in Goa",
-      "text": "Immerse yourself in the coastal vibes of Goa. Enjoy sun-kissed beaches, water sports, and vibrant beach shacks, offering a perfect blend of relaxation and excitement."
+      "heading": "Andaman Delight: Discovering Havelock and Port Blair",
+      "text": "Embark on a captivating journey through the enchanting islands of Andaman, where Havelock and Port Blair showcase the region's pristine beaches, vibrant marine life, and rich cultural heritage."
     },
     {
-      "heading": "Exploring Goa's Historic Charm",
-      "text": "Discover Goa's rich history. Visit ancient forts, churches, and Portuguese architecture, reflecting the colonial past and cultural diversity of this coastal paradise."
+      "heading": "Beachfront Bliss in Havelock",
+      "text": "Immerse yourself in the turquoise waters and white sandy beaches of Havelock. Experience the serene beauty of Radhanagar Beach, indulge in water activities, and unwind in this tropical paradise surrounded by the Andaman Sea."
     },
     {
-      "heading": "Adventure and Leisure Activities",
-      "text": "Embark on thrilling adventures in Goa. Engage in water sports like jet skiing, parasailing, and banana boat rides. Explore spice plantations or indulge in yoga on the beach."
+      "heading": "Historical Charm of Port Blair",
+      "text": "Explore the historical landmarks of Port Blair, the capital city of Andaman. Visit the Cellular Jail, witness the Sound and Light Show narrating the region's history, and stroll through the vibrant markets offering local crafts and delicacies."
     },
     {
-      "heading": "Tranquil Beach Retreats",
-      "text": "Relax by the tranquil beaches of Goa. Unwind with beachside yoga, sunset walks, and Ayurvedic massages, soaking in the serenity of the Arabian Sea."
+      "heading": "Island Adventure: Beyond the Waves",
+      "text": "Delve into the underwater wonders surrounding Havelock and Port Blair. Snorkel or dive to discover vibrant coral reefs and diverse marine life. These islands offer a paradise for water enthusiasts, promising unforgettable aquatic experiences."
     },
     {
-      "heading": "Goan Cuisine and Coastal Flavors",
-      "text": "Delight in Goan cuisine. Savour seafood delicacies, Goan curries, and tropical fruits. Explore vibrant markets for local spices and handicrafts, immersing yourself in Goan culture."
+      "heading": "Cultural Encounters",
+      "text": "Engage in the cultural tapestry of Andaman. Discover the traditions of the indigenous tribes, explore local markets, and savor the unique Andamanese cuisine. The islands blend natural beauty with a rich cultural heritage."
     },
     {
-      "heading": "Goa's Cultural Diversity",
-      "text": "Experience Goa's cultural diversity. From festivals to music scenes, Goa celebrates its blend of Indian and Portuguese influences, creating a unique cultural mosaic."
+      "heading": "Preserving Marine Heritage",
+      "text": "Andaman is committed to preserving its marine ecosystems. From responsible tourism practices to coral conservation initiatives, the islands strive to protect their underwater treasures for future generations to marvel at."
     },
     {
-      "heading": "Plan Your Goa Getaway",
-      "text": "Craft your perfect Goa itinerary. Whether it's beach activities, cultural exploration, or culinary delights, Goa promises a memorable escape by the Arabian Sea."
+      "heading": "Plan Your Andaman Escape",
+      "text": "Whether seeking beachfront bliss, historical insights, or underwater adventures, Andaman promises an unforgettable journey. Plan your escape to this tropical haven, where every wave tells a story, and every moment is a celebration of Andaman's allure."
     }
   ],
-  "carouselImageUrl": [
-    "https://images.unsplash.com/photo-1587922546307-776227941871?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z29hfGVufDB8fDB8fHww",
-    "https://images.unsplash.com/photo-1625505826533-5c80aca7d157?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGdvYXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1625505826977-66d796089d73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fGdvYXxlbnwwfHwwfHx8MA%3D%3D",
-    "https://images.unsplash.com/photo-1575747687077-b7a4bb468f65?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGdvYXxlbnwwfHwwfHx8MA%3D%3D"
-  ],
-  "imageUrl": "https://images.unsplash.com/photo-1619648507952-597d09df659e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzV8fGdvYXxlbnwwfHwwfHx8MA%3D%3D"
+  "duration": "5 Night / 6 Days",
+  "imageUrl": "https://images.unsplash.com/photo-1579317276968-25be568f28e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhhdmVsb2NrfGVufDB8fDB8fHww"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"packageOptions": [
+  {
+    "package": "Standard",
+    "price": "₹13000",
+    "previousPrice": "₹17,000",
+    "hotelDestination": "Port Blair",
+    "hotelDetails": [
+      {
+        "destination": "Port Blair",
+        "hotels": [
+          "Sea Guli,",
+          "Hotel King Safire"
+        ]
+      },
+      {
+        "destination": "Havelock",
+        "hotels": [
+          "Radhakrishna Resort,",
+          "Orient Legend Beach Resort"
+        ]
+      },
+      {
+        "destination": "Neil Island",
+        "hotels": [
+          "Coral Garden Resort,",
+          "Laxmi Continenal Resort"
+        ]
+      }
+    ]
+  },
+  {
+    "package": "3 Star Deluxe",
+    "price": "₹15,200",
+    "previousPrice": "20,4000",
+    "hotelDetails": [
+      {
+        "destination": "Port Blair",
+        "hotels": [
+          "Bay Leaf Inn,",
+          "Hotel Blue Horizon,",
+          "Sea Port,",
+          "Baywalk"
+        ]
+      },
+      {
+        "destination": "Havelock",
+        "hotels": [
+          "White Coral Beach Resort,",
+          "Havelock Exotic Beach Resort,",
+          "TSG Blue"
+        ]
+      },
+      {
+        "destination": "Neil Island",
+        "hotels": [
+          "Tango Beach Resort,",
+          "CS Empire"
+        ]
+      }
+    ],
+    "hotelDestination": "Port Blair"
+  },
+  {
+    "package": "4 Star Deluxe",
+    "price": "₹20,500",
+    "previousPrice": "₹23,500",
+    "hotelDetails": [
+      {
+        "destination": "Port Blair",
+        "hotels": [
+          "Mansha Regency"
+        ]
+      },
+      {
+        "destination": "Havelock",
+        "hotels": [
+          "Haywizz Havelock,",
+          "Symphany Palms,",
+          "Aquays Hotels & Resort"
+        ]
+      },
+      {
+        "destination": "Neil Island",
+        "hotels": [
+          "Aquays Hotels & Resort,",
+          "Pearl Park Beach Resort,",
+          "Symphany Summer Sand"
+        ]
+      }
+    ],
+    "hotelDestination": "Port Blair"
+  }
+],

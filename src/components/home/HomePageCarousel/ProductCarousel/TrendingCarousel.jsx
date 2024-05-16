@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from "react";
 import KeenSlider from "keen-slider";
 import "keen-slider/keen-slider.min.css";
-import domesticCarouselData from "@/data/domesticCarouselData";
+import trendingCarouselData from "@/data/trendingCarouselData";
 import Link from "next/link";
 import { MdOutlineDiscount } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
@@ -110,7 +110,7 @@ const TrendingCarousel = () => {
 
           <div className=" sm:mt-16 mt-8 lg:col-span-2 sm:px-8  px-3 lg:mx-0">
             <div ref={sliderContainer} className="keen-slider">
-              {domesticCarouselData.map((item, i) => (
+              {trendingCarouselData.map((item, i) => (
                 <div className="keen-slider__slide" key={i}>
                   <Link href={item.link}>
                     <div className="flex flex-shrink-0 relative w-full sm:w-auto">
