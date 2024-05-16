@@ -1,3 +1,4 @@
+import NextTopLoader from "nextjs-toploader";
 import "../styles/globals.css";
 
 export const metadata = {
@@ -8,7 +9,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <NextTopLoader
+          color="#3b2e5ff"
+          initialPosition={0.08}
+          crawlSpeed={200}
+          height={7}
+          crawl={true}
+          showSpinner={false}
+          easing="ease"
+          speed={200}
+        />
+        {children}
+      </body>
     </html>
   );
 }

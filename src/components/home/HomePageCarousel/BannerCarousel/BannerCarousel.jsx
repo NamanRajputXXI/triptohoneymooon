@@ -23,19 +23,19 @@ export default function BannerCarousel() {
   };
 
   return (
-    <div className="overflow-hidden py-5 max-w-7xl mx-auto rounded-xl my-20 h-96 relative">
+    <div className="overflow-hidden py-5 max-w-7xl mx-auto rounded-xl my-20 h-64  sm:h-96 relative">
       <div
-        className={`flex transition rounded-xl ease-out duration-500`}
+        className={`flex  transition rounded-xl ease-out duration-500`}
         style={{
           transform: `translateX(-${current * 100}%)`,
         }}
       >
         {slides.map((s, i) => {
-          return <img key={i} className="rounded-xl px-5" src={s} />;
+          return <img key={i} className="rounded-xl min-h-64 px-5" src={s} />;
         })}
       </div>
 
-      <div className="absolute top-0 h-96 w-full justify-between items-center flex text-white px-10 text-3xl">
+      <div className="absolute top-0 sm:h-96 h-64 w-full justify-between items-center flex text-white px-10 text-3xl">
         <button onClick={previousSlide}>
           <BsFillArrowLeftCircleFill />
         </button>

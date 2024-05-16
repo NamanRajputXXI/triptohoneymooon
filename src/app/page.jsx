@@ -24,7 +24,7 @@ export default function Home() {
       <PopularCarousel />
       <TrendingCarousel />
       <BestSellingCarousel />
-      <BrandingSidebar />
+      {/* <BrandingSidebar /> */}
       <MultiImagerBannerCarousel />
       <BannerCarousel />
       <AttractivePlannerCarousel />
