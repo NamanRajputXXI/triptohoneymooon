@@ -11,9 +11,6 @@ const WeddingBannerCarousel = () => {
     "https://wallpapercave.com/wp/wp3386769.jpg",
     "https://wallpaperaccess.com/full/809523.jpg",
     "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
-    "https://wallpapercave.com/wp/wp3386769.jpg",
-    "https://wallpaperaccess.com/full/809523.jpg",
-    "https://getwallpapers.com/wallpaper/full/5/c/0/606489.jpg",
   ];
 
   let [current, setCurrent] = useState(0);
@@ -49,12 +46,12 @@ const WeddingBannerCarousel = () => {
       </div>
 
       <div className="absolute top-0 sm:h-48 h-32 w-full justify-between items-center flex px-10 text-3xl">
-        <button onClick={previousSlide}>
+        {/* <button onClick={previousSlide}>
           <FaArrowLeft color="white" size={20} />
         </button>
         <button onClick={nextSlide}>
           <FaArrowRight color="white" size={20} />
-        </button>
+        </button> */}
       </div>
 
       <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">

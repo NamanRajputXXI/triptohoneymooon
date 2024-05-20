@@ -125,14 +125,14 @@ const MultiImagerBannerCarousel = () => {
               return <img key={i} src={s} alt="" />;
             })}
           </div>
-          <div className="absolute top-0 h-64 w-full justify-between items-center flex text-white px-10 text-3xl">
+          {/* <div className="absolute top-0 h-64 w-full justify-between items-center flex text-white px-10 text-3xl">
             <button onClick={previousSlide}>
               <BsFillArrowLeftCircleFill />
             </button>
             <button onClick={nextSlide}>
               <BsFillArrowRightCircleFill />
             </button>
-          </div>
+          </div> */}
           <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
             {slides.map((s, i) => {
               return (

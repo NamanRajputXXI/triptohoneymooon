@@ -120,12 +120,12 @@ const PopularCarousel = () => {
                         className="object-cover rounded-xl object-center h-96 w-full md:w-96"
                       />
 
-                      <div className=" rounded-xl  absolute w-full h-full py-6">
+                      {/* <div className=" rounded-xl  absolute w-full h-full py-6">
                         <div className="flex h-fit items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-0  ">
                           <MdOutlineDiscount color="white" size={20} />
                           Save upto {item.discount}
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                     <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between item-center">
                       <p className="">{item.days}</p>
