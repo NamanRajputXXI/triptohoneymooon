@@ -1,126 +1,250 @@
+// "use client";
+// import Image from "next/image";
+// import Link from "next/link";
+// import React, { useState } from "react";
+// import Button from "./Button";
+
+// const Navbar = () => {
+//   const [isOpen, setIsOpen] = useState(false);
+
+//   const toggleNavbar = () => {
+//     setIsOpen(!isOpen);
+//   };
+
+//   return (
+//     <>
+//       <section className="flex font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white  py-4">
+//         <nav
+//           className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+//           aria-label="Global"
+//         >
+//           <div className="flex items-center justify-between">
+//             <a
+//               className="inline-flex items-center gap-x-2 text-xl font-semibold"
+//               href="/"
+//             >
+//               <Image src={"/logo.png"} width={200} height={80} alt="Logo" />
+//             </a>
+//             <div className="md:hidden">
+//               <button
+//                 type="button"
+//                 className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
+//                 data-hs-collapse="#navbar-image-and-text-1"
+//                 aria-controls="navbar-image-and-text-1"
+//                 aria-label="Toggle navigation"
+//                 onClick={toggleNavbar}
+//               >
+//                 {isOpen ? (
+//                   <svg
+//                     className="hs-collapse-open:block hidden flex-shrink-0 size-4"
+//                     xmlns="http://www.w3.org/2000/svg"
+//                     width="24"
+//                     height="24"
+//                     viewBox="0 0 24 24"
+//                     fill="none"
+//                     stroke="currentColor"
+//                     strokeWidth="2"
+//                     strokeLinecap="round"
+//                     strokeLinejoin="round"
+//                   >
+//                     <path d="M18 6 6 18" />
+//                     <path d="m6 6 12 12" />
+//                   </svg>
+//                 ) : (
+//                   <svg
+//                     className="hs-collapse-open:hidden flex-shrink-0 size-4"
+//                     xmlns="http://www.w3.org/2000/svg"
+//                     width="24"
+//                     height="24"
+//                     viewBox="0 0 24 24"
+//                     fill="none"
+//                     stroke="currentColor"
+//                     strokeWidth="2"
+//                     strokeLinecap="round"
+//                     strokeLinejoin="round"
+//                   >
+//                     <line x1="3" x2="21" y1="6" y2="6" />
+//                     <line x1="3" x2="21" y1="12" y2="12" />
+//                     <line x1="3" x2="21" y1="18" y2="18" />
+//                   </svg>
+//                 )}
+//               </button>
+//             </div>
+//           </div>
+//           <div
+//             id="navbar-image-and-text-1"
+//             className={`hs-collapse ${
+//               isOpen ? "block" : "hidden"
+//             } overflow-hidden transition-all duration-300 basis-full grow sm:block`}
+//           >
+//             <div className="flex font-medium flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+//               <Link
+//                 className="hover:text-[#cf331a] text-gray-500  duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+//                 href="/"
+//                 aria-current="page"
+//               >
+//                 Home
+//               </Link>
+//               <Link
+//                 className=" hover:text-[#cf331a] text-gray-500  duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center "
+//                 href="/about"
+//               >
+//                 About Us
+//               </Link>
+//               <Link
+//                 className=" hover:text-[#cf331a] text-gray-500  duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+//                 href="/domestic"
+//               >
+//                 Domestic
+//               </Link>
+//               <Link
+//                 className=" hover:text-[#cf331a] text-gray-500  duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+//                 href="/international"
+//               >
+//                 International
+//               </Link>
+//               <Link
+//                 className=" hover:text-[#cf331a] text-gray-500  duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+//                 href="/blog"
+//               >
+//                 Blogs
+//               </Link>
+//               <Link
+//                 className=" hover:text-[#cf331a] text-gray-500  duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center"
+//                 href="/giftAnExperience"
+//               >
+//                 Gift an experience
+//               </Link>
+//               <Button btnText={"Contact us"} />
+//             </div>
+//           </div>
+//         </nav>
+//       </section>
+//     </>
+//   );
+// };
+
+// export default Navbar;
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "./Button";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [currentPath, setCurrentPath] = useState("");
+
+  useEffect(() => {
+    setCurrentPath(window.location.pathname);
+  }, []);
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const getLinkClass = (path) => {
+    const baseClass =
+      "hover:text-[#cf331a] text-gray-500 duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0  after:transition after:duration-300 after:origin-center";
+    const activeClass = "text-[#cf331a] after:scale-x-100";
+    return currentPath === path ? `${baseClass} ${activeClass}` : baseClass;
+  };
+
   return (
-    <>
-      <section className="flex font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white  py-4">
-        <nav
-          className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
-          aria-label="Global"
-        >
-          <div className="flex items-center justify-between">
-            <a
-              className="inline-flex items-center gap-x-2 text-xl font-semibold"
-              href="/"
-            >
-              <Image src={"/logo.png"} width={160} height={70} alt="Logo" />
-            </a>
-            <div className="md:hidden">
-              <button
-                type="button"
-                className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
-                data-hs-collapse="#navbar-image-and-text-1"
-                aria-controls="navbar-image-and-text-1"
-                aria-label="Toggle navigation"
-                onClick={toggleNavbar}
-              >
-                {isOpen ? (
-                  <svg
-                    className="hs-collapse-open:block hidden flex-shrink-0 size-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <path d="M18 6 6 18" />
-                    <path d="m6 6 12 12" />
-                  </svg>
-                ) : (
-                  <svg
-                    className="hs-collapse-open:hidden flex-shrink-0 size-4"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  >
-                    <line x1="3" x2="21" y1="6" y2="6" />
-                    <line x1="3" x2="21" y1="12" y2="12" />
-                    <line x1="3" x2="21" y1="18" y2="18" />
-                  </svg>
-                )}
-              </button>
-            </div>
-          </div>
-          <div
-            id="navbar-image-and-text-1"
-            className={`hs-collapse ${
-              isOpen ? "block" : "hidden"
-            } overflow-hidden transition-all duration-300 basis-full grow sm:block`}
+    <section className="flex font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white py-4">
+      <nav
+        className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+        aria-label="Global"
+      >
+        <div className="flex items-center justify-between">
+          <a
+            className="inline-flex items-center gap-x-2 text-xl font-semibold"
+            href="/"
           >
-            <div className="flex font-medium flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
-              <Link
-                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300  duration-300"
-                href="/"
-                aria-current="page"
-              >
-                Home
-              </Link>
-              <Link
-                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300 "
-                href="/about"
-              >
-                About Us
-              </Link>
-              <Link
-                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300"
-                href="/contact"
-              >
-                Domestic
-              </Link>
-              <Link
-                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300"
-                href="/blog"
-              >
-                International
-              </Link>
-              <Link
-                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300  duration-300"
-                href="/blog"
-              >
-                Blogs
-              </Link>
-              <Link
-                className=" hover:text-yellow-300 hover:border-b-2 hover:border-yellow-300 duration-300"
-                href="/blog"
-              >
-                Gift an experience
-              </Link>
-              <Button />
-            </div>
+            <Image src={"/logo.png"} width={200} height={80} alt="Logo" />
+          </a>
+          <div className="md:hidden">
+            <button
+              type="button"
+              className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
+              data-hs-collapse="#navbar-image-and-text-1"
+              aria-controls="navbar-image-and-text-1"
+              aria-label="Toggle navigation"
+              onClick={toggleNavbar}
+            >
+              {isOpen ? (
+                <svg
+                  className="hs-collapse-open:block hidden flex-shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M18 6 6 18" />
+                  <path d="m6 6 12 12" />
+                </svg>
+              ) : (
+                <svg
+                  className="hs-collapse-open:hidden flex-shrink-0 size-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <line x1="3" x2="21" y1="6" y2="6" />
+                  <line x1="3" x2="21" y1="12" y2="12" />
+                  <line x1="3" x2="21" y1="18" y2="18" />
+                </svg>
+              )}
+            </button>
           </div>
-        </nav>
-      </section>
-    </>
+        </div>
+        <div
+          id="navbar-image-and-text-1"
+          className={`hs-collapse ${
+            isOpen ? "block" : "hidden"
+          } overflow-hidden transition-all duration-300 basis-full grow sm:block`}
+        >
+          <div className="flex font-medium flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+            <Link href="/" className={getLinkClass("/")}>
+              Home
+            </Link>
+            <Link href="/about" className={getLinkClass("/about")}>
+              About Us
+            </Link>
+            <Link href="/domestic" className={getLinkClass("/domestic")}>
+              Domestic
+            </Link>
+            <Link
+              href="/international"
+              className={getLinkClass("/international")}
+            >
+              International
+            </Link>
+            <Link href="/blog" className={getLinkClass("/blog")}>
+              Blogs
+            </Link>
+            <Link
+              href="/giftAnExperience"
+              className={getLinkClass("/giftAnExperience")}
+            >
+              Gift an experience
+            </Link>
+            <Button btnText={"Contact us"} />
+          </div>
+        </div>
+      </nav>
+    </section>
   );
 };
 

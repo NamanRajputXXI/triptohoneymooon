@@ -1,9 +1,9 @@
 import React from "react";
 
-const Button = () => {
+const Button = ({ btnText }) => {
   return (
-    <button className="px-8 py-2 flex items-center justify-center bg-yellow-200 rounded-lg">
-      Contact us
+    <button className="px-8 w-fit py-2 text-white flex text-lg items-center justify-center bg-[#cf331a] rounded-lg">
+      {btnText}
     </button>
   );
 };

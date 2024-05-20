@@ -1,10 +1,38 @@
 {
   "_id": {
-    "$oid": "65dc44d810e484c73da1ea70"
+    "$oid": "661a670af06cb040dea38b1d"
   },
-  "heading": "Island Splendors: 5 Nights in Port Blair & Havelock",
-  "subHeading": "6 Days Tour in Port Blair and Havelock",
+  "heading": "Offshore Romance | Couple Tour Package of Andaman",
+  "subHeading": "Trip in Andaman",
+  "duration": "4 Night / 5 Days",
   "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125058.26971091633!2d92.64006163956387!3d11.61829356535844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3088946c176b5971%3A0x5bfa43a5e9a5ed30!2sPort%20Blair%2C%20Andaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1708934053933!5m2!1sen!2sin",
+  "itinerary": [
+    {
+      "day": "Day 1",
+      "day1Heading": "Arrival in Port Blair",
+      "day1Overview": "After arrival, you will be transferred to the hotel for check-in. Later, you will get transferred to the Corbyn Cove Beach, admire its beautiful shore and palm trees. Next, you will visit the Cellular Jail and enjoy a light show, before getting dropped off at the hotel for an overnight stay."
+    },
+    {
+      "day": "Day 2",
+      "day2Heading": "Port Blair to Havelock",
+      "day2Overview": "Post check out, you will get transferred to the Phoenix Bay Harbour for a ferry ride to Havelock Island. Upon arrival, check in at the hotel. Later, you will get transferred to Radhanagar Beach, known for its scenic views. After the visit, you'll get dropped off at the hotel for an overnight stay."
+    },
+    {
+      "day": "Day 3",
+      "day3Heading": "Kalapathar Beach Tour | Transfer to Port Blair",
+      "day3Overview": "In the morning, you will be picked up from the hotel and visit the Kalapathar Beach, enjoying a wonderful sunrise over the Indian Ocean. Afterwards, check out from the hotel and get transferred to Port Blair via a relaxing ferry ride. Check in at your hotel in Port Blair for an overnight stay."
+    },
+    {
+      "day": "Day 4",
+      "day4Heading": "Ross & North Bay Islands Tour",
+      "day4Overview": "Start your day with a ferry ride to Ross and North Bay Islands from Port Blair for a full day tour. Enjoy water sports like snorkeling and scuba diving (at your own expense). Next, visit Ross Island, known for its penal colony. Post visit, you will be transferred to the hotel for an overnight stay."
+    },
+    {
+      "day": "Day 5",
+      "day5Heading": "Departure",
+      "day5Overview": "After you check out from your hotel, you will be transferred to the airport for your flight back home. This marks the end of your trip."
+    }
+  ],
   "packageOptions": [
     {
       "package": "Standard",
@@ -17,6 +45,13 @@
           "hotels": [
             "Sea Guli,",
             "Hotel King Safire"
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotels": [
+            "Radhakrishna Resort,",
+            "Orient Legend Beach Resort"
           ]
         }
       ]
@@ -34,6 +69,14 @@
             "Sea Port,",
             "Baywalk"
           ]
+        },
+        {
+          "destination": "Havelock",
+          "hotels": [
+            "White Coral Beach Resort,",
+            "Havelock Exotic Beach Resort,",
+            "TSG Blue"
+          ]
         }
       ],
       "hotelDestination": "Port Blair"
@@ -48,18 +91,25 @@
           "hotels": [
             "Mansha Regency"
           ]
+        },
+        {
+          "destination": "Havelock",
+          "hotels": [
+            "Haywizz Havelock,",
+            "Symphany Palms,",
+            "Aquays Hotels & Resort"
+          ]
         }
       ],
       "hotelDestination": "Port Blair"
     }
   ],
+
   "carouselImageUrl": [
     "/productKasauli1.jpg",
     "/productKasauli2.jpg",
     "/productKasauli3.jpg",
-    "/productKasauli4.jpg",
-    "/productKasauli2.jpg",
-    "/productKasauli1.jpg"
+    "/productKasauli4.jpg"
   ],
   "exclusions": [
     "Airfare / Ship's fare",
@@ -81,38 +131,6 @@
     "All Toll, Parking, Driver Bata & Fuel Cost",
     "Assistance at all arrival and departure points. ",
     "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable "
-  ],
-  "itinerary": [
-    {
-      "day": "Day 1",
-      "day1Heading": ": Arrival – Port Blair",
-      "day1Overview": "Arrival to port Blair airport, hotel drop by a/c vehicle then check in hotel & freshman. After   lunch, visit to local sightseeing visit cellular jail see light and sound show. After completion  drop to the hotel. Dinner and overnight stay at port Blair. "
-    },
-    {
-      "day": "Day 2",
-      "day2Heading": " Port Blair - Swaraj Dweep (Havelock)",
-      "day2Overview": "Have a relaxed breakfast. then check out the hotel and transfer from Port Blair to swaraj   dweep (havelock). Arrival in Swaraj Dweep check-in hotel, after lunch going to Radhanagar   beach, Kalapather beach. After completion, hotel drop by a/c vehicle. Dinner and over night  stay at swaraj Dweep (Havelock). "
-    },
-    {
-      "day": "Day 3",
-      "day3Heading": ": Swaraj Dweep (Havelock) ",
-      "day3Overview": "In the morning, Breafast Hotel and this entire day is free for optional activities. Optional  activities include Elephanta Beach Trip by boat, Trekking to Elephanta Beach, Kayaking, Scuba Diving and Rejuvenating Massage. The charges for the above mentioned  activities are not included in this package Dinner and over night stay at Swaraj Dweep"
-    },
-    {
-      "day": "Day 4",
-      "day4Heading": " Swaraj Dweep (Havelock) – Port Blair (Shopping)",
-      "day4Overview": "Have a breakfast, check out the hotel drop to swaraj dweep jetty transfer from swaraj      dweep to port Blair. Check in hotel fresh-up and going shopping. Dinner and overnight stay   at port Blair"
-    },
-    {
-      "day": "Day 5",
-      "day5Heading": " Port Blair – ross island ",
-      "day5Overview": "Have a great breakfast. Check -out hotel. Transfer from swaraj Dweep to port Blair. Arrival    in Port Blair drop to hotel and check in. Rest rooms. At Evening, drop to shopping centre.   After shopping check in hotel. Freshen-up and night dinner and over night stay at port Blair."
-    },
-    {
-      "day": "Day 6",
-      "day6Heading": " Port Blair-Airport Departure",
-      "day6Overview": "Have a breakfast, morning check out hotel & Transfer to Port Blair Airport."
-    }
   ],
   "overView": [
     {
@@ -144,17 +162,8 @@
       "text": "Whether seeking beachfront bliss, historical insights, or underwater adventures, Andaman promises an unforgettable journey. Plan your escape to this tropical haven, where every wave tells a story, and every moment is a celebration of Andaman's allure."
     }
   ],
-  "duration": "5 Night / 6 Days",
-  "imageUrl": "https://images.unsplash.com/photo-1579317276968-25be568f28e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGhhdmVsb2NrfGVufDB8fDB8fHww"
+  "imageUrl": "https://images.unsplash.com/photo-1706629340089-841a74251fbd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM3fHxhbmRhbWFufGVufDB8fDB8fHww"
 }
-
-
-
-
-
-
-
-
 
 
 
