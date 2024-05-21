@@ -2,7 +2,7 @@ import React from "react";
 
 const OurServices = () => {
   return (
-    <section className="bg-red-100  py-20">
+    <section className="bg-red-100 pb-36  pt-20">
       <div className="max-w-7xl  px-5 mx-auto">
         <h1 className="text-5xl font-semibold mb-10">Our Services</h1>
         <div className="grid h-64 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 justify-center items-center gap-5 w-full">
