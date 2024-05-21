@@ -36,7 +36,11 @@ export default function Home() {
       <BestSellingCarousel />
       {/* <MultiImagerBannerCarousel />
       <BannerCarousel /> */}
-      <InternationDestinationSection />
+      {
+        <div className="md:flex hidden">
+          <InternationDestinationSection />
+        </div>
+      }
       <PopularDestinationSection />
       <OurResorts />
       <OurServices />
