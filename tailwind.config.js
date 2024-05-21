@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         Briem: ["Briem Hand", "cursive"],
+        Ubuntu: ["Ubuntu", "sans-serif"],
       },
     },
   },

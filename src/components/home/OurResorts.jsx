@@ -39,6 +39,13 @@ const OurResorts = () => {
           "(min-width: 1024px)": {
             slides: {
               origin: "auto",
+              perView: 3, // Show 3 reviews on screens >= 1024px
+              spacing: 12,
+            },
+          },
+          "(min-width: 1296px)": {
+            slides: {
+              origin: "auto",
               perView: 4, // Show 3 reviews on screens >= 1024px
               spacing: 12,
             },
@@ -62,10 +69,10 @@ const OurResorts = () => {
   return (
     <section className="bg-red-100 py-20">
       <div className="mx-auto max-w-7xl px-5  ">
-        <h1 className="text-5xl font-semibold mb-10">Our Resorts</h1>
+        <h1 className=" md:text-5xl text-2xl mb-10">Our Resorts</h1>
         <div className="relative">
           <button
-            className="absolute sm:flex hidden top-[35%] bg-white rounded-full p-3 -right-8 z-50 "
+            className="absolute sm:flex hidden top-[35%] bg-white rounded-full p-3 -right-0 z-50 "
             aria-label="Next slide"
             onClick={handleNextSlide}
           >
@@ -74,12 +81,12 @@ const OurResorts = () => {
           <button
             aria-label="Previous slide"
             onClick={handlePrevSlide}
-            className="absolute sm:flex hidden top-[35%] bg-white rounded-full p-3 -left-8 z-50 "
+            className="absolute sm:flex hidden top-[35%] bg-white rounded-full p-3 -left-0 z-50 "
           >
             <FaArrowLeftLong size={30} color="black" />
           </button>
 
-          <div ref={sliderContainer} className="keen-slider">
+          <div ref={sliderContainer} className="keen-slider ">
             {domesticCarouselData.map((item, i) => (
               <Link href={item.link} key={i}>
                 <div
@@ -90,7 +97,7 @@ const OurResorts = () => {
                     <img
                       src={item.imageUrl}
                       alt={item.title}
-                      className="object-cover rounded-t-xl object-center h-96 w-full md:w-96"
+                      className="object-cover rounded-t-xl object-center h-96 w-full"
                     />
                     <div className="flex absolute top-5 right-5 z-50 justify-center items-center p-3 rounded-full bg-white">
                       <FaRegHeart color="#2e3190" size={20} />

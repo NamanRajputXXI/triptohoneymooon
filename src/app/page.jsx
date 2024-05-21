@@ -34,9 +34,9 @@ export default function Home() {
       <PopularCarousel />
       <TrendingCarousel />
       <BestSellingCarousel />
-      <MultiImagerBannerCarousel />
-      <BannerCarousel />
-      <InternationDestinationSection />
+      {/* <MultiImagerBannerCarousel />
+      <BannerCarousel /> */}
+      {/* <InternationDestinationSection /> */}
       <PopularDestinationSection />
       <OurResorts />
       <OurServices />

@@ -18,14 +18,14 @@ const PopularDestinationSection = () => {
         loop: true,
         slides: {
           origin: "center",
-          perView: 1, // Default to 1 review visible
+          perView: 2, // Default to 1 review visible
           spacing: 8,
         },
         breakpoints: {
           "(min-width: 288px)": {
             slides: {
               origin: "auto",
-              perView: 1, // Show 2 reviews on screens >= 768px
+              perView: 2, // Show 2 reviews on screens >= 768px
               spacing: 8,
             },
           },
@@ -60,7 +60,10 @@ const PopularDestinationSection = () => {
     }
   };
   return (
-    <section className="w-full  mx-auto bg-red-100 pb-20">
+    <section className="w-full md:flex hidden flex-col  my-20 pt-20 mx-auto bg-red-100 ">
+      <h1 className=" md:text-5xl text-2xl text-center pb-20">
+        Popular Destination
+      </h1>
       <div className="flex relative w-full">
         <div className="w-1/2 h-[700px]">
           <img
@@ -87,8 +90,8 @@ const PopularDestinationSection = () => {
             </button>
           </div>
         </div>
-        <div className="absolute -bottom-8 right-0">
-          <div className="mx-auto my-20 max-w-[1000px] px-4 sm:px-6     lg:ps-8 ">
+        <div className="absolute  -bottom-8 right-0">
+          <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-[700px] px-4 sm:px-6     lg:ps-8 ">
             {/* <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
               <div className="mt-8 flex gap-4 lg:mt-0">
                 <button
@@ -132,7 +135,7 @@ const PopularDestinationSection = () => {
               </div>
             </div> */}
 
-            <div className=" sm:mt-16 mt-8 lg:col-span-2   px-3 lg:mx-0">
+            <div className=" mt-16  lg:col-span-2   px-3 lg:mx-0">
               <div ref={sliderContainer} className="keen-slider">
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>
@@ -141,7 +144,7 @@ const PopularDestinationSection = () => {
                         <img
                           src={item.imageUrl}
                           alt={item.title}
-                          className="object-cover rounded-2xl object-center h-80 w-full md:w-80"
+                          className="object-cover rounded-2xl object-center h-72 w-full md:w-72"
                         />
                       </div>
                     </Link>

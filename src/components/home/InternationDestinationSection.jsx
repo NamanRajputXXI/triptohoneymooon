@@ -37,7 +37,7 @@ const InternationDestinationSection = () => {
           "(min-width: 1024px)": {
             slides: {
               origin: "auto",
-              perView: 4, // Show 3 reviews on screens >= 1024px
+              perView: 3, // Show 3 reviews on screens >= 1024px
               spacing: 12,
             },
           },
@@ -72,7 +72,7 @@ const InternationDestinationSection = () => {
             <h1 className="text-white text-7xl font-bold">
               Majestic Destinations
             </h1>
-            <div className="flex gap-10">
+            <div className="flex max-w-7xl mx-auto justify-between gap-10">
               <div className="flex flex-col gap-10">
                 <p className="w-[400px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -81,26 +81,8 @@ const InternationDestinationSection = () => {
                 </p>
                 <Button btnText={"Explore Now >>"} />
               </div>
-              {/* <div className="mx-auto xl:max-w-[800px] lg:max-w-[600px] ">
-                <div className=" overflow-hidden">
-                  <div ref={sliderContainer} className="keen-slider">
-                    {domesticCarouselData.map((item, i) => (
-                      <Link href={item.link} key={i}>
-                        <div className="keen-slider__slide" key={i}>
-                          <div className="flex flex-shrink-0 relative overflow-hidden w-full sm:w-full">
-                            <img
-                              src={item.imageUrl}
-                              alt={item.title}
-                              className="object-cover overflow-hidden  object-center h-60 w-full md:w-full"
-                            />
-                          </div>
-                        </div>
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              </div> */}
-              <div className="mx-auto  max-w-[900px] px-4   sm:px-6    lg:ps-8 ">
+
+              <div className="mx-auto  xl:max-w-[800px] px-4 max-w-[700px]   sm:px-6    lg:ps-8 ">
                 <div className="  lg:col-span-2 sm:px-8  px-3 lg:mx-0">
                   <div ref={sliderContainer} className="keen-slider">
                     {domesticCarouselData.map((item, i) => (
