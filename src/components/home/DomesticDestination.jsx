@@ -17,7 +17,7 @@ const DomesticDestinationSection = () => {
         <div className="md:h-96 h-60 w-full">
           <img
             src="https://images.unsplash.com/photo-1501901609772-df0848060b33?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="md:h-96 h-60  w-full"
+            className="md:h-96 object-cover h-60  w-full"
             alt=""
           />
         </div>
@@ -60,7 +60,7 @@ const DomesticDestinationSection = () => {
         <div className="md:order-4 order-3">
           <img
             src="https://images.unsplash.com/photo-1500771967326-9b2f6200d1c6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
-            className="md:h-96 h-60 w-full"
+            className="md:h-96 object-cover h-60 w-full"
             alt=""
           />
         </div>

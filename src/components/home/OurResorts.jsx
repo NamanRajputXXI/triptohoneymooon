@@ -104,8 +104,8 @@ const OurResorts = () => {
                       <FaRegHeart color="#2e3190" size={16} />
                     </div>
                     <div className="rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                      <div className="flex h-full items-end  relative pb-4">
-                        <div className="text-xl gap-3  text-center flex items-center justify-center font-semibold absolute py-2 px-4  mx-4 rounded-xl bg-gray-800 bg-opacity-50 w-fit leading-5 lg:leading-7 text-white">
+                      <div className="flex h-full items-end  relative ">
+                        <div className="text-sm gap-3  text-center font-lato flex items-center justify-center font-semibold absolute py-1 px-4  mx-4 rounded-xl bg-gray-800 bg-opacity-50 w-fit leading-5 lg:leading-7 text-white">
                           <FaStar color="#FFD700" size={20} /> 4.6
                         </div>
                       </div>
@@ -136,7 +136,7 @@ const OurResorts = () => {
                   <hr />
                   <div className="flex justify-between items-center py-2 px-3">
                     <p className=" font-bold">Rs 28,999</p>
-                    <button className="bg-[#cf331a] rounded-2xl px-4 py-2 text-white flex items-center justify-center">
+                    <button className="bg-[#cf331a] font-Lato text-sm rounded-2xl px-4 py-2 text-white flex items-center justify-center">
                       Book Now
                     </button>
                   </div>
