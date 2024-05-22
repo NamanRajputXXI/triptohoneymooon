@@ -121,7 +121,7 @@ const OurResorts = () => {
                       Nepal
                     </p>
                   </div>
-                  <hr />
+
                   <div className="flex justify-between items-center py-2 px-3">
                     <p className="flex items-center gap-1">
                       <IoCallOutline size={20} />
@@ -133,7 +133,7 @@ const OurResorts = () => {
                       Honeymoon
                     </p>
                   </div>
-                  <hr />
+
                   <div className="flex justify-between items-center py-2 px-3">
                     <p className=" font-bold">Rs 28,999</p>
                     <button className="bg-[#cf331a] font-Lato text-sm rounded-2xl px-4 py-2 text-white flex items-center justify-center">

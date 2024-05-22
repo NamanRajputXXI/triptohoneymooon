@@ -67,7 +67,7 @@ const PopularDestinationSection = () => {
       <div className="flex lg:flex-row flex-col relative w-full">
         <div className="lg:w-1/2 w-full lg:h-[700px] h-[500px]">
           <img
-            className="lg:h-[700px] h-[500px] w-full"
+            className="lg:h-[800px] h-[500px] w-full"
             src="https://images.unsplash.com/photo-1551083078-41faef705799?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHJvbWFudGljfGVufDB8fDB8fHww"
             alt=""
           />
@@ -90,7 +90,7 @@ const PopularDestinationSection = () => {
             </button>
           </div>
         </div>
-        <div className="lg:absolute  lg:-bottom-8 lg:right-0">
+        <div className="lg:absolute  lg:-bottom-28 lg:right-0">
           <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-4 sm:px-6     lg:ps-8 ">
             {/* <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
               <div className="mt-8 flex gap-4 lg:mt-0">
@@ -134,7 +134,7 @@ const PopularDestinationSection = () => {
                 </button>
               </div>
             </div> */}
-            <div className=" mt-16  lg:col-span-2   px-3 lg:mx-0">
+            <div className=" mt-8  lg:col-span-2   px-3 lg:mx-0">
               <div ref={sliderContainer} className="keen-slider">
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>
@@ -143,7 +143,7 @@ const PopularDestinationSection = () => {
                         <img
                           src={item.imageUrl}
                           alt={item.title}
-                          className="object-cover rounded-2xl object-center h-72  w-full"
+                          className="object-cover rounded-2xl object-center h-[360px]  w-full"
                         />
                       </div>
                     </Link>
