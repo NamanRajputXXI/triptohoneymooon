@@ -134,17 +134,16 @@ const PopularDestinationSection = () => {
                 </button>
               </div>
             </div> */}
-
             <div className=" mt-16  lg:col-span-2   px-3 lg:mx-0">
               <div ref={sliderContainer} className="keen-slider">
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>
                     <Link href={item.link}>
-                      <div className="flex flex-shrink-0 relative w-full  sm:w-72">
+                      <div className="flex flex-shrink-0 relative w-full">
                         <img
                           src={item.imageUrl}
                           alt={item.title}
-                          className="object-cover rounded-2xl object-center h-72 w-full md:w-72"
+                          className="object-cover rounded-2xl object-center h-72 w-full"
                         />
                       </div>
                     </Link>
