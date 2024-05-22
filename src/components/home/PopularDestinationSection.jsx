@@ -18,21 +18,21 @@ const PopularDestinationSection = () => {
         loop: true,
         slides: {
           origin: "center",
-          perView: 2, // Default to 1 review visible
+          perView: 1, // Default to 1 review visible
           spacing: 8,
         },
         breakpoints: {
           "(min-width: 288px)": {
             slides: {
               origin: "auto",
-              perView: 2, // Show 2 reviews on screens >= 768px
+              perView: 1, // Show 2 reviews on screens >= 768px
               spacing: 8,
             },
           },
           "(min-width: 768px)": {
             slides: {
               origin: "auto",
-              perView: 2, // Show 2 reviews on screens >= 768px
+              perView: 3, // Show 2 reviews on screens >= 768px
               spacing: 8,
             },
           },
@@ -60,19 +60,19 @@ const PopularDestinationSection = () => {
     }
   };
   return (
-    <section className="w-full md:flex hidden flex-col  my-20 pt-20 mx-auto bg-red-100 ">
-      <h1 className=" md:text-5xl text-2xl text-center pb-20">
+    <section className="w-full flex-col  my-20 md:pt-20 mx-auto bg-red-100 ">
+      <h1 className=" md:text-5xl text-2xl text-center pb-10">
         Popular Destination
       </h1>
-      <div className="flex relative w-full">
-        <div className="w-1/2 h-[700px]">
+      <div className="flex lg:flex-row flex-col relative w-full">
+        <div className="lg:w-1/2 w-full lg:h-[700px] h-[500px]">
           <img
-            className="h-[700px] w-full"
+            className="lg:h-[700px] h-[500px] w-full"
             src="https://images.unsplash.com/photo-1551083078-41faef705799?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHJvbWFudGljfGVufDB8fDB8fHww"
             alt=""
           />
         </div>
-        <div className="w-1/2 bg-red-100 px-8 py-5 flex gap-5 flex-col">
+        <div className="lg:w-1/2 w-full bg-red-100 px-8 py-5 flex gap-5 flex-col">
           <h1 className="text-2xl font-semibold ">Place Name</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
@@ -90,8 +90,8 @@ const PopularDestinationSection = () => {
             </button>
           </div>
         </div>
-        <div className="absolute  -bottom-8 right-0">
-          <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-[700px] px-4 sm:px-6     lg:ps-8 ">
+        <div className="lg:absolute  lg:-bottom-8 lg:right-0">
+          <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-4 sm:px-6     lg:ps-8 ">
             {/* <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
               <div className="mt-8 flex gap-4 lg:mt-0">
                 <button
@@ -139,11 +139,11 @@ const PopularDestinationSection = () => {
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>
                     <Link href={item.link}>
-                      <div className="flex flex-shrink-0 relative w-full">
+                      <div className="flex flex-shrink-0 relative  w-full">
                         <img
                           src={item.imageUrl}
                           alt={item.title}
-                          className="object-cover rounded-2xl object-center h-72 w-full"
+                          className="object-cover rounded-2xl object-center h-72  w-full"
                         />
                       </div>
                     </Link>
