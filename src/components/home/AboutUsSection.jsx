@@ -16,10 +16,10 @@ const AboutUsSection = () => {
           </p>
           <Button className="w-1/2" btnText={"Know More"} />
         </div>
-        <div className="md:w-1/2 w-full md:px-0 px-5  items-end justify-center flex gap-5">
+        <div className="md:w-1/2 w-full px-1   items-end justify-center flex gap-5">
           <div className="h-full sm:flex hidden w-full">
             <img
-              className="lg:h-64 h-full lg:mb-5 mb-0  w-full rounded-t-full"
+              className="lg:h-64 lg:ml-24 ml-0 h-full lg:mb-5 mb-0  lg:w-48 w-full rounded-t-full"
               src="https://images.unsplash.com/photo-1519307212971-dd9561667ffb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9uZXltb29ufGVufDB8fDB8fHww"
               alt=""
             />

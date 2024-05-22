@@ -5,6 +5,7 @@ import Navbar from "@/components/global/Navbar";
 import AboutUsSection from "@/components/home/AboutUsSection";
 import AdsCarousel from "@/components/home/AdsCarousel";
 import BrandingSidebar from "@/components/home/BrandingSidebar";
+import DomesticDestinationSection from "@/components/home/DomesticDestination";
 import HeroSection from "@/components/home/HeroSection";
 import AttractivePlannerCarousel from "@/components/home/HomePageCarousel/AttractivePlannerCarousel";
 import BannerCarousel from "@/components/home/HomePageCarousel/BannerCarousel/BannerCarousel";
@@ -36,12 +37,13 @@ export default function Home() {
       <BestSellingCarousel />
       {/* <MultiImagerBannerCarousel />
       <BannerCarousel /> */}
-      {
+      {/* {
         <div className="md:flex hidden">
           <InternationDestinationSection />
         </div>
-      }
+      } */}
       <PopularDestinationSection />
+      <DomesticDestinationSection />
       <OurResorts />
       <OurServices />
       <Footer />

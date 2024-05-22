@@ -137,9 +137,7 @@ const InternationalCarousel = () => {
                     <div className="flex w-full text-sm px-1 mt-3  justify-between item-center">
                       <p>{item.title}</p>
                     </div>
-                    <div className="flex h-fit rounded-lg mt-3 items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-600 to-yellow-400   relative top-0  ">
-                      Early Summer sale !
-                    </div>
+
                     <button className="flex w-full text-lg  mt-3  text-white bg-red-500 font-medium rounded-lg px-2 py-3 justify-center item-center">
                       Explore
                     </button>

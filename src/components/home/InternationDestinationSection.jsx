@@ -72,7 +72,7 @@ const InternationDestinationSection = () => {
             <h1 className="text-white text-7xl font-bold">
               Majestic Destinations
             </h1>
-            <div className="flex max-w-7xl mx-auto justify-between gap-10">
+            <div className="flex w-full  gap-10">
               <div className="flex flex-col gap-10">
                 <p className="w-[400px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -82,7 +82,7 @@ const InternationDestinationSection = () => {
                 <Button btnText={"Explore Now >>"} />
               </div>
 
-              {/* <div className="mx-auto  xl:max-w-[800px] px-4 max-w-[700px]   sm:px-6    lg:ps-8 ">
+              <div className="mx-auto  xl:max-w-[800px] px-4 max-w-[700px]   sm:px-6    lg:ps-8 ">
                 <div className="  lg:col-span-2 sm:px-8  px-3 lg:mx-0">
                   <div ref={sliderContainer} className="keen-slider">
                     {domesticCarouselData.map((item, i) => (
@@ -100,7 +100,7 @@ const InternationDestinationSection = () => {
                     ))}
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

@@ -68,23 +68,23 @@ const OurResorts = () => {
     }
   };
   return (
-    <section className="bg-red-100 sm:py-20 py-10">
+    <section className="bg-red-100 mx-5 sm:py-20 py-10">
       <div className="mx-auto max-w-7xl px-5  ">
-        <h1 className=" md:text-5xl text-2xl mb-10">Our Resorts</h1>
+        <h1 className=" md:text-5xl text-2xl mb-10">Resorts</h1>
         <div className="relative">
           <button
-            className="absolute sm:flex hidden top-[35%] bg-white rounded-full p-3 -right-0 z-50 "
+            className="absolute sm:flex hidden top-[30%] bg-white rounded-full p-2 -right-5 z-50 "
             aria-label="Next slide"
             onClick={handleNextSlide}
           >
-            <FaArrowRightLong size={30} color="black" />
+            <FaArrowRightLong size={20} color="black" />
           </button>
           <button
             aria-label="Previous slide"
             onClick={handlePrevSlide}
-            className="absolute sm:flex hidden top-[35%] bg-white rounded-full p-3 -left-0 z-50 "
+            className="absolute sm:flex hidden top-[30%] bg-white rounded-full p-2 -left-5 z-50 "
           >
-            <FaArrowLeftLong size={30} color="black" />
+            <FaArrowLeftLong size={20} color="black" />
           </button>
 
           <div ref={sliderContainer} className="keen-slider ">
@@ -98,14 +98,14 @@ const OurResorts = () => {
                     <img
                       src={item.imageUrl}
                       alt={item.title}
-                      className="object-cover rounded-t-xl object-center h-96 w-full"
+                      className="object-cover rounded-t-xl object-center h-72 w-full"
                     />
-                    <div className="flex absolute top-5 right-5 z-50 justify-center items-center p-3 rounded-full bg-white">
-                      <FaRegHeart color="#2e3190" size={20} />
+                    <div className="flex absolute top-5 right-5 z-50 justify-center items-center p-2 rounded-full bg-white">
+                      <FaRegHeart color="#2e3190" size={16} />
                     </div>
                     <div className="rounded-xl bg-opacity-5 absolute w-full h-full py-6">
-                      <div className="flex h-full items-end  relative pb-6">
-                        <div className="text-xl gap-3  text-center flex items-center justify-center font-semibold absolute py-2 px-4  mx-4 rounded-xl bg-black bg-opacity-60 w-fit leading-5 lg:leading-7 text-white">
+                      <div className="flex h-full items-end  relative pb-4">
+                        <div className="text-xl gap-3  text-center flex items-center justify-center font-semibold absolute py-2 px-4  mx-4 rounded-xl bg-gray-800 bg-opacity-50 w-fit leading-5 lg:leading-7 text-white">
                           <FaStar color="#FFD700" size={20} /> 4.6
                         </div>
                       </div>
@@ -149,14 +149,14 @@ const OurResorts = () => {
           <button
             aria-label="Previous slide"
             onClick={handlePrevSlide}
-            className="rounded-full border flex justify-center  items-center bg-[black] border-red-[#ED9122] p-3 text-rose-600 transition  hover:text-white"
+            className="rounded-full border flex justify-center  items-center bg-[black] border-red-[#ED9122] p-2 text-rose-600 transition  hover:text-white"
           >
             <FaArrowLeftLong size={20} color="white" />
           </button>
           <button
             aria-label="Next slide"
             onClick={handleNextSlide}
-            className="rounded-full border bg-[black]  p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
+            className="rounded-full border bg-[black]  p-2 flex justify-center items-center text-rose-600 transition  hover:text-white"
           >
             <FaArrowRightLong size={20} color="white" />
           </button>
