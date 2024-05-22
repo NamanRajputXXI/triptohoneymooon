@@ -60,7 +60,7 @@ const HeroSectionCarousel = () => {
   };
   return (
     <section className="bg-red-100 px-5">
-      <div className="mx-auto sm:mt-[-150px] mt-[-100px] max-w-[1340px] px-4  sm:px-6    lg:ps-8 ">
+      <div className="mx-auto sm:mt-[-150px] mt-[-100px] max-w-[1340px] px-4  sm:px-6  ">
         <div className="  lg:col-span-2 sm:px-8  px-3 lg:mx-0">
           <div ref={sliderContainer} className="keen-slider">
             {domesticCarouselData.map((item, i) => (
@@ -79,7 +79,7 @@ const HeroSectionCarousel = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl grid md:grid-cols-6 grid-cols-1 gap-5 md:gap-10 px-5 mt-20  py-4 bg-white rounded-xl   items-center  mx-auto">
+      <div className="max-w-7xl grid md:grid-cols-6 grid-cols-1 gap-5 md:gap-10 px-5 my-20  py-4 bg-white rounded-xl   items-center  mx-auto">
         <div className="col-span-2 md:col-span-1 flex justify-center">
           <p className="text-lg justify-center md:flex hidden font-semibold">
             Find Your <br /> Holidays

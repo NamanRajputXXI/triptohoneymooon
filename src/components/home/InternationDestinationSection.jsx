@@ -58,10 +58,10 @@ const InternationDestinationSection = () => {
     }
   };
   return (
-    <section className="bg-red-100 h-[650px] w-full  py-20">
+    <section className="bg-red-100 h-[650px] w-full py-10 sm:py-20">
       <div className="max-w-7xl pb-10 flex flex-col gap-10 mx-auto">
         <div className="flex w-full items-center justify-between px-5">
-          <p className="text-xl font-medium">International Destination</p>
+          <h5 className=" text-2xl">International Destination</h5>
           <Button btnText={"Explore All"} />
         </div>
       </div>

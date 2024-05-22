@@ -68,7 +68,7 @@ const OurResorts = () => {
     }
   };
   return (
-    <section className="bg-red-100 py-20">
+    <section className="bg-red-100 sm:py-20 py-10">
       <div className="mx-auto max-w-7xl px-5  ">
         <h1 className=" md:text-5xl text-2xl mb-10">Our Resorts</h1>
         <div className="relative">
