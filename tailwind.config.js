@@ -13,8 +13,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        Briem: ["Briem Hand", "cursive"],
         Ubuntu: ["Ubuntu", "sans-serif"],
+        Merriweather: ["Merriweather", "serif"],
+        Lato: ["Lato", "sans-serif"],
       },
     },
   },

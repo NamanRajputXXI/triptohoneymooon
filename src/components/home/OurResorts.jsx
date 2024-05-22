@@ -5,7 +5,8 @@ import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import KeenSlider from "keen-slider";
 import "keen-slider/keen-slider.min.css";
 import domesticCarouselData from "@/data/domesticCarouselData";
-import { IoLocationOutline } from "react-icons/io5";
+import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
+import { GiLovers } from "react-icons/gi";
 import Link from "next/link";
 import { FaRegHeart, FaStar } from "react-icons/fa";
 const OurResorts = () => {
@@ -122,25 +123,22 @@ const OurResorts = () => {
                   </div>
                   <hr />
                   <div className="flex justify-between items-center py-2 px-3">
-                    <p className="font-medum text-[#2e3190] font-bold">
+                    <p className="flex items-center gap-1">
+                      <IoCallOutline size={20} />
                       9847576356
                     </p>
-                    <p className="font-medum flex items-center justify-center gap-1 text-[#2e3190] font-bold">
+                    <p className=" flex items-center justify-center gap-1 ">
                       {" "}
-                      <IoLocationOutline color="#2e3190" size={20} />
-                      Nepal
+                      <GiLovers color="#2e3190" size={20} />
+                      Honeymoon
                     </p>
                   </div>
                   <hr />
                   <div className="flex justify-between items-center py-2 px-3">
-                    <p className="font-medum text-[#2e3190] font-bold">
-                      9847576356
-                    </p>
-                    <p className="font-medum flex items-center justify-center gap-1 text-[#2e3190] font-bold">
-                      {" "}
-                      <IoLocationOutline color="#2e3190" size={20} />
-                      Nepal
-                    </p>
+                    <p className=" font-bold">Rs 28,999</p>
+                    <button className="bg-[#cf331a] rounded-2xl px-4 py-2 text-white flex items-center justify-center">
+                      Book Now
+                    </button>
                   </div>
                 </div>
               </Link>

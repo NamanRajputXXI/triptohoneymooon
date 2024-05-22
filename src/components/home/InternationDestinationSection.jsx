@@ -58,7 +58,7 @@ const InternationDestinationSection = () => {
     }
   };
   return (
-    <section className="bg-red-100 h-[650px]  py-20">
+    <section className="bg-red-100 h-[650px] w-full  py-20">
       <div className="max-w-7xl pb-10 flex flex-col gap-10 mx-auto">
         <div className="flex w-full items-center justify-between px-5">
           <p className="text-xl font-medium">International Destination</p>
@@ -82,7 +82,7 @@ const InternationDestinationSection = () => {
                 <Button btnText={"Explore Now >>"} />
               </div>
 
-              <div className="mx-auto  xl:max-w-[800px] px-4 max-w-[700px]   sm:px-6    lg:ps-8 ">
+              {/* <div className="mx-auto  xl:max-w-[800px] px-4 max-w-[700px]   sm:px-6    lg:ps-8 ">
                 <div className="  lg:col-span-2 sm:px-8  px-3 lg:mx-0">
                   <div ref={sliderContainer} className="keen-slider">
                     {domesticCarouselData.map((item, i) => (
@@ -100,7 +100,7 @@ const InternationDestinationSection = () => {
                     ))}
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
