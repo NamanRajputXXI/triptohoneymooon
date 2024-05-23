@@ -4,6 +4,7 @@ import Button from "../global/Button";
 import KeenSlider from "keen-slider";
 import "keen-slider/keen-slider.min.css";
 import domesticCarouselData from "@/data/domesticCarouselData";
+import popularCarouselData from "@/data/popularCarouselData";
 import Link from "next/link";
 
 const InternationDestinationSection = () => {
@@ -82,21 +83,63 @@ const InternationDestinationSection = () => {
                 <Button btnText={"Explore Now >>"} />
               </div>
 
-              <div className="mx-auto  xl:max-w-[800px] px-4 max-w-[700px]   sm:px-6    lg:ps-8 ">
-                <div className="  lg:col-span-2 sm:px-8  px-3 lg:mx-0">
+              <div className="mx-auto  xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6     lg:ps-8 ">
+                {/* <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
+              <div className="mt-8 flex gap-4 lg:mt-0">
+                <button
+                  aria-label="Previous slide"
+                  onClick={handlePrevSlide}
+                  className="rounded-full border flex justify-center  items-center bg-[#ED9122] border-red-[#ED9122] p-3 text-rose-600 transition  hover:text-white"
+                >
+                  <span className="inline-block h-5 w-5">
+                    <svg
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      className="text-white" // Apply 'text-black' class directly here
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+                <button
+                  aria-label="Next slide"
+                  onClick={handleNextSlide}
+                  className="rounded-full border bg-[#ED9122] border-[#ED9122] p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
+                >
+                  <span className="inline-block h-5 w-5">
+                    <svg
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      className="text-white" // Change this class to 'text-black'
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div> */}
+                <div className=" z-[50]  lg:col-span-2   px-3 lg:mx-0">
                   <div ref={sliderContainer} className="keen-slider">
-                    {domesticCarouselData.map((item, i) => (
-                      <Link href={item.link} key={i}>
-                        <div className="keen-slider__slide" key={i}>
-                          <div className="flex flex-shrink-0 relative w-full sm:w-auto">
+                    {popularCarouselData.map((item, i) => (
+                      <div className="keen-slider__slide" key={i}>
+                        <Link href={item.link}>
+                          <div className="flex flex-shrink-0 relative  w-full">
                             <img
                               src={item.imageUrl}
                               alt={item.title}
-                              className="object-cover rounded-xl object-center h-48 sm:h-60 w-full md:w-60"
+                              className="object-cover z-50 rounded-2xl object-center h-72  w-full"
                             />
                           </div>
-                        </div>
-                      </Link>
+                        </Link>
+                      </div>
                     ))}
                   </div>
                 </div>
