@@ -60,7 +60,15 @@ const PopularDestinationSection = () => {
     }
   };
   return (
-    <section className="w-full flex-col  my-20 md:pt-20 mx-auto bg-red-100 ">
+    <section className="w-full flex-col relative my-20 md:pt-20 mx-auto bg-red-100 ">
+      <div className="   absolute  md:top-10 -top-3 z-50  sm:right-3  right-1  ">
+        <img
+          src="/heroSectionImages/hearts.png"
+          className=" object-cover w-8 h-10   md:w-16 md:h-20"
+          alt=""
+        />
+      </div>
+
       <h1 className=" md:text-5xl text-2xl text-center pb-10">
         Popular Destination
       </h1>

@@ -59,7 +59,19 @@ const HeroSectionCarousel = () => {
     }
   };
   return (
-    <section className="bg-red-100 px-5">
+    <section className="bg-red-100 w-full ">
+      <div className="flex absolute sm:px-5 px-2  mt-[220px]  sm:mt-[248px] items-center justify-between w-full mx-auto ">
+        <img
+          src="/heroSectionImages/hearts.png"
+          className=" object-cover rotate-45 sm:w-16 w-6 h-8 sm:h-20"
+          alt=""
+        />
+        <img
+          src="/heroSectionImages/hearts.png"
+          className=" object-cover rotate-45  sm:w-16 w-6 h-8 sm:h-20"
+          alt=""
+        />
+      </div>
       <div className="mx-auto sm:mt-[-150px] mt-[-100px] max-w-[1340px] px-4  sm:px-6  ">
         <div className="  lg:col-span-2 sm:px-8  px-3 lg:mx-0">
           <div ref={sliderContainer} className="keen-slider">
@@ -79,24 +91,28 @@ const HeroSectionCarousel = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl grid md:grid-cols-6 grid-cols-1 gap-5 md:gap-10 px-5 my-20  py-4 bg-white rounded-xl   items-center  mx-auto">
-        <div className="col-span-2 md:col-span-1 flex justify-center">
-          <p className="text-lg justify-center md:flex hidden font-semibold">
-            Find Your <br /> Holidays
-          </p>
-          <p className="text-lg md:hidden font-semibold">Find Your Holidays</p>
-        </div>
-        <div className="col-span-2 md:border-l-2 md:border-gray-300 pl-8 flex items-center gap-5">
-          <p>TO</p>
-          <input type="text" className="bg-gray-200 w-full p-2" />
-        </div>
-        <div className="col-span-2  flex items-center gap-5">
-          <p>FROM</p>
-          <input type="text" className="bg-gray-200 w-full p-2" />
-        </div>
-        <div className=" flex col-span-2 md:col-span-1  justify-center md:border-l-2 md:p-2 md:border-gray-300  md:justify-end items-center gap-2 ">
-          {/* <CiSearch className="lg:text-lg md:text-lg" /> */}
-          <p className="text-lg font-semibold">Search</p>
+      <div className="px-5">
+        <div className="max-w-7xl grid md:grid-cols-6 grid-cols-1 gap-5  md:gap-10 px-5 my-20  py-4 bg-white rounded-xl   items-center  mx-auto">
+          <div className="col-span-2 md:col-span-1 flex justify-center">
+            <p className="text-lg justify-center md:flex hidden font-semibold">
+              Find Your <br /> Holidays
+            </p>
+            <p className="text-lg md:hidden font-semibold">
+              Find Your Holidays
+            </p>
+          </div>
+          <div className="col-span-2 md:border-l-2 md:border-gray-300 pl-8 flex items-center gap-5">
+            <p>TO</p>
+            <input type="text" className="bg-gray-200 w-full p-2" />
+          </div>
+          <div className="col-span-2  flex items-center gap-5">
+            <p>FROM</p>
+            <input type="text" className="bg-gray-200 w-full p-2" />
+          </div>
+          <div className=" flex col-span-2 md:col-span-1  justify-center md:border-l-2 md:p-2 md:border-gray-300  md:justify-end items-center gap-2 ">
+            {/* <CiSearch className="lg:text-lg md:text-lg" /> */}
+            <p className="text-lg font-semibold">Search</p>
+          </div>
         </div>
       </div>
     </section>

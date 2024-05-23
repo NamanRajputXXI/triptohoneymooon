@@ -28,7 +28,7 @@ const DomesticDestinationSection = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
               voluptatum dolore et delectus neque ad repellat modi, nihil
             </p>
-            <p className="flex items-center gap-2 font-semibold text-xl">
+            <p className="flex items-center  gap-2  text-xl">
               4000.00 <span className="text-red-600">Per head</span>
             </p>
             <div className="flex items-center gap-5">

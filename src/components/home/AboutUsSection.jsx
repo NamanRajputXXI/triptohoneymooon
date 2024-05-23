@@ -5,7 +5,14 @@ const AboutUsSection = () => {
   return (
     <section className="w-full  bg-red-200">
       <div className=" max-w-7xl gap-5  mx-auto pt-10 bg-red-200 px-2 flex md:flex-row flex-col items-center justify-center md:justify-between">
-        <div className="flex md:w-1/2 w-full md:px-0 px-5 pb-20 flex-col gap-5">
+        <div className="flex md:w-1/2 relative w-full md:px-0 px-5 pb-20 flex-col gap-5">
+          <div className="   absolute  md:bottom-[70px] bottom-14 right-0   md:w-1/2  ">
+            <img
+              src="/heroSectionImages/hearts.png"
+              className=" object-cover  w-16 h-20"
+              alt=""
+            />
+          </div>
           <h1 className="sm:text-5xl text-3xl font-semibold">About us</h1>
           <p className="lg:text-lg text-base leading-6 text-gray-500 tracking-wide">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
@@ -16,7 +23,14 @@ const AboutUsSection = () => {
           </p>
           <Button className="w-1/2" btnText={"Know More"} />
         </div>
-        <div className="md:w-1/2 w-full px-1   items-end justify-center flex gap-5">
+        <div className="md:w-1/2 w-full px-1  relative  items-end justify-center flex gap-5">
+          <div className=" sm:flex hidden absolute lg:top-16 lg:left-60   -top-10   ">
+            <img
+              src="/heroSectionImages/hearts.png"
+              className=" object-cover  w-16 h-20"
+              alt=""
+            />
+          </div>
           <div className="h-full sm:flex hidden w-full">
             <img
               className="lg:h-64 lg:ml-24 ml-0 h-full lg:mb-5 mb-0  lg:w-48 w-full rounded-t-full"
