@@ -68,8 +68,8 @@ const OurResorts = () => {
     }
   };
   return (
-    <section className="bg-red-100 mx-5 sm:py-20 py-10">
-      <div className="mx-auto max-w-7xl px-5  ">
+    <section className="bg-red-100 mx-6 sm:py-20 py-10">
+      <div className="mx-auto max-w-7xl   ">
         <h1 className=" md:text-5xl text-2xl mb-10">Resorts</h1>
         <div className="relative">
           <button
@@ -91,7 +91,7 @@ const OurResorts = () => {
             {domesticCarouselData.map((item, i) => (
               <Link href={item.link} key={i}>
                 <div
-                  className="keen-slider__slide bg-white rounded-xl pb-3"
+                  className="keen-slider__slide w-full bg-white rounded-xl pb-3"
                   key={i}
                 >
                   <div className="flex flex-col rounded-b-xl h-fit flex-shrink-0 relative w-full sm:w-auto">

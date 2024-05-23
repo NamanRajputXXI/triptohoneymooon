@@ -62,10 +62,17 @@ const PopularDestinationSection = () => {
   };
   return (
     <section className="w-full flex-col relative my-20 md:pt-20 mx-auto bg-red-100 ">
-      <div className="   absolute  md:top-10 -top-3 z-50  sm:right-3  right-1  ">
+      <div className="   absolute  md:top-10 -top-3 z-10  sm:right-3  right-1  ">
         <img
           src="/heroSectionImages/hearts.png"
           className=" object-cover w-8 h-10   md:w-16 md:h-20"
+          alt=""
+        />
+      </div>
+      <div className=" lg:flex hidden z-10 absolute right-6 top-80  ">
+        <img
+          src="https://cdn.pixabay.com/photo/2024/05/15/19/17/couple-8764348_1280.png"
+          className="    md:w-72 md:h-[400px]"
           alt=""
         />
       </div>
@@ -76,7 +83,7 @@ const PopularDestinationSection = () => {
       <div className="flex lg:flex-row flex-col relative w-full">
         <div className="lg:w-1/2  relative w-full lg:h-[700px] md:h-[500px] h-[300px]">
           <img
-            className="lg:h-[800px] md:h-[500px] h-[300px] w-full"
+            className="lg:h-[800px] object-cover md:h-[500px] h-[300px] w-full"
             src="https://images.unsplash.com/photo-1551083078-41faef705799?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHJvbWFudGljfGVufDB8fDB8fHww"
             alt=""
           />
@@ -90,22 +97,20 @@ const PopularDestinationSection = () => {
           <h1 className="text-2xl font-semibold ">Place Name</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
-            voluptatum dolore et delectus neque ad repellat modi, nihil maxime?
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti,
-            veritatis.
+            voluptatum dolore et
           </p>
           <p className="flex items-center gap-2 font-semibold text-xl">
             4000.00 <span className="text-red-600">Per head</span>
           </p>
           <div className="flex items-center gap-5">
             <Button btnText={"Book Now"} />
-            <button className="border-2 text-black font-semibold border-red-600 py-2 px-4 rounded-xl flex justify-center items-center">
+            <button className="border-2 text-black font-semibold border-red-600 sm:py-2 py-1 px-4 rounded-xl flex justify-center items-center">
               Know More
             </button>
           </div>
         </div>
         <div className="lg:absolute  lg:-bottom-28 lg:right-0">
-          <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-4 sm:px-6     lg:ps-8 ">
+          <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6     lg:ps-8 ">
             {/* <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
               <div className="mt-8 flex gap-4 lg:mt-0">
                 <button
@@ -148,7 +153,7 @@ const PopularDestinationSection = () => {
                 </button>
               </div>
             </div> */}
-            <div className=" mt-8  lg:col-span-2   px-3 lg:mx-0">
+            <div className=" mt-8 z-[50]  lg:col-span-2    lg:mx-0">
               <div ref={sliderContainer} className="keen-slider">
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>
@@ -157,7 +162,7 @@ const PopularDestinationSection = () => {
                         <img
                           src={item.imageUrl}
                           alt={item.title}
-                          className="object-cover rounded-2xl object-center h-[360px]  w-full"
+                          className="object-cover z-50 rounded-2xl object-center h-[360px]  w-full"
                         />
                       </div>
                     </Link>
