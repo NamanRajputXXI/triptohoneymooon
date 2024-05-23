@@ -38,7 +38,7 @@ export default function Home() {
       {/* <MultiImagerBannerCarousel />
       <BannerCarousel /> */}
       {
-        <div className="md:flex hidden">
+        <div className="lg:flex hidden">
           <InternationDestinationSection />
         </div>
       }

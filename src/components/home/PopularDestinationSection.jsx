@@ -61,7 +61,7 @@ const PopularDestinationSection = () => {
     }
   };
   return (
-    <section className="w-full flex-col relative my-20 md:pt-20 mx-auto bg-red-100 ">
+    <section className="w-full flex-col relative my-20  mx-auto bg-red-100 ">
       <div className="   absolute  md:top-10 -top-3 z-10  sm:right-3  right-1  ">
         <img
           src="/heroSectionImages/hearts.png"
@@ -69,10 +69,10 @@ const PopularDestinationSection = () => {
           alt=""
         />
       </div>
-      <div className=" lg:flex hidden z-10 absolute right-6 top-80  ">
+      <div className="  z-10 absolute sm:bottom-80 bottom-[300px]  right-0 sm:right-10 lg:right-10 lg:bottom-36 md:right-10 md:bottom-60   ">
         <img
           src="https://cdn.pixabay.com/photo/2024/05/15/19/17/couple-8764348_1280.png"
-          className="    md:w-72 md:h-[400px]"
+          className="  h-60 w-40  md:w-72 md:h-[400px]"
           alt=""
         />
       </div>
@@ -109,7 +109,7 @@ const PopularDestinationSection = () => {
             </button>
           </div>
         </div>
-        <div className="lg:absolute  lg:-bottom-28 lg:right-0">
+        <div className="lg:absolute z-10  lg:-bottom-28 lg:right-0">
           <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6     lg:ps-8 ">
             {/* <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
               <div className="mt-8 flex gap-4 lg:mt-0">
@@ -153,7 +153,7 @@ const PopularDestinationSection = () => {
                 </button>
               </div>
             </div> */}
-            <div className=" mt-8 z-[50]  lg:col-span-2   px-3 lg:mx-0">
+            <div className=" mt-8 z-10  lg:col-span-2   px-3 lg:mx-0">
               <div ref={sliderContainer} className="keen-slider">
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>
