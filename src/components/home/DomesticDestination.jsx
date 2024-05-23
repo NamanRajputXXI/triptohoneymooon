@@ -4,7 +4,7 @@ import Button from "../global/Button";
 
 const DomesticDestinationSection = () => {
   return (
-    <section className="bg-red-100 max-w-7xl mx-auto sm:px-10 px-6  py-10 sm:py-20">
+    <section className="bg-red-100 max-w-7xl mx-auto sm:px-10 px-6  md:py-20">
       <div className="max-w-7xl pb-10 flex flex-col gap-10 mx-auto">
         <div className="flex w-full items-center justify-between px-5">
           <h5 className=" sm:text-xl text-lg md:text-2xl">
