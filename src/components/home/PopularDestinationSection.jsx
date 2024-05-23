@@ -5,6 +5,7 @@ import KeenSlider from "keen-slider";
 import "keen-slider/keen-slider.min.css";
 import popularCarouselData from "@/data/popularCarouselData";
 import Link from "next/link";
+import { HiPlay } from "react-icons/hi2";
 import { MdOutlineDiscount } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
 
@@ -73,11 +74,16 @@ const PopularDestinationSection = () => {
         Popular Destination
       </h1>
       <div className="flex lg:flex-row flex-col relative w-full">
-        <div className="lg:w-1/2 w-full lg:h-[700px] h-[500px]">
+        <div className="lg:w-1/2  relative w-full lg:h-[700px] md:h-[500px] h-[300px]">
           <img
-            className="lg:h-[800px] h-[500px] w-full"
+            className="lg:h-[800px] md:h-[500px] h-[300px] w-full"
             src="https://images.unsplash.com/photo-1551083078-41faef705799?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHJvbWFudGljfGVufDB8fDB8fHww"
             alt=""
+          />
+          <HiPlay
+            className="absolute lg:top-64  lg:-right-10 top-[38%] right-[38%] "
+            size={80}
+            color="#cf331a"
           />
         </div>
         <div className="lg:w-1/2 w-full bg-red-100 px-8 py-5 flex gap-5 flex-col">
