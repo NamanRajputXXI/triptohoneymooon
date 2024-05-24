@@ -126,13 +126,10 @@ const PopularDestinationSection = () => {
             </button>
           </div>
         </div>
-        <div className="lg:absolute z-10  lg:-bottom-28 lg:right-0">
+        <div className="lg:absolute z-10 w-full lg:-bottom-28 left-1/2 transform -translate-x-1/2 ">
           <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6     lg:ps-8 ">
             <div className=" mt-8 z-10 lg:col-span-2 px-3 lg:mx-0">
-              <div
-                ref={sliderContainer}
-                className="keen-slider bg-red-100 rounded-2xl"
-              >
+              <div ref={sliderContainer} className="keen-slider  rounded-2xl">
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>
                     <Link href={item.link}>
