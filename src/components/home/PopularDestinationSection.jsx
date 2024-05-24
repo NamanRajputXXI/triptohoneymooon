@@ -61,7 +61,7 @@ const PopularDestinationSection = () => {
     }
   };
   return (
-    <section className="w-full flex-col relative  md:py-20 mt-20  mx-auto bg-red-100 ">
+    <section className="w-full flex-col relative  md:py-20 md:mt-0 mt-20  mx-auto bg-red-100 ">
       <div className="   absolute  md:top-10 -top-3 z-10  sm:right-3  right-1  ">
         <img
           src="/heroSectionImages/hearts.png"
