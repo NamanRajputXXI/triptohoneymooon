@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 
 const WeddingBannerCarousel = () => {
   return (
-    <div className="h-48 p-3 bg-white">
+    <div className="h-44  px-3 pt-3 pb-5 bg-white">
       <Swiper
         className="h-full"
         spaceBetween={4}
