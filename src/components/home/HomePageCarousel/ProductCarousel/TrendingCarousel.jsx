@@ -70,7 +70,7 @@ const TrendingCarousel = () => {
               <button
                 aria-label="Previous slide"
                 onClick={handlePrevSlide}
-                className="rounded-full  flex justify-center  items-center bg-gray-600 p-3 text-rose-600 transition  hover:text-white"
+                className="rounded-full  flex justify-center  items-center bg-gray-400 p-3 text-rose-600 transition  hover:text-white"
               >
                 <span className="inline-block h-5 w-5">
                   <svg
@@ -89,7 +89,7 @@ const TrendingCarousel = () => {
               <button
                 aria-label="Next slide"
                 onClick={handleNextSlide}
-                className="rounded-full  bg-gray-600  p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
+                className="rounded-full  bg-gray-400  p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
               >
                 <span className="inline-block h-5 w-5">
                   <svg

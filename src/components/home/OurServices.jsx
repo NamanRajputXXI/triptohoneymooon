@@ -66,7 +66,7 @@ import React from "react";
 
 const OurServices = () => {
   return (
-    <section className="bg-red-100 mb-20 h-fit md:pt-20">
+    <section className="bg-red-100  h-fit py-10 md:py-20">
       <div className="max-w-7xl px-5 mx-auto">
         <h1 className=" md:text-5xl text-2xl mb-10">Explore the Finest</h1>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:grid-cols-4 justify-center items-center gap-5 w-full h-auto">

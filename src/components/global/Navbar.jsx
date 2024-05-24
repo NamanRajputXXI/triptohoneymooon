@@ -19,13 +19,13 @@ const Navbar = () => {
 
   const getLinkClass = (path) => {
     const baseClass =
-      "hover:text-[#cf331a] text-gray-500 duration-300 relative text-lg w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#cf331a] after:w-full after:scale-x-0  after:transition after:duration-300 after:origin-center";
-    const activeClass = "text-[#cf331a] after:scale-x-100";
+      "hover:text-[#cf331a] text-gray-500 text-[#cf331a] duration-300 relative text-lg w-fit block ";
+    const activeClass = "text-[#cf331a] ";
     return currentPath === path ? `${baseClass} ${activeClass}` : baseClass;
   };
 
   return (
-    <section className="flex bg-red-100 font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full  py-4">
+    <section className="flex bg-white font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full  py-4">
       <nav
         className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"
@@ -35,7 +35,7 @@ const Navbar = () => {
             className="inline-flex items-center gap-x-2 text-xl font-semibold"
             href="/"
           >
-            <Image src={"/logo.png"} width={200} height={80} alt="Logo" />
+            <Image src={"/logo.png"} width={280} height={120} alt="Logo" />
           </a>
           <div className="md:hidden">
             <button
@@ -80,7 +80,7 @@ const Navbar = () => {
               Home
             </Link>
             <Link href="/about" className={getLinkClass("/about")}>
-              About Us
+              About
             </Link>
             <Link href="/domestic" className={getLinkClass("/domestic")}>
               Domestic

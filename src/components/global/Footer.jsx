@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="relative h-fit py-20 w-full bg-[url('https://images.unsplash.com/photo-1497120573086-6219573cf71c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fGhvbmV5bW9vbnxlbnwwfDB8MHx8fDA%3D')] bg-cover bg-center">
+    <footer className="relative md:mt-20 mt-10 h-fit py-20 w-full bg-[url('https://images.unsplash.com/photo-1497120573086-6219573cf71c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fGhvbmV5bW9vbnxlbnwwfDB8MHx8fDA%3D')] bg-cover bg-center">
       <div className="absolute h-full w-full  inset-0 bg-black bg-opacity-60"></div>
       <div className="grid max-w-7xl gap-8 mx-auto relative z-10 font-medium  lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 items-start text-white justify-center p-10">
         <div className="flex flex-col lg:items-start lg:justify-start items-center justify-center gap-8">
