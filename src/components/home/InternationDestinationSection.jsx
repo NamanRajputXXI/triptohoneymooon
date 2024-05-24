@@ -211,7 +211,7 @@ const InternationDestinationSection = () => {
 
   return (
     <section className="bg-red-100 h-fit w-full py-10 sm:py-20">
-      <div className="flex relative  gap-10 flex-col h-fit py-20 md:pb-44 pb-20 w-full bg-[url('https://images.unsplash.com/photo-1497256654106-4a29efafb831?q=80&w=1799&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center ">
+      <div className="flex relative  gap-10 flex-col h-fit py-20 w-full bg-[url('https://images.unsplash.com/photo-1497256654106-4a29efafb831?q=80&w=1799&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center ">
         <div className="absolute inset-0 h-fit w-full bg-black bg-opacity-90"></div>
         <div className="flex gap-10">
           <div className=" relative md:gap-10 gap-5 px-6 md:px-0 md:pl-10 z-10 flex flex-col text-white ">
@@ -267,7 +267,7 @@ const InternationDestinationSection = () => {
             </div>
           </div>
         </div>
-        <div className="mx-auto px-6 md:px-0 xl:bottom-10 bottom-5 md:absolute z-[100]  xl:left-[400px] left-[250px] lg:left-80 md:w-2/3 w-full lg:ps-8">
+        <div className="mx-auto px-6  z-[100]   w-full lg:ps-8">
           <div className=" z-[50] lg:col-span-2 px-3 lg:mx-0">
             <div className="relative flex gap-4">
               <button
