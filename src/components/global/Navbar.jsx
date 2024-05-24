@@ -35,7 +35,20 @@ const Navbar = () => {
             className="inline-flex items-center gap-x-2 text-xl font-semibold"
             href="/"
           >
-            <Image src={"/logo.png"} width={280} height={120} alt="Logo" />
+            <Image
+              src={"/logo.png"}
+              className="md:flex hidden"
+              width={280}
+              height={120}
+              alt="Logo"
+            />
+            <Image
+              src={"/logo.png"}
+              width={200}
+              className="md:hidden flex"
+              height={80}
+              alt="Logo"
+            />
           </a>
           <div className="md:hidden">
             <button

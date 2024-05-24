@@ -4,6 +4,7 @@ const domesticCarouselData = [
     imageUrl: `/carouselImages/domestic/kashmir.jpg`,
     title: "Srinagar Serenade: Pahalgam, Houseboat Harmony and More!",
     link: "/products/kashmir/1",
+    destinaion: "Kashmir",
     discount: "20%",
     days: "5 Night / 6 Days",
   },
@@ -12,6 +13,7 @@ const domesticCarouselData = [
     title: "A Spice Sojourn: Plantation Marvels in Beautiful Goa",
     link: "/products/goa/6",
     discount: "30%",
+    destinaion: "Goa",
     days: "4 Night / 5 Days",
   },
   {
@@ -19,6 +21,7 @@ const domesticCarouselData = [
     title: "Andaman Delights: Discover Coastal Wonders and More!",
     link: "/products/andaman/3",
     discount: "25%",
+    destinaion: "Andaman",
     days: "4 Night / 5 Days",
   },
   {
@@ -26,12 +29,14 @@ const domesticCarouselData = [
     title: "Tranquil Retreats: Munnar and Thekkady's Verdant Vistas",
     link: "/products/kerala/1",
     discount: "15%",
+    destinaion: "Rajasthan",
     days: "3 Night / 4 Days",
   },
   {
     imageUrl: `/carouselImages/domestic/westBengal.jpg`,
     title: "Scenic Harmony: Mussoorie to Rishikesh Expedition Awaits You",
     link: "/products/uttarakhand/8",
+    destinaion: "West Bengal",
     discount: "10%",
     days: "3 Night / 4 Days",
   },
@@ -40,6 +45,7 @@ const domesticCarouselData = [
     title: "Offshore Romance: Singapore's Genting Dream Cruise Experience",
     link: "/products/singapore/4",
     discount: "5%",
+    destinaion: "Singapore",
     days: "4 Night / 5 Days",
   },
 ];
