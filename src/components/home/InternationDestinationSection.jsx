@@ -211,12 +211,6 @@ const InternationDestinationSection = () => {
 
   return (
     <section className="bg-red-100 h-fit w-full py-10 sm:py-20">
-      <div className="max-w-7xl pb-10 flex flex-col gap-10 mx-auto">
-        <div className="flex w-full items-center justify-between px-5">
-          <h5 className=" text-2xl">International Destination</h5>
-          <Button btnText={"Explore All"} />
-        </div>
-      </div>
       <div className="flex relative  gap-10 flex-col h-fit py-20 md:pb-44 pb-20 w-full bg-[url('https://images.unsplash.com/photo-1497256654106-4a29efafb831?q=80&w=1799&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center ">
         <div className="absolute inset-0 h-fit w-full bg-black bg-opacity-90"></div>
         <div className="flex gap-10">

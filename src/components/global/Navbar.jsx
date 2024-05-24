@@ -100,7 +100,7 @@ const Navbar = () => {
             >
               Gift an experience
             </Link>
-            <Button btnText={"Contact us"} />
+            <Button btnText={"1800-121-4252"} />
           </div>
         </div>
       </nav>

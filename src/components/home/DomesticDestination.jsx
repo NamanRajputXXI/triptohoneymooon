@@ -5,14 +5,6 @@ import Button from "../global/Button";
 const DomesticDestinationSection = () => {
   return (
     <section className="bg-red-100 max-w-7xl mx-auto sm:px-10 px-6   md:py-20">
-      <div className="max-w-7xl pb-10 flex flex-col gap-10 mx-auto">
-        <div className="flex w-full items-center justify-between px-5">
-          <h5 className=" sm:text-xl text-lg md:text-2xl">
-            Domestic Destination
-          </h5>
-          <Button btnText={"Explore All"} />
-        </div>
-      </div>
       <div className="grid md:grid-cols-2  grid-cols-1 w-full">
         <div className="md:h-72 h-60 w-full">
           <img
