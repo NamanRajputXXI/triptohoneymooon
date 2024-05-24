@@ -31,11 +31,18 @@ const HeroSectionCarousel = () => {
           "(min-width: 768px)": {
             slides: {
               origin: "auto",
-              perView: 4, // Show 2 reviews on screens >= 768px
+              perView: 3, // Show 2 reviews on screens >= 768px
               spacing: 8,
             },
           },
           "(min-width: 1024px)": {
+            slides: {
+              origin: "auto",
+              perView: 4, // Show 3 reviews on screens >= 1024px
+              spacing: 12,
+            },
+          },
+          "(min-width: 1296px)": {
             slides: {
               origin: "auto",
               perView: 5, // Show 3 reviews on screens >= 1024px
