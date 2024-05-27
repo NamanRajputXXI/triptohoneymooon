@@ -65,7 +65,7 @@ const Footer = () => {
                   className="px-5 py-2 placeholder:text-white sm:w-auto w-64  bg-gray-400 text-white flex items-center  rounded-xl"
                 />
                 <button className="flex sm:w-auto w-32 items-center justify-center px-5 py-2 text-black bg-white rounded-xl">
-                  send
+                  Send
                 </button>
               </div>
             </div>

@@ -56,7 +56,7 @@ const InternationDestinationSection = () => {
           "(min-width: 1024px)": {
             slides: {
               origin: "auto",
-              perView: 2, // Show 3 reviews on screens >= 1024px
+              perView: 3, // Show 3 reviews on screens >= 1024px
               spacing: 12,
             },
           },

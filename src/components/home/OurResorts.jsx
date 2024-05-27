@@ -100,9 +100,6 @@ const OurResorts = () => {
                       alt={item.title}
                       className="object-cover rounded-t-xl object-center h-72 w-full"
                     />
-                    <div className="flex absolute top-5 right-5 z-50 justify-center items-center p-2 rounded-full bg-white">
-                      <FaRegHeart color="#2e3190" size={16} />
-                    </div>
                     <div className="rounded-xl bg-opacity-5 absolute w-full h-full py-6">
                       <div className="flex h-full items-end  relative ">
                         <div className="text-sm gap-3  text-center font-lato flex items-center justify-center font-semibold absolute py-1 px-4  mx-4 rounded-xl bg-gray-800 bg-opacity-50 w-fit leading-5 lg:leading-7 text-white">
