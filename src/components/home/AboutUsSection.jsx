@@ -3,7 +3,7 @@ import Button from "../global/Button";
 
 const AboutUsSection = () => {
   return (
-    <section className="w-full  bg-red-200">
+    <section className="w-full my-20 bg-red-200">
       <div className=" max-w-7xl gap-5  mx-auto pt-10 bg-red-200 px-2 flex md:flex-row flex-col items-center justify-center md:justify-between">
         <div className="flex md:w-1/2 relative w-full md:px-0 px-5 pb-20 flex-col gap-5">
           <div className="   absolute  md:bottom-[70px] bottom-14 right-0   md:w-1/2  ">

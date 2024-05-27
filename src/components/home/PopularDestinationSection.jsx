@@ -23,7 +23,7 @@ const VideoPlayer = ({ src }) => {
     <div className="lg:w-1/2  relative w-full lg:h-[700px] md:h-[500px] h-[300px]">
       <video
         id="videoPlayer"
-        className="lg:h-[800px] object-cover md:h-[500px] h-[300px] w-full"
+        className="lg:h-[800px] lg:rounded-r-2xl object-cover md:h-[500px] h-[300px] w-full"
         src={src}
         autoPlay
         loop
@@ -108,8 +108,11 @@ const PopularDestinationSection = () => {
       <h1 className=" md:text-5xl text-2xl text-center pb-10">
         Popular Destination
       </h1>
-      <div className="flex lg:flex-row flex-col relative w-full">
-        <VideoPlayer src="https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4" />
+      <div className="flex rounded-2xl lg:flex-row flex-col relative w-full">
+        <VideoPlayer
+          src="https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4"
+          className="rounded-2xl"
+        />
         <div className="lg:w-1/2 w-full bg-red-100 px-8 py-5 flex gap-5 flex-col">
           <h1 className="text-2xl font-semibold ">Place Name</h1>
           <p>

@@ -31,6 +31,7 @@ export default function Home() {
       <HeroSectionCarousel />
       <DomesticCarousel />
       <InternationalCarousel />
+      <AttractivePlannerCarousel />
       <AboutUsSection />
       <PopularCarousel />
       <TrendingCarousel />

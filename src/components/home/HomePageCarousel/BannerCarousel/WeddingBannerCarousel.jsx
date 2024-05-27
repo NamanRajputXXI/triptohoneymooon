@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 
 const WeddingBannerCarousel = () => {
   return (
-    <div className="h-44  px-3 pt-3 pb-5 bg-white">
+    <div className="h-44 rounded-2xl px-3 pt-3 pb-5 bg-white">
       <Swiper
         className="h-full"
         spaceBetween={4}
@@ -16,7 +16,7 @@ const WeddingBannerCarousel = () => {
         loop={true}
       >
         <SwiperSlide>
-          <div className="swiper-slide flex justify-center items-center">
+          <div className="swiper-slide rounded-2xl flex justify-center items-center">
             <img
               src="https://images.unsplash.com/photo-1566953484261-e8a30188ad75?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGJlYXV0aWZ1bCUyMHBsYWNlfGVufDB8MHwwfHx8MA%3D%3D"
               className="w-full rounded-2xl object-cover h-36"

@@ -5,8 +5,8 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="relative md:mt-20 mt-10 h-fit  md:py-20 w-full bg-red-900">
-      <div className="absolute h-full w-full  inset-0 bg-black bg-opacity-60"></div>
-      <div className="grid max-w-7xl gap-8 mx-auto relative z-10 font-medium  lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start text-white justify-center p-10">
+      <div className="absolute h-full w-full inset-0 bg-black bg-opacity-60"></div>
+      <div className="grid max-w-7xl lg:gap-8  gap-10 mx-auto relative z-10 font-medium    lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start text-white justify-center p-10">
         <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-3">
             <h1 className="text-xl font-semibold">Policy</h1>
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col    gap-10">
+        <div className="flex flex-col gap-10">
           <div className="flex flex-col gap-3">
             <h1 className="text-xl  font-semibold">Follow Us on</h1>
             <div className="flex items-center gap-3">
@@ -58,13 +58,13 @@ const Footer = () => {
                 omnis, a cum amet sed officia dolorem atque quibusdam
                 dignissimos cupiditate.
               </p>
-              <div className="flex items-center gap-2">
+              <div className="flex sm:flex-row flex-col sm:items-center gap-2">
                 <input
                   type="text"
                   placeholder="Email"
-                  className="px-5 py-2 placeholder:text-white bg-gray-400 text-white flex items-center  rounded-xl"
+                  className="px-5 py-2 placeholder:text-white sm:w-auto w-64  bg-gray-400 text-white flex items-center  rounded-xl"
                 />
-                <button className="flex items-center justify-center px-5 py-2 text-black bg-white rounded-xl">
+                <button className="flex sm:w-auto w-32 items-center justify-center px-5 py-2 text-black bg-white rounded-xl">
                   send
                 </button>
               </div>
@@ -72,7 +72,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <div className="max-w-7xl md:pb-0 pb-10 mt-5 md:flex-row flex-col gap-5 px-5 relative z-10 text-gray-400 mx-auto flex items-center justify-between">
         <p>@Triptohoneymoon 2024 All Rights Reserved</p>
       </div>

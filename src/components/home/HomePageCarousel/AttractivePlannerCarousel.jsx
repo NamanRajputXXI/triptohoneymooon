@@ -93,7 +93,7 @@ const AttractivePlannerCarousel = () => {
             <button
               aria-label="Previous slide"
               onClick={handlePrevSlide}
-              className="rounded-full border flex justify-center  items-center bg-[#ED9122] border-red-[#ED9122] p-3 text-rose-600 transition  hover:text-white"
+              className="rounded-full border flex justify-center  items-center bg-gray-500 p-3 text-rose-600 transition  hover:text-white"
             >
               <span className="inline-block h-5 w-5">
                 <svg
@@ -112,7 +112,7 @@ const AttractivePlannerCarousel = () => {
             <button
               aria-label="Next slide"
               onClick={handleNextSlide}
-              className="rounded-full border bg-[#ED9122] border-[#ED9122] p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
+              className="rounded-full  bg-gray-500  p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
             >
               <span className="inline-block h-5 w-5">
                 <svg
@@ -137,17 +137,17 @@ const AttractivePlannerCarousel = () => {
               <Link href={item.link} key={i}>
                 <div className="keen-slider__slide" key={i}>
                   <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                    <div className="flex pl-4 py-3 items-center w-full h-72 bg-red-800 justify-between">
-                      <div className="flex w-1/2 text-white flex-col  justify-center gap-3">
-                        <p>Company Name</p>
-                        <p className="text-xl">Wedding Planner</p>
-                        <button className="px-8  py-2 w-48 flex items-center justify-center bg-yellow-600 rounded-lg">
+                    <div className="flex sm:pl-4  pl-0  sm:gap-0 gap-5 sm:flex-row flex-col items-center w-full h-72 bg-red-900 justify-between">
+                      <div className="flex sm:w-1/2 w-full p-4 text-white flex-col  justify-center gap-3">
+                        <p className="text-sm">Company Name</p>
+                        <p className="sm:text-2xl text-xl">Wedding Planner</p>
+                        <button className="sm:px-8 px-4 py-1  sm:py-2 sm:w-36 w-28 flex items-center text-black justify-center bg-red-200 rounded-lg">
                           Book Now
                         </button>
                       </div>
-                      <div className="w-1/2 py-4">
+                      <div className="sm:w-1/2  w-full  h-full">
                         <img
-                          className="w-full"
+                          className="w-full h-full object-cover"
                           src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VkZGluZ3xlbnwwfDF8MHx8fDA%3D"
                           alt=""
                         />
