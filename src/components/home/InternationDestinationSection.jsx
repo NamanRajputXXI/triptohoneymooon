@@ -78,9 +78,9 @@ const InternationDestinationSection = () => {
   };
 
   return (
-    <section className="bg-red-100 md:flex-row flex-col flex gap-5 h-fit w-full  py-10 sm:py-20">
+    <section className="bg-red-100 md:flex-row flex-col flex md:gap-5 h-fit w-full  py-10 sm:py-20">
       <div className="flex relative md:w-2/3 w-full justify-between md:rounded-r-2xl gap-10 flex-col h-fit py-10  bg-[url('https://images.unsplash.com/photo-1497256654106-4a29efafb831?q=80&w=1799&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center ">
-        <div className="absolute inset-0 h-full w-full bg-black bg-opacity-40"></div>
+        <div className="absolute inset-0 md:rounded-r-2xl h-full w-full bg-black bg-opacity-40"></div>
         <div className="flex gap-10">
           <div className=" relative w-1/2 md:gap-10 gap-5 px-6 md:px-0 md:pl-10 z-10 flex flex-col text-white ">
             <h1 className="text-white text-4xl md:text-7xl font-bold">
@@ -137,6 +137,13 @@ const InternationDestinationSection = () => {
                         alt={item.title}
                         className="w-full h-[300px]  lg:h-[250px] xl:h-[300px]"
                       />
+                      <div className=" rounded-xl bg-opacity-5 absolute w-full h-full py-3">
+                        <div className="flex h-full items-end  relative pb-6">
+                          <h3 className="text-xl lg:text-2xl text-center flex items-center justify-center font-semibold absolute h-12 bg-black bg-opacity-50 w-full leading-5 lg:leading-7 text-white">
+                            {item.destination}
+                          </h3>
+                        </div>
+                      </div>
                     </div>
                   </Link>
                 </div>
