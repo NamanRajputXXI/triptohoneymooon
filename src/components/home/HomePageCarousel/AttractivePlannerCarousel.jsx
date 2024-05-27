@@ -84,7 +84,7 @@ const AttractivePlannerCarousel = () => {
   };
   return (
     <section className="">
-      <div className="mx-auto max-w-[1340px] px-4 my-20 sm:px-6    lg:ps-8 ">
+      <div className="mx-auto max-w-[1340px] px-4 my-10 sm:my-20 sm:px-6    lg:ps-8 ">
         <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
           <h1 className="text-center   md:text-5xl text-2xl  ">
             Attractive Planner
@@ -136,8 +136,8 @@ const AttractivePlannerCarousel = () => {
             {plannerBanners.map((item, i) => (
               <Link href={item.link} key={i}>
                 <div className="keen-slider__slide" key={i}>
-                  <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                    <div className="flex sm:pl-4  pl-0  sm:gap-0 gap-5 sm:flex-row flex-col items-center w-full h-72 bg-red-900 justify-between">
+                  <div className="flex flex-shrink-0 rounded-2xl relative w-full sm:w-auto">
+                    <div className="flex rounded-2xl sm:pl-4  pl-0  sm:gap-0 gap-5 sm:flex-row flex-col items-center w-full h-72 bg-red-900 justify-between">
                       <div className="flex sm:w-1/2 w-full p-4 text-white flex-col  justify-center gap-3">
                         <p className="text-sm">Company Name</p>
                         <p className="sm:text-2xl text-xl">Wedding Planner</p>
@@ -147,7 +147,7 @@ const AttractivePlannerCarousel = () => {
                       </div>
                       <div className="sm:w-1/2  w-full  h-full">
                         <img
-                          className="w-full h-full object-cover"
+                          className="w-full h-full rounded-r-2xl object-cover"
                           src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VkZGluZ3xlbnwwfDF8MHx8fDA%3D"
                           alt=""
                         />
