@@ -121,13 +121,12 @@ const PopularDestinationSection = () => {
           className="rounded-2xl"
         />
         <div className="lg:w-1/2 w-full bg-red-100 px-8 py-5 flex gap-5 flex-col">
-          <h1 className="text-2xl font-semibold ">Place Name</h1>
+          <h1 className="text-2xl font-semibold ">Exlore Kashmir</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet
-            voluptatum dolore et
+            Romantic Kashmir: Unforgettable Honeymoon Getaway in the Himalayas
           </p>
           <p className="flex items-center gap-2 font-semibold text-xl">
-            4000.00 <span className="text-red-600">Per head</span>
+            8000 <span className="text-red-600">Per head</span>
           </p>
           <div className="flex items-center gap-5">
             <Button btnText={"Book Now"} />

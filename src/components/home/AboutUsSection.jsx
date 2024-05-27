@@ -15,11 +15,12 @@ const AboutUsSection = () => {
           </div>
           <h1 className="sm:text-5xl text-3xl font-semibold">About us</h1>
           <p className="lg:text-lg text-base leading-6 text-gray-500 tracking-wide">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
-            in temporibus vel corrupti. Iste temporibus animi et non at, dolor
-            modi maiores quaerat facilis iusto autem numquam illo expedita
-            molestias dolorem consequatur voluptas sint dolore similique, hic
-            fugiat sunt. Quidem.
+            TriptoHoneymoon.com offers exclusive honeymoon packages for couples
+            and promotes top wedding and event planners. We ensure unforgettable
+            experiences, tailored to your desires. Discover romance and
+            celebration with our expert team dedicated to crafting the perfect
+            honeymoon journey and connecting you with the best event
+            professionals.
           </p>
           <Button className="w-1/2" btnText={"Know More"} />
         </div>

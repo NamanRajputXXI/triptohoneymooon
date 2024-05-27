@@ -39,10 +39,16 @@ const Footer = () => {
           <div className="flex flex-col gap-3">
             <h1 className="text-xl  font-semibold">Follow Us on</h1>
             <div className="flex items-center gap-3">
-              <Link href={"ab"}>
+              <Link
+                href={
+                  "https://www.facebook.com/people/Trip-to-Honeymoon/61551720045200/"
+                }
+              >
                 <FaFacebook size={30} color="#1877F2" />
               </Link>
-              <Link href={"ab"}>
+              <Link
+                href={"https://www.instagram.com/triptohoneymoon_official/"}
+              >
                 <FaInstagram size={30} color="#FCAF45" />
               </Link>
               <Link href={"ab"}>

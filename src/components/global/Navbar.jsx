@@ -25,7 +25,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="flex bg-white font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full  pt-4">
+    <section className="flex bg-white font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full  py-4">
       <nav
         className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
         aria-label="Global"

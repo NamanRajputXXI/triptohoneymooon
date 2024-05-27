@@ -89,9 +89,9 @@ const InternationDestinationSection = () => {
             <div className="flex w-full relative gap-5">
               <div className="flex flex-col w-full gap-10">
                 <p className="md:w-[400px] w-[280px] ">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                  dicta nesciunt totam, sunt saepe corporis veniam illum dolor
-                  accusamus et.
+                  Explore breathtaking honeymoon destinations. Create
+                  unforgettable memories with tailored packages for romantic
+                  getaways.
                 </p>
                 <Button btnText={"Explore Now >>"} />
               </div>

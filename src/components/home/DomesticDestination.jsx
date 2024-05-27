@@ -15,10 +15,13 @@ const DomesticDestinationSection = () => {
         </div>
         <div className="bg-red-300 md:rounded-tr-2xl rounded-tr-[0]  py-5 px-5 md:px-10 w-full md:h-72 h-fit flex items-center justify-center ">
           <div className="w-full  flex gap-5 flex-col">
-            <h1 className="text-2xl font-semibold ">Place Name</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1 className="text-2xl font-semibold ">Romantic Goa</h1>
+            <p>
+              Experience the perfect beach honeymoon with stunning sunsets and
+              vibrant nightlife.
+            </p>
             <p className="flex items-center  gap-2  text-xl">
-              4000.00 <span className="text-red-600">Per head</span>
+              6000.00 <span className="text-red-600">Per head</span>
             </p>
             <div className="flex items-center gap-5">
               <Button btnText={"Book Now"} />
@@ -28,10 +31,13 @@ const DomesticDestinationSection = () => {
 
         <div className="bg-red-300 rounded-bl-2xl md:bl-[0] rounded-br-2xl md:rounded-br-[0] py-5 md:order-4 order-4 px-5 md:px-10 w-full md:h-72 h-fit  flex items-center justify-center ">
           <div className="w-full  flex gap-5 flex-col">
-            <h1 className="text-2xl font-semibold ">Place Name</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h1 className="text-2xl font-semibold ">Serene Kerala</h1>
+            <p>
+              Discover backwaters, lush landscapes, and romantic houseboat
+              experiences in God Own Country.
+            </p>
             <p className="flex m items-center gap-2 font-semibold text-xl">
-              4000.00 <span className="text-red-600">Per head</span>
+              8000.00 <span className="text-red-600">Per head</span>
             </p>
             <div className="flex items-center gap-5">
               <Button btnText={"Book Now"} />

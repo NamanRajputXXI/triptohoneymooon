@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <WeddingBannerCarousel />
+      {/* <WeddingBannerCarousel /> */}
       <HeroSection />
       <HeroSectionCarousel />
       <DomesticCarousel />
