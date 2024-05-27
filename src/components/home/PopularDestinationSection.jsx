@@ -83,13 +83,20 @@ const PopularDestinationSection = () => {
               spacing: 12,
             },
           },
+          "(min-width: 1624px)": {
+            slides: {
+              origin: "auto",
+              perView: 3, // Show 4 reviews on screens >= 1024px
+              spacing: 12,
+            },
+          },
         },
       });
     }
   }, []);
 
   return (
-    <section className="w-full flex-col h-fit py-10 relative  md:py-20    mx-auto bg-red-100 ">
+    <section className="w-full flex-col  h-fit py-10 relative  md:py-20    mx-auto bg-red-100 ">
       <div className="   absolute md:top-10 -top-3 z-10  sm:right-3  right-1  ">
         <img
           src="/heroSectionImages/hearts.png"
@@ -130,7 +137,7 @@ const PopularDestinationSection = () => {
           </div>
         </div>
         <div className="lg:absolute z-10  lg:-bottom-28 lg:right-0">
-          <div className="mx-auto my-20 xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6     lg:ps-8 ">
+          <div className="mx-auto my-20 popular-destination-carousel 2xl:max-w-[1150px] xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6     lg:ps-8 ">
             <div className=" mt-8 z-10 lg:col-span-2 px-3 lg:mx-0">
               <div
                 ref={sliderContainer}
