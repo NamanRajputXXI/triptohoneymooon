@@ -104,8 +104,11 @@ const Navbar = () => {
             >
               International
             </Link>
-            <Link href="/blog" className={getLinkClass("/blog")}>
+            {/* <Link href="/blog" className={getLinkClass("/blog")}>
               Blogs
+            </Link> */}
+            <Link href="/contact" className={getLinkClass("/contact")}>
+              Contact
             </Link>
             <Link
               href="/giftAnExperience"
