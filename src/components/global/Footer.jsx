@@ -60,9 +60,8 @@ const Footer = () => {
             <h1 className="text-xl  font-semibold">Sign Up</h1>
             <div className="flex  flex-col gap-3">
               <p className="">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
-                omnis, a cum amet sed officia dolorem atque quibusdam
-                dignissimos cupiditate.
+                Sign up to receive exclusive offers on honeymoon packages,
+                updates on romantic destinations, and tips for planning.
               </p>
               <div className="flex sm:flex-row flex-col sm:items-center gap-2">
                 <input
