@@ -83,7 +83,7 @@ const InternationDestinationSection = () => {
         <div className="absolute inset-0 md:rounded-r-2xl h-full w-full bg-black bg-opacity-40"></div>
         <div className="flex gap-10">
           <div className=" relative w-1/2 md:gap-10 gap-5 px-6 md:px-0 md:pl-10 z-10 flex flex-col text-white ">
-            <h1 className="text-white text-4xl md:text-7xl font-bold">
+            <h1 className="text-white text-4xl md:text-7xl  font-bold">
               Majestic Destinations
             </h1>
             <div className="flex w-full relative gap-5">
@@ -135,7 +135,7 @@ const InternationDestinationSection = () => {
                       <CarouselImage
                         src={item.imageUrl}
                         alt={item.title}
-                        className="w-full h-[300px]  lg:h-[250px] xl:h-[300px]"
+                        className="w-full h-[300px]  lg:h-[300px]"
                       />
                       <div className=" rounded-xl bg-opacity-5 absolute w-full h-full py-3">
                         <div className="flex h-full items-end  relative pb-6">
@@ -152,7 +152,7 @@ const InternationDestinationSection = () => {
           </div>
         </div>
       </div>
-      <div className="flex md:gap-10 px-5 md:px-10 md:py-10 py-5 md:rounded-l-2xl flex-col md:w-1/3 w-full h-full gap-5  md:h-[760px] bg-red-900 justify-center">
+      <div className="flex md:gap-10 px-5 md:px-10 md:py-10 py-5 md:rounded-l-2xl flex-col md:w-1/3 w-full h-full gap-5 3xl:h-[685px]  md:h-[760px] bg-red-900 justify-center">
         <div className="flex  w-full text-white flex-col justify-center gap-10">
           <p className="text-xl">Company Name</p>
           <p className="sm:text-4xl font-medium text-2xl">Event Planner</p>
