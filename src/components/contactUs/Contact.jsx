@@ -49,7 +49,7 @@ const Contact = () => {
                   <IoLocationOutline color="#00BB98" size={50} />
                 </div>
                 <p className="text-base text-gray-500">
-                  34,Sewak park(1st floor), Dwarka more metro,Near metro <br />{" "}
+                  34,Sewak park(1st floor), Dwarka more metro,Near metro <br />
                   piller no-772 New Delhi-110059.
                 </p>
               </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                 <div className="flex flex-col gap-4 ">
                   <p className="text-base">Email Us</p>
                   <p className="text-base text-gray-500">
-                    info@admireholidays.com
+                    info@triptohoneymoon.com
                   </p>
                 </div>
               </div>

@@ -5,7 +5,7 @@ const AboutUs = () => {
     <section className="max-w-7xl my-20  mx-auto px-8 flex flex-col gap-20">
       <div className="flex flex-col gap-10 mb-10">
         <h1 className="text-center md:text-4xl text-2xl  font-bold">
-          About Admire Holidays
+          About Triptohoneymoon
         </h1>
         <p>
           TriptoHoneymoon.com specializes in creating unforgettable honeymoon
