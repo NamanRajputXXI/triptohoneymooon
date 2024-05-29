@@ -18,6 +18,16 @@ module.exports = {
         Lato: ["Lato", "sans-serif"],
       },
     },
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+      "3xl": "2060px", // Add this line
+      "4xl": "2576px",
+      "5xl": "3000px",
+    },
   },
   plugins: [],
 };

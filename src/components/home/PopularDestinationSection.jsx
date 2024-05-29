@@ -125,18 +125,17 @@ const PopularDestinationSection = () => {
           <p>
             Romantic Kashmir: Unforgettable Honeymoon Getaway in the Himalayas
           </p>
-          <p className="flex items-center gap-2 font-semibold text-xl">
-            8000 <span className="text-red-600">Per head</span>
-          </p>
-          <div className="flex items-center gap-5">
+          <ul className="list-disc px-5 text-gray-800">
+            <li>Candle Night Dinner</li>
+            <li>Free Ride</li>
+            <li>Flower Decoration</li>
+          </ul>
+          <div className="flex  items-center gap-5">
             <Button btnText={"Book Now"} />
-            <button className="border-2 text-black font-semibold border-red-600 sm:py-2 py-1 px-4 rounded-xl flex justify-center items-center">
-              Know More
-            </button>
           </div>
         </div>
         <div className="lg:absolute z-10  lg:-bottom-28 lg:right-0">
-          <div className="mx-auto my-20 popular-destination-carousel 2xl:max-w-[1150px] xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6     lg:ps-8 ">
+          <div className="mx-auto my-20 popular-destination-carousel 5xl:max-w-[1800px] 4xl:max-w-[1660px] 3xl:max-w-[1440px] 2xl:max-w-[1150px] xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6 lg:ps-8 ">
             <div className=" mt-8 z-10 lg:col-span-2 px-3 lg:mx-0">
               <div
                 ref={sliderContainer}
