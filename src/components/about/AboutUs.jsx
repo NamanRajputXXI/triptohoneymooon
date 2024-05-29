@@ -74,7 +74,7 @@ const AboutUs = () => {
           </p>
         </div>
         <img
-          src="aboutUsImages/mission.jpeg"
+          src="aboutUsImages/mission.png"
           className="lg:w-[500px] md:w-[350px]"
           alt=""
         />
