@@ -31,7 +31,7 @@ const CompanyStatsSection = () => {
             key={i}
           >
             <div
-              className="px-8 py-6 flex justify-center items-center bg-gray-800 bg-opacity-20 transform hover:scale-110 transition-transform duration-300"
+              className="px-8 py-6 flex justify-center items-center bg-gray-500 bg-opacity-20 transform hover:scale-110 transition-transform duration-300"
               style={{
                 clipPath:
                   "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",

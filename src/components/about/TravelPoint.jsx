@@ -15,9 +15,9 @@ const TravelPoint = () => {
           </div>
         </div>
         <div className="flex flex-col gap-8 px-3">
-          <h5 className="text-red-600 font-bold text-3xl">TRAVEL POINT</h5>
+          <h5 className="text-red-600 font-bold text-3xl">Travel Point</h5>
           <p className="text-4xl font-bold">
-            WE HELPING YOU FIND YOUR DREAM LOCATION
+            We Helping You Find Your Dream Location
           </p>
           {/* <div className="flex items-center gap-2 text-xl px-5 py-3 bg-white rounded-2xl w-fit font-medium">
             <MdOutlineDiscount size={30} color="#ef4444" /> Discount Price
