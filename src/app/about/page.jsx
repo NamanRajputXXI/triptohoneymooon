@@ -1,5 +1,6 @@
 import AboutUs from "@/components/about/AboutUs";
 import KeyFeatures from "@/components/about/KeyFeatures";
+import NewsLetter from "@/components/about/NewsLetter";
 import OurServices from "@/components/about/OurServices";
 import TravelPoint from "@/components/about/TravelPoint";
 import CompanyStatsSection from "@/components/global/CompanyStatsSection";
@@ -16,6 +17,7 @@ const page = () => {
       <TravelPoint />
       <KeyFeatures />
       <CompanyStatsSection />
+      <NewsLetter />
       <Footer />
     </>
   );
