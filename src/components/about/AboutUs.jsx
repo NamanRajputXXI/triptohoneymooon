@@ -3,7 +3,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="max-w-7xl my-20  mx-auto px-8 flex flex-col gap-20">
-      <div className="flex flex-col gap-10 mb-10">
+      {/* <div className="flex flex-col gap-10 mb-10">
         <h1 className="text-center md:text-4xl text-2xl  font-bold">
           About Triptohoneymoon
         </h1>
@@ -58,7 +58,7 @@ const AboutUs = () => {
             memories, one romantic destination at a time.
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="flex justify-center  md:flex-row flex-col items-center gap-8">
         <div className="flex flex-col gap-8">
           <h1 className="md:text-4xl text-2xl text-red-700 font-bold">

@@ -25,11 +25,8 @@ import OurServicesCarousel from "./OurServicesCarousel";
 const OurServices = () => {
   return (
     <section className="my-20">
-      <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row lg:items-start lg:justify-end gap-5">
+      <div className="max-w-[1350px] mx-auto flex flex-col lg:flex-row lg:items-center lg:justify-end gap-5">
         <div className="flex flex-col w-full lg:w-1/3 gap-5 sm:px-8 px-5 ">
-          <h1 className="md:text-4xl text-2xl font-bold  text-red-700">
-            Services
-          </h1>
           <p className="md:text-5xl text-3xl  font-bold">
             Our top value category for you
           </p>
