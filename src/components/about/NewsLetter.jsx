@@ -2,7 +2,7 @@ import React from "react";
 
 const NewsLetter = () => {
   return (
-    <section className="sm:my-20 my-10">
+    <section className="sm:py-20 py-10">
       <div className="max-w-7xl gap-10 mx-auto px-6 flex flex-col ">
         <h5 className="text-red-600 text-center font-bold text-2xl sm:text-3xl">
           Subscribe To Our News Letter

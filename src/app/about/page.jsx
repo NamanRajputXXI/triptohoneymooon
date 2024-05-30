@@ -6,6 +6,7 @@ import TravelPoint from "@/components/about/TravelPoint";
 import CompanyStatsSection from "@/components/global/CompanyStatsSection";
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
+import Testimonial from "@/components/global/Testimonial";
 import React from "react";
 
 const page = () => {
@@ -18,6 +19,7 @@ const page = () => {
       <KeyFeatures />
       <CompanyStatsSection />
       <NewsLetter />
+      <Testimonial />
       <Footer />
     </>
   );
