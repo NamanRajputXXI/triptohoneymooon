@@ -1,4 +1,5 @@
 import GiftExpHero from "@/components/gift/GiftExpHero";
+import Gifts from "@/components/gift/Gifts";
 import HowItWorks from "@/components/gift/HowItWorks";
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
@@ -10,6 +11,7 @@ const page = () => {
       <Navbar />
       <GiftExpHero />
       <HowItWorks />
+      <Gifts />
       <Footer />
     </>
   );

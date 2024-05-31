@@ -5,13 +5,13 @@ const GiftExpHero = () => {
   return (
     <section className="sm:my-20 px-5 my-10">
       <div
-        className="flex max-w-7xl p-10 items-center mx-auto h-[600px] rounded-3xl py-10 bg-cover bg-center "
+        className="flex max-w-7xl sm:px-10 px-5 items-center mx-auto h-[450px] sm:h-[600px] rounded-3xl sm:py-10 p-5 bg-cover bg-center "
         style={{
           backgroundImage: "url('./giftherobg.png')",
         }}
       >
-        <div className="flex rounded-2xl gap-8 w-[470px] flex-col h-fit bg-white p-10">
-          <h1 className="text-4xl font-bold leading-10">
+        <div className="flex rounded-2xl gap-8 w-[470px] flex-col h-fit bg-white p-5 sm:p-10">
+          <h1 className="sm:text-4xl text-3xl font-bold leading-10">
             Let them <span className="text-red-600">choose</span> <br /> their
             favorites
           </h1>

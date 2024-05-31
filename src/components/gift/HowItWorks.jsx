@@ -23,8 +23,8 @@ const HowItWorks = () => {
             </p>
             <div className="lg:flex hidden -right-[75px] top-24  absolute">
               <img
-                src="https://cdn.pixabay.com/photo/2014/03/25/16/59/right-297788_1280.png"
-                className="w-16  h-16"
+                src="https://cdn.pixabay.com/photo/2016/06/04/09/32/arrow-1435215_640.png"
+                className="w-16 -rotate-90  h-16"
                 alt=""
               />
             </div>
@@ -48,8 +48,8 @@ const HowItWorks = () => {
             </p>
             <div className="lg:flex hidden -right-[75px] top-24  absolute">
               <img
-                src="https://cdn.pixabay.com/photo/2014/03/25/16/59/right-297788_1280.png"
-                className="w-16 h-16"
+                src="https://cdn.pixabay.com/photo/2016/06/04/09/32/arrow-1435215_640.png"
+                className="w-16 h-16 -rotate-90"
                 alt=""
               />
             </div>
