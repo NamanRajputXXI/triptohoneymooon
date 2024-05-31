@@ -59,8 +59,8 @@ const TestimonialSlider = () => {
   };
   return (
     <>
-      <section className=" pb-20 sm:pb-10 ">
-        <div className="mx-auto relative  max-w-[1340px] px-5 sm:px-6     lg:ps-8 ">
+      <section className=" pb-10 ">
+        <div className="mx-auto relative  max-w-[1340px] px-5 sm:px-6 lg:ps-8 ">
           <div className="max-w-7xl relative hidden z-50 sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
             <button
               aria-label="Previous slide"
@@ -106,7 +106,7 @@ const TestimonialSlider = () => {
             <div ref={sliderContainer} className="keen-slider">
               {domesticCarouselData.map((item, i) => (
                 <div className="keen-slider__slide" key={i}>
-                  <div className="flex flex-shrink-0 relative h-fit py-16  bg-white rounded-2xl w-auto">
+                  <div className="flex flex-shrink-0 relative h-fit md:py-16 py-5  bg-white rounded-2xl w-auto">
                     <div className="flex w-full px-6 flex-col items-center   gap-5 h-full">
                       <img
                         src="https://cdn.pixabay.com/photo/2024/02/15/13/52/students-8575444_640.png"

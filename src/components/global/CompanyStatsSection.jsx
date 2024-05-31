@@ -18,7 +18,7 @@ const CompanyStatsSection = () => {
 
   return (
     <section
-      className="bg-[#155146] bg-cover my-20 bg-center h-fit py-20"
+      className="bg-[#155146] bg-cover md:my-20 my-10 bg-center h-fit  py-20"
       style={{
         backgroundImage: "url('cmpnstats.jpg')",
       }}

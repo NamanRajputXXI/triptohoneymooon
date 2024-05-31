@@ -18,8 +18,8 @@ const page = () => {
       <TravelPoint />
       <KeyFeatures />
       <CompanyStatsSection />
-      <NewsLetter />
       <Testimonial />
+      <NewsLetter />
       <Footer />
     </>
   );
