@@ -3,7 +3,7 @@ import Button from "../global/Button";
 
 const Gifts = () => {
   return (
-    <section className="">
+    <section className=" relative">
       <div className="max-w-7xl gap-10 items-center justify-between mx-auto md:p-10 p-5 grid grid-cols-1 md:grid-cols-2">
         <div className="w-full">
           <img

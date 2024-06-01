@@ -26,7 +26,7 @@ const Review = () => {
         <div>
           <img
             src="giftReviewImage.png "
-            className="object-cover object-center"
+            className="object-cover sm:h-auto h-[200px] object-center"
             alt=""
           />
         </div>

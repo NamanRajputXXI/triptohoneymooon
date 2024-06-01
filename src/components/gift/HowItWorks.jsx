@@ -2,8 +2,16 @@ import React from "react";
 
 const HowItWorks = () => {
   return (
-    <section className="sm:py-20 py-10">
+    <section className="sm:py-20 relative py-10">
+      <div className="absolute sm:-top-10 top-0">
+        <img
+          src="./handGift.png"
+          alt=""
+          className=" md:w-80 md:h-80 sm:w-60 w-32 h-32 object-cover object-center z-[100] sm:h-40"
+        />
+      </div>
       <div className="max-w-7xl px-5 md:gap-8 gap-4 flex-col items-center mx-auto h-fit flex">
+        <div className="relative"></div>
         <h5 className="text-red-600 font-bold text-xl md:text-2xl">
           Buy a Gift Card
         </h5>
