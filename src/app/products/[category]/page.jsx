@@ -89,6 +89,11 @@ const Page = async ({ params }) => {
             <div key={index}>
               <Link href={`/products/${params.category}/${destination._id}`}>
                 {destination.heading}
+                <img
+                  className="h-40 w-40 object-cover object-center"
+                  src={destination.imageUrl}
+                  alt=""
+                />
               </Link>
             </div>
           ))}
