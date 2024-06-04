@@ -1,11 +1,13 @@
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
-import React from "react";
+import ImagesGridLayout from "@/components/product/ImagesGridLayout";
+import LeftSideSection from "@/components/product/LeftSideSection";
+import RightSideSection from "@/components/product/RightSideSection";
 
 export const getProductData = async ({ params }) => {
   try {
     const response = await fetch(
-      `http://localhost:3000/api/${params.category}/${params.id}`,
+      `http://localhost:3002/api/${params.category}/${params.id}`,
       {
         cache: "no-store",
       }
@@ -39,16 +41,27 @@ const Page = async ({ params }) => {
     );
   }
 
-  const { heading, carouselImageUrl } = singleProductData.document;
+  const {
+    heading,
+    subHeading,
+    carouselImageUrl,
+    mapSrc,
+    packageOptions,
+    exclusions,
+    inclusions,
+    itinerary,
+    overView,
+    duration,
+    imageUrl,
+  } = singleProductData.document;
 
   return (
     <div>
       <Navbar />
-      <div>
-        <h1 className="text-4xl font-bold">{heading}</h1>
-        {carouselImageUrl.map((img, i) => (
-          <img src={img} alt={`Carousel Image ${i + 1}`} key={i} />
-        ))}
+      <ImagesGridLayout carouselImageUrl={carouselImageUrl} />
+      <div className="grid grid-cols-3 px-5 max-w-7xl mx-auto py-4">
+        <LeftSideSection heading={heading} duration={duration} />
+        <RightSideSection />
       </div>
       <Footer />
     </div>
