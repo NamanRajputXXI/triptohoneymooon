@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Accordion = () => {
+const AccordionContent = () => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const handleAccordionClick = (index) => {
@@ -9,7 +9,7 @@ const Accordion = () => {
 
   const accordionData = [
     {
-      title: "Accordion Item 1",
+      title: "More on Switzerland Tourism",
       content: "This is the content for Accordion Item 1.",
     },
     {
@@ -68,4 +68,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default AccordionContent;

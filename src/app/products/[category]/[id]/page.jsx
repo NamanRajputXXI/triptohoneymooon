@@ -1,6 +1,7 @@
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
+import InclusionExclusion from "@/components/product/left/InclusionExclusion";
 import LeftSideSection from "@/components/product/left/LeftSideSection";
 import RightSideSection from "@/components/product/RightSideSection";
 
@@ -64,9 +65,12 @@ const Page = async ({ params }) => {
           overView={overView}
           heading={heading}
           duration={duration}
+          itinerary={itinerary}
         />
         <RightSideSection />
       </div>
+      <InclusionExclusion inclusions={inclusions} exclusions={exclusions} />
+
       <Footer />
     </div>
   );

@@ -5,7 +5,9 @@ import { FaPlateWheat } from "react-icons/fa6";
 import { BsFillBalloonHeartFill } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
 import Tabs from "./Tabs";
-const LeftSideSection = ({ heading, duration, overView }) => {
+import Accordian from "./Accordian";
+import InclusionExclusion from "./InclusionExclusion";
+const LeftSideSection = ({ heading, duration, overView, itinerary }) => {
   return (
     <div className="md:col-span-2">
       <div className="flex flex-col gap-5">
@@ -13,7 +15,7 @@ const LeftSideSection = ({ heading, duration, overView }) => {
         <button className="py-2 px-1 w-40 bg-[#cf331a] text-white rounded-xl">
           {duration}
         </button>
-        <div className="flex flex-row justify-between border-t-[1px] py-5 border-gray-400">
+        <div className="flex flex-row justify-between border-t-[1px] border-b-[1px] py-5 border-gray-300">
           <div className="flex flex-row text-gray-500 items-center gap-3">
             <FaBed size={30} />
             <p>Stay Included</p>
@@ -57,6 +59,7 @@ const LeftSideSection = ({ heading, duration, overView }) => {
           ))}
         </div>
         <Tabs />
+        <Accordian itinerary={itinerary} />
       </div>
     </div>
   );
