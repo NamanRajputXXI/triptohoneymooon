@@ -1,7 +1,7 @@
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
-import LeftSideSection from "@/components/product/LeftSideSection";
+import LeftSideSection from "@/components/product/left/LeftSideSection";
 import RightSideSection from "@/components/product/RightSideSection";
 
 export const getProductData = async ({ params }) => {
@@ -56,11 +56,15 @@ const Page = async ({ params }) => {
   } = singleProductData.document;
 
   return (
-    <div>
+    <div className="bg-red-50">
       <Navbar />
       <ImagesGridLayout carouselImageUrl={carouselImageUrl} />
-      <div className="grid grid-cols-3 px-5 max-w-7xl mx-auto py-4">
-        <LeftSideSection heading={heading} duration={duration} />
+      <div className="grid md:grid-cols-3 grid-cols-1 px-5 max-w-7xl mx-auto gap-5 py-4">
+        <LeftSideSection
+          overView={overView}
+          heading={heading}
+          duration={duration}
+        />
         <RightSideSection />
       </div>
       <Footer />
