@@ -1,9 +1,11 @@
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
 import AccordionItem from "@/components/product/AccordianItem";
+import AdditionalInfo from "@/components/product/AdditionalInfo";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
 import InclusionExclusion from "@/components/product/left/InclusionExclusion";
 import LeftSideSection from "@/components/product/left/LeftSideSection";
+import Reviews from "@/components/product/Reviews";
 import RightSideSection from "@/components/product/RightSideSection";
 import cancellationPolicy from "@/data/productPageData/cancellationPolicy";
 
@@ -84,6 +86,9 @@ const Page = async ({ params }) => {
           content={cancellationPolicy}
           title={"Know Befor You Go"}
         />
+        <AdditionalInfo />
+        <Reviews />
+
         <AccordionItem
           content={cancellationPolicy}
           title={"Cancellation Policy"}
@@ -98,6 +103,7 @@ const Page = async ({ params }) => {
           title={"Payment Term Policy"}
         />
       </div>
+
       <Footer />
     </div>
   );
