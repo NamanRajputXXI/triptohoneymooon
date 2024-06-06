@@ -5,7 +5,7 @@ import { FaPlateWheat } from "react-icons/fa6";
 import { BsFillBalloonHeartFill } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
 import Tabs from "./Tabs";
-import Accordian from "./Accordian";
+import Accordian from "../AccordianItem";
 import InclusionExclusion from "./InclusionExclusion";
 const LeftSideSection = ({ heading, duration, overView, itinerary }) => {
   return (
@@ -15,16 +15,16 @@ const LeftSideSection = ({ heading, duration, overView, itinerary }) => {
         <button className="py-2 px-1 w-40 bg-[#cf331a] text-white rounded-xl">
           {duration}
         </button>
-        <div className="flex flex-row justify-between border-t-[1px] border-b-[1px] py-5 border-gray-300">
-          <div className="flex flex-row text-gray-500 items-center gap-3">
+        <div className="flex md:text-base text-xs sm:text-sm flex-row justify-between border-t-[1px] border-b-[1px] py-5 border-gray-200">
+          <div className="flex flex-row text-gray-500 items-center gap-1 sm:gap-3">
             <FaBed size={30} />
             <p>Stay Included</p>
           </div>
-          <div className="flex flex-row text-gray-500 items-center gap-3">
+          <div className="flex flex-row text-gray-500 items-center  gap-1 sm:gap-3">
             <FaPlateWheat size={30} />
             <p>Breakfast Included</p>
           </div>
-          <div className="flex flex-row text-gray-500 items-center gap-3">
+          <div className="flex flex-row text-gray-500 items-center  gap-1 sm:gap-3">
             <BsFillBalloonHeartFill size={30} />
             <p>Stay Updated</p>
           </div>
@@ -59,7 +59,7 @@ const LeftSideSection = ({ heading, duration, overView, itinerary }) => {
           ))}
         </div>
         <Tabs />
-        <Accordian itinerary={itinerary} />
+        {/* <Accordian itinerary={itinerary} /> */}
       </div>
     </div>
   );

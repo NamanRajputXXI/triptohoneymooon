@@ -1,9 +1,11 @@
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
+import AccordionItem from "@/components/product/AccordianItem";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
 import InclusionExclusion from "@/components/product/left/InclusionExclusion";
 import LeftSideSection from "@/components/product/left/LeftSideSection";
 import RightSideSection from "@/components/product/RightSideSection";
+import cancellationPolicy from "@/data/productPageData/cancellationPolicy";
 
 export const getProductData = async ({ params }) => {
   try {
@@ -57,7 +59,7 @@ const Page = async ({ params }) => {
   } = singleProductData.document;
 
   return (
-    <div className="bg-red-50">
+    <div className="bg-white">
       <Navbar />
       <ImagesGridLayout carouselImageUrl={carouselImageUrl} />
       <div className="grid md:grid-cols-3 grid-cols-1 px-5 max-w-7xl mx-auto gap-5 py-4">
@@ -69,8 +71,33 @@ const Page = async ({ params }) => {
         />
         <RightSideSection />
       </div>
+      <div className="flex items-center justify-center max-w-7xl mx-auto my-0 md:my-20">
+        <img
+          src="/endOfTripBanner.png"
+          className="w-full  h-[150px] md:h-[210px]"
+          alt=""
+        />
+      </div>
       <InclusionExclusion inclusions={inclusions} exclusions={exclusions} />
-
+      <div className="px-5">
+        <AccordionItem
+          content={cancellationPolicy}
+          title={"Know Befor You Go"}
+        />
+        <AccordionItem
+          content={cancellationPolicy}
+          title={"Cancellation Policy"}
+        />
+        <AccordionItem content={cancellationPolicy} title={"Refund Policy"} />
+        <AccordionItem
+          content={cancellationPolicy}
+          title={"Confirmation Policy"}
+        />
+        <AccordionItem
+          content={cancellationPolicy}
+          title={"Payment Term Policy"}
+        />
+      </div>
       <Footer />
     </div>
   );

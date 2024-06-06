@@ -3,8 +3,8 @@ import { FaStar } from "react-icons/fa";
 import RightSideSectionForm from "./RightSideSectionForm";
 const RightSideSection = () => {
   return (
-    <section className="flex flex-col gap-10">
-      <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-400">
+    <section className="flex order-1 flex-col gap-10">
+      <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-200">
         <div className="flex items-center justify-between">
           <p className="text-xl font-bold">
             INR 99,800
@@ -25,12 +25,12 @@ const RightSideSection = () => {
             </div>
           </div>
         </div>
-        <hr className="bg-gray-400 h-[2px]" />
+        <hr className="bg-gray-200 h-[1px]" />
         <button className="bg-[#cf331a] w-full rounded-xl py-3 px-4 text-white">
           SEND EQUIRY
         </button>
       </div>
-      <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-400">
+      <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-200">
         <p className="font-bold ">
           Glimpse Of Switzerland | FREE FIFA Museum Tickets
         </p>

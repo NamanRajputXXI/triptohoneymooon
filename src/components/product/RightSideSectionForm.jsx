@@ -70,7 +70,7 @@ const RightSideSectionForm = () => {
           value={formData.fullName}
           onChange={handleChange}
           placeholder="Full Name*"
-          className={`w-full px-3 py-2 border  border-gray-400 rounded-md focus:outline-none focus:ring-2 ${
+          className={`w-full px-3 py-2 border  border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.fullName ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -85,7 +85,7 @@ const RightSideSectionForm = () => {
           value={formData.email}
           onChange={handleChange}
           placeholder="Email*"
-          className={`w-full px-3 py-2  border border-gray-400 rounded-md focus:outline-none focus:ring-2 ${
+          className={`w-full px-3 py-2  border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.email ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -105,8 +105,8 @@ const RightSideSectionForm = () => {
           value={formData.phone}
           onChange={handleChange}
           placeholder="Your Phone*"
-          className={`w-full px-3 py-2  border-gray-400 rounded-r-md focus:outline-none focus:ring-2 ${
-            errors.phone ? "focus:ring-red-500" : "focus:ring-black"
+          className={`w-full px-3 py-2  border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
+            errors.email ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
         {errors.phone && (
@@ -120,7 +120,7 @@ const RightSideSectionForm = () => {
           value={formData.travelDate}
           onChange={handleChange}
           placeholder="Travel Date*"
-          className={`w-1/2 mr-2 px-3 py-2 border  border-gray-400 rounded-md focus:outline-none focus:ring-2 ${
+          className={`w-1/2 mr-2 px-3 py-2 border  border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.travelDate ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -133,7 +133,7 @@ const RightSideSectionForm = () => {
           value={formData.travellerCount}
           onChange={handleChange}
           placeholder="Traveller Count*"
-          className={`w-1/2 px-3 py-2 border border-gray-400  rounded-md focus:outline-none focus:ring-2 ${
+          className={`w-1/2 px-3 py-2 border border-gray-200  rounded-md focus:outline-none focus:ring-2 ${
             errors.travellerCount ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -147,7 +147,7 @@ const RightSideSectionForm = () => {
           value={formData.message}
           onChange={handleChange}
           placeholder="Message..."
-          className="w-full px-3 py-2 border border-gray-400  rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+          className="w-full px-3 py-2 border border-gray-200  rounded-md focus:outline-none focus:ring-2 focus:ring-black"
         />
       </div>
       <button
