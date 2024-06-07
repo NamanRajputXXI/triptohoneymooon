@@ -29,13 +29,13 @@ export default function Home() {
       <WeddingBannerCarousel />
       <HeroSection />
       <HeroSectionCarousel />
+      <TrendingCarousel />
+      <BestSellingCarousel />
       <DomesticCarousel />
       <InternationalCarousel />
       <AttractivePlannerCarousel />
       <AboutUsSection />
       <PopularCarousel />
-      <TrendingCarousel />
-      <BestSellingCarousel />
       <MultiImagerBannerCarousel />
       <BannerCarousel />
       {
@@ -48,7 +48,6 @@ export default function Home() {
       <OurResorts />
       <OurServices />
       <Footer />
-      {/* <DestinationList /> */}
     </>
   );
 }

@@ -7,6 +7,8 @@ const popularCarouselData = [
     destination: "Kahsmir",
     discount: "20%",
     days: "5 Night / 6 Days",
+    videoUrl:
+      "https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/goa.jpg`,
@@ -15,6 +17,8 @@ const popularCarouselData = [
     discount: "30%",
     destination: "Goa",
     days: "4 Night / 5 Days",
+    videoUrl:
+      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/andaman.jpg`,
@@ -23,6 +27,8 @@ const popularCarouselData = [
     discount: "25%",
     destination: "Andaman",
     days: "4 Night / 5 Days",
+    videoUrl:
+      "https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/kerala.jpg`,
@@ -31,6 +37,8 @@ const popularCarouselData = [
     discount: "15%",
     destination: "Kerala",
     days: "3 Night / 4 Days",
+    videoUrl:
+      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/dubai.jpg`,
@@ -39,6 +47,8 @@ const popularCarouselData = [
     discount: "33%",
     destination: "Dubai",
     days: "4 Night / 5 Days",
+    videoUrl:
+      "https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/rishikesh.jpg`,
@@ -47,6 +57,8 @@ const popularCarouselData = [
     destination: "Rishikesh",
     discount: "10%",
     days: "3 Night / 4 Days",
+    videoUrl:
+      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/singapore.jpg`,
@@ -55,6 +67,8 @@ const popularCarouselData = [
     destination: "Singapore",
     discount: "5%",
     days: "4 Night / 5 Days",
+    videoUrl:
+      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
   },
 ];
 
