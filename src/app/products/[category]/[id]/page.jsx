@@ -5,7 +5,8 @@ import AdditionalInfo from "@/components/product/AdditionalInfo";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
 import InclusionExclusion from "@/components/product/left/InclusionExclusion";
 import LeftSideSection from "@/components/product/left/LeftSideSection";
-import Reviews from "@/components/product/Reviews";
+import ReviewsData from "@/components/product/reviews/ReviewsData";
+import Reviews from "@/components/product/reviews/Reviews";
 import RightSideSection from "@/components/product/RightSideSection";
 import cancellationPolicy from "@/data/productPageData/cancellationPolicy";
 
@@ -87,6 +88,7 @@ const Page = async ({ params }) => {
           title={"Know Befor You Go"}
         />
         <AdditionalInfo />
+        {/* <Reviews /> */}
         <Reviews />
 
         <AccordionItem

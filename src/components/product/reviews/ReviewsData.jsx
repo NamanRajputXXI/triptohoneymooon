@@ -1,6 +1,6 @@
 import React from "react";
 import { FaStar } from "react-icons/fa";
-const Reviews = () => {
+const ReviewsData = () => {
   return (
     <section className="md:my-20 my-10">
       <div className="max-w-7xl flex flex-col gap-8 mx-auto p-5">
@@ -72,4 +72,4 @@ const Reviews = () => {
   );
 };
 
-export default Reviews;
+export default ReviewsData;

@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <WeddingBannerCarousel /> */}
+      <WeddingBannerCarousel />
       <HeroSection />
       <HeroSectionCarousel />
       <DomesticCarousel />
@@ -36,8 +36,8 @@ export default function Home() {
       <PopularCarousel />
       <TrendingCarousel />
       <BestSellingCarousel />
-      {/* <MultiImagerBannerCarousel />
-      <BannerCarousel /> */}
+      <MultiImagerBannerCarousel />
+      <BannerCarousel />
       {
         <div>
           <InternationDestinationSection />

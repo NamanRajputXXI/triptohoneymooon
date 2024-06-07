@@ -62,7 +62,7 @@ const Tabs = () => {
       <div className="p-4 border border-gray-300 rounded">
         {activeTab === "itinerary" && (
           <div>
-            <h2 className="text-xl font-bold mb-2">Items Itinerary</h2>
+            <h2 className="text-xl font-bold mb-2">Itinerary</h2>
             {/* Content for Items Itinerary */}
           </div>
         )}

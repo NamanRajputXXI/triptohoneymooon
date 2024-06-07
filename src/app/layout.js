@@ -11,10 +11,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="bg-red-100 ">
         <NextTopLoader
-          color="#3b2e5ff"
+          color="#2a3788"
           initialPosition={0.08}
           crawlSpeed={200}
-          height={7}
+          height={3}
           crawl={true}
           showSpinner={false}
           easing="ease"
