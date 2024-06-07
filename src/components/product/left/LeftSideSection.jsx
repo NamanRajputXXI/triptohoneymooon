@@ -7,7 +7,13 @@ import { TiTick } from "react-icons/ti";
 import Tabs from "./Tabs";
 import Accordian from "../AccordianItem";
 import InclusionExclusion from "./InclusionExclusion";
-const LeftSideSection = ({ heading, duration, overView, itinerary }) => {
+const LeftSideSection = ({ heading, duration, itinerary }) => {
+  const overView = [
+    "Nestled in the northernmost region of India, Kashmir is a breathtaking paradise renowned for its stunning landscapes, rich cultural heritage, and serene tranquility.",
+    "Kashmir's natural beauty is unparalleled. The valley is embraced by the towering peaks of the Himalayas and Pir Panjal ranges, creating a spellbinding panorama of snow-capped mountains, verdant meadows, and crystal-clear streams.",
+    "Kashmir boasts a rich cultural tapestry woven from centuries of history and tradition. The valley has been a melting pot of diverse influences, including Hindu, Muslim, and Buddhist heritage.",
+    " Kashmir is home to a multitude of sacred sites and spiritual retreats, each imbued with a sense of serenity and devotion. ",
+  ];
   return (
     <div className="md:col-span-2">
       <div className="flex flex-col gap-5">
@@ -49,11 +55,11 @@ const LeftSideSection = ({ heading, duration, overView, itinerary }) => {
         </div>
         <div className="py-5">
           <p className="font-bold">Trip Highlights</p>
-          {overView.slice(0, 4).map((item, i) => (
+          {overView.map((item, i) => (
             <div className="flex flex-col " key={i}>
               {/* <p className="text-bold text-xl">{item.heading}</p> */}
-              <p className="text-gray-600 my-2 text-lg">
-                {i + 1}. {item.text}
+              <p className="text-gray-600 my-2 ">
+                {i + 1}. {item}
               </p>
             </div>
           ))}

@@ -9,50 +9,53 @@ const Tabs = () => {
 
   return (
     <div className="flex flex-col ">
-      <div className="grid sm:grid-cols-5 grid-cols-2 gap-1  justify-between rounded bg-gray-200 mb-4">
+      <div className="flex gap-1  px-2   rounded bg-gray-100 mb-4">
         <button
-          className={`mr-4 py-2 px-4 rounded md:text-base text-xs sm:text-sm ${
+          className={`mr-4 py-2 px-4  my-2 rounded md:text-base text-xs sm:text-sm ${
             activeTab === "itinerary"
               ? "bg-[#cf331a] text-white"
-              : "text-gray-600"
+              : "text-gray-600 bg-white"
           }`}
           onClick={() => handleTabClick("itinerary")}
         >
-          Items Itinerary
+          {" "}
+          Itinerary
         </button>
         <button
-          className={`mr-4 md:text-base text-xs sm:text-sm py-2 px-4 rounded ${
+          className={`mr-4 md:text-base my-2 text-xs sm:text-sm py-2 px-4 rounded ${
             activeTab === "summarised"
               ? "bg-[#cf331a] text-white"
-              : "text-gray-600"
+              : "text-gray-600 bg-white"
           }`}
           onClick={() => handleTabClick("summarised")}
         >
           Summarised View
         </button>
         <button
-          className={`mr-4 md:text-base text-xs sm:text-sm py-2 px-4 rounded ${
+          className={`mr-4 md:text-base my-2 text-xs sm:text-sm py-2 px-4 rounded ${
             activeTab === "activities"
               ? "bg-[#cf331a] text-white"
-              : "text-gray-600"
+              : "text-gray-600 bg-white"
           }`}
           onClick={() => handleTabClick("activities")}
         >
           Activities
         </button>
         <button
-          className={`mr-4 md:text-base text-xs sm:text-sm py-2 px-4 rounded ${
-            activeTab === "stay" ? "bg-[#cf331a] text-white" : "text-gray-600"
+          className={`mr-4 md:text-base my-2 text-xs sm:text-sm py-2 px-4 rounded ${
+            activeTab === "stay"
+              ? "bg-[#cf331a] text-white"
+              : "text-gray-600 bg-white"
           }`}
           onClick={() => handleTabClick("stay")}
         >
           Stay
         </button>
         <button
-          className={` py-2 px-4 md:text-base text-xs sm:text-sm rounded ${
+          className={` py-2 px-4 md:text-base my-2 text-xs sm:text-sm rounded ${
             activeTab === "transfers"
               ? "bg-[#cf331a] text-white"
-              : "text-gray-600"
+              : "text-gray-600 bg-white"
           }`}
           onClick={() => handleTabClick("transfers")}
         >

@@ -4,7 +4,7 @@ import { RxCross2 } from "react-icons/rx";
 const InclusionExclusion = ({ inclusions, exclusions }) => {
   return (
     <section className="px-5">
-      <div className="border-[1px] w-full md:my-20 my-10 p-5 rounded-xl border-gray-400  max-w-7xl mx-auto">
+      <div className="border-[1px] w-full md:mb-20 mb-10 p-5 rounded-xl border-gray-400  max-w-7xl mx-auto">
         <p className="font-bold pb-5 text-xl">What is inside the package</p>
         <hr className="h-[1px] bg-gray-400" />
         <div className="flex py-5 w-full md:flex-row flex-col  gap-5 justify-between">
@@ -19,7 +19,7 @@ const InclusionExclusion = ({ inclusions, exclusions }) => {
               ))}
             </div>
           </div>
-          <div className="md:w-1/2 w-full">
+          <div className="md:w-1/2 pl-10  w-full">
             <p className="font-bold text-lg">Exclusions</p>
             <div className="pt-3 w-full">
               {exclusions.map((exclusion, i) => (

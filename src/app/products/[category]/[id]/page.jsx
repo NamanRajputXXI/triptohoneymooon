@@ -74,10 +74,10 @@ const Page = async ({ params }) => {
         />
         <RightSideSection />
       </div>
-      <div className="flex items-center justify-center max-w-7xl mx-auto my-0 md:my-20">
+      <div className="flex px-5 items-center justify-center max-w-7xl mx-auto ">
         <img
           src="/endOfTripBanner.png"
-          className="w-full  h-[150px] md:h-[210px]"
+          className=" object-cover object-center h-[150px] md:h-[160px]"
           alt=""
         />
       </div>

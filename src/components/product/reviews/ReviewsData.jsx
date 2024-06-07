@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 const ReviewsData = () => {
   return (
-    <section className="md:my-20 my-10">
+    <section className=" my-10">
       <div className="max-w-7xl flex flex-col gap-8 mx-auto p-5">
         <p className="text-xl font-bold">Reviews(150)</p>
         <div className="flex   flex-col md:flex-row lg:w-[80%] w-full gap-20">

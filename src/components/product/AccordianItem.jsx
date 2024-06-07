@@ -14,7 +14,7 @@ const AccordionItem = ({ title, content }) => {
         className="flex justify-between items-center p-4 cursor-pointer"
         onClick={toggleAccordion}
       >
-        <h3 className="md:text-2xl sm:text-xl text-lg font-bold">{title}</h3>
+        <p className=" sm:text-xl text-lg font-bold">{title}</p>
         <span
           className={`transform transition-transform ${
             isOpen ? "rotate-180" : ""

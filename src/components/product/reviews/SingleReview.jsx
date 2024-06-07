@@ -42,7 +42,7 @@ const SingleReview = () => {
       <div className="grid gap-3 grid-cols-4 lg:grid-cols-6">
         <img
           src="https://cdn.pixabay.com/photo/2017/09/21/18/47/beach-2772913_640.jpg"
-          className="object-cover rounded-xl object-center"
+          className="object-cover w-full h-full rounded-xl object-center"
           alt=""
         />
         <img
@@ -57,7 +57,7 @@ const SingleReview = () => {
         />
         <img
           src="https://cdn.pixabay.com/photo/2017/09/21/18/47/beach-2772913_640.jpg"
-          className="object-cover rounded-xl object-center"
+          className="object-cover md:flex hidden rounded-xl object-center"
           alt=""
         />
         <img
