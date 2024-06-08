@@ -9,6 +9,7 @@ import ReviewsData from "@/components/product/reviews/ReviewsData";
 import Reviews from "@/components/product/reviews/Reviews";
 import RightSideSection from "@/components/product/RightSideSection";
 import cancellationPolicy from "@/data/productPageData/cancellationPolicy";
+import RelatedProductsCarousel from "@/components/product/RelatedProductsCarousel";
 
 export const getProductData = async ({ params }) => {
   try {
@@ -88,6 +89,7 @@ const Page = async ({ params }) => {
           title={"Know Befor You Go"}
         />
         <AdditionalInfo />
+        <RelatedProductsCarousel />
         {/* <Reviews /> */}
         <Reviews />
 

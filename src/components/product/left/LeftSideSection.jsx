@@ -21,7 +21,68 @@ const LeftSideSection = ({ heading, duration, itinerary }) => {
         <button className="py-2 px-1 w-40 bg-[#cf331a] text-white rounded-xl">
           {duration}
         </button>
-        <div className="flex md:text-base text-xs sm:text-sm flex-row justify-between border-t-[1px] border-b-[1px] py-5 border-gray-200">
+        <div className="flex flex-col gap-3 md:text-base text-xs sm:text-sm justify-between border-t-[1px] border-b-[1px] py-5 border-gray-200">
+          <p className="font-bold">Choose Trip Duration</p>
+          <div className="flex gap-2 items-center">
+            <div className="flex flex-col gap-1 relative">
+              <img
+                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
+                alt=""
+                className="h-32  border-red-600 border-2 p-1 rounded-xl w-32"
+              />
+              <p className="text-white absolute top-24 left-3 font-extrabold">
+                6 Days
+              </p>
+              <div className="flex flex-col">
+                <p className="text-xs  text-gray-500 ">Starting From</p>
+                <p className="font-extrabold text-[13px]">₹ 99,800</p>
+              </div>
+            </div>
+            <div className="flex flex-col gap-1 relative">
+              <img
+                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
+                alt=""
+                className="h-32 rounded-xl  w-32"
+              />
+              <p className="text-white absolute top-24 left-3 font-extrabold">
+                7 Days
+              </p>
+              <div className="flex flex-col ">
+                <p className="text-xs  text-gray-500">Starting From</p>
+                <p className="font-extrabold text-[13px]">₹ 77,577</p>
+              </div>
+            </div>
+            <div className="flex relative flex-col ">
+              <img
+                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
+                alt=""
+                className="h-32 rounded-xl  w-32"
+              />
+              <p className="text-white absolute top-24 left-3 font-extrabold">
+                8 Days
+              </p>
+              <div className="flex flex-col">
+                <p className="text-xs  text-gray-500">Starting From</p>
+                <p className="font-extrabold  text-[13px]">₹ 1,42,000</p>
+              </div>
+            </div>
+            <div className="flex flex-col relative gap-1">
+              <img
+                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
+                alt=""
+                className="h-32 rounded-xl   w-32"
+              />
+              <p className="text-white absolute top-24 left-3 font-extrabold">
+                9 Days
+              </p>
+              <div className="flex flex-col">
+                <p className="text-xs text-gray-500">Starting From</p>
+                <p className="font-extrabold  text-[13px]">₹ 1,12,500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex md:text-base text-xs sm:text-sm flex-row justify-between  py-5 ">
           <div className="flex flex-row text-gray-500 items-center gap-1 sm:gap-3">
             <FaBed size={30} />
             <p>Stay Included</p>
