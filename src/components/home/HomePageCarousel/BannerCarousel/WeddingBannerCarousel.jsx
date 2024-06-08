@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 
 const WeddingBannerCarousel = () => {
   return (
-    <div className="h-96  rounded-2xl px-5  my-3 ">
+    <div className="md:h-32 sm:h-24 h-16  rounded-2xl sm:px-5 px-2  my-3 ">
       <Swiper
         className="h-full"
         spaceBetween={4}
@@ -18,8 +18,8 @@ const WeddingBannerCarousel = () => {
         <SwiperSlide>
           <div className="swiper-slide rounded-2xl  flex justify-center items-center">
             <img
-              src="/advertiseBanner.jpg"
-              className="w-full  rounded-2xl object-center object-cover h-96"
+              src="/AdsBanner.jpg"
+              className="w-full  rounded-2xl  md:h-32 sm:h-24 h-16 "
               alt=""
             />
           </div>
@@ -27,8 +27,8 @@ const WeddingBannerCarousel = () => {
         <SwiperSlide>
           <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
             <img
-              src="/advertiseBanner.jpg"
-              className="w-full object-cover h-96 object-center rounded-2xl"
+              src="/AdsBanner.jpg"
+              className="w-full md:h-32 sm:h-24 h-16   rounded-2xl"
               alt=""
             />
           </div>
@@ -36,8 +36,8 @@ const WeddingBannerCarousel = () => {
         <SwiperSlide>
           <div className="swiper-slide  rounded-2xl bg-white flex justify-center items-center">
             <img
-              src="/advertiseBanner.jpg"
-              className="w-full object-cover h-96 object-center rounded-2xl"
+              src="/AdsBanner.jpg"
+              className="w-full  md:h-32 sm:h-24 h-16   rounded-2xl"
               alt=""
             />
           </div>
@@ -45,8 +45,8 @@ const WeddingBannerCarousel = () => {
         <SwiperSlide>
           <div className="swiper-slide rounded-2xl  bg-white flex justify-center items-center">
             <img
-              src="/advertiseBanner.jpg"
-              className="w-full object-cover object-center h-96 rounded-2xl"
+              src="/AdsBanner.jpg"
+              className="w-full  md:h-32 sm:h-24 h-16  rounded-2xl"
               alt=""
             />
           </div>
