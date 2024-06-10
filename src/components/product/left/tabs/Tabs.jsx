@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import ItiniraryAccordian from "./ItiniraryAccordian";
 import ItiniraryData from "@/data/productPageData/ItiniraryData";
+import ItineraryCarousel from "../carousel/ItineraryCarousel";
+import SummarizedView from "./SummarizedView";
+import Activities from "./Activities";
+import Stay from "./Stay";
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState("itinerary");
@@ -21,7 +25,6 @@ const Tabs = () => {
             }`}
             onClick={() => handleTabClick("itinerary")}
           >
-            {" "}
             Itinerary
           </button>
           <button
@@ -48,7 +51,7 @@ const Tabs = () => {
 
         <div className="flex gap-1">
           <button
-            className={`sm:mr-4 mr-1   md:text-base my-2 text-xs sm:text-sm py-2 px-2 sm:px-4 rounded ${
+            className={`sm:mr-4 mr-1   md:text-base my-2 text-xs sm:text-sm py-2 px-2 sm:px-4 rounded-xl ${
               activeTab === "stay"
                 ? "bg-[#cf331a] text-white"
                 : "text-gray-600 bg-white"
@@ -58,7 +61,7 @@ const Tabs = () => {
             Stay
           </button>
           <button
-            className={` py-2 px-2 sm:px-4 md:text-base my-2 text-xs sm:text-sm rounded ${
+            className={` py-2 px-2 sm:px-4 md:text-base my-2 text-xs sm:text-sm rounded-xl ${
               activeTab === "transfers"
                 ? "bg-[#cf331a] text-white"
                 : "text-gray-600 bg-white"
@@ -69,9 +72,10 @@ const Tabs = () => {
           </button>
         </div>
       </div>
-      <div className="p-4 border border-gray-300 rounded">
+      <div className="p-4 border rounded-xl border-gray-300 ">
         {activeTab === "itinerary" && (
           <div>
+            <ItineraryCarousel />
             {ItiniraryData.map((item, i) => (
               <div key={i}>
                 <ItiniraryAccordian
@@ -86,20 +90,17 @@ const Tabs = () => {
         )}
         {activeTab === "summarised" && (
           <div>
-            <h2 className="text-xl font-bold mb-2">Summarised View</h2>
-            {/* Content for Summarised View */}
+            <SummarizedView />
           </div>
         )}
         {activeTab === "activities" && (
           <div>
-            <h2 className="text-xl font-bold mb-2">Activities</h2>
-            {/* Content for Activities */}
+            <Activities />
           </div>
         )}
         {activeTab === "stay" && (
           <div>
-            <h2 className="text-xl font-bold mb-2">Stay</h2>
-            {/* Content for Stay */}
+            <Stay />
           </div>
         )}
         {activeTab === "transfers" && (

@@ -231,7 +231,7 @@ import { FaBed } from "react-icons/fa";
 import { FaPlateWheat } from "react-icons/fa6";
 import { BsFillBalloonHeartFill } from "react-icons/bs";
 import { TiTick } from "react-icons/ti";
-import Tabs from "./Tabs";
+import Tabs from "./tabs/Tabs";
 import Accordian from "../AccordianItem";
 import InclusionExclusion from "./InclusionExclusion";
 
