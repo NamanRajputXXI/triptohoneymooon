@@ -94,6 +94,9 @@ const PopularDestinationSection = () => {
     if (sliderContainer.current && !keenSlider.current) {
       keenSlider.current = new KeenSlider(sliderContainer.current, {
         loop: true,
+        dragSpeed: false,
+        drag: false,
+
         slides: {
           origin: "center",
           perView: 1,
@@ -214,7 +217,7 @@ const PopularDestinationSection = () => {
                 <button
                   aria-label="Next slide"
                   onClick={handleNextSlide}
-                  className="rounded-full  bg-red-600 p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
+                  className="rounded-full border flex justify-center  items-center bg-red-600 p-3 text-rose-600 transition  hover:text-white"
                 >
                   <span className="inline-block h-5 w-5">
                     <svg

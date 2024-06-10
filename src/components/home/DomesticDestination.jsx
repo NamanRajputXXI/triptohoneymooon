@@ -57,7 +57,7 @@ const DomesticDestinationSection = () => {
         <div className="lg:grid-cols-2 grid-cols-1 place-items-center grid gap-20 w-full">
           <img
             src="https://images.unsplash.com/photo-1501901609772-df0848060b33?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            className="rounded-full w-[280px] h-[280px] sm:w-[400px] sm:h-[400px] place-self-center lg:place-self-end"
+            className="rounded-full w-[280px] h-[280px] object-cover object-center sm:w-[400px] sm:h-[400px] place-self-center lg:place-self-end"
             alt=""
           />
           <div className="bg-red-300 rounded-full py-5 px-5 md:px-10 place-self-center lg:place-self-start h-[280px ] w-[280px] sm:h-[400px] sm:w-[400px] flex items-center justify-center ">
@@ -77,7 +77,7 @@ const DomesticDestinationSection = () => {
           </div>
           <img
             src="https://images.unsplash.com/photo-1500771967326-9b2f6200d1c6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
-            className="rounded-full sm:w-[400px] sm:h-[400px] h-[280px] w-[280px] place-self-center lg:place-self-end"
+            className="rounded-full sm:w-[400px]  object-cover object-center sm:h-[400px] h-[280px] w-[280px] place-self-center lg:place-self-end"
             alt=""
           />
           <div className="bg-red-300 rounded-full py-5 px-5 md:px-10 place-self-center lg:place-self-start h-[280px] w-[280px]  sm:h-[400px] sm:w-[400px] flex items-center justify-center ">

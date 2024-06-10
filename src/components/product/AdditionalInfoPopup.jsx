@@ -12,10 +12,12 @@ import React from "react";
 
 const AdditionalInfoPopup = ({ onClose }) => {
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50  z-50">
+    <div className="fixed inset-0 flex items-center justify-center px-10 bg-black bg-opacity-50  z-50">
       <div className="bg-white text-gray-700 flex flex-col gap-5 max-w-5xl h-[500px] overflow-y-auto mx-auto p-6 rounded-lg shadow-xl relative">
         <div className="flex  items-center justify-between">
-          <p className="text-4xl font-bold ">Additional Information</p>
+          <p className="sm:text-4xl text-xl font-bold ">
+            Additional Information
+          </p>
           <button
             className=" text-gray-500 text-3xl hover:text-gray-800"
             onClick={onClose}

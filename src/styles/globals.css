@@ -10,3 +10,12 @@ h1,h2, h3, h4, h5{
     font-family: "Merriweather", "serif";
     
 }
+
+/* You can add this in a separate CSS file or in a <style> tag within your component */
+.image-zoom {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-zoom:hover {
+    transform: scale(1.05);
+  }
