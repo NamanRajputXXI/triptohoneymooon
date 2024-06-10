@@ -11,6 +11,7 @@ const WeddingBannerCarousel = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
         effect={"coverflow"}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
