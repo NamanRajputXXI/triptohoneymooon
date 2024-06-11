@@ -246,7 +246,7 @@ const ItineraryCarousel = () => {
             <div className="keen-slider__slide" key={i}>
               <Link href={item.link}>
                 <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                  <div className="absolute w-full h-full bg-black bg-opacity-30"></div>
+                  <div className="absolute w-full h-full rounded-xl bg-black bg-opacity-30"></div>
                   <img
                     src={item.imageUrl}
                     alt={item.title}
