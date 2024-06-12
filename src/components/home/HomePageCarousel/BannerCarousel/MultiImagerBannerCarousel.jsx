@@ -114,7 +114,7 @@ const MultiImagerBannerCarousel = () => {
   };
 
   return (
-    <div className="flex lg:flex-row flex-col  my-20 px-5 justify-end h-fit lg:h-64 items-center max-w-7xl mx-auto gap-3">
+    <div className="flex lg:flex-row flex-col  my-10 sm:my-20 px-5 justify-end h-fit lg:h-64 items-center max-w-7xl mx-auto gap-3">
       <div className="flex image-carousel w-full lg:w-1/2 h-48 sm:h-64 ">
         <div className="overflow-hidden rounded-xl h-48 sm:h-64 relative">
           <div
@@ -125,14 +125,7 @@ const MultiImagerBannerCarousel = () => {
               return <img key={i} src={s} alt="" />;
             })}
           </div>
-          {/* <div className="absolute top-0 h-64 w-full justify-between items-center flex text-white px-10 text-3xl">
-            <button onClick={previousSlide}>
-              <BsFillArrowLeftCircleFill />
-            </button>
-            <button onClick={nextSlide}>
-              <BsFillArrowRightCircleFill />
-            </button>
-          </div> */}
+
           <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
             {slides.map((s, i) => {
               return (

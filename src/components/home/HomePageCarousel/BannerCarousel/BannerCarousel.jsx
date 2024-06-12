@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 
 const BannerCarousel = () => {
   return (
-    <div className="h-96  rounded-2xl px-5  my-3 ">
+    <div className="sm:h-96  h-32 rounded-2xl px-5  my-3 ">
       <Swiper
         className="h-full"
         spaceBetween={4}
@@ -19,7 +19,7 @@ const BannerCarousel = () => {
           <div className="swiper-slide rounded-2xl  flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full object-fill  rounded-2xl  h-96"
+              className="w-full object-fill  rounded-2xl  sm:h-96  h-32"
               alt=""
             />
           </div>
@@ -28,7 +28,7 @@ const BannerCarousel = () => {
           <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full  h-96 object-fill rounded-2xl"
+              className="w-full  sm:h-96  h-32 object-fill rounded-2xl"
               alt=""
             />
           </div>
@@ -37,7 +37,7 @@ const BannerCarousel = () => {
           <div className="swiper-slide  rounded-2xl bg-white flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full h-96 object-fill  rounded-2xl"
+              className="w-full sm:h-96  h-32 object-fill  rounded-2xl"
               alt=""
             />
           </div>
@@ -46,7 +46,7 @@ const BannerCarousel = () => {
           <div className="swiper-slide rounded-2xl  bg-white flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full  h-96 object-fill rounded-2xl"
+              className="w-full  sm:h-96  h-32 object-fill rounded-2xl"
               alt=""
             />
           </div>

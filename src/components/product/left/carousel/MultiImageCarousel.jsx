@@ -101,13 +101,6 @@ const MultiImageCarousel = () => {
           </span>
         </button>
       </div>
-      {/* <div className=" flex left-3 items-center gap-2 absolute z-[50] bottom-3  text-white font-extrabold">
-        <p className="text-5xl">6</p>
-        <div className="flex flex-col ">
-          <p className="text-sm font-normal">Days in</p>
-          <p className="text-lg">Zurich</p>
-        </div>
-      </div> */}
 
       {/* Carousel Content */}
       <div className="lg:col-span-2">
@@ -116,7 +109,7 @@ const MultiImageCarousel = () => {
             <div className="keen-slider__slide" key={i}>
               <Link href={item.link}>
                 <div className="flex flex-col gap-2 flex-shrink-0 relative w-full sm:w-auto">
-                  <div className="absolute w-full h-80 rounded-xl bg-black bg-opacity-30"></div>
+                  {/* <div className="absolute w-full h-80 rounded-xl bg-black bg-opacity-30"></div> */}
                   <img
                     src={item.imageUrl}
                     alt={item.title}
