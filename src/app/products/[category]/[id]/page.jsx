@@ -90,9 +90,7 @@ const Page = async ({ params }) => {
         />
         <AdditionalInfo />
         <RelatedProductsCarousel />
-        {/* <Reviews /> */}
         <Reviews />
-
         <AccordionItem
           content={cancellationPolicy}
           title={"Cancellation Policy"}
@@ -107,7 +105,6 @@ const Page = async ({ params }) => {
           title={"Payment Term Policy"}
         />
       </div>
-
       <Footer />
     </div>
   );

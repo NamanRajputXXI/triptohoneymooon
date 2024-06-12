@@ -5,6 +5,8 @@ import "keen-slider/keen-slider.min.css";
 import popularCarouselData from "@/data/popularCarouselData";
 import Link from "next/link";
 import { HiPlay, HiPause } from "react-icons/hi";
+import PreviousButton from "../global/Carousel/CarouselButton/PreviousButton";
+import NextButton from "../global/Carousel/CarouselButton/NextButton";
 
 const VideoPlayer = ({ src, isPlaying, setIsPlaying }) => {
   const [isLoaded, setIsLoaded] = useState(undefined);
@@ -195,7 +197,7 @@ const PopularDestinationSection = () => {
           <div className="mx-auto my-20 popular-destination-carousel 5xl:max-w-[1800px] 4xl:max-w-[1660px] 3xl:max-w-[1440px] 2xl:max-w-[1150px] xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6 lg:ps-8">
             <div className="mt-8 relative z-10 lg:col-span-2 px-3 lg:mx-0">
               <div className="mt-8 absolute -bottom-14 z-[50] flex gap-4 lg:mt-0">
-                <button
+                {/* <button
                   aria-label="Previous slide"
                   onClick={handlePrevSlide}
                   className="rounded-full border flex justify-center  items-center bg-red-600 p-3 text-rose-600 transition  hover:text-white"
@@ -232,7 +234,9 @@ const PopularDestinationSection = () => {
                       />
                     </svg>
                   </span>
-                </button>
+                </button> */}
+                <PreviousButton handlePrevSlide={handlePrevSlide} />
+                <NextButton handleNextSlide={handleNextSlide} />
               </div>
               <div
                 ref={sliderContainer}

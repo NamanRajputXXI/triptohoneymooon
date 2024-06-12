@@ -7,6 +7,8 @@ import bestSellingData from "@/data/bestSellingCarouselData";
 import Link from "next/link";
 import { MdOutlineDiscount } from "react-icons/md";
 import { FaStar } from "react-icons/fa";
+import PreviousButton from "@/components/global/Carousel/CarouselButton/PreviousButton";
+import NextButton from "@/components/global/Carousel/CarouselButton/NextButton";
 const BestSellingCarousel = () => {
   const sliderContainer = useRef(null);
   const keenSlider = useRef(null);
@@ -67,44 +69,8 @@ const BestSellingCarousel = () => {
               Best Selling Packages
             </h1>
             <div className="mt-8 flex gap-4 lg:mt-0">
-              <button
-                aria-label="Previous slide"
-                onClick={handlePrevSlide}
-                className="rounded-full  flex justify-center  items-center bg-gray-400  p-3 text-rose-600 transition  hover:text-white"
-              >
-                <span className="inline-block h-5 w-5">
-                  <svg
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 16 16"
-                    className="text-white" // Apply 'text-black' class directly here
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                    />
-                  </svg>
-                </span>
-              </button>
-              <button
-                aria-label="Next slide"
-                onClick={handleNextSlide}
-                className="rounded-full  bg-gray-400  p-3 flex justify-center items-center text-rose-600 transition  hover:text-white"
-              >
-                <span className="inline-block h-5 w-5">
-                  <svg
-                    aria-hidden="true"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 16 16"
-                    className="text-white" // Change this class to 'text-black'
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                    />
-                  </svg>
-                </span>
-              </button>
+              <PreviousButton handlePrevSlide={handlePrevSlide} />
+              <NextButton handleNextSlide={handleNextSlide} />
             </div>
           </div>
 
