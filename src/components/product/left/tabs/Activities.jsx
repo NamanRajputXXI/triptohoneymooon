@@ -172,6 +172,7 @@ import ItineraryCarousel from "../carousel/ItineraryCarousel";
 import { FaBed } from "react-icons/fa";
 import { BsCupHot } from "react-icons/bs";
 import { GiAirBalloon } from "react-icons/gi";
+import MultiImageCarousel from "../carousel/MultiImageCarousel";
 
 const Activities = () => {
   const [openAccordionIndex, setOpenAccordionIndex] = useState(null);
@@ -273,6 +274,7 @@ const Activities = () => {
                 </div>
               </div>
             </div>
+            <MultiImageCarousel />
           </div>
         )}
       </div>

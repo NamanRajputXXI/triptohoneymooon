@@ -58,5 +58,4 @@ const Page = async ({ params }) => {
     </>
   );
 };
-
 export default Page;
