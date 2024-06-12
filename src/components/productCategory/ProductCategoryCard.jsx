@@ -3,7 +3,13 @@ import React from "react";
 import { FaStar } from "react-icons/fa6";
 import { IoCall } from "react-icons/io5";
 
-const ProductCategoryCard = ({ category, destinationId, src, heading }) => {
+const ProductCategoryCard = ({
+  category,
+  destinationId,
+  src,
+  heading,
+  duration,
+}) => {
   return (
     <div>
       <Link href={`/products/${category}/${destinationId}`}>
@@ -15,7 +21,7 @@ const ProductCategoryCard = ({ category, destinationId, src, heading }) => {
           />
         </div>
         <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between item-center">
-          <p className="">3 Days / 4 Night</p>
+          <p className="">{duration}</p>
           <div className="flex items-center gap-2">
             <FaStar color="green" />
             4.8 (120)
@@ -31,7 +37,6 @@ const ProductCategoryCard = ({ category, destinationId, src, heading }) => {
             SAVE INR 33,100
           </div>
         </div>
-
         <div className="flex gap-3 px-1 items-center">
           <div className="flex items border-red-600 mt-3 border-[1px] px-3 rounded-xl center h-full py-2 ">
             <IoCall size={32} color="red" />

@@ -39,12 +39,13 @@ const Page = async ({ params }) => {
   return (
     <>
       <Navbar />
-      <div className="max-w-7xl mx-auto my-20 px-5 flex flex-col gap-10">
+      <div className="max-w-7xl mx-auto my-10 px-5 flex flex-col gap-10">
         <div className="grid  justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
           {data.map((destination, index) => (
             <div key={index}>
               <ProductCategoryCard
                 category={params.category}
+                duration={destination.duration}
                 destinationId={destination._id}
                 src={destination.imageUrl}
                 heading={destination.heading}
