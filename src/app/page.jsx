@@ -38,11 +38,7 @@ export default function Home() {
       <PopularCarousel />
       <MultiImagerBannerCarousel />
       <BannerCarousel />
-      {
-        <div>
-          <InternationDestinationSection />
-        </div>
-      }
+      <InternationDestinationSection />
       <PopularDestinationSection />
       <DomesticDestinationSection />
       <OurResorts />

@@ -1,12 +1,13 @@
+import InfiniteScroll from "@/components/InfiniteScroll/InfiniteScroll";
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
 import ProductCategoryCard from "@/components/productCategory/ProductCategoryCard";
 import Link from "next/link"; // Using relative import
 
-export const getProductsData = async ({ params }) => {
+export const getProductsData = async ({ params, page = 1, limit = 10 }) => {
   try {
     const response = await fetch(
-      `http://localhost:3002/api/${params.category}`,
+      `http://localhost:3002/api/${params.category}?page=${page}&limit=${limit}`,
       {
         method: "GET",
         cache: "no-store",
@@ -31,31 +32,15 @@ export const getProductsData = async ({ params }) => {
 };
 
 const Page = async ({ params }) => {
-  const data = await getProductsData({ params });
-  if (data.length === 0) {
-    return <div>No data available.</div>;
-  }
-
   return (
     <>
       <Navbar />
       <div className="max-w-7xl mx-auto my-10 px-5 flex flex-col gap-10">
-        <div className="grid  justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
-          {data.map((destination, index) => (
-            <div key={index}>
-              <ProductCategoryCard
-                category={params.category}
-                duration={destination.duration}
-                destinationId={destination._id}
-                src={destination.imageUrl}
-                heading={destination.heading}
-              />
-            </div>
-          ))}
-        </div>
+        <InfiniteScroll params={params} />
       </div>
       <Footer />
     </>
   );
 };
+
 export default Page;
