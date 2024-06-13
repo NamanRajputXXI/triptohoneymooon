@@ -109,6 +109,7 @@
 
 "use client";
 
+import Loading from "@/components/LazyLoading/Loading";
 import Navbar from "@/components/global/Navbar";
 import HeroSection from "@/components/home/HeroSection";
 import WeddingBannerCarousel from "@/components/home/HomePageCarousel/BannerCarousel/WeddingBannerCarousel";
@@ -223,7 +224,7 @@ const InViewComponent = ({ children }) => {
       {({ inView, ref }) => (
         <div ref={ref}>
           {inView ? (
-            <Suspense fallback={<div>Loading...</div>}>{children}</Suspense>
+            <Suspense fallback={<Loading />}>{children}</Suspense>
           ) : (
             <div style={{ minHeight: "1px" }} /> // Empty div with minimum height
           )}
