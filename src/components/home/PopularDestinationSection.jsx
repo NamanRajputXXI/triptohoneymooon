@@ -197,44 +197,6 @@ const PopularDestinationSection = () => {
           <div className="mx-auto my-20 popular-destination-carousel 5xl:max-w-[1800px] 4xl:max-w-[1660px] 3xl:max-w-[1440px] 2xl:max-w-[1150px] xl:max-w-[1000px] lg:max-w-[800px] max-w-7xl px-6 sm:px-6 lg:ps-8">
             <div className="mt-8 relative z-10 lg:col-span-2 px-3 lg:mx-0">
               <div className="mt-8 absolute -bottom-14 z-[50] flex gap-4 lg:mt-0">
-                {/* <button
-                  aria-label="Previous slide"
-                  onClick={handlePrevSlide}
-                  className="rounded-full border flex justify-center  items-center bg-red-600 p-3 text-rose-600 transition  hover:text-white"
-                >
-                  <span className="inline-block h-5 w-5">
-                    <svg
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 16 16"
-                      className="text-white" // Apply 'text-black' class directly here
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <button
-                  aria-label="Next slide"
-                  onClick={handleNextSlide}
-                  className="rounded-full border flex justify-center  items-center bg-red-600 p-3 text-rose-600 transition  hover:text-white"
-                >
-                  <span className="inline-block h-5 w-5">
-                    <svg
-                      aria-hidden="true"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 16 16"
-                      className="text-white" // Change this class to 'text-black'
-                    >
-                      <path
-                        fill="currentColor"
-                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-                      />
-                    </svg>
-                  </span>
-                </button> */}
                 <PreviousButton handlePrevSlide={handlePrevSlide} />
                 <NextButton handleNextSlide={handleNextSlide} />
               </div>
