@@ -2,167 +2,493 @@
   "_id": {
     "$oid": "661a670af06cb040dea38b1d"
   },
-  "heading": "Offshore Romance | Couple Tour Package of Andaman",
-  "subHeading": "Trip in Andaman",
-  "duration": "4 Night / 5 Days",
-  "mapSrc": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125058.26971091633!2d92.64006163956387!3d11.61829356535844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3088946c176b5971%3A0x5bfa43a5e9a5ed30!2sPort%20Blair%2C%20Andaman%20and%20Nicobar%20Islands!5e0!3m2!1sen!2sin!4v1708934053933!5m2!1sen!2sin",
-  "itinerary": [
+  "heading":"Romantic Andaman",
+  "duration":"5N / 6D",
+  "headerImages":[
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+    
+  ],
+  "price":"39,998",
+  "previousPrice":"46,998",
+  "rating":"4.7",
+  "totalCustomer":"531",
+  "saveInr":"7000",
+  "totalDaysDestination":"6 Days in Andaman",
+  "tripHighlights":[
+    "Cellular Jail and Light & Sound Show: Explore the historic jail and enjoy the captivating light and sound show.",
+    "Radhanagar Beach and Snorkeling: Relax on the pristine beach and snorkel at Elephant Beach.",
+    "Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+    "Ross Island and North Bay: Visit historical ruins on Ross Island and enjoy water sports at North Bay Island."
+  ],
+  "inclusions":[
+    "Accommodation on double sharing basis at above-mentioned hotels / similar in base category rooms.",
+    "Daily breakfast",
+    "Airport pick up and drop by a/c vehicle.",
+    "Makruzz / Green Ocean Cruise/ Nautika (base category) for Neil & Havelock as per the availability.",
+    "Assistance at all arrival and departure points",
+    "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable."
+  ],
+  "exclusions":[
+"Airfare / Ship's fare.",
+"All kinds of personal expenses such as tips, laundry, telephone bills and beverages.",
+"It does not include any meals unless and otherwise specifically mentioned.Guide",
+"Optional, suggested or unspecified activities. Guide at Cellular jail will cost extra. Camera fee (still or movie)",
+"Jolly ride & snorkelling charges.",
+"Optional, suggested or unspecified activities. Guide at Cellular jail will cost extra. Camera fee (still or movie)",
+"Additional usage of vehicles.",
+"Any dispute regarding the child age to be settled directly with the hotels"
+  ],
+  "knowBeforeYouGo":[
+    "All Indian nationals are required to carry a valid Government ID proof.",
+    "All foreign nationals are requested to carry their passports with them during the tour",
+    "Any change in the itinerary is subject to the weather conditions, political manifestations and government restrictions. Company reserve the rights to rearrange the itinerary in such cases"
+  ],
+  "thumbnail": "https://images.unsplash.com/photo-1706629340089-841a74251fbd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM3fHxhbmRhbWFufGVufDB8fDB8fHww",
+  "reviewImageGallary":[
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  ],
+  "reviews":[
     {
-      "day": "Day 1",
-      "day1Heading": "Arrival in Port Blair",
-      "day1Overview": "After arrival, you will be transferred to the hotel for check-in. Later, you will get transferred to the Corbyn Cove Beach, admire its beautiful shore and palm trees. Next, you will visit the Cellular Jail and enjoy a light show, before getting dropped off at the hotel for an overnight stay."
+      "name":"Naman Rajput",
+      "date":"31st May 2024",
+      "packageName":"Romantic Beaches in Andaman",
+      "rating":"5.0",
+      "review":"The trip was the best... From the booking till the last day, the whole process was awesome... The operation spoc Kritik was super fab in all the coordination and arrangements... The best part was that he was available at all times... He was just a message away... The stay hotels, the travel arrangements, the food, the sight seeing was just breath taking... I didn't want to come back, it was all soo wonderful... I have already recommended thrillophilia to many of my friends and I am definitely going to book my international trips with thrillophilia...",
+      "imageGallary":["https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+       "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg"]
     },
     {
-      "day": "Day 2",
-      "day2Heading": "Port Blair to Havelock",
-      "day2Overview": "Post check out, you will get transferred to the Phoenix Bay Harbour for a ferry ride to Havelock Island. Upon arrival, check in at the hotel. Later, you will get transferred to Radhanagar Beach, known for its scenic views. After the visit, you'll get dropped off at the hotel for an overnight stay."
+      "name":"Naman Rajput",
+      "date":"31st May 2024",
+      "packageName":"Romantic Beaches in Andaman",
+      "rating":"5.0",
+      "review":"The trip was the best... From the booking till the last day, the whole process was awesome... The operation spoc Kritik was super fab in all the coordination and arrangements... The best part was that he was available at all times... He was just a message away... The stay hotels, the travel arrangements, the food, the sight seeing was just breath taking... I didn't want to come back, it was all soo wonderful... I have already recommended thrillophilia to many of my friends and I am definitely going to book my international trips with thrillophilia...",
+      "imageGallary":["https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+       "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg"]
     },
     {
-      "day": "Day 3",
-      "day3Heading": "Kalapathar Beach Tour | Transfer to Port Blair",
-      "day3Overview": "In the morning, you will be picked up from the hotel and visit the Kalapathar Beach, enjoying a wonderful sunrise over the Indian Ocean. Afterwards, check out from the hotel and get transferred to Port Blair via a relaxing ferry ride. Check in at your hotel in Port Blair for an overnight stay."
+      "name":"Naman Rajput",
+      "date":"31st May 2024",
+      "packageName":"Romantic Beaches in Andaman",
+      "rating":"5.0",
+      "review":"The trip was the best... From the booking till the last day, the whole process was awesome... The operation spoc Kritik was super fab in all the coordination and arrangements... The best part was that he was available at all times... He was just a message away... The stay hotels, the travel arrangements, the food, the sight seeing was just breath taking... I didn't want to come back, it was all soo wonderful... I have already recommended thrillophilia to many of my friends and I am definitely going to book my international trips with thrillophilia...",
+      "imageGallary":["https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+       "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg"]
     },
     {
-      "day": "Day 4",
-      "day4Heading": "Ross & North Bay Islands Tour",
-      "day4Overview": "Start your day with a ferry ride to Ross and North Bay Islands from Port Blair for a full day tour. Enjoy water sports like snorkeling and scuba diving (at your own expense). Next, visit Ross Island, known for its penal colony. Post visit, you will be transferred to the hotel for an overnight stay."
-    },
-    {
-      "day": "Day 5",
-      "day5Heading": "Departure",
-      "day5Overview": "After you check out from your hotel, you will be transferred to the airport for your flight back home. This marks the end of your trip."
+      "name":"Naman Rajput",
+      "date":"31st May 2024",
+      "packageName":"Romantic Beaches in Andaman",
+      "rating":"5.0",
+      "review":"The trip was the best... From the booking till the last day, the whole process was awesome... The operation spoc Kritik was super fab in all the coordination and arrangements... The best part was that he was available at all times... He was just a message away... The stay hotels, the travel arrangements, the food, the sight seeing was just breath taking... I didn't want to come back, it was all soo wonderful... I have already recommended thrillophilia to many of my friends and I am definitely going to book my international trips with thrillophilia...",
+      "imageGallary":["https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+      "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg",
+       "https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg","https://cdn.pixabay.com/photo/2016/06/11/15/23/phuket-1450270_640.jpg"]
     }
   ],
-  "packageOptions": [
+  "refundPolicy":[
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode"
+  ],
+  "cancellationPolicy":[
+    "Airfare/Train fare cancellation applied original booking refund policy",
+    "Airfare/Train fare cancellation applied original booking refund policy",
+    "Airfare/Train fare cancellation applied original booking refund policy",
+    "Airfare/Train fare cancellation applied original booking refund policy",
+    "Airfare/Train fare cancellation applied original booking refund policy"
+  ],
+  "paymentPolicy":[
+    "👉Airfare/Train fare require 100% at the time of booking",
+    "👉Airfare/Train fare require 100% at the time of booking",
+    "👉Airfare/Train fare require 100% at the time of booking",
+    "👉Airfare/Train fare require 100% at the time of booking",
+    "👉Airfare/Train fare require 100% at the time of booking"
+  ],
+  "packageCategory":[
     {
-      "package": "Standard",
-      "price": "₹13000",
-      "previousPrice": "₹17,000",
-      "hotelDestination": "Port Blair",
-      "hotelDetails": [
+      "category":"Dulexe",
+      "hotels":[
         {
-          "destination": "Port Blair",
-          "hotels": [
-            "Sea Guli,",
-            "Hotel King Safire"
-          ]
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
         },
         {
-          "destination": "Havelock",
-          "hotels": [
-            "Radhakrishna Resort,",
-            "Orient Legend Beach Resort"
-          ]
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
+        }
+        , {
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
         }
       ]
     },
     {
-      "package": "3 Star Deluxe",
-      "price": "₹15,200",
-      "previousPrice": "20,4000",
-      "hotelDetails": [
+      "category":"Semi  Dulexe",
+      "hotels":[
         {
-          "destination": "Port Blair",
-          "hotels": [
-            "Bay Leaf Inn,",
-            "Hotel Blue Horizon,",
-            "Sea Port,",
-            "Baywalk"
-          ]
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
         },
         {
-          "destination": "Havelock",
-          "hotels": [
-            "White Coral Beach Resort,",
-            "Havelock Exotic Beach Resort,",
-            "TSG Blue"
-          ]
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
         }
-      ],
-      "hotelDestination": "Port Blair"
+        , {
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
+        }
+      ]
     },
     {
-      "package": "4 Star Deluxe",
-      "price": "₹20,500",
-      "previousPrice": "₹23,500",
-      "hotelDetails": [
+      "category":"Premium",
+      "hotels":[
         {
-          "destination": "Port Blair",
-          "hotels": [
-            "Mansha Regency"
-          ]
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
         },
         {
-          "destination": "Havelock",
-          "hotels": [
-            "Haywizz Havelock,",
-            "Symphany Palms,",
-            "Aquays Hotels & Resort"
-          ]
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
         }
-      ],
-      "hotelDestination": "Port Blair"
+        , {
+          "hotelName":"Mansion",
+          "price":"39,998",
+          "amenities":[
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation",
+            " doble bed with flower decroation"
+          ],
+          "images":[
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+            "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+          ],
+          "day":"Day 1",
+          "heading": "Reach the Hotel"
+        }
+      ]
     }
   ],
-
-  "carouselImageUrl": [
-    "/productKasauli1.jpg",
-    "/productKasauli2.jpg",
-    "/productKasauli3.jpg",
-    "/productKasauli4.jpg"
+  "itineraryCarousel":[
+      "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    
+      "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+      
+      "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+      
+      "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+      
+      "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+    ],
+  "itineraryDetails":[
+   {
+    "day":"Day 1",
+    "heading":"React the Andaman",
+    "details":[
+      "Cellular Jail and Light & Sound Show: Explore the historic jail and enjoy the captivating light and sound show.",
+    "Radhanagar Beach and Snorkeling: Relax on the pristine beach and snorkel at Elephant Beach.",
+    "Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+    "Ross Island and North Bay: Visit historical ruins on Ross Island and enjoy water sports at North Bay Island."
+    ],
+    "images":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"]
+   },
+   {
+    "day":"Day 2",
+    "heading":"React the Andaman",
+    "details":[
+      "Cellular Jail and Light & Sound Show: Explore the historic jail and enjoy the captivating light and sound show.",
+    "Radhanagar Beach and Snorkeling: Relax on the pristine beach and snorkel at Elephant Beach.",
+    "Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+    "Ross Island and North Bay: Visit historical ruins on Ross Island and enjoy water sports at North Bay Island."
+    ],
+    "images":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"]
+   },
+   {
+    "day":"Day 3",
+    "heading":"React the Andaman",
+    "details":[
+      "Cellular Jail and Light & Sound Show: Explore the historic jail and enjoy the captivating light and sound show.",
+    "Radhanagar Beach and Snorkeling: Relax on the pristine beach and snorkel at Elephant Beach.",
+    "Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+    "Ross Island and North Bay: Visit historical ruins on Ross Island and enjoy water sports at North Bay Island."
+    ],
+    "images":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"]
+   },
+   {
+    "day":"Day 4",
+    "heading":"React the Andaman",
+    "details":[
+      "Cellular Jail and Light & Sound Show: Explore the historic jail and enjoy the captivating light and sound show.",
+    "Radhanagar Beach and Snorkeling: Relax on the pristine beach and snorkel at Elephant Beach.",
+    "Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+    "Ross Island and North Bay: Visit historical ruins on Ross Island and enjoy water sports at North Bay Island."
+    ],
+    "images":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"]
+   },
+   {
+    "day":"Day 5",
+    "heading":"React the Andaman",
+    "details":[
+      "Cellular Jail and Light & Sound Show: Explore the historic jail and enjoy the captivating light and sound show.",
+    "Radhanagar Beach and Snorkeling: Relax on the pristine beach and snorkel at Elephant Beach.",
+    "Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+    "Ross Island and North Bay: Visit historical ruins on Ross Island and enjoy water sports at North Bay Island."
+    ],
+    "images":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"]
+   },
+   {
+    "day":"Day 6",
+    "heading":"React the Andaman",
+    "details":[
+      "Cellular Jail and Light & Sound Show: Explore the historic jail and enjoy the captivating light and sound show.",
+    "Radhanagar Beach and Snorkeling: Relax on the pristine beach and snorkel at Elephant Beach.",
+    "Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+    "Ross Island and North Bay: Visit historical ruins on Ross Island and enjoy water sports at North Bay Island."
+    ],
+    "images":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"]
+   } 
   ],
-  "exclusions": [
-    "Airfare / Ship's fare",
-    "Travel insurance ",
-    "All kinds of personal expenses such as tips, laundry, telephone bills and beverages",
-    "It does not include any meals unless and otherwise specifically mentioned.    ",
-    "Guide, Jolly ride & snorkelling charges.    ",
-    "Optional, suggested or unspecified activities",
-    "Guide at Cellular jail will cost extra.    ",
-    "Camera fee (still or movie)",
-    "Additional usage of vehicles.    ",
-    "Any dispute regarding the child age to be settled directly with the hotels.  "
+  "activities":[
+    {
+      "activityHeading":"Water park",
+      "about":"Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+      "videos":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
   ],
-  "inclusions": [
-    "Accommodation on double/triple sharing basis at above-mentioned hotels / similar in base category rooms.",
-    "Daily breakfast & Dinner ",
-    "Airport pick up and drop by a/c vehicle.    ",
-    "Makruzz / Green Ocean Cruise / Sea Link / Nautika / ITT Majestic (base category) for Neil & Havelock as per the availability.",
-    "All Toll, Parking, Driver Bata & Fuel Cost",
-    "Assistance at all arrival and departure points. ",
-    "Entry permits | Entry tickets | Parking charges | Boat/ferry tickets wherever applicable "
+  "carouselImageUrl":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+  "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+  "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+],"images":[
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  },
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  },
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  }
+]
+    },
+    {
+      "activityHeading":"Water park",
+      "about":"Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+      "videos":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
   ],
-  "overView": [
-    {
-      "heading": "Andaman Delight: Discovering Havelock and Port Blair",
-      "text": "Embark on a captivating journey through the enchanting islands of Andaman, where Havelock and Port Blair showcase the region's pristine beaches, vibrant marine life, and rich cultural heritage."
+  "carouselImageUrl":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+  "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+  "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+],"images":[
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  },
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  },
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  }
+]
     },
     {
-      "heading": "Beachfront Bliss in Havelock",
-      "text": "Immerse yourself in the turquoise waters and white sandy beaches of Havelock. Experience the serene beauty of Radhanagar Beach, indulge in water activities, and unwind in this tropical paradise surrounded by the Andaman Sea."
-    },
-    {
-      "heading": "Historical Charm of Port Blair",
-      "text": "Explore the historical landmarks of Port Blair, the capital city of Andaman. Visit the Cellular Jail, witness the Sound and Light Show narrating the region's history, and stroll through the vibrant markets offering local crafts and delicacies."
-    },
-    {
-      "heading": "Island Adventure: Beyond the Waves",
-      "text": "Delve into the underwater wonders surrounding Havelock and Port Blair. Snorkel or dive to discover vibrant coral reefs and diverse marine life. These islands offer a paradise for water enthusiasts, promising unforgettable aquatic experiences."
-    },
-    {
-      "heading": "Cultural Encounters",
-      "text": "Engage in the cultural tapestry of Andaman. Discover the traditions of the indigenous tribes, explore local markets, and savor the unique Andamanese cuisine. The islands blend natural beauty with a rich cultural heritage."
-    },
-    {
-      "heading": "Preserving Marine Heritage",
-      "text": "Andaman is committed to preserving its marine ecosystems. From responsible tourism practices to coral conservation initiatives, the islands strive to protect their underwater treasures for future generations to marvel at."
-    },
-    {
-      "heading": "Plan Your Andaman Escape",
-      "text": "Whether seeking beachfront bliss, historical insights, or underwater adventures, Andaman promises an unforgettable journey. Plan your escape to this tropical haven, where every wave tells a story, and every moment is a celebration of Andaman's allure."
+      "activityHeading":"Water park",
+      "about":"Laxmanpur Beach Sunset: Witness a stunning sunset at Laxmanpur Beach with its unique rock formations.",
+      "videos":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  ],
+  "carouselImageUrl":["https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+  "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+  "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+],"images":[
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  },
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  },
+  {
+    "heading":"Beach",
+    "image":"https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+  }
+]
     }
-  ],
-  "imageUrl": "https://images.unsplash.com/photo-1706629340089-841a74251fbd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM3fHxhbmRhbWFufGVufDB8fDB8fHww"
+  ]
 }
 
 
@@ -178,96 +504,3 @@
 
 
 
-"packageOptions": [
-  {
-    "package": "Standard",
-    "price": "₹13000",
-    "previousPrice": "₹17,000",
-    "hotelDestination": "Port Blair",
-    "hotelDetails": [
-      {
-        "destination": "Port Blair",
-        "hotels": [
-          "Sea Guli,",
-          "Hotel King Safire"
-        ]
-      },
-      {
-        "destination": "Havelock",
-        "hotels": [
-          "Radhakrishna Resort,",
-          "Orient Legend Beach Resort"
-        ]
-      },
-      {
-        "destination": "Neil Island",
-        "hotels": [
-          "Coral Garden Resort,",
-          "Laxmi Continenal Resort"
-        ]
-      }
-    ]
-  },
-  {
-    "package": "3 Star Deluxe",
-    "price": "₹15,200",
-    "previousPrice": "20,4000",
-    "hotelDetails": [
-      {
-        "destination": "Port Blair",
-        "hotels": [
-          "Bay Leaf Inn,",
-          "Hotel Blue Horizon,",
-          "Sea Port,",
-          "Baywalk"
-        ]
-      },
-      {
-        "destination": "Havelock",
-        "hotels": [
-          "White Coral Beach Resort,",
-          "Havelock Exotic Beach Resort,",
-          "TSG Blue"
-        ]
-      },
-      {
-        "destination": "Neil Island",
-        "hotels": [
-          "Tango Beach Resort,",
-          "CS Empire"
-        ]
-      }
-    ],
-    "hotelDestination": "Port Blair"
-  },
-  {
-    "package": "4 Star Deluxe",
-    "price": "₹20,500",
-    "previousPrice": "₹23,500",
-    "hotelDetails": [
-      {
-        "destination": "Port Blair",
-        "hotels": [
-          "Mansha Regency"
-        ]
-      },
-      {
-        "destination": "Havelock",
-        "hotels": [
-          "Haywizz Havelock,",
-          "Symphany Palms,",
-          "Aquays Hotels & Resort"
-        ]
-      },
-      {
-        "destination": "Neil Island",
-        "hotels": [
-          "Aquays Hotels & Resort,",
-          "Pearl Park Beach Resort,",
-          "Symphany Summer Sand"
-        ]
-      }
-    ],
-    "hotelDestination": "Port Blair"
-  }
-],

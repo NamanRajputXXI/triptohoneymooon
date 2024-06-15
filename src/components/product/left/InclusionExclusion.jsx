@@ -13,7 +13,9 @@ const InclusionExclusion = ({ inclusions, exclusions }) => {
             <div className="pt-3">
               {inclusions.map((inclusion, i) => (
                 <div className="flex items-center gap-3" key={i}>
-                  <TiTick size={20} color="green" />
+                  <div className="flex items-center justify-center h-10 w-10">
+                    <TiTick size={20} color="green" />
+                  </div>
                   <p>{inclusion}</p>
                 </div>
               ))}
@@ -24,7 +26,10 @@ const InclusionExclusion = ({ inclusions, exclusions }) => {
             <div className="pt-3 w-full">
               {exclusions.map((exclusion, i) => (
                 <div className="flex items-center gap-3" key={i}>
-                  <RxCross2 size={20} color="red" /> <p>{exclusion}</p>
+                  <div className="flex items-center justify-center h-10 w-10">
+                    <RxCross2 size={20} color="red" />
+                  </div>
+                  <p>{exclusion}</p>
                 </div>
               ))}
             </div>

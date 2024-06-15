@@ -235,7 +235,7 @@ import Tabs from "./tabs/Tabs";
 import Accordian from "../AccordianItem";
 import InclusionExclusion from "./InclusionExclusion";
 
-const LeftSideSection = ({ heading, duration, itinerary }) => {
+const LeftSideSection = ({ heading, duration, itinerary, tripHighlights }) => {
   const [selected, setSelected] = useState(0); // Set initial value to 0
 
   const overView = [
@@ -248,13 +248,16 @@ const LeftSideSection = ({ heading, duration, itinerary }) => {
   return (
     <div className="md:col-span-2">
       <div className="flex flex-col gap-5">
-        <p className="text-4xl font-bold">{heading}</p>
+        <p className="text-4xl font-bold">
+          {heading}
+          <span className="text-gray-500 text-xs">Only for Couples</span>
+        </p>
         <button className="py-2 px-1 w-40 bg-[#cf331a] text-white rounded-xl">
           {duration}
         </button>
 
         <div className="flex flex-col gap-3 md:text-base text-xs sm:text-sm justify-between border-t-[1px] border-b-[1px] py-5 border-gray-200">
-          <p className="font-bold">Choose Trip Duration</p>
+          <p className="font-bold">Choose Hotel Category</p>
           <div className="flex gap-2 items-center">
             <div
               className="flex flex-col gap-1 relative cursor-pointer"
@@ -380,7 +383,7 @@ const LeftSideSection = ({ heading, duration, itinerary }) => {
 
         <div className="py-5">
           <p className="font-bold">Trip Highlights</p>
-          {overView.map((item, i) => (
+          {tripHighlights.map((item, i) => (
             <div className="flex flex-col " key={i}>
               <p className="text-gray-600 my-2 ">
                 {i + 1}. {item}

@@ -47,6 +47,12 @@ const InfiniteScroll = ({ params }) => {
               destinationId={destination._id}
               src={destination.imageUrl}
               heading={destination.heading}
+              thumbnail={destination.thumbnail}
+              previousPrice={destination.previousPrice}
+              price={destination.price}
+              rating={destination.rating}
+              totalCustomer={destination.totalCustomer}
+              saveInr={destination.saveInr}
             />
           </div>
         ))}

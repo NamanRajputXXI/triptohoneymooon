@@ -50,28 +50,32 @@ const Page = async ({ params }) => {
 
   const {
     heading,
-    subHeading,
-    carouselImageUrl,
-    mapSrc,
-    packageOptions,
     exclusions,
+    headerImages,
     inclusions,
     itinerary,
     overView,
     duration,
-    imageUrl,
+    tripHighlights,
+    knowBeforeYouGo,
+    totalCustomer,
+    rating,
+    reviewImageGallary,
+    reviews,
   } = singleProductData.document;
 
   return (
     <div className="bg-white">
       <Navbar />
-      <ImagesGridLayout carouselImageUrl={carouselImageUrl} />
+      <ImagesGridLayout headerImages={headerImages} />
       <div className="grid md:grid-cols-3 grid-cols-1 px-5 max-w-7xl mx-auto gap-5 py-4">
         <LeftSideSection
           overView={overView}
           heading={heading}
+          tripHighlights={tripHighlights}
           duration={duration}
           itinerary={itinerary}
+          rating={rating}
         />
         <RightSideSection />
       </div>
@@ -84,13 +88,15 @@ const Page = async ({ params }) => {
       </div>
       <InclusionExclusion inclusions={inclusions} exclusions={exclusions} />
       <div className="px-5">
-        <AccordionItem
-          content={cancellationPolicy}
-          title={"Know Befor You Go"}
-        />
+        <AccordionItem content={knowBeforeYouGo} title={"Know Befor You Go"} />
         <AdditionalInfo />
         <RelatedProductsCarousel />
-        <Reviews />
+        <Reviews
+          reviews={reviews}
+          totalCustomer={totalCustomer}
+          rating={rating}
+          reviewImageGallary={reviewImageGallary}
+        />
         <AccordionItem
           content={cancellationPolicy}
           title={"Cancellation Policy"}
