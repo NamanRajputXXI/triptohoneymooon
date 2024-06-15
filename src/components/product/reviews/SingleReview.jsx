@@ -27,7 +27,7 @@ const SingleReview = ({ review }) => {
         Booked :
         <span className=" text-black font-bold">{review.packageName}</span>
       </p>
-      <p className="text-gray-700">{}</p>
+      <p className="text-gray-700">{review.review}</p>
       <div className="grid gap-3 grid-cols-4 lg:grid-cols-6">
         {review.imageGallary.map((image, i) => (
           <img

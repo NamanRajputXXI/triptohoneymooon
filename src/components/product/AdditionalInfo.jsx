@@ -24,7 +24,6 @@ const AdditionalInfo = () => {
           </p>
         </div>
       </div>
-
       {isPopupOpen && <AdditionalInfoPopup onClose={closePopup} />}
     </section>
   );

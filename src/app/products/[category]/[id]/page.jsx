@@ -5,10 +5,8 @@ import AdditionalInfo from "@/components/product/AdditionalInfo";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
 import InclusionExclusion from "@/components/product/left/InclusionExclusion";
 import LeftSideSection from "@/components/product/left/LeftSideSection";
-import ReviewsData from "@/components/product/reviews/ReviewsData";
 import Reviews from "@/components/product/reviews/Reviews";
 import RightSideSection from "@/components/product/RightSideSection";
-import cancellationPolicy from "@/data/productPageData/cancellationPolicy";
 import RelatedProductsCarousel from "@/components/product/RelatedProductsCarousel";
 
 export const getProductData = async ({ params }) => {
@@ -61,7 +59,14 @@ const Page = async ({ params }) => {
     totalCustomer,
     rating,
     reviewImageGallary,
+    refundPolicy,
+    paymentPolicy,
+    cancellationPolicy,
     reviews,
+    price,
+    previousPrice,
+    saveInr,
+    packageCategory,
   } = singleProductData.document;
 
   return (
@@ -70,6 +75,7 @@ const Page = async ({ params }) => {
       <ImagesGridLayout headerImages={headerImages} />
       <div className="grid md:grid-cols-3 grid-cols-1 px-5 max-w-7xl mx-auto gap-5 py-4">
         <LeftSideSection
+          packageCategory={packageCategory}
           overView={overView}
           heading={heading}
           tripHighlights={tripHighlights}
@@ -77,7 +83,14 @@ const Page = async ({ params }) => {
           itinerary={itinerary}
           rating={rating}
         />
-        <RightSideSection />
+        <RightSideSection
+          price={price}
+          previousPrice={previousPrice}
+          rating={rating}
+          totalCustomer={totalCustomer}
+          saveInr={saveInr}
+          heading={heading}
+        />
       </div>
       <div className="flex px-5 items-center justify-center max-w-7xl mx-auto ">
         <img
@@ -101,15 +114,8 @@ const Page = async ({ params }) => {
           content={cancellationPolicy}
           title={"Cancellation Policy"}
         />
-        <AccordionItem content={cancellationPolicy} title={"Refund Policy"} />
-        <AccordionItem
-          content={cancellationPolicy}
-          title={"Confirmation Policy"}
-        />
-        <AccordionItem
-          content={cancellationPolicy}
-          title={"Payment Term Policy"}
-        />
+        <AccordionItem content={refundPolicy} title={"Refund Policy"} />
+        <AccordionItem content={paymentPolicy} title={"Payment Policy"} />
       </div>
       <Footer />
     </div>

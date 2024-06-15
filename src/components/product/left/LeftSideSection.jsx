@@ -235,7 +235,13 @@ import Tabs from "./tabs/Tabs";
 import Accordian from "../AccordianItem";
 import InclusionExclusion from "./InclusionExclusion";
 
-const LeftSideSection = ({ heading, duration, itinerary, tripHighlights }) => {
+const LeftSideSection = ({
+  heading,
+  duration,
+  itinerary,
+  tripHighlights,
+  packageCategory,
+}) => {
   const [selected, setSelected] = useState(0); // Set initial value to 0
 
   const overView = [
@@ -259,90 +265,32 @@ const LeftSideSection = ({ heading, duration, itinerary, tripHighlights }) => {
         <div className="flex flex-col gap-3 md:text-base text-xs sm:text-sm justify-between border-t-[1px] border-b-[1px] py-5 border-gray-200">
           <p className="font-bold">Choose Hotel Category</p>
           <div className="flex gap-2 items-center">
-            <div
-              className="flex flex-col gap-1 relative cursor-pointer"
-              onClick={() => setSelected(0)}
-            >
-              <img
-                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
-                alt=""
-                className={`h-32 rounded-xl p-1 w-32 ${
-                  selected === 0
-                    ? "border-red-600 border-2"
-                    : "border-white border-2"
-                }`}
-              />
-              <p className="text-white absolute top-24 left-3 font-extrabold">
-                6 Days
-              </p>
-              <div className="flex flex-col">
-                <p className="text-xs text-gray-500">Starting From</p>
-                <p className="font-extrabold text-[13px]">₹ 99,800</p>
+            {packageCategory.map((category, i) => (
+              <div
+                key={i}
+                className="flex flex-col gap-1 relative cursor-pointer"
+                onClick={() => setSelected(0)}
+              >
+                <img
+                  src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
+                  alt=""
+                  className={`h-32 rounded-xl p-1 w-32 ${
+                    selected === 0
+                      ? "border-red-600 border-2"
+                      : "border-white border-2"
+                  }`}
+                />
+                <p className="text-white absolute top-24 left-3 font-extrabold">
+                  {category.category}
+                </p>
+                <div className="flex flex-col">
+                  <p className="text-xs text-gray-500">Starting From</p>
+                  <p className="font-extrabold text-[13px]">
+                    ₹ {category.price}
+                  </p>
+                </div>
               </div>
-            </div>
-            <div
-              className="flex flex-col gap-1  relative cursor-pointer"
-              onClick={() => setSelected(1)}
-            >
-              <img
-                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
-                alt=""
-                className={`h-32 rounded-xl p-1 w-32 ${
-                  selected === 1
-                    ? "border-red-600 border-2"
-                    : "border-white border-2"
-                }`}
-              />
-              <p className="text-white absolute top-24 left-3 font-extrabold">
-                7 Days
-              </p>
-              <div className="flex flex-col">
-                <p className="text-xs text-gray-500">Starting From</p>
-                <p className="font-extrabold text-[13px]">₹ 77,577</p>
-              </div>
-            </div>
-            <div
-              className="flex flex-col gap-1  relative cursor-pointer"
-              onClick={() => setSelected(2)}
-            >
-              <img
-                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
-                alt=""
-                className={`h-32 rounded-xl p-1 w-32 ${
-                  selected === 2
-                    ? "border-red-600 border-2"
-                    : "border-white border-2"
-                }`}
-              />
-              <p className="text-white absolute top-24 left-3 font-extrabold">
-                8 Days
-              </p>
-              <div className="flex flex-col">
-                <p className="text-xs text-gray-500">Starting From</p>
-                <p className="font-extrabold text-[13px]">₹ 1,42,000</p>
-              </div>
-            </div>
-            <div
-              className="flex flex-col gap-1 relative cursor-pointer"
-              onClick={() => setSelected(3)}
-            >
-              <img
-                src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
-                alt=""
-                className={`h-32 rounded-xl p-1 w-32 ${
-                  selected === 3
-                    ? "border-red-600 border-2"
-                    : "border-white border-2"
-                }`}
-              />
-              <p className="text-white absolute top-24 left-3 font-extrabold">
-                9 Days
-              </p>
-              <div className="flex flex-col">
-                <p className="text-xs text-gray-500">Starting From</p>
-                <p className="font-extrabold text-[13px]">₹ 1,12,500</p>
-              </div>
-            </div>
+            ))}
           </div>
         </div>
 
@@ -360,17 +308,6 @@ const LeftSideSection = ({ heading, duration, itinerary, tripHighlights }) => {
             <p>Stay Updated</p>
           </div>
         </div>
-
-        <div className="flex flex-col gap-2">
-          <p className="font-bold">Destinaation Routes</p>
-          <div className="flex border-[#cf331a] relative border-[1px] rounded-2xl py-3 px-3">
-            <p>Zurich</p>
-            <div className="flex bg-[#cf331a] rounded-tr-xl items-center right-0 top-0 justify-center absolute">
-              <TiTick color="white" size={20} />
-            </div>
-          </div>
-        </div>
-
         <div className="flex flex-col gap-2">
           <p className="font-bold">Stay Category</p>
           <div className="flex w-40 border-[#cf331a] relative border-[1px] rounded-2xl py-3 px-3">
