@@ -1,10 +1,17 @@
 import React, { useState } from "react";
-import ItiniraryAccordian from "./ItiniraryAccordian";
+import ItiniraryAccordian from "./Itinerary/ItiniraryAccordian";
 import ItineraryCarousel from "../carousel/ItineraryCarousel";
-import Activities from "./Activities";
-import Stay from "./Stay";
+// import Activities from "./Activities";
+import Stay from "./Stay/Stay";
+import ActivityAccordian from "./Activities/ActivityAccordian";
 
-const Tabs = ({ itineraryCarousel, itineraryDetails, days, destination }) => {
+const Tabs = ({
+  itineraryCarousel,
+  itineraryDetails,
+  days,
+  destination,
+  activities,
+}) => {
   const [activeTab, setActiveTab] = useState("itinerary");
 
   const handleTabClick = (tab) => {
@@ -74,7 +81,16 @@ const Tabs = ({ itineraryCarousel, itineraryDetails, days, destination }) => {
 
         {activeTab === "activities" && (
           <div>
-            <Activities />
+            {activities.map((activity, i) => (
+              <div key={i}>
+                <ActivityAccordian index={i} activity={activity} />
+              </div>
+            ))}
+            <ItineraryCarousel
+              days={days}
+              destination={destination}
+              itineraryCarousel={itineraryCarousel}
+            />
           </div>
         )}
         {activeTab === "stay" && (

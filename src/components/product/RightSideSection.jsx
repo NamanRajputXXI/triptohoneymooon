@@ -36,7 +36,7 @@ const RightSideSection = ({
         </div>
         <hr className="bg-gray-200 h-[1px]" />
         <button className="bg-[#cf331a] w-full rounded-xl py-3 px-4 text-white">
-          SEND EQUIRY
+          Buy Now
         </button>
       </div>
       <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-200">

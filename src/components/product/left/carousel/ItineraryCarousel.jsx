@@ -58,7 +58,6 @@ const ItineraryCarousel = ({ itineraryCarousel, days, destination }) => {
 
   return (
     <div className="mx-auto max-w-[1340px] relative">
-      {/* Carousel Buttons */}
       <div className="absolute inset-y-0 flex items-center justify-between w-full px-4 z-10">
         <button
           aria-label="Previous slide"
@@ -100,10 +99,10 @@ const ItineraryCarousel = ({ itineraryCarousel, days, destination }) => {
         </button>
       </div>
       <div className=" flex left-3 items-center gap-2 absolute z-[50] bottom-3  text-white font-extrabold">
-        <p className="text-5xl">{days}</p>
+        {days && <p className="text-5xl">{days}</p>}
         <div className="flex flex-col ">
           <p className="text-sm font-normal">Days in</p>
-          <p className="text-lg">{destination}</p>
+          {destination && <p className="text-lg">{destination}</p>}
         </div>
       </div>
 

@@ -71,6 +71,7 @@ const Page = async ({ params }) => {
     itineraryCarousel,
     days,
     destination,
+    activities,
   } = singleProductData.document;
 
   return (
@@ -90,6 +91,7 @@ const Page = async ({ params }) => {
           rating={rating}
           days={days}
           destination={destination}
+          activities={activities}
         />
         <RightSideSection
           price={price}

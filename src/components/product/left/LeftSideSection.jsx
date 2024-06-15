@@ -15,6 +15,7 @@ const LeftSideSection = ({
   packageCategory,
   days,
   destination,
+  activities,
 }) => {
   const [selected, setSelected] = useState(0); // Set initial value to 0
 
@@ -101,10 +102,12 @@ const LeftSideSection = ({
           itineraryDetails={itineraryDetails}
           days={days}
           destination={destination}
+          activities={activities}
         />
       </div>
     </div>
   );
+  W;
 };
 
 export default LeftSideSection;
