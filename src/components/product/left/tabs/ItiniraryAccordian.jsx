@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-const ItiniraryAccordian = ({ title, content, day, index }) => {
+const ItiniraryAccordian = ({ heading, day, details, images }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -17,9 +17,8 @@ const ItiniraryAccordian = ({ title, content, day, index }) => {
         <div className="flex gap-4 items-center">
           <button className="px-3 flex items-center gap-2 py-1  bg-red-600 text-white font-bold cursor-pointer rounded-xl">
             <p>{day}</p>
-            {index + 1}
           </button>
-          <p className=" sm:text-xl text-lg font-bold">{title}</p>
+          <p className=" sm:text-xl text-lg font-bold">{heading}</p>
         </div>
         <span
           className={`transform transition-transform ${
@@ -29,7 +28,25 @@ const ItiniraryAccordian = ({ title, content, day, index }) => {
           &#9660;
         </span>
       </div>
-      {isOpen && <div className="p-4 border-t">{content}</div>}
+      {isOpen && (
+        <div className="p-4 border-t">
+          {details.map((detail, i) => (
+            <p key={i}>{detail}</p>
+          ))}
+          {images && (
+            <div className=" py-5 flex gap-5">
+              {images.map((image, i) => (
+                <img
+                  key={i}
+                  src={image}
+                  alt=""
+                  className="h-64 object-cover object-center w-80 rounded-xl"
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 };

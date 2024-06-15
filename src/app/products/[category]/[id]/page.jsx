@@ -67,6 +67,10 @@ const Page = async ({ params }) => {
     previousPrice,
     saveInr,
     packageCategory,
+    itineraryDetails,
+    itineraryCarousel,
+    days,
+    destination,
   } = singleProductData.document;
 
   return (
@@ -75,6 +79,8 @@ const Page = async ({ params }) => {
       <ImagesGridLayout headerImages={headerImages} />
       <div className="grid md:grid-cols-3 grid-cols-1 px-5 max-w-7xl mx-auto gap-5 py-4">
         <LeftSideSection
+          itineraryDetails={itineraryDetails}
+          itineraryCarousel={itineraryCarousel}
           packageCategory={packageCategory}
           overView={overView}
           heading={heading}
@@ -82,6 +88,8 @@ const Page = async ({ params }) => {
           duration={duration}
           itinerary={itinerary}
           rating={rating}
+          days={days}
+          destination={destination}
         />
         <RightSideSection
           price={price}

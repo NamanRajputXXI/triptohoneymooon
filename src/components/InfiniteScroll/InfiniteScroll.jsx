@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { getProductsData } from "@/app/products/[category]/page";
 import ProductCategoryCard from "../productCategory/ProductCategoryCard";
+import Loading from "../LazyLoading/Loading";
 
 const InfiniteScroll = ({ params }) => {
   const [data, setData] = useState([]);
@@ -67,7 +68,7 @@ const InfiniteScroll = ({ params }) => {
           </button>
         </div>
       )}
-      {isLoading && <div>Loading...</div>}
+      {isLoading && <Loading />}
     </div>
   );
 };
