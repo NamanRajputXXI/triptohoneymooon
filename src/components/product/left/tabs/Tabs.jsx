@@ -11,6 +11,9 @@ const Tabs = ({
   days,
   destination,
   activities,
+  selected,
+  setSelected,
+  packageCategory,
 }) => {
   const [activeTab, setActiveTab] = useState("itinerary");
 
@@ -95,7 +98,11 @@ const Tabs = ({
         )}
         {activeTab === "stay" && (
           <div>
-            <Stay />
+            <Stay
+              selected={selected}
+              setSelected={setSelected}
+              packageCategory={packageCategory}
+            />
           </div>
         )}
       </div>

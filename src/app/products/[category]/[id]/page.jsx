@@ -8,6 +8,7 @@ import LeftSideSection from "@/components/product/left/LeftSideSection";
 import Reviews from "@/components/product/reviews/Reviews";
 import RightSideSection from "@/components/product/RightSideSection";
 import RelatedProductsCarousel from "@/components/product/RelatedProductsCarousel";
+import MidSection from "@/components/product/MidSection";
 
 export const getProductData = async ({ params }) => {
   try {
@@ -63,8 +64,6 @@ const Page = async ({ params }) => {
     paymentPolicy,
     cancellationPolicy,
     reviews,
-    price,
-    previousPrice,
     saveInr,
     packageCategory,
     itineraryDetails,
@@ -78,8 +77,8 @@ const Page = async ({ params }) => {
     <div className="bg-white">
       <Navbar />
       <ImagesGridLayout headerImages={headerImages} />
-      <div className="grid md:grid-cols-3 grid-cols-1 px-5 max-w-7xl mx-auto gap-5 py-4">
-        <LeftSideSection
+
+      {/* <LeftSideSection
           itineraryDetails={itineraryDetails}
           itineraryCarousel={itineraryCarousel}
           packageCategory={packageCategory}
@@ -100,8 +99,24 @@ const Page = async ({ params }) => {
           totalCustomer={totalCustomer}
           saveInr={saveInr}
           heading={heading}
-        />
-      </div>
+        /> */}
+      <MidSection
+        itineraryDetails={itineraryDetails}
+        itineraryCarousel={itineraryCarousel}
+        packageCategory={packageCategory}
+        overView={overView}
+        heading={heading}
+        tripHighlights={tripHighlights}
+        duration={duration}
+        itinerary={itinerary}
+        rating={rating}
+        days={days}
+        destination={destination}
+        activities={activities}
+        totalCustomer={totalCustomer}
+        saveInr={saveInr}
+      />
+
       <div className="flex px-5 items-center justify-center max-w-7xl mx-auto ">
         <img
           src="/endOfTripBanner.png"

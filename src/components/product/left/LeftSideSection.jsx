@@ -16,9 +16,9 @@ const LeftSideSection = ({
   days,
   destination,
   activities,
+  selected,
+  setSelected,
 }) => {
-  const [selected, setSelected] = useState(0); // Set initial value to 0
-
   return (
     <div className="md:col-span-2">
       <div className="flex flex-col gap-5">
@@ -37,13 +37,13 @@ const LeftSideSection = ({
               <div
                 key={i}
                 className="flex flex-col gap-1 relative cursor-pointer"
-                onClick={() => setSelected(0)}
+                onClick={() => setSelected(i)}
               >
                 <img
                   src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
                   alt=""
                   className={`h-32 rounded-xl p-1 w-32 ${
-                    selected === 0
+                    selected === i
                       ? "border-red-600 border-2"
                       : "border-white border-2"
                   }`}
@@ -79,7 +79,7 @@ const LeftSideSection = ({
         <div className="flex flex-col gap-2">
           <p className="font-bold">Stay Category</p>
           <div className="flex w-40 border-[#cf331a] relative border-[1px] rounded-2xl py-3 px-3">
-            <p>Duluxe</p>
+            <p>{packageCategory[selected].category}</p>
             <div className="flex bg-[#cf331a] rounded-tr-xl items-center right-0 top-0 justify-center absolute">
               <TiTick color="white" size={20} />
             </div>
@@ -103,11 +103,13 @@ const LeftSideSection = ({
           days={days}
           destination={destination}
           activities={activities}
+          selected={selected}
+          setSelected={setSelected}
+          packageCategory={packageCategory}
         />
       </div>
     </div>
   );
-  W;
 };
 
 export default LeftSideSection;
