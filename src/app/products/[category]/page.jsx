@@ -7,7 +7,7 @@ import Link from "next/link"; // Using relative import
 export const getProductsData = async ({ params, page = 1, limit = 10 }) => {
   try {
     const response = await fetch(
-      `http://localhost:3002/api/${params.category}?page=${page}&limit=${limit}`,
+      `https://triptohoneymooon.vercel.app//api/${params.category}?page=${page}&limit=${limit}`,
       {
         method: "GET",
         cache: "no-store",

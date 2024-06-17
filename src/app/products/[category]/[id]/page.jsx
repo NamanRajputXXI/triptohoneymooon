@@ -13,7 +13,7 @@ import MidSection from "@/components/product/MidSection";
 export const getProductData = async ({ params }) => {
   try {
     const response = await fetch(
-      `http://localhost:3002/api/${params.category}/${params.id}`,
+      `https://triptohoneymooon.vercel.app/api/${params.category}/${params.id}`,
       {
         cache: "no-store",
       }
