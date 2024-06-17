@@ -4,7 +4,6 @@ import AccordionItem from "@/components/product/AccordianItem";
 import AdditionalInfo from "@/components/product/AdditionalInfo";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
 import InclusionExclusion from "@/components/product/left/InclusionExclusion";
-import LeftSideSection from "@/components/product/left/LeftSideSection";
 import Reviews from "@/components/product/reviews/Reviews";
 import RightSideSection from "@/components/product/RightSideSection";
 import RelatedProductsCarousel from "@/components/product/RelatedProductsCarousel";

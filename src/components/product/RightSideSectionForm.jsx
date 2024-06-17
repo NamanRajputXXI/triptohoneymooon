@@ -7,10 +7,11 @@ const RightSideSectionForm = () => {
     email: "",
     phone: "",
     travelDate: "",
-    travellerCount: "",
+    coupleCount: "",
     message: "",
   });
   const [errors, setErrors] = useState({});
+  const [result, setResult] = useState("");
 
   const validateForm = () => {
     let errors = {};
@@ -39,8 +40,8 @@ const RightSideSectionForm = () => {
       isValid = false;
     }
 
-    if (!formData.travellerCount) {
-      errors.travellerCount = "Traveller Count is required";
+    if (!formData.coupleCount || formData.coupleCount % 2 !== 0) {
+      errors.coupleCount = "Couple Count must be an even number";
       isValid = false;
     }
 
@@ -52,12 +53,45 @@ const RightSideSectionForm = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     if (validateForm()) {
-      // Handle form submission logic here
-      console.log(formData);
+      setResult("Sending....");
+
+      const formDataToSubmit = new FormData();
+      formDataToSubmit.append(
+        "access_key",
+        "8203b704-160f-4dd1-96c4-8b52b46ff79e"
+      );
+      formDataToSubmit.append("fullName", formData.fullName);
+      formDataToSubmit.append("email", formData.email);
+      formDataToSubmit.append("phone", formData.phone);
+      formDataToSubmit.append("travelDate", formData.travelDate);
+      formDataToSubmit.append("coupleCount", formData.coupleCount);
+      formDataToSubmit.append("message", formData.message);
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formDataToSubmit,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setResult("Form Submitted Successfully");
+        setFormData({
+          fullName: "",
+          email: "",
+          phone: "",
+          travelDate: "",
+          coupleCount: "",
+          message: "",
+        });
+      } else {
+        console.log("Error", data);
+        setResult(data.message);
+      }
     }
   };
 
@@ -70,7 +104,7 @@ const RightSideSectionForm = () => {
           value={formData.fullName}
           onChange={handleChange}
           placeholder="Full Name*"
-          className={`w-full px-3 py-2 border  border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
+          className={`w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.fullName ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -85,7 +119,7 @@ const RightSideSectionForm = () => {
           value={formData.email}
           onChange={handleChange}
           placeholder="Email*"
-          className={`w-full px-3 py-2  border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
+          className={`w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.email ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -105,7 +139,7 @@ const RightSideSectionForm = () => {
           value={formData.phone}
           onChange={handleChange}
           placeholder="Your Phone*"
-          className={`w-full px-3 py-2  border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
+          className={`w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.email ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -119,8 +153,8 @@ const RightSideSectionForm = () => {
           name="travelDate"
           value={formData.travelDate}
           onChange={handleChange}
-          placeholder="Travel Date*"
-          className={`w-1/2 mr-2 px-3 py-2 border  border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
+          title="Travel Date*"
+          className={`w-1/2 mr-2 px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.travelDate ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
@@ -129,16 +163,18 @@ const RightSideSectionForm = () => {
         )}
         <input
           type="number"
-          name="travellerCount"
-          value={formData.travellerCount}
+          name="coupleCount"
+          value={formData.coupleCount}
           onChange={handleChange}
-          placeholder="Traveller Count*"
-          className={`w-1/2 px-3 py-2 border border-gray-200  rounded-md focus:outline-none focus:ring-2 ${
-            errors.travellerCount ? "focus:ring-red-500" : "focus:ring-black"
+          placeholder="Couple Count*"
+          min="2"
+          step="2"
+          className={`w-1/2 px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
+            errors.coupleCount ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
-        {errors.travellerCount && (
-          <p className="text-red-500 text-sm mt-1">{errors.travellerCount}</p>
+        {errors.coupleCount && (
+          <p className="text-red-500 text-sm mt-1">{errors.coupleCount}</p>
         )}
       </div>
       <div className="mb-4">
@@ -147,15 +183,16 @@ const RightSideSectionForm = () => {
           value={formData.message}
           onChange={handleChange}
           placeholder="Message..."
-          className="w-full px-3 py-2 border border-gray-200  rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+          className="w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
         />
       </div>
       <button
         type="submit"
         className="bg-[#cf331a] w-full rounded-xl py-3 px-4 text-white"
       >
-        SEND EQUIRY
+        SEND ENQUIRY
       </button>
+      {result && <p className="mt-4 text-center">{result}</p>}
     </form>
   );
 };
