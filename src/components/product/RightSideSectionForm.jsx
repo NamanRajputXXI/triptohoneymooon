@@ -40,8 +40,8 @@ const RightSideSectionForm = () => {
       isValid = false;
     }
 
-    if (!formData.coupleCount || formData.coupleCount % 2 !== 0) {
-      errors.coupleCount = "Couple Count must be an even number";
+    if (!formData.coupleCount || formData.coupleCount <= 0) {
+      errors.coupleCount = "Couple Count must be greater than 0";
       isValid = false;
     }
 
@@ -50,7 +50,16 @@ const RightSideSectionForm = () => {
   };
 
   const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+
+    // Check for coupleCount field and only allow values greater than 0
+    if (name === "coupleCount") {
+      if (value === "" || parseInt(value) > 0) {
+        setFormData({ ...formData, [name]: value });
+      }
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -140,7 +149,7 @@ const RightSideSectionForm = () => {
           onChange={handleChange}
           placeholder="Your Phone*"
           className={`w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
-            errors.email ? "focus:ring-red-500" : "focus:ring-black"
+            errors.phone ? "focus:ring-red-500" : "focus:ring-black"
           }`}
         />
         {errors.phone && (
@@ -167,8 +176,7 @@ const RightSideSectionForm = () => {
           value={formData.coupleCount}
           onChange={handleChange}
           placeholder="Couple Count*"
-          min="2"
-          step="2"
+          min="1"
           className={`w-1/2 px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-2 ${
             errors.coupleCount ? "focus:ring-red-500" : "focus:ring-black"
           }`}
