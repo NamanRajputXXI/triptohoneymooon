@@ -40,7 +40,7 @@ const LeftSideSection = ({
                 onClick={() => setSelected(i)}
               >
                 <img
-                  src="https://cdn.pixabay.com/photo/2019/10/25/01/01/tbilisi-4575709_640.jpg"
+                  src={category.imageUrl}
                   alt=""
                   className={`h-32 rounded-xl p-1 w-32 ${
                     selected === i

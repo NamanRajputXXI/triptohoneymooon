@@ -76,29 +76,6 @@ const Page = async ({ params }) => {
     <div className="bg-white">
       <Navbar />
       <ImagesGridLayout headerImages={headerImages} />
-
-      {/* <LeftSideSection
-          itineraryDetails={itineraryDetails}
-          itineraryCarousel={itineraryCarousel}
-          packageCategory={packageCategory}
-          overView={overView}
-          heading={heading}
-          tripHighlights={tripHighlights}
-          duration={duration}
-          itinerary={itinerary}
-          rating={rating}
-          days={days}
-          destination={destination}
-          activities={activities}
-        />
-        <RightSideSection
-          price={price}
-          previousPrice={previousPrice}
-          rating={rating}
-          totalCustomer={totalCustomer}
-          saveInr={saveInr}
-          heading={heading}
-        /> */}
       <MidSection
         itineraryDetails={itineraryDetails}
         itineraryCarousel={itineraryCarousel}

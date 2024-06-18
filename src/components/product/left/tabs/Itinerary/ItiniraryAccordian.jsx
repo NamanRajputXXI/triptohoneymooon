@@ -34,13 +34,13 @@ const ItiniraryAccordian = ({ heading, day, details, images }) => {
             <p key={i}>{detail}</p>
           ))}
           {images && (
-            <div className=" py-5 flex gap-5">
+            <div className=" py-5 md:flex-row flex-col flex gap-5">
               {images.map((image, i) => (
                 <img
                   key={i}
                   src={image}
                   alt=""
-                  className="h-64 object-cover object-center w-80 rounded-xl"
+                  className="xl:h-64 h-48 object-cover object-center lg:w-64 w-full md:w-48 xl:w-80 rounded-xl"
                 />
               ))}
             </div>
