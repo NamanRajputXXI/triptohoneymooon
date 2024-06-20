@@ -39,6 +39,7 @@ const ActivityAccordian = ({ activity, index }) => {
                   src={item.image}
                   className="h-46 w-80 object-center object-cover "
                   alt=""
+                  loading="lazy"
                 />
                 <p>{item.heading}</p>
               </div>

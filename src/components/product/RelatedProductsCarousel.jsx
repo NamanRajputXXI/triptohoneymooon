@@ -119,6 +119,7 @@ const RelatedProductsCarousel = () => {
                         src={item.imageUrl}
                         alt={item.title}
                         className="object-cover rounded-xl object-center h-96 w-full md:w-96"
+                        loading="lazy"
                       />
                     </div>
                     <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between item-center">

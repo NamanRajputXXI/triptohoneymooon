@@ -114,6 +114,7 @@ const MultiImageCarousel = () => {
                     src={item.imageUrl}
                     alt={item.title}
                     className="object-cover rounded-xl object-center h-80 w-full"
+                    loading="lazy"
                   />
                   <p className="">{item.destinaion}</p>
                 </div>

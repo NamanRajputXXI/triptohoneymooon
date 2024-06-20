@@ -61,7 +61,12 @@ const Stay = ({ selected, setSelected, packageCategory }) => {
                       className="sm:w-1/2 w-full flex flex-col gap-3"
                       key={i}
                     >
-                      <img src={image} className="w-full rounded-lg" alt="" />
+                      <img
+                        src={image}
+                        className="w-full rounded-lg"
+                        alt=""
+                        loading="lazy"
+                      />
                     </div>
                   ))}
                 </div>

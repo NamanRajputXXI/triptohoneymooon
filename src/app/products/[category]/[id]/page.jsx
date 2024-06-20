@@ -98,6 +98,7 @@ const Page = async ({ params }) => {
           src="/endOfTripBanner.png"
           className=" object-cover object-center h-[150px] md:h-[160px]"
           alt=""
+          loading="lazy"
         />
       </div>
       <InclusionExclusion inclusions={inclusions} exclusions={exclusions} />

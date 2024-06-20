@@ -10,6 +10,7 @@ const Gifts = () => {
             src="https://cdn.pixabay.com/photo/2023/01/21/20/26/heart-7735087_640.jpg"
             className="bg-cover bg-center rounded-2xl w-full"
             alt=""
+            loading="lazy "
           />
         </div>
         <div className="flex flex-col gap-5">

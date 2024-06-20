@@ -21,6 +21,7 @@ const WeddingBannerCarousel = () => {
             <img
               src="/AdsBanner.jpg"
               className="w-full  rounded-2xl  md:h-32 sm:h-24 h-16 "
+              loading="lazy"
               alt=""
             />
           </div>
@@ -30,6 +31,7 @@ const WeddingBannerCarousel = () => {
             <img
               src="/AdsBanner.jpg"
               className="w-full md:h-32 sm:h-24 h-16   rounded-2xl"
+              loading="lazy"
               alt=""
             />
           </div>

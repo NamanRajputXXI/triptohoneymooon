@@ -116,6 +116,7 @@ const ItineraryCarousel = ({ itineraryCarousel, days, destination }) => {
                 <img
                   src={item}
                   alt="image"
+                  loading="lazy"
                   className="object-cover rounded-xl object-center h-80 w-full"
                 />
               </div>

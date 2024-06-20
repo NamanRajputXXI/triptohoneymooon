@@ -21,6 +21,7 @@ const ProductCategoryCard = ({
         <div className="flex flex-shrink-0 relative w-full sm:w-auto">
           <img
             src={thumbnail}
+            loading="lazy"
             alt={"image"}
             className="object-cover rounded-xl object-center h-72 md:h-96 w-full md:w-96"
           />

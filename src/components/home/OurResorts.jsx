@@ -99,6 +99,7 @@ const OurResorts = () => {
                       src={item.imageUrl}
                       alt={item.title}
                       className="object-cover rounded-t-xl object-center h-72 w-full"
+                      loading="lazy"
                     />
                     <div className="rounded-xl bg-opacity-5 absolute w-full h-full py-6">
                       <div className="flex h-full items-end  relative ">

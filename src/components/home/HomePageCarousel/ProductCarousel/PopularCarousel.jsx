@@ -83,6 +83,7 @@ const PopularCarousel = () => {
                         src={item.imageUrl}
                         alt={item.title}
                         className="object-cover rounded-xl object-center h-96 w-full md:w-96"
+                        loading="lazy"
                       />
 
                       {/* <div className=" rounded-xl  absolute w-full h-full py-6">

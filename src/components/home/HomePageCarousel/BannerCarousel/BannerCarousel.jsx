@@ -21,6 +21,7 @@ const BannerCarousel = () => {
               src="/advertiseBanner.jpg"
               className="w-full object-fill  rounded-2xl  sm:h-96  h-32"
               alt=""
+              loading="lazy"
             />
           </div>
         </SwiperSlide>
@@ -29,6 +30,7 @@ const BannerCarousel = () => {
             <img
               src="/advertiseBanner.jpg"
               className="w-full  sm:h-96  h-32 object-fill rounded-2xl"
+              loading="lazy"
               alt=""
             />
           </div>
@@ -38,6 +40,7 @@ const BannerCarousel = () => {
             <img
               src="/advertiseBanner.jpg"
               className="w-full sm:h-96  h-32 object-fill  rounded-2xl"
+              loading="lazy"
               alt=""
             />
           </div>
@@ -47,6 +50,7 @@ const BannerCarousel = () => {
             <img
               src="/advertiseBanner.jpg"
               className="w-full  sm:h-96  h-32 object-fill rounded-2xl"
+              loading="lazy"
               alt=""
             />
           </div>

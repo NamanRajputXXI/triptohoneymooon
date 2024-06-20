@@ -60,6 +60,7 @@ const KeyFeatures = () => {
               src="https://cdn.pixabay.com/photo/2012/02/25/19/09/romantic-16955_1280.jpg"
               className="sm:w-4/5  w-full rounded-full lg:h-[700px] sm:h-[500px] h-[400px] object-cover"
               alt=""
+              loading="lazy"
             />
           </div>
           <div className="absolute -bottom-24 right-0 rounded-full  border-[20px] border-red-100">
@@ -67,6 +68,7 @@ const KeyFeatures = () => {
               src="https://images.unsplash.com/photo-1550155864-3033f844da36?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               className="xl:w-[300px] w-[200px] xl:h-[500px] lg:h-[400px] h-[280px] rounded-full object-cover"
               alt=""
+              loading="lazy"
             />
           </div>
         </div>

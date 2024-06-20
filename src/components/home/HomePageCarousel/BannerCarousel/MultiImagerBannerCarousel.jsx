@@ -122,7 +122,7 @@ const MultiImagerBannerCarousel = () => {
             style={{ transform: `translateX(-${current * 100}%)` }}
           >
             {slides.map((s, i) => {
-              return <img key={i} src={s} alt="" />;
+              return <img key={i} src={s} alt="" loading="lazy" />;
             })}
           </div>
 

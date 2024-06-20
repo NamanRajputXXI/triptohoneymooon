@@ -10,6 +10,7 @@ const AboutUsSection = () => {
             <img
               src="/heroSectionImages/hearts.png"
               className=" object-cover  w-16 h-20"
+              loading="lazy"
               alt=""
             />
           </div>

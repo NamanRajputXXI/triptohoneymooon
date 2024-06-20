@@ -42,6 +42,7 @@ const LeftSideSection = ({
                 <img
                   src={category.imageUrl}
                   alt=""
+                  loading="lazy"
                   className={`h-32 rounded-xl p-1 w-32 ${
                     selected === i
                       ? "border-red-600 border-2"

@@ -14,6 +14,7 @@ const CarouselImage = ({ src, alt, className }) => {
       src={src}
       alt={alt}
       className={`object-cover rounded-2xl ${className}`}
+      loading="lazy"
     />
   );
 };
@@ -136,6 +137,7 @@ const InternationDestinationSection = () => {
                         src={item.imageUrl}
                         alt={item.title}
                         className="w-full h-[300px]  lg:h-[300px]"
+                        loading="lazy"
                       />
                       <div className=" rounded-xl bg-opacity-5 absolute w-full h-full py-3">
                         <div className="flex h-full items-end  relative pb-6">

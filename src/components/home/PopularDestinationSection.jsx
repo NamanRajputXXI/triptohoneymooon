@@ -162,6 +162,7 @@ const PopularDestinationSection = () => {
           src="/heroSectionImages/hearts.png"
           className="object-cover w-8 h-10 md:w-16 md:h-20"
           alt=""
+          loading="lazy"
         />
       </div>
       <div className="z-10 absolute sm:bottom-80 bottom-[300px] right-0 sm:right-10 lg:right-10 lg:bottom-36 md:right-10 md:bottom-60">
@@ -169,6 +170,7 @@ const PopularDestinationSection = () => {
           src="https://cdn.pixabay.com/photo/2024/05/15/19/17/couple-8764348_1280.png"
           className="h-60 w-40 md:w-72 md:h-[400px]"
           alt=""
+          loading="lazy"
         />
       </div>
 

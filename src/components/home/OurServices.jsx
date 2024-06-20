@@ -76,6 +76,7 @@ const OurServices = () => {
                 src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG90ZWxzfGVufDB8fDB8fHww"
                 alt=""
                 className="object-cover rounded-2xl object-center h-80 w-full md:w-96"
+                loading="lazy"
               />
               <div className="text-xl lg:text-2xl text-center rounded-2xl flex items-end justify-start font-semibold absolute h-full bg-black bg-opacity-30 w-full leading-5 lg:leading-7 text-white">
                 <h1 className=" text-white mx-4 my-4">Hotels</h1>
@@ -88,6 +89,7 @@ const OurServices = () => {
                 src="https://images.unsplash.com/photo-1542992804-34f8f4cb193b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGhvdG9zaG9vdHxlbnwwfDB8MHx8fDA%3D"
                 alt=""
                 className="object-cover rounded-2xl object-center h-80 w-full md:w-96"
+                loading="lazy"
               />
               <div className="text-xl lg:text-2xl text-center rounded-2xl flex items-end justify-start font-semibold absolute h-full bg-black bg-opacity-30 w-full leading-5 lg:leading-7 text-white">
                 <h1 className=" text-white mx-4 my-4">Photoshoot</h1>
@@ -100,6 +102,7 @@ const OurServices = () => {
                 src="https://images.unsplash.com/photo-1546032996-6dfacbacbf3f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2VkZGluZ3xlbnwwfDF8MHx8fDA%3D"
                 alt=""
                 className="object-cover rounded-2xl object-center h-80 w-full md:w-96"
+                loading="lazy"
               />
               <div className="text-xl lg:text-2xl text-center rounded-2xl flex items-end justify-start font-semibold absolute h-full bg-black bg-opacity-30 w-full leading-5 lg:leading-7 text-white">
                 <h1 className=" text-white mx-4 my-4">Wedding</h1>
@@ -112,6 +115,7 @@ const OurServices = () => {
                 src="https://images.unsplash.com/photo-1544928147-79a2dbc1f389?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZXZlbnR8ZW58MHwxfDB8fHww"
                 alt=""
                 className="object-cover rounded-2xl object-center h-80 w-full md:w-96"
+                loading="lazy"
               />
               <div className="text-xl lg:text-2xl text-center flex rounded-2xl items-end justify-start font-semibold absolute h-full bg-black bg-opacity-30 w-full leading-5 lg:leading-7 text-white">
                 <h1 className=" text-white mx-4 my-4">Event</h1>

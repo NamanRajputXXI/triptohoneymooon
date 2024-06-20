@@ -39,6 +39,7 @@ const ItiniraryAccordian = ({ heading, day, details, images }) => {
                 <img
                   key={i}
                   src={image}
+                  loading="lazy"
                   alt=""
                   className="xl:h-64 h-48 object-cover object-center lg:w-64 w-full md:w-48 xl:w-80 rounded-xl"
                 />

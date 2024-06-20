@@ -11,6 +11,7 @@ const TravelPoint = () => {
               src="./aboutUsCouple.png"
               className="absolute object-cover lg:h-[850px] sm:h-[600px] lg:w-[550px] w-[300px] h-[400px] sm:w-[400px] bottom-0 md:left-0 sm:left-10 left-0 "
               alt=""
+              loading="lazy"
             />
           </div>
         </div>

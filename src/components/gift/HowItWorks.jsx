@@ -8,6 +8,7 @@ const HowItWorks = () => {
           src="./handGift.png"
           alt=""
           className=" md:w-80 md:h-80 sm:w-60 w-32 h-32 object-cover object-center z-[100] sm:h-40"
+          loading="lazy"
         />
       </div>
       <div className="max-w-7xl px-5 md:gap-8 gap-4 flex-col items-center mx-auto h-fit flex">
@@ -24,6 +25,7 @@ const HowItWorks = () => {
               src="https://images.unsplash.com/photo-1608755727748-dfa2e44f255b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGdpZnRzfGVufDB8MHwwfHx8MA%3D%3D  "
               className="object-cover rounded-2xl h-[250px] object-center w-full"
               alt=""
+              loading="lazy"
             />
             <p className="text-3xl font-extrabold">You Choose</p>
             <p className=" font-normal text-xl xl:text-2xl text-center">
@@ -33,6 +35,7 @@ const HowItWorks = () => {
               <img
                 src="https://cdn.pixabay.com/photo/2016/06/04/09/32/arrow-1435215_640.png"
                 className="w-16 -rotate-90  h-16"
+                loading="lazy"
                 alt=""
               />
             </div>
@@ -41,6 +44,7 @@ const HowItWorks = () => {
                 src="https://cdn.pixabay.com/photo/2016/06/04/09/32/arrow-1435215_640.png"
                 className="w-16  h-16"
                 alt=""
+                loading="lazy"
               />
             </div>
           </div>
@@ -48,6 +52,7 @@ const HowItWorks = () => {
             <img
               src="https://cdn.pixabay.com/photo/2019/12/03/07/34/gift-4669449_640.jpg "
               className="object-cover rounded-2xl h-[250px]  object-center w-full"
+              loading="lazy"
               alt=""
             />
             <p className="text-3xl font-extrabold">They Select</p>
@@ -58,6 +63,7 @@ const HowItWorks = () => {
               <img
                 src="https://cdn.pixabay.com/photo/2016/06/04/09/32/arrow-1435215_640.png"
                 className="w-16 h-16 -rotate-90"
+                loading="lazy"
                 alt=""
               />
             </div>
@@ -65,6 +71,7 @@ const HowItWorks = () => {
               <img
                 src="https://cdn.pixabay.com/photo/2016/06/04/09/32/arrow-1435215_640.png"
                 className="w-16  h-16"
+                loading="lazy"
                 alt=""
               />
             </div>
@@ -73,6 +80,7 @@ const HowItWorks = () => {
             <img
               src="https://images.unsplash.com/photo-1526367790999-0150786686a2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D "
               className="object-cover rounded-2xl h-[250px]  object-center w-full"
+              loading="lazy"
               alt=""
             />
             <p className="text-3xl font-extrabold">We Deliver</p>

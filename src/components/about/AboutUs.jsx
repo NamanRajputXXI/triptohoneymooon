@@ -83,6 +83,7 @@ const AboutUs = () => {
         <img
           src="aboutUsImages/vision.png"
           className="lg:w-[500px] md:w-[350px]"
+          loading="lazy"
           alt=""
         />
         <div className="flex flex-col gap-8">

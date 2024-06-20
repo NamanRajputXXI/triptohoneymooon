@@ -58,6 +58,7 @@ const ImagesGridLayout = ({ headerImages }) => {
                 src={headerImages[0]}
                 alt=""
                 className="h-full w-full object-cover object-center image-zoom"
+                loading="lazy"
               />
             </div>
             <div className="grid md:gap-3 gap-2 w-full md:w-1/2 h-full grid-cols-2">
@@ -67,6 +68,7 @@ const ImagesGridLayout = ({ headerImages }) => {
                   src={headerImages[1]}
                   alt=""
                   className="object-cover h-full w-full object-center image-zoom"
+                  loading="lazy"
                 />
               </div>
               <div className="overflow-hidden rounded-xl">
@@ -75,6 +77,7 @@ const ImagesGridLayout = ({ headerImages }) => {
                   src={headerImages[2]}
                   alt=""
                   className="object-cover h-full w-full object-center image-zoom"
+                  loading="lazy"
                 />
               </div>
               <div className="overflow-hidden rounded-xl">
@@ -83,6 +86,7 @@ const ImagesGridLayout = ({ headerImages }) => {
                   src={headerImages[3]}
                   alt=""
                   className="object-cover h-full w-full object-center image-zoom"
+                  loading="lazy"
                 />
               </div>
               <div className="overflow-hidden rounded-xl">
@@ -91,6 +95,7 @@ const ImagesGridLayout = ({ headerImages }) => {
                   src={headerImages[4]}
                   alt=""
                   className="object-cover h-full w-full object-center image-zoom"
+                  loading="lazy"
                 />
               </div>
             </div>

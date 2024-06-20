@@ -23,6 +23,7 @@ const Account = () => {
             className="rounded-2xl w-full"
             src="https://cdn.pixabay.com/photo/2018/11/09/12/55/wine-3804523_1280.jpg"
             alt=""
+            loading="lazy"
           />
         </div>
       </div>
