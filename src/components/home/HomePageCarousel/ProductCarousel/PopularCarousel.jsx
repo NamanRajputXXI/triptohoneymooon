@@ -8,6 +8,7 @@ import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 import PreviousButton from "@/components/global/Carousel/CarouselButton/PreviousButton";
 import NextButton from "@/components/global/Carousel/CarouselButton/NextButton";
+import CarouselImageLoader from "@/components/LazyLoading/CarouselImageLoader";
 const PopularCarousel = () => {
   const sliderContainer = useRef(null);
   const keenSlider = useRef(null);
@@ -78,33 +79,26 @@ const PopularCarousel = () => {
               {popularCarouselData.map((item, i) => (
                 <div className="keen-slider__slide" key={i}>
                   <Link href={item.link}>
-                    <div className="flex flex-shrink-0 relative w-full sm:w-auto">
-                      <img
+                    <div className="rounded-xl overflow-hidden">
+                      <CarouselImageLoader
                         src={item.imageUrl}
                         alt={item.title}
-                        className="object-cover rounded-xl object-center h-96 w-full md:w-96"
-                        loading="lazy"
+                        className="object-cover w-full h-96 md:w-96"
+                        containerClass="w-full h-96 md:w-96"
                       />
-
-                      {/* <div className=" rounded-xl  absolute w-full h-full py-6">
-                        <div className="flex h-fit items-center text-xs pl-2 pr-5 gap-3 py-1 w-fit text-white  bg-gradient-to-r from-red-500 to-yellow-400   relative top-0  ">
-                          <MdOutlineDiscount color="white" size={20} />
-                          Save upto {item.discount}
-                        </div>
-                      </div> */}
                     </div>
-                    <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between item-center">
-                      <p className="">{item.days}</p>
+                    <div className="flex w-full text-gray-500 px-1 mt-3 text-sm justify-between items-center">
+                      <p>{item.days}</p>
                       <div className="flex items-center gap-2">
                         <FaStar color="green" />
                         4.8 (120)
                       </div>
                     </div>
-                    <div className="flex w-full text-sm px-1 mt-3  justify-between item-center">
+                    <div className="flex w-full text-sm px-1 mt-3 justify-between items-center">
                       <p>{item.title}</p>
                     </div>
 
-                    <button className="flex w-full text-lg  mt-3  text-white bg-red-500 font-medium rounded-lg px-2 py-3 justify-center item-center">
+                    <button className="flex w-full text-lg mt-3 text-white bg-red-500 font-medium rounded-lg px-2 py-3 justify-center items-center">
                       Explore
                     </button>
                   </Link>
