@@ -17,6 +17,15 @@ module.exports = {
         Merriweather: ["Merriweather", "serif"],
         Lato: ["Lato", "sans-serif"],
       },
+      keyframes: {
+        shimmer: {
+          "0%": { backgroundPosition: "-500px 0" },
+          "100%": { backgroundPosition: "500px 0" },
+        },
+      },
+      animation: {
+        shimmer: "shimmer 1.5s infinite linear",
+      },
     },
     screens: {
       sm: "640px",
