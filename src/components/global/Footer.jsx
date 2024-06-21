@@ -78,7 +78,13 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-7xl md:pb-0 pb-10 mt-5 md:flex-row flex-col gap-5 px-5 relative z-10 text-gray-400 mx-auto flex items-center justify-between">
+        <div className="flex flex-col items-center  gap-3">
+          <p>Connect with Us Instantly on WhatsApp</p>
+          <img src="/qr/whatsAppChatQr.jpg" className="h-40 w-40" alt="" />
+        </div>
         <p>@Triptohoneymoon 2024 All Rights Reserved</p>
+
+        <p>Unit of Admire Tours & Holidays Pvt. Ltd</p>
       </div>
     </footer>
   );
