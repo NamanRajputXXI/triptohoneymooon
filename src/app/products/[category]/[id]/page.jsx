@@ -5,9 +5,9 @@ import AdditionalInfo from "@/components/product/AdditionalInfo";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
 import InclusionExclusion from "@/components/product/left/InclusionExclusion";
 import Reviews from "@/components/product/reviews/Reviews";
-import RightSideSection from "@/components/product/RightSideSection";
 import RelatedProductsCarousel from "@/components/product/RelatedProductsCarousel";
 import MidSection from "@/components/product/MidSection";
+import PopupWrapper from "@/components/home/Popup/PopupWrapper";
 
 export const getProductData = async ({ params }) => {
   try {
@@ -119,6 +119,7 @@ const Page = async ({ params }) => {
         <AccordionItem content={refundPolicy} title={"Refund Policy"} />
         <AccordionItem content={paymentPolicy} title={"Payment Policy"} />
       </div>
+      <PopupWrapper />
       <Footer />
     </div>
   );

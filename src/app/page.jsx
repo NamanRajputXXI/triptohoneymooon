@@ -54,7 +54,7 @@ const OurServices = lazy(() => import("@/components/home/OurServices"));
 const Footer = lazy(() => import("@/components/global/Footer"));
 
 const RequestQuotePopup = lazy(() =>
-  import("@/components/home/RequestQuotePopup")
+  import("@/components/home/Popup/RequestQuotePopup")
 );
 
 export default function Home() {
