@@ -1,91 +1,139 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
+  const [showQuoteForm, setShowQuoteForm] = useState(false);
+
+  const toggleQuoteForm = () => {
+    setShowQuoteForm(!showQuoteForm);
+  };
+
   return (
-    <footer className="relative  h-fit  md:py-20 w-full bg-red-900">
+    <footer className="relative h-fit w-full bg-red-900 text-white">
       <div className="absolute h-full w-full inset-0 bg-black bg-opacity-60"></div>
-      <div className="grid max-w-7xl lg:gap-8  gap-10 mx-auto relative z-10 font-medium    lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-start text-white justify-center p-10">
-        <div className="flex flex-col gap-10">
-          <div className="flex flex-col gap-3">
-            <h1 className="text-xl font-semibold">Policy</h1>
-            <div className="flex flex-col gap-3">
-              <p>Privacy Policy</p>
-              <p>Terms of Use</p>
-            </div>
+      <div className="max-w-7xl mx-auto px-4 py-12 relative z-10">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
+          <div className="flex flex-col items-center ">
+            <h2 className="text-xl font-semibold mb-4">Policy</h2>
+            <ul className="space-y-2">
+              <li>Privacy Policy</li>
+              <li>Terms of Use</li>
+            </ul>
+            <h2 className="text-xl font-semibold mt-8 mb-4">Support</h2>
+            <ul className="space-y-2">
+              <li>Contact Us</li>
+              <li>About Us</li>
+            </ul>
           </div>
-          <div className="flex flex-col gap-3">
-            <h1 className="text-xl font-semibold">Support</h1>
-            <div className="flex flex-col gap-3">
-              <p>Contact Us</p>
-              <p>About Us</p>
-            </div>
+          <div className="flex flex-col items-center ">
+            <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
+            <ul className="space-y-2">
+              <li>Home</li>
+              <li>Trending Destination</li>
+              <li>Domestic Destination</li>
+              <li>Popular Destination</li>
+              <li>International Destination</li>
+            </ul>
           </div>
-        </div>
-        <div className="flex flex-col  gap-10">
-          <div className="flex flex-col    gap-3">
-            <h1 className="text-xl font-semibold">Quick Link</h1>
-            <div className="flex flex-col gap-3">
-              <p>Home</p>
-              <p>Trending Destination</p>
-              <p>Domestic Destination</p>
-              <p>Popular Destination</p>
-              <p>International Destination </p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col gap-10">
-          <div className="flex flex-col gap-3">
-            <h1 className="text-xl  font-semibold">Follow Us on</h1>
-            <div className="flex items-center gap-3">
-              <Link
-                href={
-                  "https://www.facebook.com/people/Trip-to-Honeymoon/61551720045200/"
-                }
-              >
+          <div className="flex flex-col items-center ">
+            <h2 className="text-xl font-semibold mb-4">Follow Us on</h2>
+            <div className="flex space-x-4 mb-8">
+              <Link href="https://www.facebook.com/people/Trip-to-Honeymoon/61551720045200/">
                 <FaFacebook size={30} color="#1877F2" />
               </Link>
-              <Link
-                href={"https://www.instagram.com/triptohoneymoon_official/"}
-              >
+              <Link href="https://www.instagram.com/triptohoneymoon_official/">
                 <FaInstagram size={30} color="#FCAF45" />
               </Link>
-              <Link href={"ab"}>
+              <Link href="#">
                 <FaYoutube size={30} color="#CD201F" />
               </Link>
             </div>
-          </div>
-          <div className="flex  flex-col gap-3">
-            <h1 className="text-xl  font-semibold">Sign Up</h1>
-            <div className="flex  flex-col gap-3">
-              <p className="">
-                Sign up to receive exclusive offers on honeymoon packages,
-                updates on romantic destinations, and tips for planning.
-              </p>
-              <div className="flex sm:flex-row flex-col sm:items-center gap-2">
-                <input
-                  type="text"
-                  placeholder="Email"
-                  className="px-5 py-2 placeholder:text-white sm:w-auto w-64  bg-gray-400 text-white flex items-center  rounded-xl"
-                />
-                <button className="flex sm:w-auto w-32 items-center justify-center px-5 py-2 text-black bg-white rounded-xl">
-                  Send
-                </button>
-              </div>
+            <h2 className="text-xl font-semibold mb-4">Sign Up</h2>
+            <p className="mb-4">
+              Sign up to receive exclusive offers on honeymoon packages, updates
+              on romantic destinations, and tips for planning.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-2">
+              <input
+                type="email"
+                placeholder="Email"
+                className="px-4 py-2 bg-gray-700 rounded"
+              />
+              <button className="px-4 py-2 bg-white text-black rounded">
+                Send
+              </button>
             </div>
           </div>
+          <div className="flex flex-col items-center ">
+            <h2 className="text-xl font-semibold mb-4">Connect with Us</h2>
+            <p className="mb-4">Scan to chat on WhatsApp</p>
+            <img
+              src="/qr/whatsAppChatQr.jpg"
+              alt="WhatsApp QR Code"
+              className="w-32 h-32 mb-4"
+            />
+            <button
+              onClick={toggleQuoteForm}
+              className="px-4 py-2 bg-white text-black rounded"
+            >
+              Request a Quote
+            </button>
+          </div>
+        </div>
+        <div className="mt-12 pt-8 border-t border-gray-700 text-center text-sm">
+          <p>@Triptohoneymoon 2024 All Rights Reserved</p>
+          <p>Unit of Admire Tours & Holidays Pvt. Ltd</p>
         </div>
       </div>
-      <div className="max-w-7xl md:pb-0 pb-10 mt-5 md:flex-row flex-col gap-5 px-5 relative z-10 text-gray-400 mx-auto flex items-center justify-between">
-        <div className="flex flex-col items-center  gap-3">
-          <p>Connect with Us Instantly on WhatsApp</p>
-          <img src="/qr/whatsAppChatQr.jpg" className="h-40 w-40" alt="" />
-        </div>
-        <p>@Triptohoneymoon 2024 All Rights Reserved</p>
 
-        <p>Unit of Admire Tours & Holidays Pvt. Ltd</p>
-      </div>
+      {showQuoteForm && (
+        <div className="fixed inset-0 px-3 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white relative text-black p-6 rounded-lg max-w-md w-full">
+            <h2 className="text-2xl font-bold mb-4">Request a Quote</h2>
+            <form>
+              <input
+                type="text"
+                placeholder="Name"
+                className="w-full p-2 mb-2 border rounded"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                className="w-full p-2 mb-2 border rounded"
+              />
+              <input
+                type="tel"
+                placeholder="Phone"
+                className="w-full p-2 mb-2 border rounded"
+              />
+              <input
+                type="text"
+                placeholder="Destination"
+                className="w-full p-2 mb-2 border rounded"
+              />
+              <textarea
+                placeholder="Message"
+                className="w-full p-2 mb-2 border rounded"
+                rows="4"
+              ></textarea>
+              <button
+                type="submit"
+                className="w-full bg-[#cf331a] text-white p-2 rounded"
+              >
+                Submit
+              </button>
+            </form>
+            <button
+              onClick={toggleQuoteForm}
+              className="absolute top-0 right-4 text-black text-4xl"
+            >
+              &times;
+            </button>
+          </div>
+        </div>
+      )}
     </footer>
   );
 };
