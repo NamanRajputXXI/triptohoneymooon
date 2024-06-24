@@ -1,98 +1,227 @@
-// import React from "react";
+// "use client";
+// import React, { useState } from "react";
 
-// const ImageGallary = () => {
+// const ImageGallary = ({ reviewImageGallary }) => {
+//   const [showGallery, setShowGallery] = useState(false);
+//   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+//   const openGallery = (index) => {
+//     setShowGallery(true);
+//     setCurrentImageIndex(index);
+//   };
+
+//   const closeGallery = () => {
+//     setShowGallery(false);
+//   };
+
+//   const nextImage = () => {
+//     setCurrentImageIndex(
+//       (prevIndex) => (prevIndex + 1) % reviewImageGallary.length
+//     );
+//   };
+
+//   const prevImage = () => {
+//     setCurrentImageIndex(
+//       (prevIndex) =>
+//         (prevIndex - 1 + reviewImageGallary.length) % reviewImageGallary.length
+//     );
+//   };
+
 //   return (
-//     <div className="max-w-7xl flex flex-col mx-auto ">
-//       <div className="flex items-start justify-start gap-5 w-full flex-col">
-//         <p className="text-start text-2xl font-bold">Traveller Image Gallary</p>
-
-//         <div className="flex md:flex-row flex-col  h-[600px] gap-3">
-//           <div className="md:w-1/2 w-full h-full">
-//             <img
-//               src="https://cdn.pixabay.com/photo/2021/07/18/17/42/waterfall-6476205_640.jpg"
-//               alt=""
-//               className=" h-full w-full object-cover rounded-xl object-center"
-//             />
-//           </div>
-//           <div className="grid gap-3 w-full md:w-1/2 h-full  grid-cols-2">
-//             <img
-//               src="https://cdn.pixabay.com/photo/2021/11/23/06/45/city-6818066_640.jpg"
-//               alt=""
-//               className="object-cover h-full rounded-xl object-center"
-//             />
-//             <img
-//               src="https://cdn.pixabay.com/photo/2014/08/12/00/01/santorini-416136_640.jpg"
-//               alt=""
-//               className="object-cover h-full rounded-xl  object-center"
-//             />
-//             <img
-//               src="https://cdn.pixabay.com/photo/2020/06/17/17/02/sea-5310426_640.jpg"
-//               alt=""
-//               className="object-cover h-full rounded-xl object-center"
-//             />
-//             <img
-//               src="https://cdn.pixabay.com/photo/2020/08/29/18/50/coastal-5527726_640.jpg"
-//               alt=""
-//               className="object-cover h-full rounded-xl object-center"
-//             />
+//     <section className="my-5 px-5">
+//       <div className="max-w-7xl flex flex-col mx-auto">
+//         <div className="flex items-start justify-start gap-5 w-full flex-col">
+//           <p className="text-start text-2xl font-bold">
+//             Traveller Image Gallery
+//           </p>
+//           <div className="flex md:flex-row flex-col md:h-[600px] gap-2 md:gap-3">
+//             <div
+//               className="md:w-1/2 w-full h-full overflow-hidden rounded-xl cursor-pointer"
+//               onClick={() => openGallery(0)}
+//             >
+//               <img
+//                 src={reviewImageGallary[0]}
+//                 alt="Traveller Image 1"
+//                 className="h-full w-full object-cover object-center image-zoom"
+//                 loading="lazy"
+//               />
+//             </div>
+//             <div className="grid md:gap-3 gap-2 w-full md:w-1/2 h-full grid-cols-2">
+//               {reviewImageGallary.slice(1, 5).map((img, index) => (
+//                 <div
+//                   key={index}
+//                   className="overflow-hidden rounded-xl relative cursor-pointer"
+//                   onClick={() => openGallery(index + 1)}
+//                 >
+//                   <img
+//                     src={img}
+//                     alt={`Traveller Image ${index + 2}`}
+//                     className="object-cover h-full w-full object-center image-zoom"
+//                     loading="lazy"
+//                   />
+//                   {index === 3 && reviewImageGallary.length > 5 && (
+//                     <button
+//                       onClick={(e) => {
+//                         e.stopPropagation();
+//                         openGallery(5);
+//                       }}
+//                       className="absolute bottom-4 right-4 bg-white text-black px-4 py-2 rounded-md"
+//                     >
+//                       See All
+//                     </button>
+//                   )}
+//                 </div>
+//               ))}
+//             </div>
 //           </div>
 //         </div>
 //       </div>
-//     </div>
+//       {showGallery && (
+//         <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
+//           <button
+//             onClick={closeGallery}
+//             className="absolute top-4 right-4 text-white text-6xl"
+//           >
+//             &times;
+//           </button>
+//           <button
+//             onClick={prevImage}
+//             className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-8xl"
+//           >
+//             &#8249;
+//           </button>
+//           <img
+//             src={reviewImageGallary[currentImageIndex]}
+//             alt={`Traveller Image ${currentImageIndex + 1}`}
+//             className="max-h-[90vh] max-w-[90vw] object-contain"
+//           />
+//           <button
+//             onClick={nextImage}
+//             className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-8xl"
+//           >
+//             &#8250;
+//           </button>
+//         </div>
+//       )}
+//     </section>
 //   );
 // };
 
 // export default ImageGallary;
+"use client";
 
-import React from "react";
+import React, { useState } from "react";
 
-const ImageGallary = ({ reviewImageGallary }) => {
+const ImageGallary = ({ reviewImageGallary = [] }) => {
+  const [showGallery, setShowGallery] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const openGallery = (index) => {
+    setShowGallery(true);
+    setCurrentImageIndex(index);
+  };
+
+  const closeGallery = () => {
+    setShowGallery(false);
+  };
+
+  const nextImage = () => {
+    setCurrentImageIndex(
+      (prevIndex) => (prevIndex + 1) % reviewImageGallary.length
+    );
+  };
+
+  const prevImage = () => {
+    setCurrentImageIndex(
+      (prevIndex) =>
+        (prevIndex - 1 + reviewImageGallary.length) % reviewImageGallary.length
+    );
+  };
+
+  // Ensure we have at least one image
+  if (reviewImageGallary.length === 0) {
+    return <div>No images available</div>;
+  }
+
   return (
-    <div className="max-w-7xl flex flex-col mx-auto">
-      <div className="flex items-start justify-start gap-5 w-full flex-col">
-        <p className="text-start text-2xl font-bold">Traveller Image Gallary</p>
-
-        <div className="flex md:flex-row flex-col h-[600px] gap-3">
-          <div className="md:w-1/2 w-full h-full overflow-hidden rounded-xl">
-            <img
-              src={reviewImageGallary[0]}
-              alt="Waterfall"
-              className="h-full w-full object-cover object-center image-zoom"
-            />
-          </div>
-          <div className="grid gap-3 w-full md:w-1/2 h-full grid-cols-2">
-            <div className="overflow-hidden rounded-xl">
+    <section className="my-5 px-5">
+      <div className="max-w-7xl flex flex-col mx-auto">
+        <div className="flex items-start justify-start gap-5 w-full flex-col">
+          <p className="text-start text-2xl font-bold">
+            Traveller Image Gallery
+          </p>
+          <div className="flex md:flex-row flex-col md:h-[600px] gap-2 md:gap-3">
+            <div
+              className="md:w-1/2 w-full h-full overflow-hidden rounded-xl cursor-pointer"
+              onClick={() => openGallery(0)}
+            >
               <img
-                src={reviewImageGallary[1]}
-                alt="City"
-                className="object-cover h-full w-full object-center image-zoom"
+                src={reviewImageGallary[0]}
+                alt="Traveller Image 1"
+                className="h-full w-full object-cover object-center image-zoom"
+                loading="lazy"
               />
             </div>
-            <div className="overflow-hidden rounded-xl">
-              <img
-                src={reviewImageGallary[2]}
-                alt="Santorini"
-                className="object-cover h-full w-full object-center image-zoom"
-              />
-            </div>
-            <div className="overflow-hidden rounded-xl">
-              <img
-                src={reviewImageGallary[3]}
-                alt="Sea"
-                className="object-cover h-full w-full object-center image-zoom"
-              />
-            </div>
-            <div className="overflow-hidden rounded-xl">
-              <img
-                src={reviewImageGallary[4]}
-                alt="Coastal"
-                className="object-cover h-full w-full object-center image-zoom"
-              />
+            <div className="grid md:gap-3 gap-2 w-full md:w-1/2 h-full grid-cols-2">
+              {reviewImageGallary.slice(1, 5).map((img, index) => (
+                <div
+                  key={index}
+                  className="overflow-hidden rounded-xl relative cursor-pointer"
+                  onClick={() => openGallery(index + 1)}
+                >
+                  <img
+                    src={img}
+                    alt={`Traveller Image ${index + 2}`}
+                    className="object-cover h-full w-full object-center image-zoom"
+                    loading="lazy"
+                  />
+                  {index === 3 && reviewImageGallary.length > 5 && (
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        openGallery(5);
+                      }}
+                      className="absolute bottom-4 right-4 bg-white text-black px-4 py-2 rounded-md"
+                    >
+                      See All
+                    </button>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
-    </div>
+      {showGallery && (
+        <div className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50">
+          <button
+            onClick={closeGallery}
+            className="absolute top-4 right-4 text-white text-6xl"
+          >
+            &times;
+          </button>
+          <button
+            onClick={prevImage}
+            className="absolute left-4 top-1/2 transform -translate-y-1/2 text-white text-8xl"
+          >
+            &#8249;
+          </button>
+          {reviewImageGallary[currentImageIndex] && (
+            <img
+              src={reviewImageGallary[currentImageIndex]}
+              alt={`Traveller Image ${currentImageIndex + 1}`}
+              className="max-h-[90vh] max-w-[90vw] object-contain"
+            />
+          )}
+          <button
+            onClick={nextImage}
+            className="absolute right-4 top-1/2 transform -translate-y-1/2 text-white text-8xl"
+          >
+            &#8250;
+          </button>
+        </div>
+      )}
+    </section>
   );
 };
 
