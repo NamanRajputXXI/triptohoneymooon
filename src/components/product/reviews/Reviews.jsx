@@ -2,7 +2,6 @@ import React from "react";
 import ReviewsData from "./ReviewsData";
 import SingleReview from "./SingleReview";
 import ImageGallary from "./ImageGallary";
-import { FaStar } from "react-icons/fa6";
 
 const Reviews = ({ totalCustomer, rating, reviewImageGallary, reviews }) => {
   return (
