@@ -136,7 +136,7 @@ const ImagesGridLayout = ({ headerImages }) => {
         <div className="flex items-start justify-start gap-5 w-full flex-col">
           <div className="flex md:flex-row flex-col md:h-[600px] gap-2 md:gap-3">
             <div
-              className="md:w-1/2 w-full h-full overflow-hidden rounded-xl cursor-pointer"
+              className="md:w-1/2 w-full h-full overflow-hidden rounded-lg sm:rounded-xl cursor-pointer"
               onClick={() => openGallery(0)}
             >
               <img
@@ -150,7 +150,7 @@ const ImagesGridLayout = ({ headerImages }) => {
               {headerImages.slice(1, 5).map((img, index) => (
                 <div
                   key={index}
-                  className="overflow-hidden rounded-xl relative cursor-pointer"
+                  className="overflow-hidden rounded-lg sm:rounded-xl relative cursor-pointer"
                   onClick={() => openGallery(index + 1)}
                 >
                   <img
