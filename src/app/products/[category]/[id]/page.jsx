@@ -1,31 +1,68 @@
-import Footer from "@/components/global/Footer";
+import { Suspense } from "react";
+import dynamic from "next/dynamic";
+import Image from "next/image";
 import Navbar from "@/components/global/Navbar";
-import AccordionItem from "@/components/product/AccordianItem";
-import AdditionalInfo from "@/components/product/AdditionalInfo";
 import ImagesGridLayout from "@/components/product/ImagesGridLayout";
-import InclusionExclusion from "@/components/product/left/InclusionExclusion";
-import Reviews from "@/components/product/reviews/Reviews";
-import RelatedProductsCarousel from "@/components/product/RelatedProductsCarousel";
 import MidSection from "@/components/product/MidSection";
-import PopupWrapper from "@/components/home/Popup/PopupWrapper";
+
+// Dynamically import components with loading priority
+const DynamicFooter = dynamic(() => import("@/components/global/Footer"), {
+  ssr: true,
+});
+const DynamicInclusionExclusion = dynamic(
+  () => import("@/components/product/left/InclusionExclusion"),
+  { ssr: false }
+);
+const DynamicRelatedProductsCarousel = dynamic(
+  () => import("@/components/product/RelatedProductsCarousel"),
+  { ssr: false, loading: () => <SkeletonLoader /> }
+);
+const DynamicReviews = dynamic(
+  () => import("@/components/product/reviews/Reviews"),
+  { ssr: false, loading: () => <SkeletonLoader /> }
+);
+const DynamicAccordionItem = dynamic(
+  () => import("@/components/product/AccordianItem"),
+  { ssr: false, loading: () => <SkeletonLoader /> }
+);
+const DynamicAdditionalInfo = dynamic(
+  () => import("@/components/product/AdditionalInfo"),
+  { ssr: false, loading: () => <SkeletonLoader /> }
+);
+const DynamicPopupWrapper = dynamic(
+  () => import("@/components/home/Popup/PopupWrapper"),
+  { ssr: false }
+);
+
+const SkeletonLoader = () => (
+  <div className="animate-pulse">
+    <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+    <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+  </div>
+);
+
+const ErrorComponent = ({ message }) => (
+  <div className="error-message text-red-500 p-4 bg-red-100 rounded">
+    <Navbar />
+    <p>{message}</p>
+  </div>
+);
 
 export const getProductData = async ({ params }) => {
   try {
     const response = await fetch(
       `https://triptohoneymooon.vercel.app/api/${params.category}/${params.id}`,
       {
-        cache: "no-store",
+        next: { revalidate: 3600 }, // Revalidate every hour
       }
     );
 
-    if (!response.ok) {
+    if (!response.ok)
       throw new Error(`Error fetching data. Status: ${response.status}`);
-    }
 
     const contentType = response.headers.get("content-type");
-    if (!contentType || !contentType.includes("application/json")) {
+    if (!contentType?.includes("application/json"))
       throw new Error("Response is not in JSON format");
-    }
 
     return await response.json();
   } catch (error) {
@@ -37,14 +74,8 @@ export const getProductData = async ({ params }) => {
 const Page = async ({ params }) => {
   const singleProductData = await getProductData({ params });
 
-  if (!singleProductData || !singleProductData.document) {
-    return (
-      <div>
-        <Navbar />
-        <div>Error fetching product data.</div>
-      </div>
-    );
-  }
+  if (!singleProductData?.document)
+    return <ErrorComponent message="Error fetching product data." />;
 
   const {
     heading,
@@ -93,34 +124,49 @@ const Page = async ({ params }) => {
         saveInr={saveInr}
       />
 
-      <div className="flex px-5 items-center justify-center max-w-7xl mx-auto ">
-        <img
-          src="/endOfTripBanner.png"
-          className=" object-cover object-center h-[150px] md:h-[160px]"
-          alt=""
-          loading="lazy"
+      <Suspense fallback={<SkeletonLoader />}>
+        <div className="flex px-5 items-center justify-center max-w-7xl mx-auto">
+          <Image
+            src="/endOfTripBanner.png"
+            width={1200}
+            height={160}
+            alt="End of Trip Banner"
+            className="object-cover object-center"
+            loading="lazy"
+            sizes="(max-width: 1200px) 100vw, 1200px"
+            priority={false}
+          />
+        </div>
+        <DynamicInclusionExclusion
+          inclusions={inclusions}
+          exclusions={exclusions}
         />
-      </div>
-      <InclusionExclusion inclusions={inclusions} exclusions={exclusions} />
-      <div className="px-5">
-        <AccordionItem content={knowBeforeYouGo} title={"Know Befor You Go"} />
-        <AdditionalInfo />
-        <RelatedProductsCarousel />
-        <Reviews
-          reviews={reviews}
-          totalCustomer={totalCustomer}
-          rating={rating}
-          reviewImageGallary={reviewImageGallary}
-        />
-        <AccordionItem
-          content={cancellationPolicy}
-          title={"Cancellation Policy"}
-        />
-        <AccordionItem content={refundPolicy} title={"Refund Policy"} />
-        <AccordionItem content={paymentPolicy} title={"Payment Policy"} />
-      </div>
-      <PopupWrapper />
-      <Footer />
+        <div className="px-5">
+          <DynamicAccordionItem
+            content={knowBeforeYouGo}
+            title="Know Before You Go"
+          />
+          <DynamicAdditionalInfo />
+          <DynamicRelatedProductsCarousel />
+          <DynamicReviews
+            reviews={reviews}
+            totalCustomer={totalCustomer}
+            rating={rating}
+            reviewImageGallary={reviewImageGallary}
+          />
+          <DynamicAccordionItem
+            content={cancellationPolicy}
+            title="Cancellation Policy"
+          />
+          <DynamicAccordionItem content={refundPolicy} title="Refund Policy" />
+          <DynamicAccordionItem
+            content={paymentPolicy}
+            title="Payment Policy"
+          />
+        </div>
+      </Suspense>
+      <DynamicPopupWrapper />
+      <DynamicFooter />
     </div>
   );
 };
