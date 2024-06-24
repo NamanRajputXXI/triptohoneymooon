@@ -24,7 +24,7 @@ const LeftSideSection = ({
       <div className="flex flex-col gap-5">
         <p className="text-4xl font-bold">
           {heading}
-          <span className="text-gray-500 text-xs">Only for Couples</span>
+          {/* <span className="text-gray-500 text-xs">Only for Couples</span> */}
         </p>
         <button className="py-2 px-1 w-40 bg-[#cf331a] text-white rounded-xl">
           {duration}
