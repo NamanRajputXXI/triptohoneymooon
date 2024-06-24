@@ -149,6 +149,192 @@
                 "Bar"
               ],
               "images": [
+                "https://www.tsgresorts.in/assests/images/emerald/rooms/cozy-room-1.png",
+                "https://www.tsgresorts.in/assests/images/emerald/rooms/cozy-room-2.png",
+                "https://www.tsgresorts.in/assests/images/emerald/emerald-1-lg.jpg",
+                "https://www.tsgresorts.in/assests/images/emerald/Restaurant.jpg",
+                "https://www.tsgresorts.in/assests/images/emerald/gallery-new/gallery-lg-27.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Grand Paradise",
+              "amenities": [
+                "Spa",
+                "Breakfast free",
+                "Wi-Fi free",
+                "Parking free"
+              ],
+              "images": [
+                "https://www.grandparadisehotel.in/images/slider1.jpg",
+                "https://www.grandparadisehotel.in/images/slider3.jpg",
+                "https://www.grandparadisehotel.in/images/slider4.jpg",
+                "https://www.grandparadisehotel.in/images/image-02.jpg",
+                "https://www.grandparadisehotel.in/images/g9.jpg",
+                "https://www.grandparadisehotel.in/images/g5.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                "Restaurant",
+                "Smoking Rooms",
+                "Luggage Assistance",
+                "Doctor on Call",
+                "Free Wi-Fi"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipPGbsXRyrHSX5b-E-VvH9XY3YobehuAutUI5zom=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/Eu6raL-2MY6_hU9PD7dGPx1aGOIdRD1ArYnVGCPFn2PmQ5GhOCoMSEgMSSCN7m-ANwcDlTllx3N4khTKKkfDM1iN387BwxMRCAwJHfsweKx_7YmovRcAC8neTCKSjedE7XVKTkgTiCjVBRSL-ihJr4yCSHNUxQ=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/hqNDVZ5eBPEV4lOV7EEIRitXk1Jkf1Mk1QpER6_q2-Ksh58lPHges49cYE5G2hAbAyoWTVZWh8xX-XKZqbGilBo72hpVEdNY-Qz7C2e4uw60mFifZt6i5G04HJ1hFPLtZR7GHWgHFESueJeZv3f1sLHzhlEs2g=w253-h180-k-no",
+                "https://lh3.googleusercontent.com/proxy/N9dEGwB1yqiuRnL_CTUudTf_5H836_LSN5vm2FhX57vm1QNsERUcqhk87yEEaJSUqShApeo-Ne1rbgEdYgLOgwWKZIC4wteuwmAI0L7MKdmw0jzgxfmyKu-piLrwv_mK16ukTrpGOqwhFAld37RyKMdOxPle9A=w253-h167-k-no",
+                "https://lh5.googleusercontent.com/p/AF1QipNd-u-VGCQcqpDgIzoRYI60zceb2fjdQG0nEJ-_=w253-h337-k-no"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotelName": [
+            {
+              "hotelName": "Pellicon Beach Resort",
+              "amenities": [
+                "Vending Machine",
+                "Free Parking",
+                "Laundry Service",
+                "Air Conditioning",
+                "Intercom"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipNzLara6Cz5PGeXTqwCjLaTWkgrhnE3oKIgHfqk=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOqsuNkSrc9wCkHi4ZMr4ZeGZkErhKq-U-rMkAZ=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO2XF3kqSmog_peNMnUkZQ5HUBOY09EEXQEPmCS=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipNI4DmTLfevpLrPKWBNQCUnM8e58TADTeCBgr4Z=w141-h118-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipPlsqrxCgo0TZjtjzdyg5hNzArmLR5nQLm1biT5=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Eco Palm Beach Resort",
+              "amenities": [
+                "Spa",
+                "Pool",
+                "Breakfast Free",
+                "Wi-Fi free"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipPCd0zyOUxoI-Wqj_XebXxvR2RX7RYmFWmirw8x=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMnKxtGpXBj7r61DdYflB-ToPBV1P_nSmQOLx-1=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMogR2mvgDa8v8ncBkX8Qln4rnLgxmb9UF97WQK=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNfZzfCSDOYsFNd5p6aAmW2bTikP5Hn3tIxHNwr=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNZlCnokMg8dEX6oIrNpSnUx9WbYM6tQ8dxL5fL=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipP5XUiVDJQ6_EraJUvDQqV6DUGCt6T-BD6zUQIR=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Shangrila's",
+              "amenities": [
+                "comfy rooms",
+                "restaurant",
+                "Water Sports",
+                "Vehicles on rent",
+                "Free Wi-Fi"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipPsBCegYIwyNDgic2PSvPe2xN-uv7yOzSGruHSN=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMnJduAj6keqq-t6R9VpcCuwHfLZMYSH4i-5yYW=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO6pcHerHHhx2nbq97Ib27X5MzldBUHOOc-WZAX=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO3ndVSVVi93WZxwLyRy8hidJLBHJOLwnLlD_LC=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPoC4O4By_kz6X_eVJ2OJZ21uWzBjPPMGLE3Dhv=s1360-w1360-h1020"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Neil Island",
+          "hotelName": [
+            {
+              "hotelName": "Reef Valley Resort",
+              "amenities": [
+                "Dry Cleaning Service",
+                "Wi-Fi",
+                "Intercom",
+                "Housekeeping",
+                "Free Parking"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipMAww7TpOgY0kyvnvRREQ3BnoBisLRpe01Xqf0H=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPIbmnmv8ufChWAQDsUBGLTmB9npX3CM4xfuLiT=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMScnYhXqrJtjcY3YCmRb397QAvMYVHtF2STzI0=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMDezRFiz_-1kHUyTeOaqb1N9wN8lHhGw8GtnGY=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipMuJCCIYZP-cTRa9CyweZ3AmzCPScPeqKsyTDdb=w141-h235-n-k-no-nu"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Grand Paradise",
+              "amenities": [
+                "Spa",
+                "Breakfast free",
+                "Wi-Fi free",
+                "Parking free"
+              ],
+              "images": [
+                "https://www.grandparadisehotel.in/images/slider1.jpg",
+                "https://www.grandparadisehotel.in/images/slider3.jpg",
+                "https://www.grandparadisehotel.in/images/slider4.jpg",
+                "https://www.grandparadisehotel.in/images/image-02.jpg",
+                "https://www.grandparadisehotel.in/images/g9.jpg",
+                "https://www.grandparadisehotel.in/images/g5.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                "Restaurant",
+                "Smoking Rooms",
+                "Luggage Assistance",
+                "Doctor on Call",
+                "Free Wi-Fi"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipPGbsXRyrHSX5b-E-VvH9XY3YobehuAutUI5zom=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/Eu6raL-2MY6_hU9PD7dGPx1aGOIdRD1ArYnVGCPFn2PmQ5GhOCoMSEgMSSCN7m-ANwcDlTllx3N4khTKKkfDM1iN387BwxMRCAwJHfsweKx_7YmovRcAC8neTCKSjedE7XVKTkgTiCjVBRSL-ihJr4yCSHNUxQ=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/hqNDVZ5eBPEV4lOV7EEIRitXk1Jkf1Mk1QpER6_q2-Ksh58lPHges49cYE5G2hAbAyoWTVZWh8xX-XKZqbGilBo72hpVEdNY-Qz7C2e4uw60mFifZt6i5G04HJ1hFPLtZR7GHWgHFESueJeZv3f1sLHzhlEs2g=w253-h180-k-no",
+                "https://lh3.googleusercontent.com/proxy/N9dEGwB1yqiuRnL_CTUudTf_5H836_LSN5vm2FhX57vm1QNsERUcqhk87yEEaJSUqShApeo-Ne1rbgEdYgLOgwWKZIC4wteuwmAI0L7MKdmw0jzgxfmyKu-piLrwv_mK16ukTrpGOqwhFAld37RyKMdOxPle9A=w253-h167-k-no",
+                "https://lh5.googleusercontent.com/p/AF1QipNd-u-VGCQcqpDgIzoRYI60zceb2fjdQG0nEJ-_=w253-h337-k-no"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159_640.jpg",
+      "price": "39,998",
+      "previousPrice": "46,998"
+    },
+    {
+      "category": "Semi Deluxe",
+      "hotels": [
+        {
+          "destination": "Port Blair",
+          "hotelName": [
+            {
+              "hotelName": "Tsg Emarld",
+              "amenities": [
+                "Spa",
+                "Resturant",
+                "Bar"
+              ],
+              "images": [
                 "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel1.jpg",
                 "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel2.jpg",
                 "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel3.jpg",
@@ -315,565 +501,378 @@
           ]
         }
       ],
-      "imageUrl": "https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159_640.jpg",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_640.jpg",
       "price": "39,998",
       "previousPrice": "46,998"
     },
-
-
     {
-         "category": "Semi Deluxe",
-         "hotels": [
-           {
-             "destination": "Port Blair",
-             "hotelName": [
-               {
-                 "hotelName": "Tsg Emarld",
-                 "amenities": [
-                   "Spa",
-                   "Resturant",
-                   "Bar"
-                 ],
-                 "images": [
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel1.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel2.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel3.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel4.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel5.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Grand Paradise",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Serene Palace",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           },
-           {
-             "destination": "Havelock",
-             "hotelName": [
-               {
-                 "hotelName": "Palican Beach Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Eco Palm Beach Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Shangrila's",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           },
-           {
-             "destination": "Neil Island",
-             "hotelName": [
-               {
-                 "hotelName": "Reef Valley Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Grand Paradise",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Serene Palace",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           }
-         ],
-         "imageUrl": "https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_640.jpg",
-         "price": "39,998",
-         "previousPrice": "46,998"
-       },
-       {
-         "category": "Premium",
-         "hotels": [
-           {
-             "destination": "Port Blair",
-             "hotelName": [
-               {
-                 "hotelName": "Tsg Emarld",
-                 "amenities": [
-                   "Spa",
-                   "Resturant",
-                   "Bar"
-                 ],
-                 "images": [
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel1.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel2.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel3.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel4.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel5.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Grand Paradise",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Serene Palace",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           },
-           {
-             "destination": "Havelock",
-             "hotelName": [
-               {
-                 "hotelName": "Palican Beach Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Eco Palm Beach Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Shangrila's",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           },
-           {
-             "destination": "Neil Island",
-             "hotelName": [
-               {
-                 "hotelName": "Reef Valley Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Grand Paradise",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Serene Palace",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           }
-         ],
-         "imageUrl": "https://cdn.pixabay.com/photo/2014/07/05/08/21/pool-384573_640.jpg",
-         "price": "39,998",
-         "previousPrice": "46,998"
-       },
-       {
-         "category": "Luxury",
-         "hotels": [
-           {
-             "destination": "Port Blair",
-             "hotelName": [
-               {
-                 "hotelName": "Tsg Emarld",
-                 "amenities": [
-                   "Spa",
-                   "Resturant",
-                   "Bar"
-                 ],
-                 "images": [
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel1.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel2.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel3.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel4.jpg",
-                   "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel5.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Grand Paradise",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Serene Palace",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           },
-           {
-             "destination": "Havelock",
-             "hotelName": [
-               {
-                 "hotelName": "Palican Beach Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Eco Palm Beach Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Shangrila's",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           },
-           {
-             "destination": "Neil Island",
-             "hotelName": [
-               {
-                 "hotelName": "Reef Valley Resort",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Grand Paradise",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "heading": "Reach the Hotel"
-               },
-               {
-                 "hotelName": "Serene Palace",
-                 "amenities": [
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation",
-                   " doble bed with flower decroation"
-                 ],
-                 "images": [
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
-                   "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
-                 ],
-                 "day": "Day 1",
-                 "heading": "Reach the Hotel"
-               }
-             ]
-           }
-         ],
-         "imageUrl": "https://cdn.pixabay.com/photo/2017/05/30/13/01/relax-2356858_640.jpg",
-         "price": "39,998",
-         "previousPrice": "46,998"
-       }
-   
+      "category": "Premium",
+      "hotels": [
+        {
+          "destination": "Port Blair",
+          "hotelName": [
+            {
+              "hotelName": "Tsg Emarld",
+              "amenities": [
+                "Spa",
+                "Resturant",
+                "Bar"
+              ],
+              "images": [
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel1.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel2.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel3.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel4.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel5.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Grand Paradise",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotelName": [
+            {
+              "hotelName": "Palican Beach Resort",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Eco Palm Beach Resort",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Shangrila's",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Neil Island",
+          "hotelName": [
+            {
+              "hotelName": "Reef Valley Resort",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Grand Paradise",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/07/05/08/21/pool-384573_640.jpg",
+      "price": "39,998",
+      "previousPrice": "46,998"
+    },
+    {
+      "category": "Luxury",
+      "hotels": [
+        {
+          "destination": "Port Blair",
+          "hotelName": [
+            {
+              "hotelName": "Tsg Emarld",
+              "amenities": [
+                "Spa",
+                "Resturant",
+                "Bar"
+              ],
+              "images": [
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel1.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel2.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel3.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel4.jpg",
+                "/hotels/deluxe/andaman/portBlair/tsgEmarld/tsgEmarldHotel5.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Grand Paradise",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotelName": [
+            {
+              "hotelName": "Palican Beach Resort",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Eco Palm Beach Resort",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Shangrila's",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Neil Island",
+          "hotelName": [
+            {
+              "hotelName": "Reef Valley Resort",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Grand Paradise",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation",
+                " doble bed with flower decroation"
+              ],
+              "images": [
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+                "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/05/30/13/01/relax-2356858_640.jpg",
+      "price": "39,998",
+      "previousPrice": "46,998"
+    }
   ],
   "itineraryCarousel": [
     "https://images.unsplash.com/photo-1585252451680-8ace8e3d8d0e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fGFuZGFtYW58ZW58MHx8MHx8fDA%3D",
