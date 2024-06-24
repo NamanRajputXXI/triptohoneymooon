@@ -1,14 +1,29 @@
-// import InfiniteScroll from "@/components/InfiniteScroll/InfiniteScroll";
-// import Footer from "@/components/global/Footer";
+// import { Suspense, lazy } from "react";
+// import dynamic from "next/dynamic";
+// import Head from "next/head";
 // import Navbar from "@/components/global/Navbar";
 
-// export const getProductsData = async ({ params, page = 1, limit = 10 }) => {
+// const DynamicInfiniteScroll = lazy(() =>
+//   import("@/components/InfiniteScroll/InfiniteScroll")
+// );
+// const DynamicFooter = dynamic(() => import("@/components/global/Footer"), {
+//   ssr: true,
+// });
+
+// const SkeletonLoader = () => (
+//   <div className="animate-pulse">
+//     <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+//     <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+//   </div>
+// );
+
+// export const getProductsData = async ({ params, page = 1, limit = 12 }) => {
 //   try {
 //     const response = await fetch(
-//       `https://triptohoneymooon.vercel.app//api/${params.category}?page=${page}&limit=${limit}`,
+//       `https://triptohoneymooon.vercel.app/api/${params.category}?page=${page}&limit=${limit}`,
 //       {
 //         method: "GET",
-//         cache: "no-store",
+//         next: { revalidate: 3600 }, // Revalidate every hour
 //       }
 //     );
 
@@ -30,45 +45,45 @@
 // };
 
 // const Page = async ({ params }) => {
+//   const initialData = await getProductsData({ params });
+
 //   return (
 //     <>
+//       <Head>
+//         <title>{`${params.category} - Trip to Honeymoon`}</title>
+//         <meta
+//           name="description"
+//           content={`Explore our ${params.category} packages for your perfect honeymoon.`}
+//         />
+//         <link rel="preconnect" href="https://triptohoneymooon.vercel.app" />
+//         <link rel="dns-prefetch" href="https://triptohoneymooon.vercel.app" />
+//       </Head>
 //       <Navbar />
 //       <div className="max-w-7xl mx-auto my-10 px-5 flex flex-col gap-10">
-//         <InfiniteScroll params={params} />
+//         <Suspense fallback={<SkeletonLoader />}>
+//           <DynamicInfiniteScroll initialData={initialData} params={params} />
+//         </Suspense>
 //       </div>
-//       <Footer />
+//       <DynamicFooter />
 //     </>
 //   );
 // };
 
 // export default Page;
 
-import { Suspense, lazy } from "react";
-import dynamic from "next/dynamic";
-import Head from "next/head";
+import InfiniteScroll from "@/components/InfiniteScroll/InfiniteScroll";
+import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
+import ProductCategoryCard from "@/components/productCategory/ProductCategoryCard";
+import Link from "next/link"; // Using relative import
 
-const DynamicInfiniteScroll = lazy(() =>
-  import("@/components/InfiniteScroll/InfiniteScroll")
-);
-const DynamicFooter = dynamic(() => import("@/components/global/Footer"), {
-  ssr: true,
-});
-
-const SkeletonLoader = () => (
-  <div className="animate-pulse">
-    <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
-    <div className="h-4 bg-gray-200 rounded w-1/2"></div>
-  </div>
-);
-
-export const getProductsData = async ({ params, page = 1, limit = 12 }) => {
+export const getProductsData = async ({ params, page = 1, limit = 10 }) => {
   try {
     const response = await fetch(
-      `https://triptohoneymooon.vercel.app/api/${params.category}?page=${page}&limit=${limit}`,
+      `https://triptohoneymooon.vercel.app//api/${params.category}?page=${page}&limit=${limit}`,
       {
         method: "GET",
-        next: { revalidate: 3600 }, // Revalidate every hour
+        cache: "no-store",
       }
     );
 
@@ -90,26 +105,13 @@ export const getProductsData = async ({ params, page = 1, limit = 12 }) => {
 };
 
 const Page = async ({ params }) => {
-  const initialData = await getProductsData({ params });
-
   return (
     <>
-      <Head>
-        <title>{`${params.category} - Trip to Honeymoon`}</title>
-        <meta
-          name="description"
-          content={`Explore our ${params.category} packages for your perfect honeymoon.`}
-        />
-        <link rel="preconnect" href="https://triptohoneymooon.vercel.app" />
-        <link rel="dns-prefetch" href="https://triptohoneymooon.vercel.app" />
-      </Head>
       <Navbar />
       <div className="max-w-7xl mx-auto my-10 px-5 flex flex-col gap-10">
-        <Suspense fallback={<SkeletonLoader />}>
-          <DynamicInfiniteScroll initialData={initialData} params={params} />
-        </Suspense>
+        <InfiniteScroll params={params} />
       </div>
-      <DynamicFooter />
+      <Footer />
     </>
   );
 };
