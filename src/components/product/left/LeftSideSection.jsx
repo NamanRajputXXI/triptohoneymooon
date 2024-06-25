@@ -22,34 +22,31 @@ const LeftSideSection = ({
   return (
     <div className="md:col-span-2">
       <div className="flex flex-col gap-5">
-        <p className="text-4xl font-bold">
-          {heading}
-          {/* <span className="text-gray-500 text-xs">Only for Couples</span> */}
-        </p>
-        <button className="py-2 px-1 w-40 bg-[#cf331a] text-white rounded-xl">
+        <p className="md:text-4xl text-2xl font-bold">{heading}</p>
+        <button className="py-2 px-1 w-24 md:w-40 bg-[#cf331a] text-white md:text-base text-sm rounded-xl">
           {duration}
         </button>
 
         <div className="flex flex-col gap-3 md:text-base text-xs sm:text-sm justify-between border-t-[1px] border-b-[1px] py-5 border-gray-200">
           <p className="font-bold">Choose Hotel Category</p>
-          <div className="flex gap-2 items-center">
+          <div className="flex gap-2 items-center overflow-x-auto pb-2 md:pb-0">
             {packageCategory.map((category, i) => (
               <div
                 key={i}
-                className="flex flex-col gap-1 relative cursor-pointer"
+                className="flex flex-col gap-1 relative cursor-pointer flex-shrink-0"
                 onClick={() => setSelected(i)}
               >
                 <img
                   src={category.imageUrl}
                   alt=""
                   loading="lazy"
-                  className={`h-32 rounded-xl p-1 w-32 ${
+                  className={`md:h-32 md:w-32 h-24 w-24 rounded-xl p-1 ${
                     selected === i
                       ? "border-red-600 border-2"
                       : "border-white border-2"
                   }`}
                 />
-                <p className="text-white absolute top-24 left-3 font-extrabold">
+                <p className="text-white absolute md:top-24 md:left-3 top-16 left-2 font-extrabold text-sm md:text-base">
                   {category.category}
                 </p>
                 <div className="flex flex-col">
@@ -63,17 +60,20 @@ const LeftSideSection = ({
           </div>
         </div>
 
-        <div className="flex md:text-base text-xs sm:text-sm flex-row justify-between  py-5 ">
-          <div className="flex flex-row text-gray-500 items-center gap-1 sm:gap-3">
-            <FaBed size={30} />
+        <div className="flex md:text-base text-xs sm:text-sm flex-row md:justify-between overflow-x-auto py-5 gap-4 md:gap-0">
+          <div className="flex flex-row text-gray-500 items-center gap-1 sm:gap-3 whitespace-nowrap flex-shrink-0">
+            <FaBed size={24} className="md:w-[30px] md:h-[30px]" />
             <p>Stay Included</p>
           </div>
-          <div className="flex flex-row text-gray-500 items-center  gap-1 sm:gap-3">
-            <FaPlateWheat size={30} />
+          <div className="flex flex-row text-gray-500 items-center gap-1 sm:gap-3 whitespace-nowrap flex-shrink-0">
+            <FaPlateWheat size={24} className="md:w-[30px] md:h-[30px]" />
             <p>Breakfast Included</p>
           </div>
-          <div className="flex flex-row text-gray-500 items-center  gap-1 sm:gap-3">
-            <BsFillBalloonHeartFill size={30} />
+          <div className="flex flex-row text-gray-500 items-center gap-1 sm:gap-3 whitespace-nowrap flex-shrink-0">
+            <BsFillBalloonHeartFill
+              size={24}
+              className="md:w-[30px] md:h-[30px]"
+            />
             <p>Stay Updated</p>
           </div>
         </div>

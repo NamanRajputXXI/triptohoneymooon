@@ -165,7 +165,7 @@ const ImagesGridLayout = ({ headerImages }) => {
                         e.stopPropagation();
                         openGallery(0); // Start from the beginning when "See All" is clicked
                       }}
-                      className="absolute bottom-4 right-4 bg-white text-black px-4 py-2 rounded-md"
+                      className="absolute md:bottom-4 md:right-4 bottom-2 right-2 md:text-base text-sm bg-white text-black px-2 py-1 md:px-4 md:py-2 rounded-md"
                     >
                       See All
                     </button>

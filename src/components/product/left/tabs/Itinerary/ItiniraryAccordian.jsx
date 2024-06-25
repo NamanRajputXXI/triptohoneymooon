@@ -11,14 +11,16 @@ const ItiniraryAccordian = ({ heading, day, details, images }) => {
   return (
     <div className="border max-w-7xl mx-auto my-10 rounded-lg ">
       <div
-        className="flex justify-between items-center p-4 cursor-pointer"
+        className="flex justify-between items-center p-2 md:p-4 cursor-pointer"
         onClick={toggleAccordion}
       >
         <div className="flex gap-4 items-center">
-          <button className="px-3 flex items-center gap-2 py-1  bg-red-600 text-white font-bold cursor-pointer rounded-xl">
+          <button className="md:px-3 px-2 flex items-center gap-2 py-1 min-w-20 justify-center  bg-red-600 text-white font-semibold md:font-bold cursor-pointer rounded-xl">
             <p>{day}</p>
           </button>
-          <p className=" sm:text-xl text-lg font-bold">{heading}</p>
+          <p className=" md:text-xl text-base font-semibold md:font-bold">
+            {heading}
+          </p>
         </div>
         <span
           className={`transform transition-transform ${

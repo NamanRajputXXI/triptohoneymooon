@@ -34,7 +34,7 @@ const ImageGallary = ({ reviewImageGallary = [] }) => {
   }
 
   return (
-    <section className="my-5 px-5">
+    <section className="my-5 md:px-5">
       <div className="max-w-7xl flex flex-col mx-auto">
         <div className="flex items-start justify-start gap-5 w-full flex-col">
           <p className="text-start text-2xl font-bold">
@@ -71,7 +71,7 @@ const ImageGallary = ({ reviewImageGallary = [] }) => {
                         e.stopPropagation();
                         openGallery(5);
                       }}
-                      className="absolute bottom-4 right-4 bg-white text-black px-4 py-2 rounded-md"
+                      className="absolute md:bottom-4 md:text-base text-sm md:right-4 bottom-2 right-2 bg-white text-black md:px-4 md:py-2 px-2 py-1 rounded-md"
                     >
                       See All
                     </button>
