@@ -6,6 +6,7 @@ import "keen-slider/keen-slider.min.css";
 import domesticCarouselData from "@/data/domesticCarouselData";
 import Link from "next/link";
 import { CiSearch } from "react-icons/ci";
+import DestinationSearchBar from "../DestinationSearchBar";
 const HeroSectionCarousel = () => {
   const sliderContainer = useRef(null);
   const keenSlider = useRef(null);
@@ -106,7 +107,7 @@ const HeroSectionCarousel = () => {
           </div>
         </div>
       </div>
-      <div className="px-5">
+      {/* <div className="px-5">
         <div className="max-w-7xl grid md:grid-cols-6 grid-cols-1 gap-5  md:gap-10 px-5 my-20  py-4 bg-white rounded-xl   items-center  mx-auto">
           <div className="col-span-2 md:col-span-1 flex justify-center">
             <p className="text-lg justify-center md:flex hidden font-semibold">
@@ -125,11 +126,12 @@ const HeroSectionCarousel = () => {
             <input type="text" className="bg-gray-200 w-full p-2" />
           </div>
           <div className=" flex col-span-2 md:col-span-1  justify-center md:border-l-2 md:p-2 md:border-gray-300  md:justify-end items-center gap-2 ">
-            {/* <CiSearch className="lg:text-lg md:text-lg" /> */}
+            
             <p className="text-lg font-semibold">Search</p>
           </div>
         </div>
-      </div>
+      </div> */}
+      <DestinationSearchBar />
     </section>
   );
 };
