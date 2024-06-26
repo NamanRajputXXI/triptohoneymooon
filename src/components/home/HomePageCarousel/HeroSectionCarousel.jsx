@@ -25,6 +25,13 @@ const HeroSectionCarousel = () => {
           "(min-width: 288px)": {
             slides: {
               origin: "auto",
+              perView: 1, // Show 2 reviews on screens >= 768px
+              spacing: 8,
+            },
+          },
+          "(min-width: 420px)": {
+            slides: {
+              origin: "auto",
               perView: 2, // Show 2 reviews on screens >= 768px
               spacing: 8,
             },
@@ -107,31 +114,6 @@ const HeroSectionCarousel = () => {
           </div>
         </div>
       </div>
-      {/* <div className="px-5">
-        <div className="max-w-7xl grid md:grid-cols-6 grid-cols-1 gap-5  md:gap-10 px-5 my-20  py-4 bg-white rounded-xl   items-center  mx-auto">
-          <div className="col-span-2 md:col-span-1 flex justify-center">
-            <p className="text-lg justify-center md:flex hidden font-semibold">
-              Find Your <br /> Holidays
-            </p>
-            <p className="text-lg md:hidden font-semibold">
-              Find Your Holidays
-            </p>
-          </div>
-          <div className="col-span-2 md:border-l-2 md:border-gray-300 pl-8 flex items-center gap-5">
-            <p>TO</p>
-            <input type="text" className="bg-gray-200 w-full p-2" />
-          </div>
-          <div className="col-span-2  flex items-center gap-5">
-            <p>FROM</p>
-            <input type="text" className="bg-gray-200 w-full p-2" />
-          </div>
-          <div className=" flex col-span-2 md:col-span-1  justify-center md:border-l-2 md:p-2 md:border-gray-300  md:justify-end items-center gap-2 ">
-            
-            <p className="text-lg font-semibold">Search</p>
-          </div>
-        </div>
-      </div> */}
-      <DestinationSearchBar />
     </section>
   );
 };
