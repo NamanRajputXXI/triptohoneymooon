@@ -4,7 +4,6 @@ import SingleReview from "./SingleReview";
 import ImageGallary from "./ImageGallary";
 
 const Reviews = ({ totalCustomer, rating, reviewImageGallary, reviews }) => {
-  console.log(reviews);
   return (
     <section className="my-10 flex gap-10 flex-col ">
       <ReviewsData totalCustomer={totalCustomer} rating={rating} />
