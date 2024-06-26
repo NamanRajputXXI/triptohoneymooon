@@ -34,7 +34,7 @@ const SingleReview = ({ review }) => {
       <div className="flex w-full justify-between">
         <div className="flex items-center gap-5">
           <img
-            src="https://cdn.pixabay.com/photo/2016/11/29/03/36/woman-1867093_640.jpg"
+            src={review.imageGallary[0]}
             className="rounded-full w-10 h-10 object-cover object-center"
             alt=""
           />
