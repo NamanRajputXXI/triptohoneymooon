@@ -135,7 +135,7 @@ const HotelImages = ({ images, hotelName }) => {
   }, [safeImages]);
 
   const ImageLoader = () => (
-    <div className="absolute inset-0 bg-gray-300 animate-pulse z-10">
+    <div className="absolute rounded-lg inset-0 bg-gray-300 animate-pulse z-10">
       <div className="h-full w-full bg-gradient-to-r from-gray-300 via-gray-200 to-gray-300 animate-[shimmer_1.5s_infinite] rounded-xl"></div>
     </div>
   );
