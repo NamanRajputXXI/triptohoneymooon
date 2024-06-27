@@ -46,7 +46,7 @@ const VideoPlayer = ({ src, isPlaying, setIsPlaying }) => {
   return (
     <div className="lg:w-1/2 relative w-full lg:h-[700px] md:h-[500px] h-[300px]">
       {isLoaded === false && (
-        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-pink-100">
+        <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center">
           <video
             src="https://cdn.pixabay.com/video/2023/02/17/151030-799903854_large.mp4"
             className="h-full w-full"
@@ -156,7 +156,7 @@ const PopularDestinationSection = () => {
   };
 
   return (
-    <section className="w-full flex-col h-fit py-10 relative md:py-20 mx-auto bg-red-100">
+    <section className="w-full flex-col h-fit py-10 relative md:py-20 mx-auto">
       <div className="absolute md:top-10 -top-3 z-10 sm:right-3 right-1">
         <img
           src="/heroSectionImages/hearts.png"
@@ -183,7 +183,7 @@ const PopularDestinationSection = () => {
           isPlaying={isPlaying}
           setIsPlaying={setIsPlaying}
         />
-        <div className="lg:w-1/2 w-full bg-red-100 px-8 py-5 flex gap-5 flex-col">
+        <div className="lg:w-1/2 w-full  px-8 py-5 flex gap-5 flex-col">
           <h1 className="text-2xl font-semibold">{`Explore ${selectedItem.destination}`}</h1>
           <p>{selectedItem.title}</p>
           <ul className="list-disc px-5 text-gray-800">
@@ -204,7 +204,7 @@ const PopularDestinationSection = () => {
               </div>
               <div
                 ref={sliderContainer}
-                className="keen-slider bg-red-100 rounded-2xl"
+                className="keen-slider bg-white rounded-2xl"
               >
                 {popularCarouselData.map((item, i) => (
                   <div className="keen-slider__slide" key={i}>

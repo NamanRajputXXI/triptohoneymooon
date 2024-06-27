@@ -3,8 +3,8 @@ import Button from "../global/Button";
 
 const AboutUsSection = () => {
   return (
-    <section className="w-full my-20 bg-red-200">
-      <div className=" max-w-7xl gap-5  mx-auto pt-10 bg-red-200 px-2 flex md:flex-row flex-col items-center justify-center md:justify-between">
+    <section className="w-full my-20 bg-red-300">
+      <div className=" max-w-7xl gap-5  mx-auto pt-10 bg-red-300 px-2 flex md:flex-row flex-col items-center justify-center md:justify-between">
         <div className="flex md:w-1/2 relative w-full md:px-0 px-5 pb-20 flex-col gap-5">
           <div className="   absolute  md:bottom-[70px] bottom-14 right-0   md:w-1/2  ">
             <img
@@ -15,7 +15,7 @@ const AboutUsSection = () => {
             />
           </div>
           <h1 className="sm:text-5xl text-3xl font-semibold">About us</h1>
-          <p className="lg:text-lg text-base leading-6 text-gray-500 tracking-wide">
+          <p className="lg:text-lg text-base leading-6 text-gray-600 tracking-wide">
             TriptoHoneymoon.com offers exclusive honeymoon packages for couples
             and promotes top wedding and event planners. We ensure unforgettable
             experiences, tailored to your desires. Discover romance and

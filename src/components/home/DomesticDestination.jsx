@@ -4,7 +4,7 @@ import Button from "../global/Button";
 
 const DomesticDestinationSection = () => {
   return (
-    <section className="bg-red-100 max-w-7xl mx-auto  pb-10  md:pb-20 lg:pt-44">
+    <section className=" max-w-7xl mx-auto  pb-10  md:pb-20 lg:pt-44">
       <div className="xl:mx-0 mx-6">
         <div className="lg:grid-cols-2 grid-cols-1 place-items-center grid gap-20 w-full">
           <img

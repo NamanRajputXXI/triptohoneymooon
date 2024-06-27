@@ -79,7 +79,7 @@ const InternationDestinationSection = () => {
   };
 
   return (
-    <section className="bg-red-100 md:flex-row flex-col flex md:gap-5 h-fit w-full  py-10 sm:py-20">
+    <section className=" md:flex-row flex-col flex md:gap-5 h-fit w-full  py-10 sm:py-20">
       <div className="flex relative md:w-2/3 w-full justify-between md:rounded-r-2xl gap-10 flex-col h-fit py-10  bg-[url('https://images.unsplash.com/photo-1497256654106-4a29efafb831?q=80&w=1799&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center ">
         <div className="absolute inset-0 md:rounded-r-2xl h-full w-full bg-black bg-opacity-40"></div>
         <div className="flex gap-10">

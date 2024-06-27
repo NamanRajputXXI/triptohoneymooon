@@ -93,6 +93,12 @@ export default function Home() {
         <BestSellingCarousel />
       </InViewComponent>
       <InViewComponent>
+        <div className="w-full">
+          <img src="/honeymoonBannerHomePage.png" alt="" />
+        </div>
+      </InViewComponent>
+
+      <InViewComponent>
         <DomesticCarousel />
       </InViewComponent>
       <InViewComponent>
