@@ -52,6 +52,7 @@ const PopularDestinationSection = lazy(() =>
 const OurResorts = lazy(() => import("@/components/home/OurResorts"));
 const OurServices = lazy(() => import("@/components/home/OurServices"));
 const Footer = lazy(() => import("@/components/global/Footer"));
+const Faq = lazy(() => import("@/components/home/Faq"));
 
 const RequestQuotePopup = lazy(() =>
   import("@/components/home/Popup/RequestQuotePopup")
@@ -119,6 +120,9 @@ export default function Home() {
       </InViewComponent>
       <InViewComponent>
         <OurServices />
+      </InViewComponent>
+      <InViewComponent>
+        <Faq />
       </InViewComponent>
       <InViewComponent>
         <Footer />
