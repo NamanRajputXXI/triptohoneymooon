@@ -74,7 +74,7 @@ const HeroSectionCarousel = () => {
     }
   };
   return (
-    <section className="bg-red-100 w-full ">
+    <section className=" w-full ">
       <div className="flex absolute sm:px-5 px-2  mt-[220px]  sm:mt-[248px] items-center justify-between w-full mx-auto ">
         <img
           src="/heroSectionImages/hearts.png"
