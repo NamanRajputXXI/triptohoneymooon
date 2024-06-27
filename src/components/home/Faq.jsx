@@ -154,9 +154,9 @@ const Faq = () => {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="flex items-center justify-between w-full p-6 text-left"
+                className="flex items-center justify-between w-full sm:p-6 p-3 text-left"
               >
-                <h2 className="text-lg font-semibold text-gray-700 dark:text-white">
+                <h2 className="sm:text-lg text-base font-medium sm:font-semibold text-gray-700 dark:text-white">
                   {faq.question}
                 </h2>
 
