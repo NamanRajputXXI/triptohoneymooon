@@ -142,7 +142,7 @@ const Faq = () => {
   return (
     <section className="">
       <div className="container max-w-4xl px-6 py-16 mx-auto">
-        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 dark:text-white">
+        <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 ">
           Frequently Asked Questions
         </h1>
 
@@ -150,13 +150,13 @@ const Faq = () => {
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="bg-white dark:bg-gray-700 rounded-lg  overflow-hidden transition-all duration-300 ease-in-out "
+              className="bg-white  rounded-lg  overflow-hidden transition-all duration-300 ease-in-out "
             >
               <button
                 onClick={() => toggleFAQ(index)}
                 className="flex items-center justify-between w-full sm:p-6 p-3 text-left"
               >
-                <h2 className="sm:text-lg text-base font-medium sm:font-semibold text-gray-700 dark:text-white">
+                <h2 className="sm:text-lg text-base font-medium sm:font-semibold text-gray-700 ">
                   {faq.question}
                 </h2>
 
@@ -189,9 +189,7 @@ const Faq = () => {
                     : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="px-6 pb-6 text-gray-600 dark:text-gray-300">
-                  {faq.answer}
-                </p>
+                <p className="px-6 pb-6 text-gray-600 ">{faq.answer}</p>
               </div>
             </div>
           ))}
