@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const RequestQuotePopup = ({ onClose }) => {
   const [formData, setFormData] = useState({
@@ -12,6 +12,16 @@ const RequestQuotePopup = ({ onClose }) => {
   });
   const [errors, setErrors] = useState({});
   const [result, setResult] = useState("");
+
+  useEffect(() => {
+    // Disable scrolling when the component mounts
+    document.body.style.overflow = "hidden";
+
+    // Re-enable scrolling when the component unmounts
+    return () => {
+      document.body.style.overflow = "visible";
+    };
+  }, []);
 
   const validateForm = () => {
     let errors = {};
@@ -87,7 +97,7 @@ const RequestQuotePopup = ({ onClose }) => {
           // Close the popup after a short delay
           setTimeout(() => {
             onClose();
-          }, 1000); // 1 seconds delay
+          }, 1000); // 1 second delay
         } else {
           console.log("Error", data);
           setResult(data.message);
