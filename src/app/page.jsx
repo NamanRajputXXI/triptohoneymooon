@@ -240,7 +240,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 3000); // Open popup after 3 seconds
+    }, 6000); // Open popup after 3 seconds
 
     return () => clearTimeout(timer); // Clean up the timer
   }, []);
