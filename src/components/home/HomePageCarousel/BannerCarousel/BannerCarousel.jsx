@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 
 const BannerCarousel = () => {
   return (
-    <div className="sm:h-96  h-32 rounded-2xl px-5  my-3 ">
+    <div className="h-full  md:py-20 py-10">
       <Swiper
         className="h-full"
         spaceBetween={4}
@@ -16,40 +16,40 @@ const BannerCarousel = () => {
         loop={true}
       >
         <SwiperSlide>
-          <div className="swiper-slide rounded-2xl  flex justify-center items-center">
+          <div className="swiper-slide   flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full object-fill  rounded-2xl  sm:h-96  h-32"
+              className="w-full object-fill   sm:h-96  h-32"
               alt=""
               loading="lazy"
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
+          <div className="swiper-slide  bg-white flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full  sm:h-96  h-32 object-fill rounded-2xl"
+              className="w-full  sm:h-96  h-32 object-fill "
               loading="lazy"
               alt=""
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="swiper-slide  rounded-2xl bg-white flex justify-center items-center">
+          <div className="swiper-slide   bg-white flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full sm:h-96  h-32 object-fill  rounded-2xl"
+              className="w-full sm:h-96  h-32 object-fill  "
               loading="lazy"
               alt=""
             />
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="swiper-slide rounded-2xl  bg-white flex justify-center items-center">
+          <div className="swiper-slide   bg-white flex justify-center items-center">
             <img
               src="/advertiseBanner.jpg"
-              className="w-full  sm:h-96  h-32 object-fill rounded-2xl"
+              className="w-full  sm:h-96  h-32 object-fill "
               loading="lazy"
               alt=""
             />

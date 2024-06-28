@@ -9,7 +9,7 @@ const Faq = () => {
 
   return (
     <section className="">
-      <div className="container max-w-4xl px-6 py-16 mx-auto">
+      <div className="container max-w-4xl  md:py-20 py-10 mx-auto">
         <h1 className="text-3xl font-bold text-center text-gray-800 mb-8 ">
           Frequently Asked Questions
         </h1>

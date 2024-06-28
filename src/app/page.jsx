@@ -93,7 +93,7 @@ export default function Home() {
         <BestSellingCarousel />
       </InViewComponent>
       <InViewComponent>
-        <div className="w-full">
+        <div className="w-full md:py-20 py-10">
           <img src="/honeymoonBannerHomePage.png" alt="" />
         </div>
       </InViewComponent>
@@ -105,6 +105,9 @@ export default function Home() {
         <InternationalCarousel />
       </InViewComponent>
       <InViewComponent>
+        <BannerCarousel />
+      </InViewComponent>
+      <InViewComponent>
         <AttractivePlannerCarousel />
       </InViewComponent>
       <InViewComponent>
@@ -113,12 +116,10 @@ export default function Home() {
       <InViewComponent>
         <PopularCarousel />
       </InViewComponent>
-      <InViewComponent>
+      {/* <InViewComponent>
         <MultiImagerBannerCarousel />
-      </InViewComponent>
-      <InViewComponent>
-        <BannerCarousel />
-      </InViewComponent>
+      </InViewComponent> */}
+
       <InViewComponent>
         <InternationDestinationSection />
       </InViewComponent>

@@ -62,7 +62,7 @@ const InternationalCarousel = () => {
   };
   return (
     <>
-      <section className=" sm:py-20 py-10">
+      <section className=" md:py-20 py-10">
         <div className="mx-auto max-w-[1340px] px-6 sm:px-6     lg:ps-8 ">
           <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
             <h1 className="text-center   md:text-5xl text-2xl  ">

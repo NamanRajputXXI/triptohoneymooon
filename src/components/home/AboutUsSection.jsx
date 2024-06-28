@@ -4,7 +4,7 @@ import Button from "../global/Button";
 const AboutUsSection = () => {
   return (
     <section
-      className="w-full py-20 bg-cover bg-center bg-no-repeat relative"
+      className="w-full sm:my-20 my-10 py-20 bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: "url('/pinkShadeAboutUs.jpg')" }}
     >
       {/* Overlay to ensure text readability */}
