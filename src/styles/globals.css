@@ -19,3 +19,16 @@ h1,h2, h3, h4, h5{
   .image-zoom:hover {
     transform: scale(1.05);
   }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotate-animation {
+    animation: rotate 1s linear;
+  }

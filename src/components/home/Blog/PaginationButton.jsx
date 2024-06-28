@@ -5,8 +5,12 @@ const PaginationButton = ({ onClick, disabled, children, active }) => {
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`px-4 py-2 rounded-lg ${
-        disabled ? " cursor-not-allowed" : active ? "bg-red-600 text-white" : ""
+      className={`px-2 ${
+        disabled
+          ? " cursor-not-allowed"
+          : active
+          ? "font-bold text-xl text-red-500 "
+          : ""
       } text-black font-semibold transition duration-300`}
     >
       {children}
