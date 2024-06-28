@@ -167,6 +167,7 @@ const DestinationSearchBar = () => {
               {filteredSuggestions.length ? (
                 filteredSuggestions.map((suggestion, index) => (
                   <Link
+                    key={index}
                     className="px-2 py-2 hover:bg-gray-100 rounded-xl cursor-pointer flex items-center"
                     href={`/products/${suggestion.toLowerCase()}`}
                   >
