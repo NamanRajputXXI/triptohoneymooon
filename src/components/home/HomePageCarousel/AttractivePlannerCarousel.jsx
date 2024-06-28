@@ -86,7 +86,7 @@ const AttractivePlannerCarousel = () => {
     <section className="">
       <div className="mx-auto max-w-[1340px] px-4 my-10 md:my-20 sm:px-6    lg:ps-8 ">
         <div className="max-w-7xl sm:px-8 items-end justify-between sm:flex sm:pe-6 lg:pe-8">
-          <h1 className="text-center   md:text-5xl text-2xl  ">
+          <h1 className="text-center   md:text-5xl text-2xl">
             Attractive Planner
           </h1>
           <div className="mt-8 flex gap-4 lg:mt-0">
