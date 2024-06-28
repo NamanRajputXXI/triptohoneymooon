@@ -112,9 +112,10 @@ const Footer = () => {
               <li>Terms of Use</li>
             </ul>
             <h2 className="text-xl font-semibold mt-8 mb-4">Support</h2>
-            <ul className="space-y-2">
-              <li>Contact Us</li>
-              <li>About Us</li>
+            <ul className=" flex flex-col gap-2">
+              <Link href={"/"}>Contact Us</Link>
+              <Link href={"/"}>About Us</Link>
+              <Link href={"/credit"}>Credit</Link>
             </ul>
           </div>
           <div className="flex flex-col  ">
