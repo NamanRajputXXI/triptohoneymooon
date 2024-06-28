@@ -1,6 +1,8 @@
-import React from "react";
 import { FaStar } from "react-icons/fa";
+
 import RightSideSectionForm from "./RightSideSectionForm";
+import { useEffect } from "react";
+
 const RightSideSection = ({
   rating,
   totalCustomer,
@@ -9,6 +11,18 @@ const RightSideSection = ({
   selected,
   packageCategory,
 }) => {
+  useEffect(() => {
+    const rzpPaymentForm = document.getElementById("rzp_payment_form");
+
+    if (!rzpPaymentForm.hasChildNodes()) {
+      const script = document.createElement("script");
+      script.src = "https://checkout.razorpay.com/v1/payment-button.js";
+      script.async = true;
+      script.dataset.payment_button_id = "pl_OS8CsVFvxYhUyK";
+      rzpPaymentForm.appendChild(script);
+    }
+  });
+
   return (
     <section className="flex order-1 flex-col gap-10">
       <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-200">
@@ -35,9 +49,9 @@ const RightSideSection = ({
           </div>
         </div>
         <hr className="bg-gray-200 h-[1px]" />
-        <button className="bg-[#cf331a] w-full rounded-xl py-3 px-4 text-white">
-          Buy Now
-        </button>
+        <div className="flex items-center justify-center">
+          <form id="rzp_payment_form"></form>
+        </div>
       </div>
       <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-200">
         <p className="font-bold ">{heading}</p>
