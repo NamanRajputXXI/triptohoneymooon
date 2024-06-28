@@ -396,7 +396,7 @@ const PopularDestinationSection = () => {
                 <PreviousButton handlePrevSlide={handlePrevSlide} />
                 <NextButton handleNextSlide={handleNextSlide} />
               </div>
-              <div className="flex gap-4 mb-4">
+              <div className="flex lg:hidden gap-4 mb-4">
                 <PreviousButton handlePrevSlide={handlePrevSlide} />
                 <NextButton handleNextSlide={handleNextSlide} />
               </div>
