@@ -18,7 +18,7 @@ const RightSideSection = ({
       const script = document.createElement("script");
       script.src = "https://checkout.razorpay.com/v1/payment-button.js";
       script.async = true;
-      script.dataset.payment_button_id = "pl_OS8CsVFvxYhUyK";
+      script.dataset.payment_button_id = "pl_OS9PIB8m9wEx9R";
       rzpPaymentForm.appendChild(script);
     }
   });
