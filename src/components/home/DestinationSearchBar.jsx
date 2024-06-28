@@ -166,19 +166,17 @@ const DestinationSearchBar = () => {
             <ul className="w-full bg-white  overflow-hidden  z-10">
               {filteredSuggestions.length ? (
                 filteredSuggestions.map((suggestion, index) => (
-                  <li
-                    key={index}
+                  <Link
                     className="px-2 py-2 hover:bg-gray-100 rounded-xl cursor-pointer flex items-center"
+                    href={`/products/${suggestion.toLowerCase()}`}
                   >
-                    <Link href={`/products/${suggestion.toLowerCase()}`}>
-                      <span
-                        onClick={() => handleSuggestionClick(suggestion)}
-                        className="block w-full text-gray-700"
-                      >
-                        {suggestion}
-                      </span>
-                    </Link>
-                  </li>
+                    <span
+                      onClick={() => handleSuggestionClick(suggestion)}
+                      className="block w-full text-gray-700"
+                    >
+                      {suggestion}
+                    </span>
+                  </Link>
                 ))
               ) : (
                 <li className="px-4 py-2 text-gray-700">
