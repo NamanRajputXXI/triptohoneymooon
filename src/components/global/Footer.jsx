@@ -107,9 +107,9 @@ const Footer = () => {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
           <div className="flex flex-col  ">
             <h2 className="text-xl font-semibold mb-4">Policy</h2>
-            <ul className="space-y-2">
-              <li>Privacy Policy</li>
-              <li>Terms of Use</li>
+            <ul className="space-y-2 flex flex-col">
+              <Link href={"/privacyPolicy"}>Privacy Policy</Link>
+              <Link href={"/terms"}>Terms of use</Link>
             </ul>
             <h2 className="text-xl font-semibold mt-8 mb-4">Support</h2>
             <ul className=" flex flex-col gap-2">
