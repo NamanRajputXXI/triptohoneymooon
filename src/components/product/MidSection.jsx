@@ -18,6 +18,8 @@ const MidSection = ({
   days,
   destination,
   activities,
+  id,
+  category,
 }) => {
   const [selected, setSelected] = useState(0); // Set initial value to 0 (first category)
   return (
@@ -46,6 +48,8 @@ const MidSection = ({
         saveInr={saveInr}
         heading={heading}
         packageCategory={packageCategory}
+        id={id}
+        category={category}
       />
     </div>
   );

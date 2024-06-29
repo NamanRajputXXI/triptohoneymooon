@@ -72,6 +72,7 @@ export const getProductData = async ({ params }) => {
 };
 
 const Page = async ({ params }) => {
+  const { category: urlCategory, id: urlId } = params;
   const singleProductData = await getProductData({ params });
 
   if (!singleProductData?.document)
@@ -102,12 +103,18 @@ const Page = async ({ params }) => {
     destination,
     activities,
   } = singleProductData.document;
+  const id = urlId;
+  const category = urlCategory;
+
+  console.log("Page props - id:", id, "category:", category);
 
   return (
     <div className="bg-white">
       <Navbar />
       <ImagesGridLayout headerImages={headerImages} />
       <MidSection
+        id={id}
+        category={category}
         itineraryDetails={itineraryDetails}
         itineraryCarousel={itineraryCarousel}
         packageCategory={packageCategory}

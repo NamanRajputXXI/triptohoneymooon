@@ -2,6 +2,7 @@ import { FaStar } from "react-icons/fa";
 
 import RightSideSectionForm from "./RightSideSectionForm";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const RightSideSection = ({
   rating,
@@ -10,18 +11,20 @@ const RightSideSection = ({
   heading,
   selected,
   packageCategory,
+  id,
+  category,
 }) => {
-  useEffect(() => {
-    const rzpPaymentForm = document.getElementById("rzp_payment_form");
+  // useEffect(() => {
+  //   const rzpPaymentForm = document.getElementById("rzp_payment_form");
 
-    if (!rzpPaymentForm.hasChildNodes()) {
-      const script = document.createElement("script");
-      script.src = "https://checkout.razorpay.com/v1/payment-button.js";
-      script.async = true;
-      script.dataset.payment_button_id = "pl_OS9PIB8m9wEx9R";
-      rzpPaymentForm.appendChild(script);
-    }
-  });
+  //   if (!rzpPaymentForm.hasChildNodes()) {
+  //     const script = document.createElement("script");
+  //     script.src = "https://checkout.razorpay.com/v1/payment-button.js";
+  //     script.async = true;
+  //     script.dataset.payment_button_id = "pl_OS9PIB8m9wEx9R";
+  //     rzpPaymentForm.appendChild(script);
+  //   }
+  // });
 
   return (
     <section className="flex order-1 flex-col gap-10">
@@ -49,9 +52,16 @@ const RightSideSection = ({
           </div>
         </div>
         <hr className="bg-gray-200 h-[1px]" />
-        <div className="flex items-center justify-center">
-          <form id="rzp_payment_form"></form>
-        </div>
+        {id && category ? (
+          <Link
+            href={`/products/${category}/${id}/preview`}
+            className="bg-red-500 text-white px-4 py-2 rounded"
+          >
+            Buy Now
+          </Link>
+        ) : (
+          <p>Error: Product ID or category is missing</p>
+        )}
       </div>
       <div className="flex gap-5 flex-col px-3 py-5 rounded-2xl border-[1px] border-gray-200">
         <p className="font-bold ">{heading}</p>
