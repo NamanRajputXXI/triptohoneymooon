@@ -1,11 +1,12 @@
-import InfiniteScroll from "@/components/InfiniteScroll/InfiniteScroll";
+import React from "react";
+import ProductCategoryCard from "@/components/productCategory/ProductCategoryCard";
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
 
-export const getProductsData = async ({ params, page = 1, limit = 10 }) => {
+export const getProductsData = async ({ params }) => {
   try {
     const response = await fetch(
-      `https://triptohoneymooon.vercel.app//api/${params.category}?page=${page}&limit=${limit}`,
+      `https://triptohoneymooon.vercel.app/api/${params.category}`,
       {
         method: "GET",
         cache: "no-store",
@@ -30,11 +31,30 @@ export const getProductsData = async ({ params, page = 1, limit = 10 }) => {
 };
 
 const Page = async ({ params }) => {
+  const products = await getProductsData({ params });
+
   return (
     <>
       <Navbar />
       <div className="max-w-7xl mx-auto my-10 px-5 flex flex-col gap-10">
-        <InfiniteScroll params={params} />
+        <div className="grid justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
+          {products.map((product) => (
+            <ProductCategoryCard
+              key={product._id}
+              category={params.category}
+              duration={product.duration}
+              destinationId={product._id}
+              src={product.imageUrl}
+              heading={product.heading}
+              thumbnail={product.thumbnail}
+              previousPrice={product.previousPrice}
+              price={product.price}
+              rating={product.rating}
+              totalCustomer={product.totalCustomer}
+              saveInr={product.saveInr}
+            />
+          ))}
+        </div>
       </div>
       <Footer />
     </>
