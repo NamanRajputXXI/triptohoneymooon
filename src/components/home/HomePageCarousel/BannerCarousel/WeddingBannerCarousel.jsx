@@ -18,7 +18,7 @@ const WeddingBannerCarousel = () => {
         {isVisible ? "Hide" : "Show"}
       </button>
       {isVisible && (
-        <div className="md:h-32 sm:h-24 h-16 rounded-2xl sm:px-5 px-2 my-3">
+        <div className="md:h-32 sm:h-24 h-16   my-3">
           <Swiper
             className="h-full"
             spaceBetween={4}
@@ -31,36 +31,36 @@ const WeddingBannerCarousel = () => {
             loop={true}
           >
             <SwiperSlide>
-              <div className="swiper-slide rounded-2xl flex justify-center items-center">
+              <div className="swiper-slide  flex justify-center items-center">
                 <img
                   src="/homePageBannerImage.png"
-                  className="w-full rounded-2xl md:h-32 sm:h-24 h-16"
+                  className="w-full md:h-32 sm:h-24 h-16"
                   loading="lazy"
                   alt=""
                 />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
+              <div className="swiper-slide  bg-white flex justify-center items-center">
                 <img
                   src="/homePageBannerImage.png"
-                  className="w-full md:h-32 sm:h-24 h-16 rounded-2xl"
+                  className="w-full md:h-32 sm:h-24 h-16 "
                   loading="lazy"
                   alt=""
                 />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
+              <div className="swiper-slide  bg-white flex justify-center items-center">
                 <img
                   src="/homePageBannerImage.png"
-                  className="w-full md:h-32 sm:h-24 h-16 rounded-2xl"
+                  className="w-full md:h-32 sm:h-24 h-16 "
                   alt=""
                 />
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
+              <div className="swiper-slide  bg-white flex justify-center items-center">
                 <img
                   src="/homePageBannerImage.png"
                   className="w-full md:h-32 sm:h-24 h-16 rounded-2xl"
