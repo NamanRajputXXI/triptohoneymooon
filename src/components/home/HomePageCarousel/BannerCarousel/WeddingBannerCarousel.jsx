@@ -33,7 +33,7 @@ const WeddingBannerCarousel = () => {
             <SwiperSlide>
               <div className="swiper-slide rounded-2xl flex justify-center items-center">
                 <img
-                  src="/homePageBannerImage.jpg"
+                  src="/homePageBannerImage.png"
                   className="w-full rounded-2xl md:h-32 sm:h-24 h-16"
                   loading="lazy"
                   alt=""
@@ -43,7 +43,7 @@ const WeddingBannerCarousel = () => {
             <SwiperSlide>
               <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
                 <img
-                  src="/homePageBannerImage.jpg"
+                  src="/homePageBannerImage.png"
                   className="w-full md:h-32 sm:h-24 h-16 rounded-2xl"
                   loading="lazy"
                   alt=""
@@ -53,7 +53,7 @@ const WeddingBannerCarousel = () => {
             <SwiperSlide>
               <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
                 <img
-                  src="/homePageBannerImage.jpg"
+                  src="/homePageBannerImage.png"
                   className="w-full md:h-32 sm:h-24 h-16 rounded-2xl"
                   alt=""
                 />
@@ -62,7 +62,7 @@ const WeddingBannerCarousel = () => {
             <SwiperSlide>
               <div className="swiper-slide rounded-2xl bg-white flex justify-center items-center">
                 <img
-                  src="/homePageBannerImage.jpg"
+                  src="/homePageBannerImage.png"
                   className="w-full md:h-32 sm:h-24 h-16 rounded-2xl"
                   alt=""
                 />
