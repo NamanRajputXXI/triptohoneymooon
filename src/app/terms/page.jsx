@@ -7,7 +7,7 @@ const page = () => {
     <>
       <Navbar />
       <div className="max-w-7xl flex flex-col gap-10 mx-auto md:py-20 py-10">
-        <h2 className="text-4xl font-semibold">Privacy Policy</h2>
+        <h2 className="text-4xl font-semibold">Terms of Use</h2>
         <p>
           In case of cancellation of tour/travel services due to any
           avoidable/unavoidable reason/s, we must be informed in writing.

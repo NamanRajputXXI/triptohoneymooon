@@ -113,19 +113,19 @@ const Footer = () => {
             </ul>
             <h2 className="text-xl font-semibold mt-8 mb-4">Support</h2>
             <ul className=" flex flex-col gap-2">
-              <Link href={"/"}>Contact Us</Link>
-              <Link href={"/"}>About Us</Link>
+              <Link href={"/contact"}>Contact Us</Link>
+              <Link href={"/about"}>About Us</Link>
               <Link href={"/credit"}>Credit</Link>
             </ul>
           </div>
           <div className="flex flex-col  ">
             <h2 className="text-xl font-semibold mb-4">Quick Links</h2>
-            <ul className="space-y-2">
-              <li>Home</li>
-              <li>Trending Destination</li>
-              <li>Domestic Destination</li>
-              <li>Popular Destination</li>
-              <li>International Destination</li>
+            <ul className=" flex  flex-col gap-2 ">
+              <Link href={"/"}>Home</Link>
+              <Link href={"/"}>Trending Destination</Link>
+              <Link href={"/"}>Domestic Destination</Link>
+              <Link href={"/"}>Popular Destination</Link>
+              <Link href={"/"}>International Destination</Link>
             </ul>
           </div>
           <div className="flex flex-col ">
