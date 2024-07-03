@@ -1,131 +1,130 @@
 {
   "_id": {
-    "$oid": "667ff5e5b97129b369b03fc1"
+    "$oid": "668522c34a69459a971e4d7d"
   },
-  "activities":[
+  "activities": [
     {
-      "heading":"Two Wheelers on Rent",
+      "heading": "Two Wheelers on Rent",
       "price": "600",
-      "estimated":"500 to 800 ",
-      "subHeading":"per 24 Hrs",
-      "imageUrl":[
-        "https://images.unsplash.com/photo-1665022340153-50fcc8db4bca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlrZSUyMHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D", 
+      "estimated": "500 to 800 ",
+      "subHeading": "per 24 Hrs",
+      "imageUrl": [
+        "https://images.unsplash.com/photo-1665022340153-50fcc8db4bca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlrZSUyMHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D",
         "https://images.unsplash.com/photo-1527438731821-03aefdf5c33b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fGJpa2UlMjBzcGxhc2h8ZW58MHx8MHx8fDA%3D"
       ]
     },
     {
-      "heading":"Candle Night Dinner",
-      "price":"10000",
-      "estimated":"4000 to 13500",
-      "subHeading":"Per couple per night depends upon the hotel",
-      "imageUrl":[
+      "heading": "Candle Night Dinner",
+      "price": "10000",
+      "estimated": "4000 to 13500",
+      "subHeading": "Per couple per night depends upon the hotel",
+      "imageUrl": [
         "https://cdn.pixabay.com/photo/2015/05/31/11/18/table-setting-791148_640.jpg",
         "https://cdn.pixabay.com/photo/2023/01/22/14/10/dinner-7736494_640.jpg",
         "https://cdn.pixabay.com/photo/2018/12/14/07/00/christmas-dinner-3874367_640.jpg"
       ]
     },
     {
-      "heading":"Flower Bed Decoration",
-      "price":"2200",
-      "estimated":"1500 to 2600",
-      "subHeading":"Per night depends upon the hotel",
-      "imageUrl":[
+      "heading": "Flower Bed Decoration",
+      "price": "2200",
+      "estimated": "1500 to 2600",
+      "subHeading": "Per night depends upon the hotel",
+      "imageUrl": [
         "https://images.pexels.com/photos/13871316/pexels-photo-13871316.jpeg?auto=compress&cs=tinysrgb&w=600"
       ]
     },
     {
-      "heading":"Honeymoon Cake",
-      "price":"1050",
-      "estimated":"900 - 1200",
-      "subHeading":"per half kg with flower bouquet and fruit juice on arrival",
-      "imageUrl":[
+      "heading": "Honeymoon Cake",
+      "price": "1050",
+      "estimated": "900 - 1200",
+      "subHeading": "per half kg with flower bouquet and fruit juice on arrival",
+      "imageUrl": [
         "https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_640.jpg",
         "https://images.pexels.com/photos/6800133/pexels-photo-6800133.jpeg?auto=compress&cs=tinysrgb&w=600"
       ]
     },
     {
-      "heading":"Scuba Diving",
-      "price":"4000",
-      "estimated":"4000",
-      "subHeading":"per head with Photo, Videos",
-      "imageUrl":[
+      "heading": "Scuba Diving",
+      "price": "4000",
+      "estimated": "4000",
+      "subHeading": "per head with Photo, Videos",
+      "imageUrl": [
         "https://cdn.pixabay.com/photo/2014/11/28/22/43/diver-549380_640.jpg",
         "https://cdn.pixabay.com/photo/2016/11/22/16/04/dive-1849534_640.jpg"
       ]
     },
     {
-      "heading":"Parasailing",
-      "price":"4000",
-      "estimated":"4000",
-      "subHeading":"per person",
-      "imageUrl":[
+      "heading": "Parasailing",
+      "price": "4000",
+      "estimated": "4000",
+      "subHeading": "per person",
+      "imageUrl": [
         "https://cdn.pixabay.com/photo/2014/05/18/19/17/parasailing-347350_1280.jpg",
         "https://cdn.pixabay.com/photo/2014/02/02/14/35/parasailing-256745_640.jpg"
       ]
     },
     {
-      "heading":"Under Water Sea Walk",
-      "price":"4000",
-      "estimated":"4000",
-      "subHeading":"per Head",
-      "imageUrl":[
+      "heading": "Under Water Sea Walk",
+      "price": "4000",
+      "estimated": "4000",
+      "subHeading": "per Head",
+      "imageUrl": [
         "https://cdn.pixabay.com/photo/2016/11/12/20/00/under-water-1819586_640.jpg"
       ]
     },
     {
-      "heading":"Sea Kart ",
-      "price":"4000",
-      "estimated":"4000",
-      "subHeading":"per Person",
-      "imageUrl":[
+      "heading": "Sea Kart ",
+      "price": "4000",
+      "estimated": "4000",
+      "subHeading": "per Person",
+      "imageUrl": [
         ""
       ]
     },
     {
-      "heading":"Jet Ski",
-      "price":"600",
-      "estimated":"600",
-      "subHeading":"per Head",
-      "imageUrl":[
+      "heading": "Jet Ski",
+      "price": "600",
+      "estimated": "600",
+      "subHeading": "per Head",
+      "imageUrl": [
         "https://images.unsplash.com/photo-1564633351631-e85bd59a91af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amV0JTIwc2tpfGVufDB8fDB8fHww",
         "https://images.unsplash.com/photo-1554132267-d06483b00adc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amV0JTIwc2tpfGVufDB8fDB8fHww"
       ]
     },
     {
-      "heading":"Glass Bottom Boat",
-      "price":"800",
-      "estimated":"800",
-      "subHeading":"per Head",
-      "imageUrl":[
-      ]
+      "heading": "Glass Bottom Boat",
+      "price": "800",
+      "estimated": "800",
+      "subHeading": "per Head",
+      "imageUrl": []
     },
     {
-      "heading":"Banana Ride / Speed Boat ",
-      "price":"600",
-      "estimated":"600",
-      "subHeading":"per Head",
-      "imageUrl":[
-      ]
+      "heading": "Banana Ride / Speed Boat ",
+      "price": "600",
+      "estimated": "600",
+      "subHeading": "per Head",
+      "imageUrl": []
     },
     {
-      "heading":"Snokelling ",
-      "price":"1500",
-      "estimated":"1500",
-      "subHeading":"per Head with floating device, equipment and guide",
-      "imageUrl":[
+      "heading": "Snokelling ",
+      "price": "1500",
+      "estimated": "1500",
+      "subHeading": "per Head with floating device, equipment and guide",
+      "imageUrl": [
         "https://cdn.pixabay.com/photo/2016/07/29/09/35/snorkeling-1551757_640.jpg",
         "https://cdn.pixabay.com/photo/2019/01/06/19/54/snorkeling-3917769_640.jpg"
       ]
     },
     {
-      "heading":"Kayaking",
-      "price":"3500",
-      "estimated":"3500",
-      "subHeading":"per Head ",
-      "imageUrl":[
+      "heading": "Kayaking",
+      "price": "3500",
+      "estimated": "3500",
+      "subHeading": "per Head ",
+      "imageUrl": [
         "https://cdn.pixabay.com/photo/2016/11/18/19/40/woman-1836601_640.jpg",
         "https://cdn.pixabay.com/photo/2022/09/28/21/06/kayak-7486040_640.jpg"
       ]
     }
-  ]
+  ],
+  "location": "andaman"
 }
