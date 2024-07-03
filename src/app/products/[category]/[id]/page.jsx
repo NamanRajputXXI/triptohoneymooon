@@ -51,7 +51,7 @@ const ErrorComponent = ({ message }) => (
 export const getProductData = async ({ params }) => {
   try {
     const response = await fetch(
-      `https://triptohoneymooon.vercel.app/api/${params.category}/${params.id}`,
+      `https://triptohoneymooon.vercel.app/api/states/${params.category}/${params.id}`,
       {
         next: { revalidate: 3600 }, // Revalidate every hour
       }

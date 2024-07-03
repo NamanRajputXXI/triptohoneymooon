@@ -6,7 +6,7 @@ import Navbar from "@/components/global/Navbar";
 export const getProductsData = async ({ params }) => {
   try {
     const response = await fetch(
-      `https://triptohoneymooon.vercel.app/api/${params.category}`,
+      `https://triptohoneymooon.vercel.app/api/states/${params.category}`,
       {
         method: "GET",
         cache: "no-store",
