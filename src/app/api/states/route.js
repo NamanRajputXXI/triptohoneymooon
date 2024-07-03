@@ -1,21 +1,22 @@
-// import { getDataFromCollection } from "@/lib/db/mongodb";
+// import { getDataFromAllCollections } from "@/lib/db/mongodb";
 // import { NextResponse } from "next/server";
 
 // export async function GET(request) {
 //   try {
-//     // For now, we'll only fetch data from the 'andaman' collection
-//     const data = await getDataFromCollection("andaman");
+//     const data = await getDataFromAllCollections();
+//     // Assuming each collection represents a state
+//     const states = Object.keys(data);
 
-//     // Transform the data to represent it as states
-//     const statesData = {
-//       andaman: data,
-//     };
+//     // Ensure 'kashmir' is included in the states list
+//     if (!states.includes("kashmir")) {
+//       states.push("kashmir");
+//     }
 
-//     return NextResponse.json({ data: statesData });
+//     return NextResponse.json({ states });
 //   } catch (error) {
-//     console.error("Failed to fetch states data:", error.message);
+//     console.error("Failed to fetch states:", error.message);
 //     return NextResponse.json(
-//       { error: "Failed to fetch states data" },
+//       { error: "Failed to fetch states" },
 //       { status: 500 }
 //     );
 //   }
@@ -27,8 +28,15 @@ import { NextResponse } from "next/server";
 export async function GET(request) {
   try {
     const data = await getDataFromAllCollections();
-    // Assuming each collection represents a state
-    const states = Object.keys(data);
+    // Get states from the database
+    const dbStates = Object.keys(data);
+
+    // Define the states we want to ensure are included
+    const requiredStates = ["andaman", "kashmir"];
+
+    // Combine database states with required states, removing duplicates
+    const states = [...new Set([...dbStates, ...requiredStates])];
+
     return NextResponse.json({ states });
   } catch (error) {
     console.error("Failed to fetch states:", error.message);
