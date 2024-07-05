@@ -7,11 +7,16 @@ const PopupWrapper = () => {
   const [showPopup, setShowPopup] = useState(false);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowPopup(true);
-    }, 2000);
+    const hasSeenPopup = sessionStorage.getItem("hasSeenPopup");
 
-    return () => clearTimeout(timer);
+    if (!hasSeenPopup) {
+      const timer = setTimeout(() => {
+        setShowPopup(true);
+        sessionStorage.setItem("hasSeenPopup", "true");
+      }, 2000);
+
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   if (!showPopup) return null;

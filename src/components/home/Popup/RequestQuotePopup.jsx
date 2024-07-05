@@ -14,10 +14,7 @@ const RequestQuotePopup = ({ onClose }) => {
   const [result, setResult] = useState("");
 
   useEffect(() => {
-    // Disable scrolling when the component mounts
     document.body.style.overflow = "hidden";
-
-    // Re-enable scrolling when the component unmounts
     return () => {
       document.body.style.overflow = "visible";
     };
@@ -94,10 +91,9 @@ const RequestQuotePopup = ({ onClose }) => {
             message: "",
           });
 
-          // Close the popup after a short delay
           setTimeout(() => {
             onClose();
-          }, 1000); // 1 second delay
+          }, 1000);
         } else {
           console.log("Error", data);
           setResult(data.message);
@@ -113,7 +109,6 @@ const RequestQuotePopup = ({ onClose }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
       <div className="bg-white h-fit relative p-6 rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto my-8 mx-4">
         <div className="flex flex-col md:flex-row">
-          {/* Left side - QR Code */}
           <div className="md:w-1/2 mb-6 md:mb-0 md:mr-6 flex flex-col items-center justify-center">
             <h3 className="text-xl font-semibold mb-4">Scan for WhatsApp</h3>
             <img
@@ -126,7 +121,6 @@ const RequestQuotePopup = ({ onClose }) => {
             </p>
           </div>
 
-          {/* Right side - Request Quote Form */}
           <div className="md:w-1/2">
             <h2 className="text-2xl font-bold mb-4">Request a Quote</h2>
             <form onSubmit={handleSubmit}>
