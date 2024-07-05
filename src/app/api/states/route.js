@@ -4,13 +4,14 @@
 // export async function GET(request) {
 //   try {
 //     const data = await getDataFromAllCollections();
-//     // Assuming each collection represents a state
-//     const states = Object.keys(data);
+//     // Get states from the database
+//     const dbStates = Object.keys(data);
 
-//     // Ensure 'kashmir' is included in the states list
-//     if (!states.includes("kashmir")) {
-//       states.push("kashmir");
-//     }
+//     // Define the states we want to ensure are included
+//     const requiredStates = ["andaman", "kashmir"];
+
+//     // Combine database states with required states, removing duplicates
+//     const states = [...new Set([...dbStates, ...requiredStates])];
 
 //     return NextResponse.json({ states });
 //   } catch (error) {
@@ -28,14 +29,17 @@ import { NextResponse } from "next/server";
 export async function GET(request) {
   try {
     const data = await getDataFromAllCollections();
+
     // Get states from the database
     const dbStates = Object.keys(data);
 
     // Define the states we want to ensure are included
     const requiredStates = ["andaman", "kashmir"];
 
-    // Combine database states with required states, removing duplicates
-    const states = [...new Set([...dbStates, ...requiredStates])];
+    // Combine database states with required states, removing duplicates and 'activities'
+    const states = [...new Set([...dbStates, ...requiredStates])].filter(
+      (state) => state !== "activities"
+    );
 
     return NextResponse.json({ states });
   } catch (error) {
