@@ -8,7 +8,7 @@ const popularCarouselData = [
     discount: "20%",
     days: "5 Night / 6 Days",
     videoUrl:
-      "https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4",
+      "https://cdn.pixabay.com/video/2022/10/19/135586-762117611_tiny.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/goa.jpg`,
@@ -17,8 +17,9 @@ const popularCarouselData = [
     discount: "30%",
     destination: "Goa",
     days: "4 Night / 5 Days",
+
     videoUrl:
-      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
+      "https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/andaman.jpg`,
@@ -28,7 +29,7 @@ const popularCarouselData = [
     destination: "Andaman",
     days: "4 Night / 5 Days",
     videoUrl:
-      "https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4",
+      "https://cdn.pixabay.com/video/2022/08/31/129697-745174917_tiny.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/kerala.jpg`,
@@ -37,8 +38,7 @@ const popularCarouselData = [
     discount: "15%",
     destination: "Kerala",
     days: "3 Night / 4 Days",
-    videoUrl:
-      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
+    videoUrl: "https://cdn.pixabay.com/video/2024/04/20/208687_tiny.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/dubai.jpg`,
@@ -48,7 +48,7 @@ const popularCarouselData = [
     destination: "Dubai",
     days: "4 Night / 5 Days",
     videoUrl:
-      "https://cdn.pixabay.com/video/2023/01/15/146632-789534284_large.mp4",
+      "https://cdn.pixabay.com/video/2020/08/12/46950-450094784_tiny.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/rishikesh.jpg`,
@@ -57,8 +57,7 @@ const popularCarouselData = [
     destination: "Rishikesh",
     discount: "10%",
     days: "3 Night / 4 Days",
-    videoUrl:
-      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
+    videoUrl: "https://cdn.pixabay.com/video/2024/04/28/209841_large.mp4",
   },
   {
     imageUrl: `/carouselImages/popular/singapore.jpg`,
@@ -68,7 +67,7 @@ const popularCarouselData = [
     discount: "5%",
     days: "4 Night / 5 Days",
     videoUrl:
-      "https://cdn.pixabay.com/video/2023/06/21/168213-838884062_tiny.mp4",
+      "https://cdn.pixabay.com/video/2020/06/07/41315-429396382_tiny.mp4",
   },
 ];
 
