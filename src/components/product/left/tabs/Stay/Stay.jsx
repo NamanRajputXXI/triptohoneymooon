@@ -42,7 +42,7 @@ const Stay = ({ selected, packageCategory }) => {
             <div className="bg-gray-300 flex justify-between items-center p-4 rounded-lg w-full">
               <p>Hotels List for the {category} Category</p>
             </div>
-            <p className="text-blue-600 font-bold">
+            <p className="text-[#2a3788] font-bold">
               Stays will be allocated based on availability or similar category
             </p>
             <div className="flex space-x-2 mb-4">
