@@ -1,130 +1,916 @@
 {
   "_id": {
-    "$oid": "668522c34a69459a971e4d7d"
+    "$oid": "6685113b4a69459a971e4d7c"
   },
-  "activities": [
+  "heading": "Srinagar Serenity: Houseboat Tour Package",
+  "duration": "3N / 4D",
+  "headerImages": [
+    "https://cdn.pixabay.com/photo/2022/09/19/20/17/pony-7466390_640.jpg",
+    "https://cdn.pixabay.com/photo/2017/08/22/14/40/sweet-wooden-home-2669177_1280.jpg",
+    "https://cdn.pixabay.com/photo/2023/01/18/14/24/kashmir-7727002_640.jpg",
+    "https://cdn.pixabay.com/photo/2022/08/16/12/45/dallake-7390154_640.jpg",
+    "https://cdn.pixabay.com/photo/2018/05/13/11/32/dal-3396109_640.jpg",
+    "https://cdn.pixabay.com/photo/2021/02/01/06/17/mountains-5969476_640.jpg"
+  ],
+  "rating": "4.7",
+  "totalCustomer": "531",
+  "saveInr": "7000",
+  "totalDaysDestination": "4 Days in Kashmir",
+ "tripHighlights": [
+    "Shikara Ride on Dal Lake: Enjoy a peaceful ride on the famous Dal Lake, surrounded by scenic mountains.",
+    "Mughal Gardens: Stroll through the beautifully landscaped Mughal Gardens, including Shalimar Bagh and Nishat Bagh.",
+    "Gulmarg Gondola Ride: Experience the thrill of the world's highest cable car ride with stunning views of the Himalayas.",
+    "Pahalgam Valley: Explore the picturesque Pahalgam Valley, a popular destination for trekking and nature walks."
+],
+  "inclusions": [
+    "Breakfast & Dinner ",
+    "All accommodation as per Double Sharing",
+    "Shikara Ride over Dal Lake",
+    "Pick up and drop from As per Itinerary",
+    "Toll Taxes & Service charges",
+    "All Transportation on private basis "
+  ],
+ "exclusions": [
+    "Any meals other than those specified in ‘Inclusions’.",
+    "Chained vehicle from Tangmarg to Gulmarg.",
+    "Expenses of personal nature such as tips.",
+    "Any additional expenses incurred due to any train delay or cancellation.",
+    "Guide & Entrance fees during sightseeing.",
+    "Transfer from Banganga to Vaishno Devi Temple.",
+    "Visit to Ganderbal and Thajiwas Glacier.",
+    "Visit to Aru, Chandanwari, Baisaran, and Betab valleys.",
+    "Expenses of watersports.",
+    "Cable Car / Pony Ride in Gulmarg, Pahalgam, & Sonamarg."
+],
+  "knowBeforeYouGo": [
+    "All Indian nationals are required to carry a valid Government ID proof.",
+    "All foreign nationals are requested to carry their passports with them during the tour",
+    "Any change in the itinerary is subject to the weather conditions, political manifestations and government restrictions. Company reserve the rights to rearrange the itinerary in such cases"
+  ],
+  "thumbnail": "https://cdn.pixabay.com/photo/2017/08/28/12/50/mountains-2689450_640.jpg",
+  "reviewImageGallary": [
+    "https://cdn.pixabay.com/photo/2019/06/21/12/20/nature-4289326_640.jpg",
+    "https://cdn.pixabay.com/photo/2020/12/14/21/17/mountains-5832077_640.jpg",
+    "https://cdn.pixabay.com/photo/2017/08/22/14/39/camping-2669172_640.jpg",
+    "https://cdn.pixabay.com/photo/2022/03/04/23/59/mountain-7048171_640.jpg",
+    "https://cdn.pixabay.com/photo/2021/10/25/10/32/mountains-6740498_640.jpg",
+    "https://cdn.pixabay.com/photo/2022/04/12/11/45/ladakh-7127801_640.jpg",
+    "https://cdn.pixabay.com/photo/2017/11/03/19/46/autumn-2915443_640.jpg"
+  ],
+  "reviews": [
     {
-      "heading": "Two Wheelers on Rent",
-      "price": "600",
-      "estimated": "500 to 800 ",
-      "subHeading": "per 24 Hrs",
-      "imageUrl": [
-        "https://images.unsplash.com/photo-1665022340153-50fcc8db4bca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmlrZSUyMHNwbGFzaHxlbnwwfHwwfHx8MA%3D%3D",
-        "https://images.unsplash.com/photo-1527438731821-03aefdf5c33b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fGJpa2UlMjBzcGxhc2h8ZW58MHx8MHx8fDA%3D"
+      "name": "Prathmesh Sagare, Mumbai",
+      "date": "26 Feb, 2023",
+      "packageName": "Kullu - Manali Trip",
+      "rating": "5.0",
+      "review": "About Admire Holidays, my point of contact was Mr.Sandeep.\nMr.Sandeep used to call me daily in my trip for followup & the relation with him was good, i don't know him personally but on phone my query used to get resolved always.We enjoyed a lot our 1st Long Couple Trip Manali Kulu\nwhich was arranged by Admire Holidays ",
+      "imageGallary": [
+        "https://admireholidays.com/review1Image.jpg"
       ]
     },
     {
-      "heading": "Candle Night Dinner",
-      "price": "10000",
-      "estimated": "4000 to 13500",
-      "subHeading": "Per couple per night depends upon the hotel",
-      "imageUrl": [
-        "https://cdn.pixabay.com/photo/2015/05/31/11/18/table-setting-791148_640.jpg",
-        "https://cdn.pixabay.com/photo/2023/01/22/14/10/dinner-7736494_640.jpg",
-        "https://cdn.pixabay.com/photo/2018/12/14/07/00/christmas-dinner-3874367_640.jpg"
-      ]
-    },
-    {
-      "heading": "Flower Bed Decoration",
-      "price": "2200",
-      "estimated": "1500 to 2600",
-      "subHeading": "Per night depends upon the hotel",
-      "imageUrl": [
-        "https://images.pexels.com/photos/13871316/pexels-photo-13871316.jpeg?auto=compress&cs=tinysrgb&w=600"
-      ]
-    },
-    {
-      "heading": "Honeymoon Cake",
-      "price": "1050",
-      "estimated": "900 - 1200",
-      "subHeading": "per half kg with flower bouquet and fruit juice on arrival",
-      "imageUrl": [
-        "https://cdn.pixabay.com/photo/2023/09/04/20/39/cake-8233676_640.jpg",
-        "https://images.pexels.com/photos/6800133/pexels-photo-6800133.jpeg?auto=compress&cs=tinysrgb&w=600"
-      ]
-    },
-    {
-      "heading": "Scuba Diving",
-      "price": "4000",
-      "estimated": "4000",
-      "subHeading": "per head with Photo, Videos",
-      "imageUrl": [
-        "https://cdn.pixabay.com/photo/2014/11/28/22/43/diver-549380_640.jpg",
-        "https://cdn.pixabay.com/photo/2016/11/22/16/04/dive-1849534_640.jpg"
-      ]
-    },
-    {
-      "heading": "Parasailing",
-      "price": "4000",
-      "estimated": "4000",
-      "subHeading": "per person",
-      "imageUrl": [
-        "https://cdn.pixabay.com/photo/2014/05/18/19/17/parasailing-347350_1280.jpg",
-        "https://cdn.pixabay.com/photo/2014/02/02/14/35/parasailing-256745_640.jpg"
-      ]
-    },
-    {
-      "heading": "Under Water Sea Walk",
-      "price": "4000",
-      "estimated": "4000",
-      "subHeading": "per Head",
-      "imageUrl": [
-        "https://cdn.pixabay.com/photo/2016/11/12/20/00/under-water-1819586_640.jpg"
-      ]
-    },
-    {
-      "heading": "Sea Kart ",
-      "price": "4000",
-      "estimated": "4000",
-      "subHeading": "per Person",
-      "imageUrl": [
-        ""
-      ]
-    },
-    {
-      "heading": "Jet Ski",
-      "price": "600",
-      "estimated": "600",
-      "subHeading": "per Head",
-      "imageUrl": [
-        "https://images.unsplash.com/photo-1564633351631-e85bd59a91af?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amV0JTIwc2tpfGVufDB8fDB8fHww",
-        "https://images.unsplash.com/photo-1554132267-d06483b00adc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8amV0JTIwc2tpfGVufDB8fDB8fHww"
-      ]
-    },
-    {
-      "heading": "Glass Bottom Boat",
-      "price": "800",
-      "estimated": "800",
-      "subHeading": "per Head",
-      "imageUrl": []
-    },
-    {
-      "heading": "Banana Ride / Speed Boat ",
-      "price": "600",
-      "estimated": "600",
-      "subHeading": "per Head",
-      "imageUrl": []
-    },
-    {
-      "heading": "Snokelling ",
-      "price": "1500",
-      "estimated": "1500",
-      "subHeading": "per Head with floating device, equipment and guide",
-      "imageUrl": [
-        "https://cdn.pixabay.com/photo/2016/07/29/09/35/snorkeling-1551757_640.jpg",
-        "https://cdn.pixabay.com/photo/2019/01/06/19/54/snorkeling-3917769_640.jpg"
-      ]
-    },
-    {
-      "heading": "Kayaking",
-      "price": "3500",
-      "estimated": "3500",
-      "subHeading": "per Head ",
-      "imageUrl": [
-        "https://cdn.pixabay.com/photo/2016/11/18/19/40/woman-1836601_640.jpg",
-        "https://cdn.pixabay.com/photo/2022/09/28/21/06/kayak-7486040_640.jpg"
+      "name": "Akash Desharda, Mumbai",
+      "date": "31st May 2024",
+      "packageName": "Romantic Beaches in Andaman",
+      "rating": "5.0",
+      "review": "I will definitely recommend to use service of Admire holidays. We booked Andaman honeymoon package. It was very good experience. We got complete support from beginning till our vacation was completed.",
+      "imageGallary": [
+        "https://admireholidays.com/review2Image.jpg"
       ]
     }
   ],
-  "location": "andaman"
+  "refundPolicy": [
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode",
+    "Refund amount pay through only Cheque/Neft mode"
+  ],
+  "cancellationPolicy": [
+    "👉Airfare/Train fare cancellation applied original booking refund policy",
+    "👉Before 30days of cancellation 100% refund of total booking amount",
+    "�Before 15days of cancellation 25% cancellation amount require of total\nbooking cost"
+  ],
+  "paymentPolicy": [
+    "👉Airfare/Train fare require 100% at the time of booking",
+    "👉Minimum 40% advance payment require at the time of confirmation",
+    "👉Rest 40% advance before 15days from journey date",
+    "👉 Remaining balance require at the time of tour start"
+  ],
+  "packageCategory": [
+    {
+      "category": "Deluxe",
+      "hotels": [
+        {
+          "destination": "Srinagar",
+          "hotelName": [
+            {
+              "hotelName": "Royal Arabia",
+              "amenities": [
+                "Free Parking ",
+                "Bonfire",
+                "Restaurant",
+                "Fireplace",
+                "Vehicle Rentals"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipO4VlbCJ3HsrCLrt4NTkbyhoK89NBu8GslxtRp0=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOtRk7B0k_W7J6HtYwG5X8NMAgPFQaTmVVOEa_A=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNqxFNKRxfEUuu7F3H8Y71msE8ZHEAMu3RCqSEK=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOyNL3iseh2iKYG6P4iBaSr0plrBQ2pisaM4DA2=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNClJ0Yiz5HCSKDb52MiuS2czzrJplxjOBgRetv=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNZ4ONpP8turYQSq2HWOGQ_lYGHrwxfGRArobzF=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Golden Sands",
+              "amenities": [
+                "Parking",
+                "Lounge",
+                "Wi-Fi",
+                "Laundry Service"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipMsYHhwDVF5K-sJCWLGqLHTF2ZCT2mtWtLcuYSG=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMpHqkVR9BiIX_1urQurYblCeumHBicLhjPi_66=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipP1fFsUM0C8Wup50sToIGBnTIKshd9VZIe3EvM3=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNweBSquywhCAgeRnjSk6_KE6FeEurGqM6VdUXD=s1360-w1360-h1020",
+                "https://www.grandparadisehotel.in/images/g9.jpg",
+                "https://www.grandparadisehotel.in/images/g5.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                "Restaurant",
+                "Smoking Rooms",
+                "Luggage Assistance",
+                "Doctor on Call",
+                "Free Wi-Fi"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipPGbsXRyrHSX5b-E-VvH9XY3YobehuAutUI5zom=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/Eu6raL-2MY6_hU9PD7dGPx1aGOIdRD1ArYnVGCPFn2PmQ5GhOCoMSEgMSSCN7m-ANwcDlTllx3N4khTKKkfDM1iN387BwxMRCAwJHfsweKx_7YmovRcAC8neTCKSjedE7XVKTkgTiCjVBRSL-ihJr4yCSHNUxQ=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/hqNDVZ5eBPEV4lOV7EEIRitXk1Jkf1Mk1QpER6_q2-Ksh58lPHges49cYE5G2hAbAyoWTVZWh8xX-XKZqbGilBo72hpVEdNY-Qz7C2e4uw60mFifZt6i5G04HJ1hFPLtZR7GHWgHFESueJeZv3f1sLHzhlEs2g=w253-h180-k-no",
+                "https://lh3.googleusercontent.com/proxy/N9dEGwB1yqiuRnL_CTUudTf_5H836_LSN5vm2FhX57vm1QNsERUcqhk87yEEaJSUqShApeo-Ne1rbgEdYgLOgwWKZIC4wteuwmAI0L7MKdmw0jzgxfmyKu-piLrwv_mK16ukTrpGOqwhFAld37RyKMdOxPle9A=w253-h167-k-no",
+                "https://lh5.googleusercontent.com/p/AF1QipNd-u-VGCQcqpDgIzoRYI60zceb2fjdQG0nEJ-_=w253-h337-k-no"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotelName": [
+            {
+              "hotelName": "Pellicon Beach Resort",
+              "amenities": [
+                "Vending Machine",
+                "Free Parking",
+                "Laundry Service",
+                "Air Conditioning",
+                "Intercom"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipNzLara6Cz5PGeXTqwCjLaTWkgrhnE3oKIgHfqk=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOqsuNkSrc9wCkHi4ZMr4ZeGZkErhKq-U-rMkAZ=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO2XF3kqSmog_peNMnUkZQ5HUBOY09EEXQEPmCS=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipNI4DmTLfevpLrPKWBNQCUnM8e58TADTeCBgr4Z=w141-h118-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipPlsqrxCgo0TZjtjzdyg5hNzArmLR5nQLm1biT5=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Eco Palm Beach Resort",
+              "amenities": [
+                "Spa",
+                "Pool",
+                "Breakfast Free",
+                "Wi-Fi free"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipPCd0zyOUxoI-Wqj_XebXxvR2RX7RYmFWmirw8x=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMnKxtGpXBj7r61DdYflB-ToPBV1P_nSmQOLx-1=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMogR2mvgDa8v8ncBkX8Qln4rnLgxmb9UF97WQK=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNfZzfCSDOYsFNd5p6aAmW2bTikP5Hn3tIxHNwr=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNZlCnokMg8dEX6oIrNpSnUx9WbYM6tQ8dxL5fL=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipP5XUiVDJQ6_EraJUvDQqV6DUGCt6T-BD6zUQIR=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Shangrila's",
+              "amenities": [
+                "comfy rooms",
+                "restaurant",
+                "Water Sports",
+                "Vehicles on rent",
+                "Free Wi-Fi"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipPsBCegYIwyNDgic2PSvPe2xN-uv7yOzSGruHSN=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMnJduAj6keqq-t6R9VpcCuwHfLZMYSH4i-5yYW=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO6pcHerHHhx2nbq97Ib27X5MzldBUHOOc-WZAX=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO3ndVSVVi93WZxwLyRy8hidJLBHJOLwnLlD_LC=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPoC4O4By_kz6X_eVJ2OJZ21uWzBjPPMGLE3Dhv=s1360-w1360-h1020"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Neil Island",
+          "hotelName": [
+            {
+              "hotelName": "Reef Valley Resort",
+              "amenities": [
+                "Dry Cleaning Service",
+                "Wi-Fi",
+                "Intercom",
+                "Housekeeping",
+                "Free Parking"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipMAww7TpOgY0kyvnvRREQ3BnoBisLRpe01Xqf0H=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPIbmnmv8ufChWAQDsUBGLTmB9npX3CM4xfuLiT=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMScnYhXqrJtjcY3YCmRb397QAvMYVHtF2STzI0=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMDezRFiz_-1kHUyTeOaqb1N9wN8lHhGw8GtnGY=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipMuJCCIYZP-cTRa9CyweZ3AmzCPScPeqKsyTDdb=w141-h235-n-k-no-nu"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Grand Paradise",
+              "amenities": [
+                "Spa",
+                "Breakfast free",
+                "Wi-Fi free",
+                "Parking free"
+              ],
+              "images": [
+                "https://www.grandparadisehotel.in/images/slider1.jpg",
+                "https://www.grandparadisehotel.in/images/slider3.jpg",
+                "https://www.grandparadisehotel.in/images/slider4.jpg",
+                "https://www.grandparadisehotel.in/images/image-02.jpg",
+                "https://www.grandparadisehotel.in/images/g9.jpg",
+                "https://www.grandparadisehotel.in/images/g5.jpg"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Serene Palace",
+              "amenities": [
+                " Restaurant",
+                " Smoking Rooms",
+                "Luggage Assistance",
+                "Doctor on Call",
+                "Free Wi-Fi"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipPGbsXRyrHSX5b-E-VvH9XY3YobehuAutUI5zom=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/Eu6raL-2MY6_hU9PD7dGPx1aGOIdRD1ArYnVGCPFn2PmQ5GhOCoMSEgMSSCN7m-ANwcDlTllx3N4khTKKkfDM1iN387BwxMRCAwJHfsweKx_7YmovRcAC8neTCKSjedE7XVKTkgTiCjVBRSL-ihJr4yCSHNUxQ=w253-h189-k-no",
+                "https://lh6.googleusercontent.com/proxy/hqNDVZ5eBPEV4lOV7EEIRitXk1Jkf1Mk1QpER6_q2-Ksh58lPHges49cYE5G2hAbAyoWTVZWh8xX-XKZqbGilBo72hpVEdNY-Qz7C2e4uw60mFifZt6i5G04HJ1hFPLtZR7GHWgHFESueJeZv3f1sLHzhlEs2g=w253-h180-k-no",
+                "https://lh3.googleusercontent.com/proxy/N9dEGwB1yqiuRnL_CTUudTf_5H836_LSN5vm2FhX57vm1QNsERUcqhk87yEEaJSUqShApeo-Ne1rbgEdYgLOgwWKZIC4wteuwmAI0L7MKdmw0jzgxfmyKu-piLrwv_mK16ukTrpGOqwhFAld37RyKMdOxPle9A=w253-h167-k-no",
+                "https://lh5.googleusercontent.com/p/AF1QipNd-u-VGCQcqpDgIzoRYI60zceb2fjdQG0nEJ-_=w253-h337-k-no"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159_640.jpg",
+      "price": "23,998",
+      "previousPrice": "30,998"
+    },
+    {
+      "category": "Semi Deluxe",
+      "hotels": [
+        {
+          "destination": "Port Blair",
+          "hotelName": [
+            {
+              "hotelName": "Seagull",
+              "amenities": [
+                "Multi cuisine",
+                "Spacious open air restaurant with harbor",
+                "Seaview tours and travel desk"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipNYY-Jp_zx-Tb_qyou8V3r1ACGzoYNiigFGWQLF=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipPEWTqKv0dRjvfatswKLauyyzbk_TgeQ3Wq-ipS=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMI-v1qJcK0mnoCHo0xYqVJqZiVJI6dcCBZ5WJe=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPz3MC6nUp2sDyf0BBlkOyT-1Cb6jsOZd73ge_N=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMGB4Bt-gjxaVyrUM-eGS9egxaqjyb10-_xBISr=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Hotel King Safire",
+              "amenities": [
+                "Restaurant",
+                " Bar",
+                "Smoking Rooms",
+                " Intercom"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipMMbSvdYdVQxXJjTizyW9KZgzlXfp1cPBJIf3AA=w243-h174-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipOqDODWePRVLWeZhcVdFrVaKuMffpzN8nzlqL8r=w243-h174-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipP91KvHUILRBmj_JUZ73s9T9VDL4QuLclwwi9Kk=w243-h244-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipPZyyc0GkIkXg6aHL680P1Skdy25G9EZ_ex_pM-=w243-h406-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipOwd-xiM9_jcX1XJ73rE-jjVVKMxysiXzLI8H4U=w243-h304-n-k-no-nu"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotelName": [
+            {
+              "hotelName": "Radhakrishna Resort",
+              "amenities": [
+                "Wifi",
+                "Free breakfast",
+                "Restaurant ",
+                "Diving ",
+                "Free airport transportation"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipOH1MnV1kuWLo23BITt1EgFD8flV5u6MMVjG2hq=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOcmLnvFG6sl3Rsp2hv6_zCYiC3xGfHlUh4PqyG=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOtz_i_r_UeNSL6_FWdkcQUf5vbwdpeCngPPFf-=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipN30cpK4F_FmNcBVgsB8zILIV12hzTVD4cw6Pk-=w141-h101-n-k-no-nu"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Orient Legend Resort",
+              "amenities": [
+                " Restaurant",
+                " Restaurant"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipPVLuRccc_qSoJJbtSKKbnBaYCSC0D3MPb1MIv9=w243-h244-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipOs_9nCDIDByPyz7JMTSiiKcr72byCiidiyc-WR=w243-h174-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipOT54c--FwxxnZdJ2tCJ2dk36T_qlq2ZhQQgFCR=w243-h174-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipPH7U8mwgUqyi6GvRk94o8lURajiR3qvqU0Kgs6=w243-h174-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipNETZaiODE5stiuqrc2waoK8L8HdyiZs7AQY38U=w243-h244-n-k-no-nu"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Neil Island",
+          "hotelName": [
+            {
+              "hotelName": "Coral Garden Resorts",
+              "amenities": [
+                " high-speed internet access",
+                "  LED TV  ",
+                " Breakfast ",
+                " Attached Bath   "
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipON0s_f664UIae-8n3dDfVhGpXvmjwT0lpfUh46=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipOZwKqsxLXieDX9KTYKttAZLucNRyrtySzNYCo-=w141-h141-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipPQGTZArZpo0n-Iwj2BffddtLqh4T-tAK9gSs-j=w243-h174-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipMzXBcIhDNM9U8C322mZXVoD9-yh4hFonXD8xNu=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipOUsuJFVKy3cIMkN2sW1z99qc9g4skOxj_MjrM=w243-h203-n-k-no-nu"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Laxmi Continental Resort",
+              "amenities": [
+                "Water Sports",
+                "Restaurant",
+                "Jungle Safari",
+                "Power Backup"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipO7HdcXr_PA3GYoRWM0NJLjICMhMScGA71CrdNl=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPS4WHXiiSLzAve6DPUxpANe18ob2n1SJBlF-1p=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOKNHiuJaSe3IbhX0uktL03YqZOZ5gMYPbXJTGi=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO6VtqemlQJhC_Cx_brZ91pzuesERrztay8uIL4=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipP-ajOcI_3qzgPBHn2yvXHBygGSLp4Iov-q_lpr=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "CS Empire",
+              "amenities": [
+                "Water Sports",
+                "Restaurant",
+                "Jungle Safari",
+                "Power Backup"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipONJ3tYtMSiHldE9Cy_heL331A54d8rVl7YRDEJ=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipO_z6r7UIRoRqYVEFpBaaz6REz3QG5JxPOUnUq2=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPmVF7a4-oPM6THf9O8off3qNWSDSxuBXG8g4VY=w141-h101-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipM0PlxfSGsQPB1c8cCmqwKfcptcsYxg0rQ1JRYB=w141-h141-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipO1ZvxszProODqiIYyquGPClCA9xcY8TNcZp0Jg=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/11/17/09/28/hotel-1831072_640.jpg",
+      "price": "20,998",
+      "previousPrice": "27,998"
+    },
+    {
+      "category": "Premium",
+      "hotels": [
+        {
+          "destination": "Port Blair",
+          "hotelName": [
+            {
+              "hotelName": "Mansha Regency",
+              "amenities": [
+                "Swimming Pool",
+                "Resturant",
+                "Butler Services"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipNWKhU-9JaJaFF8beVd1T3sfSV0hag8TQ5MDKEq=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipN1NSSQJZRQ4o12HtKW13XNgm7aWTAEAYcooYbZ=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipOWoJ6nT0-OAxGirCWfbgzpV8ZDxqIZj99CWdyH=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipOp3EdtHWBV1Z6kUJ7mRzlfi-HeSTWVH4KojL0U=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipP9Jfe29OL5u_CGAVHRxCzt4BZuJUDflHWq0_ky=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "SeaShell",
+              "amenities": [
+                " Restaurant",
+                " Lounge",
+                " Bar",
+                "Dry Cleaning Service"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipM7AwurBu5h9qwrgpxX7Pps47cjJJZ_m5dLlXPE=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipNGiP4H3JVCnEWhNyRYoZzJRvM0GuF46R-hTqUA=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipORyP1usht6hcX0ljriMQw1hUT2D1aa1ldg5iUj=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOFHrcThOhW3A9eavqVAoZA_ieiv9g0Y6ayMJW3=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMwCUxwBX4XrmABzOSVn_HuCTHUvx9zUJ7izynv=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotelName": [
+            {
+              "hotelName": "Haywizz Havelock Island Resort",
+              "amenities": [
+                " Swimming Pool",
+                " Indoor Games",
+                " Restaurant",
+                " Kids Play Area",
+                " Lounge"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipNSB2MYHJKIeKdyNGRnHgRX-w-cjHza_Iodz1Ov=w243-h174-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipPILRjyDrj6j7Qu5lBWuhAILV_Hv5Wx1LOZbBlY=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNTxmQ3EUXvh4Jl_cXt1MhLEcWI7z7xDzLCoHvw=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipMpgYMhrHTnvA4Gzaf-4R342A7jvKn7RufiBoCU=w243-h174-n-k-no-nu"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Symphony Palms Beach Resort And Spa",
+              "amenities": [
+                "Restaurant",
+                " Bar",
+                "Smoking Room"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipOYwQ6xeeQM3VZQHcTmcPJrsoEf594XJIjn-TJq=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPVkvqoSZ7jHdQcWvNqa1yn-UxYLRSpvxugf38c=w141-h101-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipOJByF5Kz7hcxCN42uydR-4N4KXjbR48G45yJ4P=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipPVkvqoSZ7jHdQcWvNqa1yn-UxYLRSpvxugf38c=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMSc63JTRFd3k0XuFdafP43WFi4HyAdkXRTFRNI=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Aquays Hotels & Resorts",
+              "amenities": [
+                " Swimming Pool",
+                " Water Sports",
+                " Spa",
+                " Restaurant",
+                "24-hour Room Service "
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipOA1QFTMDAXAa2d2TN_cGO7Ryn9gZLYVVbrdDjQ=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOROP_Y7qKIw_bwJnee5bcySAGAsi-5Nv9Sv928=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPNCYDIbfqqpw90K8FpfSLl7xGwv7rYKTvFCdOG=w141-h101-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipMIQEIA3rzDO3XLSmkk5_j4qGvxAQXtKsH-1DXQ=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipN1ZDlAvQrx-Vzs_6_rRtNLpP7Fh5mOrqZmGNTc=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Neil Island",
+          "hotelName": [
+            {
+              "hotelName": "Aquays Hotels & Resorts",
+              "amenities": [
+                " Swimming Pool",
+                " Water Sports",
+                " Spa",
+                " Restaurant",
+                "24-hour Room Service "
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipOA1QFTMDAXAa2d2TN_cGO7Ryn9gZLYVVbrdDjQ=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOROP_Y7qKIw_bwJnee5bcySAGAsi-5Nv9Sv928=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPNCYDIbfqqpw90K8FpfSLl7xGwv7rYKTvFCdOG=w141-h101-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipMIQEIA3rzDO3XLSmkk5_j4qGvxAQXtKsH-1DXQ=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipN1ZDlAvQrx-Vzs_6_rRtNLpP7Fh5mOrqZmGNTc=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Pearl Park Beach Resort",
+              "amenities": [
+                " Restaurant",
+                " Lounge",
+                " Air Conditioning",
+                " 24-hour Room Service"
+              ],
+              "images": [
+                "https://lh5.googleusercontent.com/p/AF1QipN34I0hXZBy_2uchaYO3eeNZHzOkiGbMVtpMIIi=w243-h174-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipNuuUpc3vWM8ZGsPvTaVT3PMWvHNlkAU976Km0l=w243-h304-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipNd7Af5bq3Xq86F0DLPpOs3ppxtY2PC5BWuw75x=w243-h174-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipNll81bNu2nt9XBPmyNliUUvan8YqFaNJNra68N=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNE67I2dxl2Z-R5GvI81BFocLYNoepa0tp-m5k6=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Symphony Summer Sands",
+              "amenities": [
+                " Swimming Pool",
+                " Lounge",
+                " Spa",
+                " Bar",
+                " Restaurant"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipPPtdDp1R3l1zo1dv_yaJUXwEHms6mnUHNLtU2K=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMU95L5R2lKUCYmLxPGwNao3FCGry9rhrtxChK-=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMp4LPEAnkOtmN51X60ccs4L0w4SIuWWa7xakAL=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPrrH31lcQeqqXfkeK_y8fosn6MzIsq-oLB8JlS=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipMkLRtYMSAIYrbxsVuxTNUxN5-oYtbgXIMR1VGp=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://cdn.pixabay.com/photo/2014/07/05/08/21/pool-384573_640.jpg",
+      "price": "33,998",
+      "previousPrice": "40,998"
+    },
+    {
+      "category": "Luxury",
+      "hotels": [
+        {
+          "destination": "Port Blair",
+          "hotelName": [
+            {
+              "hotelName": "Sea Hills ",
+              "amenities": [
+                "Spa",
+                "Swimming Pool",
+                " Lounge",
+                "Resturant",
+                "Bar"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipNTgXEPOEuazfZ5PUoXSuwcAvjzh8i-knNcaP65=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMel_GGBkyArR4bb2ockS39QEOLVMrTjnvUrI2V=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOWbT8GWc7CI1g7Paz_YFEMfvho2PThEfSqIhp_=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMrI4eFFMEutDe3dgz3u9NvAGH0VKKCnPNV6tdp=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNle_Accypuh_Ry0baXDAXiGIC25ffGUOuRVbkw=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOJ5pnz86RGGCNiWHTh0990zwCCpAKwTyutLDou=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Coral Reef Hotel & Spa, ",
+              "amenities": [
+                "Spa",
+                "Restaurant",
+                "Lounge ",
+                "Intercom"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipMyCelwnNIyKEH4PnCC021KtIrDTHgdLYdbMRBS=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNsV_BHc_W5mVRX_kQjfqRtqKLLUoGLD88Fuc1o=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPPDM5sODXWjJ7IJUemeKABmsK8S7x9Clga9Z7Q=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipN30wWOGdFBDfujpuOsMX4t_9wLWsWo8XWaMfpe=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOSDwtr9G297efkHRAoSrfBAcZvhdGIOootbbkx=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Havelock",
+          "hotelName": [
+            {
+              "hotelName": "Sea Hills ",
+              "amenities": [
+                "Spa",
+                "Swimming Pool",
+                " Lounge",
+                "Resturant",
+                "Bar"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipNTgXEPOEuazfZ5PUoXSuwcAvjzh8i-knNcaP65=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMel_GGBkyArR4bb2ockS39QEOLVMrTjnvUrI2V=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOWbT8GWc7CI1g7Paz_YFEMfvho2PThEfSqIhp_=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMrI4eFFMEutDe3dgz3u9NvAGH0VKKCnPNV6tdp=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNle_Accypuh_Ry0baXDAXiGIC25ffGUOuRVbkw=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOJ5pnz86RGGCNiWHTh0990zwCCpAKwTyutLDou=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Coral Reef Hotel & Spa, ",
+              "amenities": [
+                "Spa",
+                "Restaurant",
+                "Lounge ",
+                "Intercom"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipMyCelwnNIyKEH4PnCC021KtIrDTHgdLYdbMRBS=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNsV_BHc_W5mVRX_kQjfqRtqKLLUoGLD88Fuc1o=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipPPDM5sODXWjJ7IJUemeKABmsK8S7x9Clga9Z7Q=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipN30wWOGdFBDfujpuOsMX4t_9wLWsWo8XWaMfpe=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOSDwtr9G297efkHRAoSrfBAcZvhdGIOootbbkx=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Aquays Hotels & Resorts",
+              "amenities": [
+                " Swimming Pool",
+                " Water Sports",
+                " Spa",
+                " Restaurant",
+                "24-hour Room Service "
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipOA1QFTMDAXAa2d2TN_cGO7Ryn9gZLYVVbrdDjQ=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOROP_Y7qKIw_bwJnee5bcySAGAsi-5Nv9Sv928=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPNCYDIbfqqpw90K8FpfSLl7xGwv7rYKTvFCdOG=w141-h101-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipMIQEIA3rzDO3XLSmkk5_j4qGvxAQXtKsH-1DXQ=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipN1ZDlAvQrx-Vzs_6_rRtNLpP7Fh5mOrqZmGNTc=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            }
+          ]
+        },
+        {
+          "destination": "Neil Island",
+          "hotelName": [
+            {
+              "hotelName": "Symphony Summer Sands",
+              "amenities": [
+                " Swimming Pool",
+                " Lounge",
+                " Spa",
+                " Bar",
+                " Restaurant"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipPPtdDp1R3l1zo1dv_yaJUXwEHms6mnUHNLtU2K=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMU95L5R2lKUCYmLxPGwNao3FCGry9rhrtxChK-=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMp4LPEAnkOtmN51X60ccs4L0w4SIuWWa7xakAL=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPrrH31lcQeqqXfkeK_y8fosn6MzIsq-oLB8JlS=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipMkLRtYMSAIYrbxsVuxTNUxN5-oYtbgXIMR1VGp=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Aquays Hotels & Resorts",
+              "amenities": [
+                " Swimming Pool",
+                " Water Sports",
+                " Spa",
+                " Restaurant",
+                "24-hour Room Service "
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipOA1QFTMDAXAa2d2TN_cGO7Ryn9gZLYVVbrdDjQ=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOROP_Y7qKIw_bwJnee5bcySAGAsi-5Nv9Sv928=s1360-w1360-h1020",
+                "https://lh5.googleusercontent.com/p/AF1QipPNCYDIbfqqpw90K8FpfSLl7xGwv7rYKTvFCdOG=w141-h101-n-k-no-nu",
+                "https://lh5.googleusercontent.com/p/AF1QipMIQEIA3rzDO3XLSmkk5_j4qGvxAQXtKsH-1DXQ=w141-h101-n-k-no-nu",
+                "https://lh3.googleusercontent.com/p/AF1QipN1ZDlAvQrx-Vzs_6_rRtNLpP7Fh5mOrqZmGNTc=s1360-w1360-h1020"
+              ],
+              "heading": "Reach the Hotel"
+            },
+            {
+              "hotelName": "Silver Sand Beach Resort",
+              "amenities": [
+                " Swimming Pool ",
+                "Water Sports ",
+                " Spa ",
+                " Restaurant ",
+                " Kids Play Area"
+              ],
+              "images": [
+                "https://lh3.googleusercontent.com/p/AF1QipMrBKR9I0tQXJZyWgH4SCCuOTyr14x3zzxIXW_Q=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipNUEfw1leelmM7p5wbpc_rxZYCPZu2VT8-hnkp9=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMRzz6mKrLIvtpKNh_58QvJAYS4iEuole_ju4EG=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipOvYlGLDLMIiqeZnCuGVoSJSjBPXcxWIr3ysJxp=s1360-w1360-h1020",
+                "https://lh3.googleusercontent.com/p/AF1QipMcVTT0nGh8m06-JAr8weOteZ_L6aZ5wNz_eGhU=s1360-w1360-h1020"
+              ],
+              "day": "Day 1",
+              "heading": "Reach the Hotel"
+            }
+          ]
+        }
+      ],
+      "imageUrl": "https://cdn.pixabay.com/photo/2017/05/30/13/01/relax-2356858_640.jpg",
+      "price": "38,998",
+      "previousPrice": "44,998"
+    }
+  ],
+  "itineraryCarousel": [
+    "https://cdn.pixabay.com/photo/2021/08/25/10/52/church-6573113_1280.jpg",
+    "https://cdn.pixabay.com/photo/2023/07/12/18/21/croatia-8123037_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/08/26/10/10/dockland-4431309_640.jpg",
+    "https://cdn.pixabay.com/photo/2022/09/01/09/31/sunset-glow-7425170_640.jpg",
+    "https://cdn.pixabay.com/photo/2019/06/12/21/09/ocean-4270249_640.jpg"
+  ],
+  "activities": [
+    {
+      "activityHeading": "Radhanagar Beach Tour On A Shared Basis\n",
+      "about": "Radhanagar Beach Tour offers a serene getaway to one of Asia's best beaches. Enjoy pristine sands, turquoise waters, and lush surroundings on this shared tour. Perfect for relaxation and nature lovers, this excursion promises a memorable experience amidst stunning coastal beauty.",
+      "videos": [
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2018/03/02/21/49/waves-3194377_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+      ],
+      "carouselImageUrl": [
+        "https://cdn.pixabay.com/photo/2023/09/22/07/52/beach-8268375_640.jpg",
+        "https://cdn.pixabay.com/photo/2018/03/02/21/49/waves-3194377_640.jpg",
+        "https://cdn.pixabay.com/photo/2023/07/29/22/10/birds-8157789_640.jpg"
+      ],
+      "images": [
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2023/07/08/04/58/sunset-8113697_640.jpg"
+        },
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2019/03/20/15/20/beach-4068773_640.jpg"
+        },
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2023/09/05/16/40/sunrise-8235464_640.jpg"
+        },
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2023/07/08/04/58/sunset-8113697_640.jpg"
+        }
+      ]
+    },
+    {
+      "activityHeading": "Elephant Beach Tour On A Shared Basis\n",
+      "about": "The Elephant Beach Tour provides a delightful escape to a picturesque beach known for its vibrant coral reefs and crystal-clear waters. Ideal for snorkeling and relaxation, this shared tour offers a perfect blend of adventure and tranquility.\n",
+      "videos": [
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+      ],
+      "carouselImageUrl": [
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+      ],
+      "images": [
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2014/05/05/19/59/havelock-338536_1280.jpg"
+        },
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2018/10/22/07/14/asia-3764652_640.jpg"
+        },
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2019/06/26/16/18/thailand-4300783_640.jpg"
+        }
+      ]
+    },
+    {
+      "activityHeading": "Excursion to Kalapathar Beach | Transfer to Neil Island",
+      "about": "Embark on an excursion to the serene Kalapathar Beach, renowned for its emerald waters and black rocks. Following this peaceful visit, enjoy a seamless transfer to the beautiful Neil Island, known for its picturesque landscapes and tranquil ambiance.",
+      "videos": [
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+      ],
+      "carouselImageUrl": [
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg",
+        "https://cdn.pixabay.com/photo/2019/12/03/13/31/krabi-4670060_640.jpg"
+      ],
+      "images": [
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2017/10/30/14/57/thin-2902686_640.jpg"
+        },
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2018/01/05/02/40/shellfish-3062011_640.jpg"
+        },
+        {
+          "heading": "Beach",
+          "image": "https://cdn.pixabay.com/photo/2019/08/14/10/37/beach-4405371_640.jpg"
+        }
+      ]
+    }
+  ],
+  "itineraryDetails": [
+    {
+      "day": "Day 1",
+      "heading": " Arrival – Port Blair",
+      "details": [
+        "Arrival to port Blair airport, hotel drop by a/c vehicle then check in hotel & freashnup. After lunch, visit to local sightseeing visit cellular jail see light and sound show. After completion drop to the hotel. Dinner and overnight stay at port Blair."
+      ],
+      "images": [
+        "https://cdn.pixabay.com/photo/2020/09/16/04/11/sunset-5575264_640.jpg",
+        "https://cdn.pixabay.com/photo/2021/06/01/16/15/island-6302137_640.jpg"
+      ]
+    },
+    {
+      "day": "Day 2",
+      "heading": " Port Blair - Swaraj Dweep (Havelock) ",
+      "details": [
+        "Have a relaxed breakfast. then check out the hotel and transfer from Port Blair to swaraj dweep (havelock). Arrival in Swaraj Dweep check-in hotel, after lunch going to Radhanagar beach, Kalapather beach. After completion, hotel drop by a/c vehicle. Dinner and over night stay at swaraj Dweep (Havelock)."
+      ],
+      "images": [
+        "https://cdn.pixabay.com/photo/2019/07/14/21/18/grass-4338114_640.jpg",
+        "https://cdn.pixabay.com/photo/2018/01/29/05/14/luxury-3115234_640.jpg"
+      ]
+    },
+    {
+      "day": "Day 3",
+      "heading": " Swaraj Dweep (Havelock) – Shaheed Dweep (Neil Island)",
+      "details": [
+        "Have a great breakfast and check out hotel . Transfer from swaraj dweep (havelock) to shaheed dweep (neil island). Arrival in Shaheed Dweep check in hotel and freshnup. Ready to visit bharatpur beach, laxmanpur beach & natural bridge. After completion evening check in hotel. Rest in rooms. Night dinner & over night stay at shaheed dweep island."
+      ],
+      "images": [
+        "https://cdn.pixabay.com/photo/2020/04/22/06/18/phi-phi-island-5076128_640.jpg",
+        "https://cdn.pixabay.com/photo/2021/11/20/05/20/hut-6810899_640.jpg"
+      ]
+    },
+    {
+      "day": "Day 4",
+      "heading": "Shaheed Dweep (Neil Island) – Port Blair (Shopping)",
+      "details": [
+        "Have a great breakfast. Check -out hotel and transfer from swaraj dweep to port blair. Arrival in Port blair drop to hotel and check in. Rest in rooms. At Evening, drop to shopping center. After shopping check in hotel. Freshen-up and night dinner and over night stay at port blair."
+      ],
+      "images": [
+        "https://cdn.pixabay.com/photo/2019/03/13/18/35/bird-4053447_640.jpg",
+        "https://cdn.pixabay.com/photo/2018/06/23/09/46/beach-3492416_960_720.jpg"
+      ]
+    },
+    {
+      "day": "Day 5",
+      "heading": "Port Blair-Airport Departure",
+      "details": [
+        "Have a breakfast in hotel. Morning check out hotel & transfer to port Blair airport"
+      ],
+      "images": [
+        "https://cdn.pixabay.com/photo/2019/03/13/18/35/bird-4053447_640.jpg",
+        "https://cdn.pixabay.com/photo/2018/06/23/09/46/beach-3492416_960_720.jpg"
+      ]
+    }
+  ],
+  "price": "23,998",
+  "previousPrice": "30,998",
+  "days": "5",
+  "destination": "Andaman"
 }

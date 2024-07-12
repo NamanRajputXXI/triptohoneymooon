@@ -54,7 +54,19 @@ const RightSideSection = ({
         <hr className="bg-gray-200 h-[1px]" />
         {id && category ? (
           <Link
-            href={`/products/${category}/${id}/preview`}
+            href={{
+              pathname: `/products/${category}/${id}/preview`,
+              query: {
+                rating,
+                totalCustomer,
+                saveInr,
+                heading,
+                selected,
+                packageCategory,
+                id,
+                category,
+              },
+            }}
             className="bg-red-500 text-white px-4 py-2 rounded"
           >
             Buy Now

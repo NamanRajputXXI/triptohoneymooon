@@ -3,10 +3,7 @@ import React from "react";
 
 const BlogCard = ({ post }) => {
   return (
-    <div
-      key={post.id}
-      className="bg-white rounded-lg px-5 shadow-md overflow-hidden"
-    >
+    <div key={post.id} className="bg-white rounded-lg  overflow-hidden">
       <img
         src={post.image}
         alt={post.title}
