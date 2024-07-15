@@ -4,13 +4,23 @@ import RightSideSection from "./RightSideSection";
 import LeftSideSection from "./left/LeftSideSection";
 
 const MidSection = ({
+  id,
+  category,
   heading,
+  exclusions,
+  headerImages,
+  inclusions,
   itinerary,
   overView,
   duration,
   tripHighlights,
+  knowBeforeYouGo,
   totalCustomer,
   rating,
+  reviewImageGallary,
+  refundPolicy,
+  paymentPolicy,
+  cancellationPolicy,
   saveInr,
   packageCategory,
   itineraryDetails,
@@ -18,8 +28,6 @@ const MidSection = ({
   days,
   destination,
   activities,
-  id,
-  category,
 }) => {
   const [selected, setSelected] = useState(0); // Set initial value to 0 (first category)
   return (
@@ -43,13 +51,30 @@ const MidSection = ({
       <RightSideSection
         selected={selected}
         setSelected={setSelected}
-        rating={rating}
-        totalCustomer={totalCustomer}
-        saveInr={saveInr}
-        heading={heading}
-        packageCategory={packageCategory}
         id={id}
         category={category}
+        heading={heading}
+        exclusions={exclusions}
+        headerImages={headerImages}
+        inclusions={inclusions}
+        itinerary={itinerary}
+        overView={overView}
+        duration={duration}
+        tripHighlights={tripHighlights}
+        knowBeforeYouGo={knowBeforeYouGo}
+        totalCustomer={totalCustomer}
+        rating={rating}
+        reviewImageGallary={reviewImageGallary}
+        refundPolicy={refundPolicy}
+        paymentPolicy={paymentPolicy}
+        cancellationPolicy={cancellationPolicy}
+        saveInr={saveInr}
+        packageCategory={packageCategory}
+        itineraryDetails={itineraryDetails}
+        itineraryCarousel={itineraryCarousel}
+        days={days}
+        destination={destination}
+        activities={activities}
       />
     </div>
   );

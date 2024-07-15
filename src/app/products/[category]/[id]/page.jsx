@@ -115,20 +115,28 @@ const Page = async ({ params }) => {
       <MidSection
         id={id}
         category={category}
+        heading={heading}
+        exclusions={exclusions}
+        headerImages={headerImages}
+        inclusions={inclusions}
+        itinerary={itinerary}
+        overView={overView}
+        duration={duration}
+        tripHighlights={tripHighlights}
+        knowBeforeYouGo={knowBeforeYouGo}
+        totalCustomer={totalCustomer}
+        rating={rating}
+        reviewImageGallary={reviewImageGallary}
+        refundPolicy={refundPolicy}
+        paymentPolicy={paymentPolicy}
+        cancellationPolicy={cancellationPolicy}
+        saveInr={saveInr}
+        packageCategory={packageCategory}
         itineraryDetails={itineraryDetails}
         itineraryCarousel={itineraryCarousel}
-        packageCategory={packageCategory}
-        overView={overView}
-        heading={heading}
-        tripHighlights={tripHighlights}
-        duration={duration}
-        itinerary={itinerary}
-        rating={rating}
         days={days}
         destination={destination}
         activities={activities}
-        totalCustomer={totalCustomer}
-        saveInr={saveInr}
       />
 
       <Suspense fallback={<SkeletonLoader />}>
