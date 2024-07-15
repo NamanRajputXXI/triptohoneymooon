@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <section className="flex bg-white font-medium text-sm leading-6 flex-wrap sm:justify-start sm:flex-nowrap w-full  py-4">
       <nav
-        className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+        className="max-w-[85rem] w-full mx-auto px-4 sm:flex lg:flex-row flex-col sm:items-center sm:justify-between"
         aria-label="Global"
       >
         <div className="flex items-center justify-between">
@@ -50,7 +50,7 @@ const Navbar = () => {
               alt="Logo"
             />
           </a>
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               type="button"
               className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
@@ -86,7 +86,7 @@ const Navbar = () => {
           id="navbar-image-and-text-1"
           className={`hs-collapse ${
             isOpen ? "block" : "hidden"
-          } overflow-hidden transition-all duration-300 basis-full grow sm:block`}
+          } overflow-hidden hidden transition-all duration-300 basis-full grow lg:block`}
         >
           <div className="flex font-medium flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
             <Link href="/" className={getLinkClass("/")}>
@@ -104,9 +104,40 @@ const Navbar = () => {
             >
               International
             </Link>
-            {/* <Link href="/blog" className={getLinkClass("/blog")}>
-              Blogs
-            </Link> */}
+            <Link href="/contact" className={getLinkClass("/contact")}>
+              Contact
+            </Link>
+            <Link
+              href="/giftAnExperience"
+              className={getLinkClass("/giftAnExperience")}
+            >
+              Gift an experience
+            </Link>
+            <Button btnText={"1800-121-4252"} />
+          </div>
+        </div>
+        <div
+          id="navbar-image-and-text-1"
+          className={`hs-collapse ${
+            isOpen ? "block" : "hidden"
+          } overflow-hidden lg:hidden transition-all duration-300 basis-full  flex-col  flex`}
+        >
+          <div className="flex font-medium  gap-5 flex-col sm:items-center justify-end mt-0 sm:ps-5">
+            <Link href="/" className={getLinkClass("/")}>
+              Home
+            </Link>
+            <Link href="/about" className={getLinkClass("/about")}>
+              About
+            </Link>
+            <Link href="/domestic" className={getLinkClass("/domestic")}>
+              Domestic
+            </Link>
+            <Link
+              href="/international"
+              className={getLinkClass("/international")}
+            >
+              International
+            </Link>
             <Link href="/contact" className={getLinkClass("/contact")}>
               Contact
             </Link>
