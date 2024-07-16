@@ -3,6 +3,22 @@ import ProductCategoryCard from "@/components/productCategory/ProductCategoryCar
 import Footer from "@/components/global/Footer";
 import Navbar from "@/components/global/Navbar";
 
+const ErrorComponent = () => (
+  <div className="flex flex-col min-h-screen">
+    <Navbar />
+    <div className="flex-grow flex items-center justify-center">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-4">Products Coming Soon</h2>
+        <p className="text-lg">
+          We are working on adding products to this category. Please check back
+          soon!
+        </p>
+      </div>
+    </div>
+    <Footer />
+  </div>
+);
+
 export const getProductsData = async ({ params }) => {
   try {
     const response = await fetch(
@@ -33,10 +49,14 @@ export const getProductsData = async ({ params }) => {
 const Page = async ({ params }) => {
   const products = await getProductsData({ params });
 
+  if (products.length === 0) {
+    return <ErrorComponent />;
+  }
+
   return (
-    <>
+    <div className="flex flex-col min-h-screen">
       <Navbar />
-      <div className="max-w-7xl mx-auto my-10 px-5 flex flex-col gap-10">
+      <div className="flex-grow max-w-7xl mx-auto my-10 px-5 flex flex-col gap-10">
         <div className="grid justify-center md:grid-cols-3 gap-10 sm:grid-cols-2 grid-cols-1">
           {products.map((product) => (
             <ProductCategoryCard
@@ -57,7 +77,7 @@ const Page = async ({ params }) => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

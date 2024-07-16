@@ -41,10 +41,18 @@ const SkeletonLoader = () => (
   </div>
 );
 
-const ErrorComponent = ({ message }) => (
-  <div className="error-message text-red-500 p-4 bg-red-100 rounded">
+const ErrorComponent = () => (
+  <div className="min-h-screen flex flex-col">
     <Navbar />
-    <p>{message}</p>
+    <div className="flex-grow py-20 flex items-center justify-center">
+      <div className="text-center">
+        <h2 className="text-2xl font-bold mb-4">Product Coming Soon</h2>
+        <p className="text-lg">
+          We are working on adding this product to our catalog. Please check
+          back soon!
+        </p>
+      </div>
+    </div>
   </div>
 );
 
